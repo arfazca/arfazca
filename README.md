@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Arfaz Hussain! I am an aspiring Software Engineer based in Victoria, British Columbia!
+- 👋 Hi! I am an aspiring Software Engineer based in Victoria, British Columbia!
 - 🏫 I'm currently on my second year Software Engineering (BSEng) program at University of Victoria (UVic).
 - 🌱 I recently finished the courses: CSC 111 (Fundamentals of Programming I), CSC 115 (Fundamentals of Programming II) and am currently taking SENG 265 (Software Development Methods) and CSC 225 (Algorithm and Data Structures I).
 - 💞️ I’m looking to collaborate on any small to large-scale projects!
