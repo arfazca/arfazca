@@ -1,4 +1,4 @@
-- 🌱 Hi! I am an aspiring Software Development Engineer based in Victoria, British Columbia!
+- 🌱 Hi! I am an Software Development Engineer based in Victoria, British Columbia!
 - 🌱 I'm currently on my second year Software Engineering (BSE) program at University of Victoria (UVic).
 - 🌱 Relevant Coursework: CSC 111/115 (Fundamentals of Programming I-II), SENG 265 (Software Development Methods), 
      CSC 225 (Algorithm and Data Structures I), CSC 230 (Computer Architecture).
