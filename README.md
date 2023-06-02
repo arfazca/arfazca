@@ -42,17 +42,6 @@
             <td rowspan=2>L2 Name A</td>
             <td>L3 Name A</td>
         </tr>
-        <tr>
-            <td>L3 Name B</td>
-        </tr>
-        <tr>
-            <td rowspan=3>L2 Name B</td>
-            <td>L3 Name C</td>
-        </tr>
-        <tr>
-            <td rowspan=3>L2 Name B</td>
-            <td>L3 Name D</td>
-        </tr>
     </tbody>
 </table>
 
