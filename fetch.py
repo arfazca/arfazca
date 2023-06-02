@@ -14,12 +14,13 @@ languages = {}
 for repo in repos:
     repo_languages_url = repo["languages_url"]
     response = requests.get(repo_languages_url)
-    repo_languages = response.json()
-    for language in repo_languages:
-        if language in languages:
-            languages[language] += repo_languages[language]
-        else:
-            languages[language] = repo_languages[language]
+    if response.status_code == 200:  # Check if the response is successful
+        repo_languages = response.json()
+        for language in repo_languages:
+            if language in languages:
+                languages[language] += repo_languages[language]
+            else:
+                languages[language] = repo_languages[language]
 
 # Create labels and sizes for the pie chart
 labels = list(languages.keys())
