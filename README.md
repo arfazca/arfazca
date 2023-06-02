@@ -27,8 +27,8 @@
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Shell" width="30" height="30"></ul>
             </td>
             <td>
-                <a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin"></a>
-                <a href="mailto:arfazhussain@uvic.ca"><img src="https://img.shields.io/badge/email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"></a>
+                <ul><a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin"></a></ul>
+                <ul><a href="mailto:arfazhussain@uvic.ca"><img src="https://img.shields.io/badge/email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"></a></ul>
             </td>
         </tr>
         <tr>
