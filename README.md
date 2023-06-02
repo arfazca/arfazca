@@ -37,6 +37,29 @@
     </tbody>
 </table>
 
+# My Skills
+
+Here are the programming languages I am skilled at:
+
+<ul>
+  <li>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="20" height="20"> C++
+  </li>
+  <li>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="20" height="20"> Python
+  </li>
+  <li>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="20" height="20"> Java
+  </li>
+  <li>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Swing" width="20" height="20"> Swing
+  </li>
+  <li>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="20" height="20"> Kotlin
+  </li>
+</ul>
+
+
 <br>
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" height = "185"/> </img>
