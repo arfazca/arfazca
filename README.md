@@ -26,13 +26,13 @@
  <table>
     <thead>
         <tr>
-            <th colspan = 2>🌱 Relevant Coursework:</th>
+            <th colspan = 1>🌱 Relevant Coursework:</th>
             <th colspan = 1>📫 How to reach me:</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan=5 colspan = 2>
+            <td rowspan=5>
               <ul>CSC 111-115 (Fundamentals of Programming with Engineering Applications)</ul>
               <ul>SENG 265-275 (Software Development and Testing)</ul>
               <ul>CSC 225-226 (Algorithm and Data Structures)</ul>
