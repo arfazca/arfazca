@@ -41,6 +41,38 @@
     </tbody>
 </table>
 
+<table>
+    <thead>
+        <tr>
+            <th colspan="1">🌱 Languages:</th>
+            <th colspan="1">📫 How to reach me:</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="30" height="30">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Swing" width="30" height="30">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="30" height="30">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" width="30" height="30">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="30" height="30">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" width="30" height="30">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Shell" width="30" height="30">
+            </td>
+            <td>
+                <a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin"></a>
+                <a href="mailto:arfazhussain@uvic.ca"><img src="https://img.shields.io/badge/email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"></a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Phone: (250) 880-8402
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
 
 <br>
 <div align="center">
