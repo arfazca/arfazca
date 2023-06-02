@@ -14,6 +14,7 @@ I am a current Software Engineering student at the University of Victoria (UVic)
   - Phone: (250) 880-8402
 
 ### GitHub Language Statistics
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=zluvsand&layout=compact&theme=algolia&show_icons=true" width="400">
 <img src="https://github-readme-stats.vercel.app/api?username=arfazhxss&theme=algolia&show_icons=true" width="400">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=zluvsand&theme=algolia&show_icons=true" width="400">
 
