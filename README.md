@@ -15,4 +15,5 @@ I am a current Software Engineering student at the University of Victoria (UVic)
 
 ## GitHub Language Statistics
 
-![Language Pie Chart](path/to/language_pie_chart.png)
+
+![language_pie_chart](https://github.com/arfazhxss/arfazhxss/assets/84450659/60c7c64e-2ea2-4294-87b7-b5fbc1762405)
