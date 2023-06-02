@@ -12,7 +12,7 @@
 <table>
     <thead>
         <tr>
-            <th colspan="1">🌱 Programming Languages:</th>
+            <th colspan="1">🌱 Languages I am proficient at:</th>
             <th colspan="1">📫 How to reach me:</th>
         </tr>
     </thead>
