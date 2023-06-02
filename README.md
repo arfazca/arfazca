@@ -4,15 +4,16 @@
   <p>Here are some details about my coursework and how to reach me:</p>
 </div>
 
-<div>
+<div align = "center">
   <table>
 <h3>🌱 Relevant Coursework:</h3>
-
+<div align = "leading">
 - CSC 111-115: Fundamentals of Programming with Engineering Applications
 - SENG 265-275: Software Development and Testing
 - CSC 225-226: Algorithm and Data Structures
 - SENG 310: Human-Computer Interaction
 - CSC 230: Computer Architecture
+</div>
 <h3>📫 How to reach me:</h3>
 
 - Email: arfazhussain@uvic.ca
