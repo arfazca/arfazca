@@ -6,23 +6,18 @@
 
 <div>
   <table>
-    <div style="display: inline-block; width: 50%;">
-      <h3>🌱 Relevant Coursework:</h3>
+<h3>🌱 Relevant Coursework:</h3>
 
-      - CSC 111-115: Fundamentals of Programming with Engineering Applications
-      - SENG 265-275: Software Development and Testing
-      - CSC 225-226: Algorithm and Data Structures
-      - SENG 310: Human-Computer Interaction
-      - CSC 230: Computer Architecture
-    </div>
+- CSC 111-115: Fundamentals of Programming with Engineering Applications
+- SENG 265-275: Software Development and Testing
+- CSC 225-226: Algorithm and Data Structures
+- SENG 310: Human-Computer Interaction
+- CSC 230: Computer Architecture
+<h3>📫 How to reach me:</h3>
 
-    <div style="display: inline-block; width: 50%;">
-      <h3>📫 How to reach me:</h3>
-
-      - Email: arfazhussain@uvic.ca
-      - Phone: (250) 880-8402
-      - Currently working on my online portfolio website, check it out! --> [www.arfazhxss.com](http://www.arfazhxss.com)
-    </div>
+- Email: arfazhussain@uvic.ca
+- Phone: (250) 880-8402
+- Currently working on my online portfolio website, check it out! --> [www.arfazhxss.com](http://www.arfazhxss.com)
   </table>
 </div>
  
