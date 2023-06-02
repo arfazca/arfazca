@@ -1,4 +1,4 @@
-# Hi there! 👋
+<h1 align="center">Hi there! 👋</h1>
 
 I am a current Software Engineering student at the University of Victoria (UVic). Here are some details about my coursework and how to reach me:
 
