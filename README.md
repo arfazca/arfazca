@@ -15,5 +15,4 @@ I am a current Software Engineering student at the University of Victoria (UVic)
 
 ### GitHub Language Statistics
 [![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=arfazhxss)](https://github.com/anuraghazra/github-readme-stats)
-<img src="https://github.com/arfazhxss/arfazhxss/assets/84450659/415df71e-d69e-431b-acf3-278dfead1e1f" width="850" height="637.5">
 
