@@ -44,6 +44,9 @@
         <tr>
             <td rowspan=2>L2 Name B</td>
         </tr>
+        <tr>
+            <td rowspan=2>L2 Name B</td>
+        </tr>
     </tbody>
 </table>
 
