@@ -24,8 +24,10 @@ I am a current Software Engineering student at the University of Victoria (UVic)
   </table>
 </div>
 
-[![](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/arfazhxss/)
-[![](https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/0ctvc2qy815zx9ymyx4d2iao6?si=04882f0ab0034d45)
+<div align="center">
+  [![](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/arfazhxss/)
+  [![](https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/0ctvc2qy815zx9ymyx4d2iao6?si=04882f0ab0034d45)
+</div>
 
 <!---
 arfazhuss/arfazhuss is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
