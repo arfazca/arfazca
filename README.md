@@ -29,11 +29,11 @@ I am a current Software Engineering student at the University of Victoria (UVic)
   <img src="https://github-readme-stats.vercel.app/api?username=arfazhxss&theme=algolia&show_icons=true" width="400"/>
 </div>
 
-[![](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/arfazhxss/)
-[![](https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/0ctvc2qy815zx9ymyx4d2iao6?si=04882f0ab0034d45)
 <p align="center">
-  <img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="CodePen">
+  <a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin"></a>
+  <a href="https://open.spotify.com/user/0ctvc2qy815zx9ymyx4d2iao6?si=04882f0ab0034d45"><img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white"></a>
 </p>
+
 
 
 
