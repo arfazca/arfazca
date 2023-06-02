@@ -2,13 +2,13 @@
 
 I am a current Software Engineering student at the University of Victoria (UVic). Here are some details about my coursework and how to reach me:
 
-🌱 Relevant Coursework | 📫 How to reach me
---- | ---
-CSC 111-115: Fundamentals of Programming with Engineering Applications | Email: arfazhussain@uvic.ca
-SENG 265-275: Software Development and Testing | Phone: (250) 880-8402
-CSC 225-226: Algorithm and Data Structures | Currently working on my online portfolio website, check it out! --> [www.arfazhxss.com](www.arfazhxss.com)
-SENG 310: Human-Computer Interaction | 
-CSC 230: Computer Architecture |
+🌱 Relevant Coursework:   |  📫 How to reach me:
+- CSC 111-115: Fundamentals of Programming with Engineering Applications   |  - Email: arfazhussain@uvic.ca
+- SENG 265-275: Software Development and Testing   |  - Phone: (250) 880-8402
+- CSC 225-226: Algorithm and Data Structures   |  - Currently working on my online portfolio website, check it out! --> www.arfazhxss.com
+- SENG 310: Human-Computer Interaction   |  
+- CSC 230: Computer Architecture   |
+
 
 
 - 🌱 Relevant Coursework:
