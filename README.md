@@ -32,7 +32,7 @@
     </thead>
     <tbody>
         <tr>
-            <td rowspan=5>
+            <td rowspan=5 colspan = 2>
               <ul>CSC 111-115 (Fundamentals of Programming with Engineering Applications)</ul>
               <ul>SENG 265-275 (Software Development and Testing)</ul>
               <ul>CSC 225-226 (Algorithm and Data Structures)</ul>
@@ -40,17 +40,9 @@
               <ul>CSC 230 (Computer Architecture)</ul>
             </td>
             <td rowspan=2>L2 Name A</td>
-            <td>L3 Name A</td>
-        </tr>
-        <tr>
-            <td>L3 Name B</td>
         </tr>
         <tr>
             <td rowspan=2>L2 Name B</td>
-            <td>L3 Name C</td>
-        </tr>
-        <tr>
-            <td>L3 Name D</td>
         </tr>
     </tbody>
 </table>
