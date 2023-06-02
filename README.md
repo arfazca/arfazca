@@ -5,7 +5,6 @@
 
   <h3>🌱 Relevant Coursework:</h3>
 
-  |                       |                           |
   |-----------------------|---------------------------|
   | CSC 111-115           | Fundamentals of Programming with Engineering Applications |
   | SENG 265-275          | Software Development and Testing |
