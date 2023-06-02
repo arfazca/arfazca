@@ -14,5 +14,6 @@ I am a current Software Engineering student at the University of Victoria (UVic)
   - Phone: (250) 880-8402
 
 ### GitHub Language Statistics
-[![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=arfazhxss)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=arfazhxss&theme=algolia&show_icons=true)](https://github.com/arfazhxss)
+[![Top Langs](https://github-readme-stats.vercel.app/api?username=arfazhxss&theme=algolia&show_icons=true)](https://github.com/arfazhxss)
 
