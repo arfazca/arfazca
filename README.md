@@ -23,12 +23,12 @@ I am a current Software Engineering student at the University of Victoria (UVic)
       </tr>
  
 
-
+<br><br>
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" height = "185"/> </img>
   <img src="https://github-readme-stats.vercel.app/api?username=arfazhxss&theme=algolia&show_icons=true" height = "185"/>
 </div>
-
+<br>
 <p align="center">
   <a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin"></a>
   <a href="https://open.spotify.com/user/0ctvc2qy815zx9ymyx4d2iao6?si=04882f0ab0034d45"><img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white"></a>
