@@ -18,11 +18,15 @@
     <tbody>
         <tr>
             <td rowspan=5>
-              <ul>CSC 111-115 (Fundamentals of Programming with Engineering Applications)</ul>
-              <ul>SENG 265-275 (Software Development and Testing)</ul>
-              <ul>CSC 225-226 (Algorithm and Data Structures)</ul>
-              <ul>SENG 310 (Human-Computer Interaction)</ul>
-              <ul>CSC 230 (Computer Architecture)</ul>
+                <ul>
+                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="20" height="20"> Java</li>
+                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Swing" width="20" height="20"> SwingUI</li>
+                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="20" height="20"> Kotlin</li>
+                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" width="20" height="20"> C</li>
+                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="20" height="20"> C++</li>
+                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" width="20" height="20"> C#</li>
+                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Shell" width="20" height="20"> Shell</li>
+                </ul>
             </td>
             <td colspan=3>
               <ul><a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin"></a></ul>
@@ -36,28 +40,6 @@
         </tr>
     </tbody>
 </table>
-
-# My Skills
-
-Here are the programming languages I am skilled at:
-
-<ul>
-  <li>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="20" height="20"> C++
-  </li>
-  <li>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="20" height="20"> Python
-  </li>
-  <li>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="20" height="20"> Java
-  </li>
-  <li>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Swing" width="20" height="20"> Swing
-  </li>
-  <li>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="20" height="20"> Kotlin
-  </li>
-</ul>
 
 
 <br>
