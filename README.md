@@ -26,13 +26,14 @@
               <ul>CSC 230 (Computer Architecture)</ul>
             </td>
             <td colspan=2>
-              <ul>Email: arfazhussain@uvic.ca</ul>
+              <ul><a href="mailto:arfazhussain@uvic.ca"><img src="https://img.shields.io/badge/email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"></a></ul>
               <ul>Phone: (250) 880-8402</ul>
-              <ul>  <a href="https://www.arfazhxss.com"><img src="https://img.shields.io/badge/website-%231a73e8.svg?style=for-the-badge&logo=google-chrome&logoColor=white"></a></ul>
             </td>
         </tr>
         <tr>
-            <td colspan=2>L2 Name C</td>
+            <td colspan=2>
+              <ul><a href="https://www.arfazhxss.com"><img src="https://img.shields.io/badge/website-%231a73e8.svg?style=for-the-badge&logo=google-chrome&logoColor=white"></a></ul>
+            </td>
         </tr>
     </tbody>
 </table>
@@ -46,7 +47,7 @@
 <p align="center">
   <a href="https://www.arfazhxss.com"><img src="https://img.shields.io/badge/website-%231a73e8.svg?style=for-the-badge&logo=google-chrome&logoColor=white"></a>
   <a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin"></a>
-  <a href="mailto:arfazhussain@uvic.ca"><img src="https://img.shields.io/badge/email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"></a>
+
 </p>
 
 
