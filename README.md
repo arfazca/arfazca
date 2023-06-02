@@ -1,9 +1,9 @@
 <h1 align="center">Hi there! 👋</h1>
   
-<p align="center">
+<h6 align="center">
   <h5>I am a current Software Engineering student at the University of Victoria (UVic).</h5>
   <h5>Here are some details about my coursework and how to reach me:</h5>
-</p>
+</h6>
 <p>
   <h3>🌱 Relevant Coursework:</h3>
   
