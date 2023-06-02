@@ -28,7 +28,6 @@
         <tr>
             <th>Layer 1</th>
             <th>Layer 2</th>
-            <th>Layer 3</th>
         </tr>
     </thead>
     <tbody>
