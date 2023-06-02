@@ -5,8 +5,8 @@
 </div>
 
 <div>
-  <table align="center">
-    <div style="display: inline-block; width: 50%;">
+  <table>
+    <div>
       <h3>🌱 Relevant Coursework:</h3>
 
       - CSC 111-115: Fundamentals of Programming with Engineering Applications
@@ -16,7 +16,7 @@
       - CSC 230: Computer Architecture
     </div>
 
-    <div style="display: inline-block; width: 50%;">
+    <div>
       <h3>📫 How to reach me:</h3>
 
       - Email: arfazhussain@uvic.ca
