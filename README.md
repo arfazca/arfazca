@@ -1,6 +1,6 @@
 <div align="center">
   <h1> Hi! This is Arfaz,</h1>
-  <p>I am a Second Year Software Engineering student at the University of Victoria (UVic).</p>
+  <p>I am a Second Year Software Engineering student at the University of Victoria (UVic)!</p>
 </div>
 
 <br>
