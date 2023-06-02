@@ -13,6 +13,8 @@ I am a current Software Engineering student at the University of Victoria (UVic)
   - Email: arfazhussain@uvic.ca
   - Phone: (250) 880-8402
 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=arfazhxss)](https://github.com/anuraghazra/github-readme-stats)
 ### GitHub Language Statistics
 
 <img src="https://github.com/arfazhxss/arfazhxss/assets/84450659/415df71e-d69e-431b-acf3-278dfead1e1f" width="850" height="637.5">
+
