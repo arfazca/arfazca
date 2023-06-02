@@ -42,7 +42,7 @@
             <td rowspan=2 colspan=2>L2 Name A</td>
         </tr>
         <tr>
-            <td rowspan=2>L2 Name B</td>
+            <td rowspan=2 colspan=2>L2 Name B</td>
         </tr>
         <tr>
             <td rowspan=2>L2 Name C</td>
