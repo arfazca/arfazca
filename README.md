@@ -41,6 +41,7 @@
             </td>
             <td colspan=2>
               <ul>Email: arfazhussain@uvic.ca</ul>
+              <ul>Phone: (250) 880-8402</ul>
             </td>
         </tr>
         <tr>
