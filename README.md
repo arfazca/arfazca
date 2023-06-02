@@ -13,6 +13,7 @@ I am a current Software Engineering student at the University of Victoria (UVic)
 
   - Email: arfazhussain@uvic.ca
   - Phone: (250) 880-8402
+  - Currently working on my online portfolio website, check it out! --> www.arfazhxss.com
 
 <div align="center">
   <table >
