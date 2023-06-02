@@ -3,9 +3,6 @@
   <p>I am a current Software Engineering student at the University of Victoria (UVic).</p>
   <p>Here are some details about my coursework and how to reach me:</p>
 </div>
-<br>
-  </table>
-</div>
 
 <br>
 <div align="center">
