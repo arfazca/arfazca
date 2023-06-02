@@ -15,22 +15,13 @@ I am a current Software Engineering student at the University of Victoria (UVic)
   - Phone: (250) 880-8402
 
 <div align="center">
-    <table >
-     <tr>
-        <td><b>Latest Tweets</b></td>
-        <td><b>daily.dev</b></td>
-     </tr>
-     <tr>
+  <table >
+    <tr>
        <td><a href="https://www.arfazhxss.com"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=zluvsand&layout=compact&theme=algolia&show_icons=true" width="400"/> </img></a></td>
-        <td> <a href="https://app.daily.dev/sunil-9"><img src="https://github-readme-stats.vercel.app/api?username=arfazhxss&theme=algolia&show_icons=true" width="400"/></a></td>
-     </tr>
-    </table>
-    </div>
-
-### GitHub Language Statistics
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=zluvsand&layout=compact&theme=algolia&show_icons=true" width="400">
-<img src="https://github-readme-stats.vercel.app/api?username=arfazhxss&theme=algolia&show_icons=true" width="400">
+       <td> <a href="https://www.linkedin.com/in/arfazhxss"><img src="https://github-readme-stats.vercel.app/api?username=arfazhxss&theme=algolia&show_icons=true" width="400"/></a></td>
+    </tr>
+  </table>
+</div>
 
 
 <!---
