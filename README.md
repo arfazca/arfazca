@@ -15,4 +15,4 @@ I am a current Software Engineering student at the University of Victoria (UVic)
 
 ### GitHub Language Statistics
 
-<img src="https://github.com/arfazhxss/arfazhxss/assets/84450659/415df71e-d69e-431b-acf3-278dfead1e1f" width="800" height="600">
+<img src="https://github.com/arfazhxss/arfazhxss/assets/84450659/415df71e-d69e-431b-acf3-278dfead1e1f" width="900" height="675">
