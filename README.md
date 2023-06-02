@@ -9,13 +9,13 @@
 <table>
     <thead>
         <tr>
-            <th rowspan=2> 🌱 Languages I am proficient at:</th>
+            <th> 🌱 Languages I am proficient at:</th>
             <th> 📫 How to reach me:</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan=6 colspan=6>
+            <td rowspan=6 colspan=2>
                 <ul><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="70">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="70">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" width="70"></ul>
