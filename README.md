@@ -32,6 +32,7 @@ I am a current Software Engineering student at the University of Victoria (UVic)
 <p align="center">
   <a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin"></a>
   <a href="https://open.spotify.com/user/0ctvc2qy815zx9ymyx4d2iao6?si=04882f0ab0034d45"><img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white"></a>
+  <a href="https://www.arfazhxss.com"><img src="https://img.shields.io/badge/website-%231a73e8.svg?style=for-the-badge&logo=google-chrome&logoColor=white"></a>
 </p>
 
 
