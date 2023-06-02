@@ -26,8 +26,8 @@
  <table>
     <thead>
         <tr>
-            <th>🌱 Relevant Coursework:</th>
-            <th>📫 How to reach me:</th>
+            <th colspan = 2>🌱 Relevant Coursework:</th>
+            <th colspan = 1>📫 How to reach me:</th>
         </tr>
     </thead>
     <tbody>
