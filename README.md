@@ -39,10 +39,10 @@
               <ul>SENG 310 (Human-Computer Interaction)</ul>
               <ul>CSC 230 (Computer Architecture)</ul>
             </td>
-            <td rowspan=2>L2 Name A</td>
+            <td colspan=2>L2 Name A</td>
         </tr>
         <tr>
-            <td rowspan=2>L2 Name C</td>
+            <td colspan=2>L2 Name C</td>
         </tr>
     </tbody>
 </table>
