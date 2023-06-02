@@ -3,9 +3,9 @@
   <p>I am a current Software Engineering student at the University of Victoria (UVic).</p>
   <p>Here are some details about my coursework and how to reach me:</p>
 </div>
-<div align="center">
+<div>
   <table>
-    <div style="display: inline-block; width: 50%;">
+<div style="display: inline-block; width: 50%;">
   <h3>🌱 Relevant Coursework:</h3>
 
   - CSC 111-115: Fundamentals of Programming with Engineering Applications
