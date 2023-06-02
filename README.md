@@ -4,7 +4,8 @@
   <h2>I am a current Software Engineering student at the University of Victoria (UVic). Here are some details about my coursework and how to reach me:</h2>
 
   <h3>🌱 Relevant Coursework:</h3>
-
+  
+  |                       |                           |
   |-----------------------|---------------------------|
   | CSC 111-115           | Fundamentals of Programming with Engineering Applications |
   | SENG 265-275          | Software Development and Testing |
