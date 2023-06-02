@@ -39,7 +39,9 @@
               <ul>SENG 310 (Human-Computer Interaction)</ul>
               <ul>CSC 230 (Computer Architecture)</ul>
             </td>
-            <td colspan=2>L2 Name A</td>
+            <td colspan=2>
+              <ul>Email: arfazhussain@uvic.ca</ul>
+            </td>
         </tr>
         <tr>
             <td colspan=2>L2 Name C</td>
