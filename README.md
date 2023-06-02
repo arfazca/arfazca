@@ -21,8 +21,8 @@ I am a current Software Engineering student at the University of Victoria (UVic)
         <td><b>daily.dev</b></td>
      </tr>
      <tr>
-       <td><a href="https://twitter.com/sunilsapkota09"><img src="https://github-readme-twitter-gazf.vercel.app/api?id=sunilsapkota09" alt="sunil sapkota twitter" > </img></a></td>
-        <td> <a href="https://app.daily.dev/sunil-9"><img src="https://api.daily.dev/devcards/426421ecec8c4819927d5698b72edced.png?r=5tr" width="400" alt="sunil sapkota's Dev Card"/></a></td>
+       <td><a href="https://www.arfazhxss.com"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=zluvsand&layout=compact&theme=algolia&show_icons=true" width="400"/> </img></a></td>
+        <td> <a href="https://app.daily.dev/sunil-9"><img src="https://github-readme-stats.vercel.app/api?username=arfazhxss&theme=algolia&show_icons=true" width="400"/></a></td>
      </tr>
     </table>
     </div>
