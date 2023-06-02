@@ -2,7 +2,6 @@
 
 I am a current Software Engineering student at the University of Victoria (UVic). Here are some details about my coursework and how to reach me:
 
-<div align ="centre">
   <table>
       <tr>
         <h3>Relevant Coursework:</h3>
@@ -22,7 +21,6 @@ I am a current Software Engineering student at the University of Victoria (UVic)
           <li>Online Portfolio: <a href="http://www.arfazhxss.com">www.arfazhxss.com</a></li>
         </ul>
       </tr>
-</div>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" width="400"/> </img>
