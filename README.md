@@ -6,41 +6,8 @@
 <br>
   </table>
 </div>
- 
- 
- <table>
-    <thead>
-        <tr>
-            <th colspan = 1>🌱 Relevant Coursework:</th>
-            <th colspan = 1>📫 How to reach me:</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td rowspan=5>
-                <ul>
-                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="20" height="20"> Java</li>
-                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Swing" width="20" height="20"> SwingUI</li>
-                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="20" height="20"> Kotlin</li>
-                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" width="20" height="20"> C</li>
-                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="20" height="20"> C++</li>
-                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" width="20" height="20"> C#</li>
-                    <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Shell" width="20" height="20"> Shell</li>
-                </ul>
-            </td>
-            <td colspan=3>
-              <ul><a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin"></a></ul>
-              <ul><a href="mailto:arfazhussain@uvic.ca"><img src="https://img.shields.io/badge/email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"></a></ul>
-            </td>
-        </tr>
-        <tr>
-            <td colspan=2>
-               <ul>Phone: (250) 880-8402</ul>
-            </td>
-        </tr>
-    </tbody>
-</table>
 
+<br>
 <table>
     <thead>
         <tr>
