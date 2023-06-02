@@ -16,5 +16,5 @@ I am a current Software Engineering student at the University of Victoria (UVic)
 ### GitHub Language Statistics
 [![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=arfazhxss&theme=algolia&show_icons=true)](https://github.com/arfazhxss)
 [![Top Langs](https://github-readme-stats.vercel.app/api?username=arfazhxss&theme=algolia&show_icons=true)](https://github.com/arfazhxss)
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=zluvsand"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=zluvsand&theme=algolia&show_icons=true"/>
 
