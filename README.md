@@ -21,6 +21,9 @@ I am a current Software Engineering student at the University of Victoria (UVic)
        <td><a href="https://www.arfazhxss.com"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=zluvsand&layout=compact&theme=algolia&show_icons=true" width="400"/> </img></a></td>
        <td> <a href="https://www.linkedin.com/in/arfazhxss"><img src="https://github-readme-stats.vercel.app/api?username=arfazhxss&theme=algolia&show_icons=true" width="400"/></a></td>
     </tr>
+    <tr>
+       <td><img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true"/></td>
+    </tr>
   </table>
 </div>
 
