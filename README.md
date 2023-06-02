@@ -15,7 +15,7 @@
     </thead>
     <tbody>
         <tr>
-            <td rowspan=6 colspan=7 width=320>
+            <td rowspan=6 colspan=7 width=300>
                 <ul><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="70">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="70">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" width="70"></ul>
