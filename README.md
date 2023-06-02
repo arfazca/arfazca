@@ -21,6 +21,17 @@ I am a current Software Engineering student at the University of Victoria (UVic)
           <li>Online Portfolio: <a href="http://www.arfazhxss.com">www.arfazhxss.com</a></li>
         </ul>
       </tr>
+  
+  |                       |                           |
+|-----------------------|---------------------------|
+| 🌱 Relevant Coursework | 📫 How to reach me        |
+|-----------------------|---------------------------|
+| CSC 111-115           | Email: arfazhussain@uvic.ca |
+| SENG 265-275          | Phone: (250) 880-8402      |
+| CSC 225-226           | Online Portfolio: [www.arfazhxss.com](http://www.arfazhxss.com) |
+| SENG 310              |                           |
+| CSC 230               |                           |
+
  
 
 <br>
