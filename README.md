@@ -1,26 +1,4 @@
 <h1 align="center">Hi there! 👋</h1>
-
-I am a current Software Engineering student at the University of Victoria (UVic). Here are some details about my coursework and how to reach me:
-
-  <table>
-      <tr>
-        <h3>🌱 Relevant Coursework:</h3>
-        <ul>
-          <li>CSC 111-115: Fundamentals of Programming with Engineering Applications</li>
-          <li>SENG 265-275: Software Development and Testing</li>
-          <li>CSC 225-226: Algorithm and Data Structures</li>
-          <li>SENG 310: Human-Computer Interaction</li>
-          <li>CSC 230: Computer Architecture</li>
-        </ul>
-      </tr>
-      <tr>
-        <h3>📫 How to reach me:</h3>
-        <ul>
-          <li>Email: arfazhussain@uvic.ca</li>
-          <li>Phone: (250) 880-8402</li>
-          <li>Online Portfolio: <a href="http://www.arfazhxss.com">www.arfazhxss.com</a></li>
-        </ul>
-      </tr>
   
 <p align="center">
   <h2>I am a current Software Engineering student at the University of Victoria (UVic). Here are some details about my coursework and how to reach me:</h2>
