@@ -1,6 +1,5 @@
-<h1 align="center">Hi there! 👋</h1>
-  
 <div align="center">
+  <h1> Hi there! 👋</h1>
   <p>I am a current Software Engineering student at the University of Victoria (UVic).</p>
   <p>Here are some details about my coursework and how to reach me:</p>
 </div>
