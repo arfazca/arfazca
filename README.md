@@ -9,7 +9,7 @@
 <table>
     <thead>
         <tr>
-            <th> 🌱 Languages I am proficient at:</th>
+            <th colspan=2> 🌱 Languages I am proficient at:</th>
             <th> 📫 How to reach me:</th>
         </tr>
     </thead>
