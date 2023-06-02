@@ -3,8 +3,7 @@
   <p>I am a current Software Engineering student at the University of Victoria (UVic).</p>
   <p>Here are some details about my coursework and how to reach me:</p>
 </div>
-
-- Currently working on my online portfolio website, check it out! --> [www.arfazhxss.com](http://www.arfazhxss.com)
+<br>
   </table>
 </div>
  
@@ -25,7 +24,8 @@
               <ul>SENG 310 (Human-Computer Interaction)</ul>
               <ul>CSC 230 (Computer Architecture)</ul>
             </td>
-            <td colspan=2>
+            <td colspan=3>
+              <ul><a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin"></a></ul>
               <ul><a href="mailto:arfazhussain@uvic.ca"><img src="https://img.shields.io/badge/email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"></a></ul>
               <ul>Phone: (250) 880-8402</ul>
             </td>
@@ -46,7 +46,7 @@
 <br>
 <p align="center">
   <a href="https://www.arfazhxss.com"><img src="https://img.shields.io/badge/website-%231a73e8.svg?style=for-the-badge&logo=google-chrome&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin"></a>
+  
 
 </p>
 
