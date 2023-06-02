@@ -4,20 +4,6 @@
   <p>Here are some details about my coursework and how to reach me:</p>
 </div>
 
-<div align = "center">
-  <table>
-<h3>🌱 Relevant Coursework:</h3>
-<div align = "leading">
-- 
-- 
-- 
-- 
-- 
-</div>
-<h3></h3>
-
-- Email: arfazhussain@uvic.ca
-- Phone: (250) 880-8402
 - Currently working on my online portfolio website, check it out! --> [www.arfazhxss.com](http://www.arfazhxss.com)
   </table>
 </div>
@@ -42,6 +28,7 @@
             <td colspan=2>
               <ul>Email: arfazhussain@uvic.ca</ul>
               <ul>Phone: (250) 880-8402</ul>
+              <ul>  <a href="https://www.arfazhxss.com"><img src="https://img.shields.io/badge/website-%231a73e8.svg?style=for-the-badge&logo=google-chrome&logoColor=white"></a></ul>
             </td>
         </tr>
         <tr>
