@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> Hi! This is Arfaz,</h1>
+  <h1> Hi This is Arfaz!</h1>
   <p>This profile encompasses a range of recent or archieved projects I have worked on from time to time</p>
 </div>
 
