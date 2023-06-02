@@ -6,9 +6,9 @@
 <div align="center">
   <table>
     <tr>
-      <p>
+      <td>
         <h3>🌱 Relevant Coursework:</h3>
-    
+      
         |                                                  |
         |--------------------------------------------------|
         | CSC 111-115 (Fundamentals of Programming) |
@@ -18,14 +18,16 @@
         | CSC 230 (Computer Architecture) |
       
         <h3>📫 How to reach me:</h3>
+      </td>  
     </tr>
     <tr>
+      <td>
         |          |                                           |
         |----------|-------------------------------------------|
         | Email    | arfazhussain@uvic.ca                       |
         | Phone    | (250) 880-8402                            |
         | Portfolio | [www.arfazhxss.com](http://www.arfazhxss.com) |
-      </p>
+      </td>
     </tr>
   </table>
 </div>
