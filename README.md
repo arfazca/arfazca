@@ -16,8 +16,8 @@ I am a current Software Engineering student at the University of Victoria (UVic)
   - Currently working on my online portfolio website, check it out! --> www.arfazhxss.com
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" width="400"/> </img>
-<img src="https://github-readme-stats.vercel.app/api?username=arfazhxss&theme=algolia&show_icons=true" width="400"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" width="400"/> </img>
+  <img src="https://github-readme-stats.vercel.app/api?username=arfazhxss&theme=algolia&show_icons=true" width="400"/>
 </div>
 
 
