@@ -8,7 +8,7 @@
   
   |                                                  |
   |--------------------------------------------------|
-  | CSC 111-115 (Fundamentals of Programming with Engineering Applications) |
+  | CSC 111-115 (Fundamentals of Programming) |
   | SENG 265-275 (Software Development and Testing) |
   | CSC 225-226 (Algorithm and Data Structures) |
   | SENG 310 (Human-Computer Interaction) |
