@@ -1,5 +1,5 @@
 import requests
-import pygal
+import matplotlib.pyplot as plt
 
 # GitHub username
 username = "arfazhxss"
@@ -21,19 +21,16 @@ for repo in repos:
         else:
             languages[language] = repo_languages[language]
 
-# Generate the pie chart
-chart = pygal.Pie()
-for language in languages:
-    chart.add(language, languages[language])
+# Create labels and sizes for the pie chart
+labels = list(languages.keys())
+sizes = list(languages.values())
 
-chart.title = "GitHub Language Statistics"
-chart.render_to_file("language_pie_chart.svg")
+# Create the pie chart
+fig, ax = plt.subplots()
+ax.pie(sizes, labels=labels, autopct='%1.1f%%')
 
-# Generate the README.md file content
-readme_content = "# GitHub Language Statistics\n\n"
-for language in languages:
-    readme_content += f"- {language}: {languages[language]}\n"
+# Save the pie chart as an image file
+plt.savefig('language_pie_chart.png')
 
-# Write the content to the README.md file
-with open("README.md", "w") as readme_file:
-    readme_file.write(readme_content)
+# Close the plot to release resources
+plt.close()
