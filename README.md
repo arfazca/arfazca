@@ -2,9 +2,8 @@
 
 I am a current Software Engineering student at the University of Victoria (UVic). Here are some details about my coursework and how to reach me:
 
-<div style="display: flex;">
+<div align ="centre">
   <table>
-    <div style="flex-basis: 50%;">
       <tr>
         <h3>Relevant Coursework:</h3>
         <ul>
@@ -15,8 +14,6 @@ I am a current Software Engineering student at the University of Victoria (UVic)
           <li>CSC 230: Computer Architecture</li>
         </ul>
       </tr>
-    </div>
-    <div style="flex-basis: 50%;">
       <tr>
         <h3>How to reach me:</h3>
         <ul>
@@ -25,7 +22,6 @@ I am a current Software Engineering student at the University of Victoria (UVic)
           <li>Online Portfolio: <a href="http://www.arfazhxss.com">www.arfazhxss.com</a></li>
         </ul>
       </tr>
-    </div>
 </div>
 
 <div align="center">
