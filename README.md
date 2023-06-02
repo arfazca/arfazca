@@ -3,37 +3,30 @@
 I am a current Software Engineering student at the University of Victoria (UVic). Here are some details about my coursework and how to reach me:
 
 <div style="display: flex;">
-  <div style="flex-basis: 50%;">
-    <h3>Relevant Coursework:</h3>
-    <ul>
-      <li>CSC 111-115: Fundamentals of Programming with Engineering Applications</li>
-      <li>SENG 265-275: Software Development and Testing</li>
-      <li>CSC 225-226: Algorithm and Data Structures</li>
-      <li>SENG 310: Human-Computer Interaction</li>
-      <li>CSC 230: Computer Architecture</li>
-    </ul>
-  </div>
-  <div style="flex-basis: 50%;">
-    <h3>How to reach me:</h3>
-    <ul>
-      <li>Email: arfazhussain@uvic.ca</li>
-      <li>Phone: (250) 880-8402</li>
-      <li>Online Portfolio: <a href="http://www.arfazhxss.com">www.arfazhxss.com</a></li>
-    </ul>
-  </div>
+  <table>
+    <div style="flex-basis: 50%;">
+      <tr>
+        <h3>Relevant Coursework:</h3>
+        <ul>
+          <li>CSC 111-115: Fundamentals of Programming with Engineering Applications</li>
+          <li>SENG 265-275: Software Development and Testing</li>
+          <li>CSC 225-226: Algorithm and Data Structures</li>
+          <li>SENG 310: Human-Computer Interaction</li>
+          <li>CSC 230: Computer Architecture</li>
+        </ul>
+      </tr>
+    </div>
+    <div style="flex-basis: 50%;">
+      <tr>
+        <h3>How to reach me:</h3>
+        <ul>
+          <li>Email: arfazhussain@uvic.ca</li>
+          <li>Phone: (250) 880-8402</li>
+          <li>Online Portfolio: <a href="http://www.arfazhxss.com">www.arfazhxss.com</a></li>
+        </ul>
+      </tr>
+    </div>
 </div>
-
-- 🌱 Relevant Coursework:
-  - CSC 111-115: Fundamentals of Programming with Engineering Applications
-  - SENG 265-275: Software Development and Testing
-  - CSC 225-226: Algorithm and Data Structures
-  - SENG 310: Human-Computer Interaction
-  - CSC 230: Computer Architecture
-  
-- 📫 How to reach me:
-  - Email: arfazhussain@uvic.ca
-  - Phone: (250) 880-8402
-  - Currently working on my online portfolio website, check it out! --> www.arfazhxss.com
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" width="400"/> </img>
