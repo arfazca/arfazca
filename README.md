@@ -1,6 +1,6 @@
 <div align="center">
   <h1> Hi, This is Arfaz!</h1>
-  <p>My GitHub Portfolio encompasses a range of recent or archieved projects I have worked on from time to time</p>
+  <p>My GitHub Portfolio encompasses a range of recent or archieved projects I have worked on from time to time, Take a look!</p>
 </div>
 
 <br>
