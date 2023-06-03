@@ -1,32 +1,56 @@
-# Hi there! 👋
-
-I am a current Software Engineering student at the University of Victoria (UVic). Here are some details about my coursework and how to reach me:
-
-- 🌱 Relevant Coursework:
-
-  - CSC 111-115: Fundamentals of Programming with Engineering Applications
-  - SENG 265-275: Software Development and Testing
-  - CSC 225-226: Algorithm and Data Structures
-  - SENG 310: Human-Computer Interaction
-  - CSC 230: Computer Architecture
-- 📫 How to reach me:
-
-  - Email: arfazhussain@uvic.ca
-  - Phone: (250) 880-8402
-  - Currently working on my online portfolio website, check it out! --> www.arfazhxss.com
-
 <div align="center">
-  <table>
-    <tr>
-       <td><a href="https://www.arfazhxss.com"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" width="400"/> </img></a></td>
-       <td> <a href="https://www.linkedin.com/in/arfazhxss"><img src="https://github-readme-stats.vercel.app/api?username=arfazhxss&theme=algolia&show_icons=true" width="400"/></a></td>
-    </tr>
-  </table>
+  <h1> Hi, This is Arfaz!</h1>
+  <p>My GitHub Portfolio encompasses a range of recent or archieved projects I have worked on from time to time</p>
 </div>
 
+<br>
+<div align="center">
+<table>
+    <thead>
+        <tr>
+            <th colspan=7> 👨🏽‍💻 Tools and Languages:</th>
+            <th> 📫 How to reach me:</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=6 colspan=7 width=300>
+                <ul><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="70">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="70">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" width="70"></ul>
+                <ul><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="70">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" width="70">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="70"></ul>
+            </td>
+            <td align="center" width=250>
+                <ul><a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin"></a></ul>
+                <ul><a href="mailto:arfazhussain@uvic.ca"><img src="https://img.shields.io/badge/email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"></a></ul>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                (250) 880-8402
+            </td>
+        </tr>
+    </tbody>
+</table>
+  </div>
 
-[![](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/arfazhxss/)
-[![](https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/0ctvc2qy815zx9ymyx4d2iao6?si=04882f0ab0034d45)
+
+
+<br>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" height = "185"/> </img>
+  <img src="https://github-readme-stats.vercel.app/api?username=arfazhxss&theme=algolia&show_icons=true" height = "185"/>
+</div>
+<br>
+<p align="center">
+  <a href="https://www.arfazhxss.com"><img src="https://img.shields.io/badge/website-%231a73e8.svg?style=for-the-badge&logo=google-chrome&logoColor=white"></a>
+  
+
+</p>
+
+
 
 
 <!---
