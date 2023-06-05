@@ -5,6 +5,7 @@
 
 <br>
 <div align="center">
+![Visitor Count](https://profile-counter.glitch.me/{arfazhxss}/count.svg)
 <table>
     <thead>
         <tr>
