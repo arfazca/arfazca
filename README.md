@@ -50,7 +50,9 @@
 
 </p>
 
-<img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" align="center">
+<div align="center">
+<img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count">
+</div>
 
 
 
