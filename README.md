@@ -48,13 +48,7 @@
 <br>
 <p align="center">
   <a href="https://www.arfazhxss.com"><img src="https://img.shields.io/badge/website-%231a73e8.svg?style=for-the-badge&logo=google-chrome&logoColor=white"></a>
-  
-
 </p>
-
-<div align="center">
-<img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count">
-</div>
 
 
 
