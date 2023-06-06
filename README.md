@@ -49,7 +49,9 @@
   
 
 </p>
-![Visitor Count](https://profile-counter.glitch.me/{arfazhxss}/count.svg)
+
+![Count](https://profile-counter.glitch.me/{arfazhxss}/count.svg)
+<img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count">
 
 
 
