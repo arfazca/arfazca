@@ -2,7 +2,9 @@
   <h1> Hi, This is Arfaz!</h1>
   <p>My GitHub Portfolio encompasses a range of recent or archieved projects I have worked on from time to time.</p>
 </div>
-
+<div align="center">
+  <img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count">
+</div>
 <br>
 <div align="center">
 <table>
