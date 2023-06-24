@@ -9,7 +9,7 @@
 
 <table>
   <tr>
-    <th colspan="2">:toolbox: :wrench:Toolbox</th>
+    <th colspan="2">:toolbox: Toolbox :wrench:</th>
   </tr>
   <tr>
     <td>Programming Languages :keyboard:</td>
@@ -29,13 +29,13 @@
     </td>
   </tr>
   <tr>
-    <td>FrontEnd Design, Development</td>
+    <td>FrontEnd Toolkit earth americas :earth_americas:</td>
     <td>
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/html5/html5-original.svg" alt="HTML" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/css3/css3-original.svg" alt="CSS" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/jquery/jquery-original.svg" alt="JQuery" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/react/react-original.svg" alt="ReactJS" width="40" height="40">
     </td>
   </tr>
@@ -62,7 +62,8 @@
   </tr>
 </table>
 
-computer :computer: racing car :racing_car: blossom :blossom: dart :dart: nut&bolt :nut_and_bolt: keycap star :keycap_star: floppy disk :floppy_disk: desktop :desktop_computer: earth americas :earth_americas:
+computer :computer: racing car :racing_car: blossom :blossom: dart :dart: nut&bolt :nut_and_bolt: floppy disk :floppy_disk: desktop :desktop_computer: earth americas :earth_americas:
+scissors :scissors: atom :atom_symbol: scroll :scroll: rocket :rocket: plug :electric_plug:
 
 <!--- 
 ### :toolbox: :wrench:Toolbox:
