@@ -12,7 +12,7 @@
     <th colspan="2">:toolbox: :wrench:Toolbox</th>
   </tr>
   <tr>
-    <td>Programming Languages</td>
+    <td>Programming Languages :computer: :keyboard:</td>
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/java/java-original.svg" alt="Java" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/c/c-original.svg" alt="C" width="40" height="40">
@@ -21,7 +21,7 @@
     </td>
   </tr>
   <tr>
-    <td>Android and iOS Development Tools</td>
+    <td>Application Development :iphone: :hammer_and_wrench:</td>
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/swift/swift-original.svg" alt="Swift" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="40" height="40">
@@ -43,6 +43,7 @@
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/postgresql/postgresql-original.svg" alt="postgreSQL" width="40" height="40">
     </td>
   </tr>
   <tr>
@@ -55,19 +56,12 @@
     </td>
   </tr>
     <tr>
-    <td>Testing Tools</td>
+    <td>Design, Testing and Development :microscope: :art: </td>
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/gradle/gradle-plain.svg" alt="Gradle" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/intellij/intellij-original.svg" alt="IntelliJ" width="40" height="40">
-    </td>
-  </tr>
-  <tr>
-    <td>Design Tools</td>
-    <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/figma/figma-original.svg" alt="Figma" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/xcode/xcode-plain.svg" alt="XCode" width="40" height="40">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/xd/xd-plain.svg" alt="XD" width="40" height="40">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/illustrator/illustrator-plain.svg" alt="Illustrator" width="40" height="40">
     </td>
   </tr>
 </table>
