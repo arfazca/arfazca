@@ -63,13 +63,20 @@
     </td>
   </tr>
       <tr>
-    <td>Operating Systems :gear:</td>
+    <td>Operating Systems :globe_with_meridians:</td>
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/fedora/fedora-original.svg" alt="Fedora" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/unix/unix-original.svg" alt="Unix" width="40" height="40">
     </td>
   </tr>
 </table>
+
+<br>
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" height = "185"/> </img>
+  <!---<img src="https://github-readme-stats.vercel.app/api?username=arfazhxss&theme=algolia&show_icons=true" height = "185"/>-->
+</div>
 
 <br>
 <p align="left">
@@ -108,12 +115,6 @@
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/git/git-plain.svg" alt="Git" width="40" height="40">
 </div>
 --->
-
-<br>
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" height = "185"/> </img>
-  <!---<img src="https://github-readme-stats.vercel.app/api?username=arfazhxss&theme=algolia&show_icons=true" height = "185"/>-->
-</div>
 
 <!---
 Icon Packs Taken From:
