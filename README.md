@@ -79,7 +79,7 @@
   Connect with me!
   <a href="https://www.arfazhxss.com"><img src=""></a>
   <a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="40" height="40"></a>
-  <a href="mailto:arfazhussain@uvic.ca"><img src="https://gist.githubusercontent.com/philaturner/8629b559d6ba62e7fda632c421c91fc0/raw/79666ca7a9258023ac642bfde32e314f381dca97/email-icon.svg"></a>
+  <a href="mailto:arfazhussain@uvic.ca"><img src="https://gist.githubusercontent.com/philaturner/8629b559d6ba62e7fda632c421c91fc0/raw/79666ca7a9258023ac642bfde32e314f381dca97/email-icon.svg" alt="EMAIL" width="40" height="40"></a>
   
 </p>
 
