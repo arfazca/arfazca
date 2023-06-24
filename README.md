@@ -39,7 +39,7 @@
     </td>
   </tr>
   <tr>
-    <td>BackEnd Tools and Databases :file_folder:</td>
+    <td>BackEnd, Databases :file_folder:</td>
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/nodejs/nodejs-original.svg" alt="NodeJS" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/npm/npm-original-wordmark.svg" alt="npm" width="40" height="40">
@@ -51,7 +51,7 @@
     </td>
   </tr>
     <tr>
-    <td>Design, Testing and Development :gear:</td>
+    <td>Design, Test, Development :gear:</td>
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/gradle/gradle-plain.svg" alt="Gradle" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/intellij/intellij-original.svg" alt="IntelliJ" width="40" height="40">
