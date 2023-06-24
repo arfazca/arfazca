@@ -11,13 +11,13 @@
 ### :toolbox: :wrench:Toolbox:
 <div>
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/java/java-original-wordmark.svg" alt="Java" width="40" height="40">
-  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/c/c-plain.svg" alt="C" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/c/c-original.svg" alt="C" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/csharp/csharp-original.svg" alt="C#" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/python/python-original.svg" alt="Python" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/swift/swift-original.svg" alt="Swift" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="40" height="40"">
-  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/javascript/javascript-plain.svg" alt="JavaScript" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/r/r-original.svg" alt="R" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/html5/html5-plain-wordmark.svg" alt="HTML" width="40" height="40">
