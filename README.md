@@ -10,7 +10,7 @@
  
 ### :toolbox: :wrench:Toolbox:
 <div>
-  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/java/java-original-wordmark.svg" alt="Java" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/java/java-original.svg" alt="Java" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/c/c-original.svg" alt="C" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40">
   <!--- <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/csharp/csharp-original.svg" alt="C#" width="40" height="40"> --->
@@ -25,9 +25,9 @@
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/nodejs/nodejs-original.svg" alt="nodeJS" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/npm/npm-original-wordmark.svg" alt="npm" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/express/express-original.svg" alt="express" width="40" height="40">
-  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/react/react-original-wordmark.svg" alt="ReactJS" width="40" height="40">
-  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="40" height="40">
-  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/react/react-original.svg" alt="ReactJS" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/r/r-original.svg" alt="R" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/git/git-plain.svg" alt="Git" width="40" height="40">
   
