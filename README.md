@@ -19,6 +19,7 @@
   <img src = "https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain.svg" alt="HTML" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" alt="Git" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/swift/swift-original.svg" alt="Swift" width="40" height="40">
 </div>
 
 
@@ -35,7 +36,8 @@
   <a href="mailto:arfazhussain@uvic.ca"><img src="https://img.shields.io/badge/email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
 
-
+# Icon Packs:
+# https://github.com/devicons/devicon/tree/v2.15.1/icons/
 
 <!---
 arfazhuss/arfazhuss is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
