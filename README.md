@@ -31,7 +31,7 @@
     </td>
   </tr>
   <tr>
-    <td>FrontEnd Kits :desktop_computer:</td>
+    <td>FrontEnd Design :desktop_computer:</td>
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/html5/html5-original.svg" alt="HTML" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/css3/css3-original.svg" alt="CSS" width="40" height="40">
@@ -54,7 +54,7 @@
     </td>
   </tr>
     <tr>
-    <td>Design & Development :gear:</td>
+    <td>Design, Test & Development :gear:</td>
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/figma/figma-original.svg" alt="Figma" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/gradle/gradle-plain.svg" alt="Gradle" width="40" height="40">
