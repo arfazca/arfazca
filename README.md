@@ -57,11 +57,22 @@
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/figma/figma-original.svg" alt="Figma" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/gradle/gradle-plain.svg" alt="Gradle" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/selenium/selenium-original.svg" alt="Selenium" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/xcode/xcode-plain.svg" alt="XCode" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/intellij/intellij-original.svg" alt="IntelliJ" width="40" height="40">
     </td>
   </tr>
+      <tr>
+    <td>Operating Systems :gear:</td>
+    <td>
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/fedora/fedora-original.svg" alt="Fedora" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/apple/apple-original.svg" alt="macOS" width="40" height="40">
+    </td>
+  </tr>
 </table>
+
+<!--- <img src="" alt="" width="40" height="40"> --->
 
 <br>
 <p align="left">
