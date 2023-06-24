@@ -62,6 +62,8 @@
   </tr>
 </table>
 
+Connect with me! [![LinkedIn](https://github.com/devicons/devicon/blob/v2.15.1/icons/linkedin/linkedin-original.svg)][https://github.com/devicons/devicon/blob/v2.15.1/icons/linkedin/linkedin-original.svg]
+
 <!--- 
 ### :toolbox: :wrench:Toolbox:
 <div>
@@ -88,7 +90,7 @@
 </div>
 --->
 
-<br><br>
+<br>
 <div align="left">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" height = "185"/> </img>
   <img src="https://github-readme-stats.vercel.app/api?username=arfazhxss&theme=algolia&show_icons=true" height = "185"/>
