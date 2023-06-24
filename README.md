@@ -7,11 +7,25 @@
 </div>
 <br>
 
-| __Programming Languages__ | ![Java](https://github.com/devicons/devicon/blob/v2.15.1/icons/java/java-original.svg){:width="40" height="40"} ![C](https://github.com/devicons/devicon/blob/v2.15.1/icons/c/c-original.svg){:width="40" height="40"} ![C++](https://github.com/devicons/devicon/blob/v2.15.1/icons/cplusplus/cplusplus-original.svg){:width="40" height="40"} ![Python](https://github.com/devicons/devicon/blob/v2.15.1/icons/python/python-original.svg){:width="40" height="40"} |
-| __Mobile Development__ | ![Swift](https://github.com/devicons/devicon/blob/v2.15.1/icons/swift/swift-original.svg) ![Kotlin](https://github.com/devicons/devicon/blob/v2.15.1/icons/kotlin/kotlin-original.svg) |
-| __Front End Tools__ |  |
-| __Databases__ |  |
-| __Back End Tools__ |  |
+![Java](https://github.com/devicons/devicon/blob/v2.15.1/icons/java/java-original.svg){:width="40" height="40"}
+![C](https://github.com/devicons/devicon/blob/v2.15.1/icons/c/c-original.svg){:width="40" height="40"}
+![C++](https://github.com/devicons/devicon/blob/v2.15.1/icons/cplusplus/cplusplus-original.svg){:width="40" height="40"}
+![Python](https://github.com/devicons/devicon/blob/v2.15.1/icons/python/python-original.svg){:width="40" height="40"}
+![Swift](https://github.com/devicons/devicon/blob/v2.15.1/icons/swift/swift-original.svg){:width="40" height="40"}
+![Kotlin](https://github.com/devicons/devicon/blob/v2.15.1/icons/kotlin/kotlin-original.svg){:width="40" height="40"}
+![JavaScript](https://github.com/devicons/devicon/blob/v2.15.1/icons/javascript/javascript-original.svg){:width="40" height="40"}
+![TypeScript](https://github.com/devicons/devicon/blob/v2.15.1/icons/typescript/typescript-original.svg){:width="40" height="40"}
+![HTML](https://github.com/devicons/devicon/blob/v2.15.1/icons/html5/html5-original.svg){:width="40" height="40"}
+![CSS](https://github.com/devicons/devicon/blob/v2.15.1/icons/css3/css3-original.svg){:width="40" height="40"}
+![JQuery](https://github.com/devicons/devicon/blob/v2.15.1/icons/jquery/jquery-original.svg){:width="40" height="40"}
+![nodeJS](https://github.com/devicons/devicon/blob/v2.15.1/icons/nodejs/nodejs-original.svg){:width="40" height="40"}
+![ReactJS](https://github.com/devicons/devicon/blob/v2.15.1/icons/react/react-original.svg){:width="40" height="40"}
+![MongoDB](https://github.com/devicons/devicon/blob/v2.15.1/icons/mongodb/mongodb-original.svg){:width="40" height="40"}
+![MySQL](https://github.com/devicons/devicon/blob/v2.15.1/icons/mysql/mysql-original.svg){:width="40" height="40"}
+![R](https://github.com/devicons/devicon/blob/v2.15.1/icons/r/r-original.svg){:width="40" height="40"}
+![npm](https://github.com/devicons/devicon/blob/v2.15.1/icons/npm/npm-original-wordmark.svg){:width="40" height="40"}
+![Git](https://github.com/devicons/devicon/blob/v2.15.1/icons/git/git-plain.svg){:width="40" height="40"}
+
  
 ### :toolbox: :wrench:Toolbox:
 <div>
