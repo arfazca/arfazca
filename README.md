@@ -19,7 +19,7 @@
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="40" height="40"">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40">
-  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/html5/html5-plain-wordmark.svg" alt="HTML" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/html5/html5-original.svg" alt="HTML" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/css3/css3-original.svg" alt="CSS" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/jquery/jquery-original.svg" alt="JQuery" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/nodejs/nodejs-original.svg" alt="nodeJS" width="40" height="40">
