@@ -10,16 +10,20 @@
  
 ### :toolbox: :wrench:Toolbox:
 <div>
-  <img src = "https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" alt="Java" width="40" height="40">
-  <img src = "https://github.com/devicons/devicon/blob/master/icons/c/c-plain.svg" alt="C" width="40" height="40">
-  <img src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40">
-  <img src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" width="40" height="40">
-  <img src = "https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="Python" width="40" height="40">
-  <img src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="40" height="40"">
-  <img src = "https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
-  <img src = "https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain.svg" alt="HTML" width="40" height="40">
-  <img src = "https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" alt="Git" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/java/java-original-wordmark.svg" alt="Java" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/c/c-plain.svg" alt="C" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/csharp/csharp-original.svg" alt="C#" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/python/python-original.svg" alt="Python" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/swift/swift-original.svg" alt="Swift" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="40" height="40"">
+  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/javascript/javascript-plain.svg" alt="JavaScript" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/r/r-original.svg" alt="R" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/html5/html5-plain-wordmark.svg" alt="HTML" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/css3/css3-original.svg" alt="CSS" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/git/git-plain.svg" alt="Git" width="40" height="40">
+  
 </div>
 
 
@@ -36,10 +40,7 @@
   <a href="mailto:arfazhussain@uvic.ca"><img src="https://img.shields.io/badge/email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
 
-# Icon Packs:
-# https://github.com/devicons/devicon/tree/v2.15.1/icons/
-
 <!---
-arfazhuss/arfazhuss is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
+Icon Packs Taken From:
+https://github.com/devicons/devicon/tree/v2.15.1/icons/
 --->
