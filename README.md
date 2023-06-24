@@ -12,7 +12,7 @@
     <th colspan="2">:toolbox: :wrench:Toolbox</th>
   </tr>
   <tr>
-    <td>Programming Languages :computer: :keyboard:</td>
+    <td>Programming Languages  :keyboard:</td>
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/java/java-original.svg" alt="Java" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/c/c-original.svg" alt="C" width="40" height="40">
@@ -21,7 +21,7 @@
     </td>
   </tr>
   <tr>
-    <td>Application Development :iphone: :hammer_and_wrench:</td>
+    <td>Application Development :iphone:</td>
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/swift/swift-original.svg" alt="Swift" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="40" height="40">
