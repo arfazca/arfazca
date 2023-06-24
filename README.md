@@ -7,24 +7,61 @@
 </div>
 <br>
 
-![Java](https://github.com/devicons/devicon/blob/v2.15.1/icons/java/java-original.svg){:width="40" height="40"}
-![C](https://github.com/devicons/devicon/blob/v2.15.1/icons/c/c-original.svg){:width="40" height="40"}
-![C++](https://github.com/devicons/devicon/blob/v2.15.1/icons/cplusplus/cplusplus-original.svg){:width="40" height="40"}
-![Python](https://github.com/devicons/devicon/blob/v2.15.1/icons/python/python-original.svg){:width="40" height="40"}
-![Swift](https://github.com/devicons/devicon/blob/v2.15.1/icons/swift/swift-original.svg){:width="40" height="40"}
-![Kotlin](https://github.com/devicons/devicon/blob/v2.15.1/icons/kotlin/kotlin-original.svg){:width="40" height="40"}
-![JavaScript](https://github.com/devicons/devicon/blob/v2.15.1/icons/javascript/javascript-original.svg){:width="40" height="40"}
-![TypeScript](https://github.com/devicons/devicon/blob/v2.15.1/icons/typescript/typescript-original.svg){:width="40" height="40"}
-![HTML](https://github.com/devicons/devicon/blob/v2.15.1/icons/html5/html5-original.svg){:width="40" height="40"}
-![CSS](https://github.com/devicons/devicon/blob/v2.15.1/icons/css3/css3-original.svg){:width="40" height="40"}
-![JQuery](https://github.com/devicons/devicon/blob/v2.15.1/icons/jquery/jquery-original.svg){:width="40" height="40"}
-![nodeJS](https://github.com/devicons/devicon/blob/v2.15.1/icons/nodejs/nodejs-original.svg){:width="40" height="40"}
-![ReactJS](https://github.com/devicons/devicon/blob/v2.15.1/icons/react/react-original.svg){:width="40" height="40"}
-![MongoDB](https://github.com/devicons/devicon/blob/v2.15.1/icons/mongodb/mongodb-original.svg){:width="40" height="40"}
-![MySQL](https://github.com/devicons/devicon/blob/v2.15.1/icons/mysql/mysql-original.svg){:width="40" height="40"}
-![R](https://github.com/devicons/devicon/blob/v2.15.1/icons/r/r-original.svg){:width="40" height="40"}
-![npm](https://github.com/devicons/devicon/blob/v2.15.1/icons/npm/npm-original-wordmark.svg){:width="40" height="40"}
-![Git](https://github.com/devicons/devicon/blob/v2.15.1/icons/git/git-plain.svg){:width="40" height="40"}
+<table>
+  <tr>
+    <th>Column 1</th>
+    <th>Column 2</th>
+  </tr>
+  <tr>
+    <td>Text 1</td>
+    <td>
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/java/java-original.svg" alt="Java" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/c/c-original.svg" alt="C" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40">
+    </td>
+  </tr>
+  <tr>
+    <td>Text 2</td>
+    <td>
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/python/python-original.svg" alt="Python" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/swift/swift-original.svg" alt="Swift" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="40" height="40">
+    </td>
+  </tr>
+  <tr>
+    <td>Text 3</td>
+    <td>
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/html5/html5-original.svg" alt="HTML" width="40" height="40">
+    </td>
+  </tr>
+  <tr>
+    <td>Text 4</td>
+    <td>
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/css3/css3-original.svg" alt="CSS" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/jquery/jquery-original.svg" alt="JQuery" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/nodejs/nodejs-original.svg" alt="NodeJS" width="40" height="40">
+    </td>
+  </tr>
+  <tr>
+    <td>Text 5</td>
+    <td>
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/react/react-original.svg" alt="ReactJS" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40">
+    </td>
+  </tr>
+  <tr>
+    <td>Text 6</td>
+    <td>
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/r/r-original.svg" alt="R" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/npm/npm-original-wordmark.svg" alt="npm" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/git/git-plain.svg" alt="Git" width="40" height="40">
+    </td>
+  </tr>
+</table>
+
 
  
 ### :toolbox: :wrench:Toolbox:
