@@ -52,16 +52,17 @@
     </td>
   </tr>
     <tr>
-    <td>Design, Test, Development :gear:</td>
+    <td>Design and Development :gear:</td>
     <td>
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/gradle/gradle-plain.svg" alt="Gradle" width="40" height="40">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/intellij/intellij-original.svg" alt="IntelliJ" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/figma/figma-original.svg" alt="Figma" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/gradle/gradle-plain.svg" alt="Gradle" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/xcode/xcode-plain.svg" alt="XCode" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/intellij/intellij-original.svg" alt="IntelliJ" width="40" height="40">
     </td>
   </tr>
 </table>
 
+computer :computer: racing car :racing_car: blossom :blossom: dart :dart: nut&bolt :nut_and_bolt:
 
 <!--- 
 ### :toolbox: :wrench:Toolbox:
