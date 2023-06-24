@@ -65,7 +65,7 @@
 <br>
 <p align="left">
   Connect with me!
-  <a href="https://www.arfazhxss.com"><img src=""></a>
+  <!---<a href="https://www.arfazhxss.com"><img src=""></a>--->
   <a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/linkedin/linkedin-original-wordmark.svg" alt="LinkedIn" width="40" height="40"></a>
   <a href="mailto:arfazhussain@uvic.ca"><img src="https://img.shields.io/badge/email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
