@@ -1,12 +1,12 @@
-<div align="center">
+<div align="left">
   <h1> Hi, This is Arfaz!</h1>
   <p>My GitHub Portfolio encompasses a range of recent or archieved projects I have worked on from time to time.</p>
 </div>
-<div align="center">
+<div align="left">
   <img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count">
 </div>
 <br>
-<div align="center">
+<div align="left">
 <table>
     <thead>
         <tr>
@@ -30,7 +30,7 @@
             </td>
         </tr>
         <tr>
-            <td colspan="2" align="center">
+            <td colspan="2" align="left">
                 (250) 880-8402
             </td>
         </tr>
@@ -52,12 +52,12 @@
 
 
 <br><br>
-<div align="center">
+<div align="left">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" height = "185"/> </img>
   <img src="https://github-readme-stats.vercel.app/api?username=arfazhxss&theme=algolia&show_icons=true" height = "185"/>
 </div>
 <br>
-<p align="center">
+<p align="left">
   <a href="https://www.arfazhxss.com"><img src="https://img.shields.io/badge/website-%231a73e8.svg?style=for-the-badge&logo=google-chrome&logoColor=white"></a>
 </p>
 
