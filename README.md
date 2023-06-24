@@ -62,7 +62,13 @@
   </tr>
 </table>
 
-Connect with me! [![LinkedIn](https://github.com/devicons/devicon/blob/v2.15.1/icons/linkedin/linkedin-original.svg)][https://github.com/devicons/devicon/blob/v2.15.1/icons/linkedin/linkedin-original.svg]
+<br>
+<p align="left">
+  Connect with me!
+  <a href="https://www.arfazhxss.com"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/linkedin/linkedin-original-wordmark.svg"></a>
+  <a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin"></a>
+  <a href="mailto:arfazhussain@uvic.ca"><img src="https://img.shields.io/badge/email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"></a>
+</p>
 
 <!--- 
 ### :toolbox: :wrench:Toolbox:
@@ -95,12 +101,6 @@ Connect with me! [![LinkedIn](https://github.com/devicons/devicon/blob/v2.15.1/i
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" height = "185"/> </img>
   <img src="https://github-readme-stats.vercel.app/api?username=arfazhxss&theme=algolia&show_icons=true" height = "185"/>
 </div>
-<br>
-<p align="left">
-  <a href="https://www.arfazhxss.com"><img src="https://img.shields.io/badge/website-%231a73e8.svg?style=for-the-badge&logo=google-chrome&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin"></a>
-  <a href="mailto:arfazhussain@uvic.ca"><img src="https://img.shields.io/badge/email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"></a>
-</p>
 
 <!---
 Icon Packs Taken From:
