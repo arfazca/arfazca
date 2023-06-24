@@ -7,6 +7,13 @@
 </div>
 <br>
 
+| |  |
+| :--- | :--- |
+| __Programming Languages__ | ![Java](https://github.com/devicons/devicon/blob/v2.15.1/icons/java/java-original.svg) ![C](https://github.com/devicons/devicon/blob/v2.15.1/icons/c/c-original.svg) ![C++](https://github.com/devicons/devicon/blob/v2.15.1/icons/cplusplus/cplusplus-original.svg) ![Python](https://github.com/devicons/devicon/blob/v2.15.1/icons/python/python-original.svg) |
+| __Mobile Development__ | ![Swift](https://github.com/devicons/devicon/blob/v2.15.1/icons/swift/swift-original.svg) ![Kotlin](https://github.com/devicons/devicon/blob/v2.15.1/icons/kotlin/kotlin-original.svg) |
+| __Front End Tools__ |  |
+| __Databases__ |  |
+| __Back End Tools__ |  |
  
 ### :toolbox: :wrench:Toolbox:
 <div>
@@ -30,7 +37,6 @@
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/r/r-original.svg" alt="R" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/npm/npm-original-wordmark.svg" alt="npm" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/git/git-plain.svg" alt="Git" width="40" height="40">
-  
 </div>
 
 
