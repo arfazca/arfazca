@@ -67,7 +67,6 @@
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/fedora/fedora-original.svg" alt="Fedora" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu" width="40" height="40">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/apple/apple-original.svg" alt="macOS" width="40" height="40">
     </td>
   </tr>
 </table>
@@ -79,7 +78,7 @@
 </p>
 <p>
   <a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/linkedin/linkedin-original.svg" alt="linkedIn" width="40" height="40"></a>
-  <a href="https://open.spotify.com/user/0ctvc2qy815zx9ymyx4d2iao6?si=1dde8243f1f44c4c"><img src="https://commons.wikimedia.org/wiki/File:Spotify_logo_with_text.svg#/media/File:Spotify_logo_without_text.svg" alt="Spotify" width="40" height="40"> </a>
+  <a href="https://open.spotify.com/user/0ctvc2qy815zx9ymyx4d2iao6?si=1dde8243f1f44c4c"><img src="https://user-images.githubusercontent.com/33750251/59486049-ec63fa80-8e6f-11e9-8d17-9a31324a63e8.png" alt="Spotify" width="40" height="40"> </a>
 </p>
 
 <!--- <img src="" alt="" width="40" height="40"> --->
