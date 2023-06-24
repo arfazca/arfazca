@@ -62,9 +62,6 @@
   </tr>
 </table>
 
-computer :computer: racing car :racing_car: blossom :blossom: dart :dart: nut&bolt :nut_and_bolt: floppy disk :floppy_disk: desktop :desktop_computer: earth americas :earth_americas:
-scissors :scissors: atom :atom_symbol: scroll :scroll: rocket :rocket: plug :electric_plug:
-
 <!--- 
 ### :toolbox: :wrench:Toolbox:
 <div>
