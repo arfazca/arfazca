@@ -1,3 +1,106 @@
+commit 9954efdd45a00cbaff78c9a34eb3f92201847ac1
+Author: Arfaz <arfaz@arfazhussX.local>
+Date:   Sat Jun 24 03:49:19 2023 -0700
+
+    Modular Changes
+    Commit by @arfazhxss on Sat 24 Jun 2023
+
+commit 99480b9d73bc18ac922dfc393480bcee21801a75
+Author: Arfaz Hussain <arfazhussain@uvic.ca>
+Date:   Sat Jun 24 03:16:48 2023 -0700
+
+    Modular Icon Update
+
+commit ab57c82e64ba926913da2fd8e1102cd1ba7aef8f
+Author: Arfaz Hussain <arfazhussain@uvic.ca>
+Date:   Sat Jun 24 03:16:12 2023 -0700
+
+    Modular Icon Tests
+
+commit e8450f227acc8b53e651b1a3978040d26585aec9
+Author: Arfaz Hussain <arfazhussain@uvic.ca>
+Date:   Sat Jun 24 03:15:28 2023 -0700
+
+    Modular Icon Tests
+
+commit ae4b7400c4104f2c83ae1fe4957c98b3110ee045
+Author: Arfaz Hussain <arfazhussain@uvic.ca>
+Date:   Sat Jun 24 03:14:23 2023 -0700
+
+    Modular Icon Update
+
+commit ffc1872ac51b30ea7b19859c8d05b0331108167a
+Author: Arfaz Hussain <arfazhussain@uvic.ca>
+Date:   Sat Jun 24 03:13:31 2023 -0700
+
+    Modular Icon Update
+
+commit 8a7abedede39136d2315c819e08c5a9024247329
+Author: Arfaz Hussain <arfazhussain@uvic.ca>
+Date:   Sat Jun 24 02:42:59 2023 -0700
+
+    Modular Icon Update
+
+commit e2cc66c8650a2a56dfd053b176c3d863e3b15604
+Author: Arfaz Hussain <arfazhussain@uvic.ca>
+Date:   Sat Jun 24 02:40:45 2023 -0700
+
+    Modular Icon Update
+
+commit b478ee6a45b4a3a108bd5b155c47fe3382490e48
+Author: Arfaz Hussain <arfazhussain@uvic.ca>
+Date:   Sat Jun 24 02:37:53 2023 -0700
+
+    Modular Icon Update
+
+commit ff250db7c296ef84351110ebadaa2d362f49b0c7
+Author: Arfaz Hussain <arfazhussain@uvic.ca>
+Date:   Sat Jun 24 02:35:41 2023 -0700
+
+    Modular Icon Update
+
+commit 844e9c1429d1e2ffb40f4eb82d1aa3c50e8078b8
+Author: Arfaz Hussain <arfazhussain@uvic.ca>
+Date:   Sat Jun 24 02:31:39 2023 -0700
+
+    Update README.md
+
+commit 5de58360818302b41cb3d771afa9209c619ef3d7
+Author: Arfaz Hussain <arfazhussain@uvic.ca>
+Date:   Sat Jun 24 02:30:16 2023 -0700
+
+    Modular Link Update
+
+commit e4913b5d236382500281fa6550619d854b573bb2
+Author: Arfaz Hussain <arfazhussain@uvic.ca>
+Date:   Sat Jun 24 02:19:30 2023 -0700
+
+    Modular Icon Update
+
+commit ea0f9dc931ce4c49f65fe35010e458518b142880
+Author: Arfaz Hussain <arfazhussain@uvic.ca>
+Date:   Sat Jun 24 02:06:45 2023 -0700
+
+    ToolBox Update
+
+commit 39067fd606fcf9e9330aebde39c31c2aafd54a36
+Author: Arfaz Hussain <arfazhussain@uvic.ca>
+Date:   Sat Jun 24 02:00:25 2023 -0700
+
+    Mod Tests
+
+commit 911c4c38b1708ec126b8634fb44481aac1578dd3
+Author: Arfaz Hussain <arfazhussain@uvic.ca>
+Date:   Sat Jun 24 01:58:19 2023 -0700
+
+    Update README.md
+
+commit 07aef4796adc949717141b86d00fe1db7c895f74
+Author: Arfaz Hussain <arfazhussain@uvic.ca>
+Date:   Sat Jun 24 01:56:54 2023 -0700
+
+    Modular Tests
+
 commit fcea8bed401cb74851882ffa13d70e06799448c4
 Author: Arfaz Hossain <arfazhussain@uvic.ca>
 Date:   Tue Jun 20 22:55:18 2023 -0700
