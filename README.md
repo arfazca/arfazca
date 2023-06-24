@@ -12,7 +12,7 @@
     <th colspan="2">:toolbox: :wrench:Toolbox</th>
   </tr>
   <tr>
-    <td>Programming Languages  :keyboard:</td>
+    <td>Programming Languages :keyboard:</td>
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/java/java-original.svg" alt="Java" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/c/c-original.svg" alt="C" width="40" height="40">
@@ -25,10 +25,11 @@
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/swift/swift-original.svg" alt="Swift" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio" width="40" height="40">
     </td>
   </tr>
   <tr>
-    <td>FrontEnd Tools</td>
+    <td>FrontEnd Design, Development</td>
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40">
