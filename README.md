@@ -9,8 +9,7 @@
 
 <table>
   <tr>
-    <th></th>
-    <th>### :toolbox: :wrench:Toolbox:</th>
+    <th colspan="2">:toolbox: :wrench:Toolbox:</th>
   </tr>
   <tr>
     <td>Programming Languages</td>
@@ -48,6 +47,15 @@
   </tr>
   <tr>
     <td>BackEnd Tools</td>
+    <td>
+      <!---<img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/r/r-original.svg" alt="R" width="40" height="40">--->
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/nodejs/nodejs-original.svg" alt="NodeJS" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/npm/npm-original-wordmark.svg" alt="npm" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/git/git-plain.svg" alt="Git" width="40" height="40">
+    </td>
+  </tr>
+  <tr>
+    <td>Design</td>
     <td>
       <!---<img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/r/r-original.svg" alt="R" width="40" height="40">--->
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/nodejs/nodejs-original.svg" alt="NodeJS" width="40" height="40">
