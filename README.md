@@ -9,7 +9,7 @@
 
 <table>
   <tr>
-    <th colspan="2">:toolbox: :wrench:Toolbox:</th>
+    <th colspan="2">:toolbox: :wrench:Toolbox</th>
   </tr>
   <tr>
     <td>Programming Languages</td>
@@ -54,25 +54,33 @@
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/git/git-plain.svg" alt="Git" width="40" height="40">
     </td>
   </tr>
-  <tr>
-    <td>Design</td>
+    <tr>
+    <td>Testing Tools</td>
     <td>
-      <!---<img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/r/r-original.svg" alt="R" width="40" height="40">--->
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/nodejs/nodejs-original.svg" alt="NodeJS" width="40" height="40">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/npm/npm-original-wordmark.svg" alt="npm" width="40" height="40">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/git/git-plain.svg" alt="Git" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/gradle/gradle-plain.svg" alt="Gradle" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/intellij/intellij-original.svg" alt="IntelliJ" width="40" height="40">
+    </td>
+  </tr>
+  <tr>
+    <td>Design Tools</td>
+    <td>
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/figma/figma-original.svg" alt="Figma" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/xd/xd-plain.svg" alt="XD" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/xcode/xcode-original.svg" alt="XCode" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/illustrator/illustrator-plain.svg" alt="Illustrator" width="40" height="40">
+      https://github.com/devicons/devicon/blob/v2.15.1/icons/gradle/gradle-plain.svg
     </td>
   </tr>
 </table>
 
 
- 
+<!--- 
 ### :toolbox: :wrench:Toolbox:
 <div>
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/java/java-original.svg" alt="Java" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/c/c-original.svg" alt="C" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40">
-  <!--- <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/csharp/csharp-original.svg" alt="C#" width="40" height="40"> --->
+  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/csharp/csharp-original.svg" alt="C#" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/python/python-original.svg" alt="Python" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/swift/swift-original.svg" alt="Swift" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="40" height="40"">
@@ -82,7 +90,7 @@
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/css3/css3-original.svg" alt="CSS" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/jquery/jquery-original.svg" alt="JQuery" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/nodejs/nodejs-original.svg" alt="nodeJS" width="40" height="40">
-  <!--- <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/express/express-original.svg" alt="express" width="40" height="40"> -->
+  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/express/express-original.svg" alt="express" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/react/react-original.svg" alt="ReactJS" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40">
@@ -90,8 +98,7 @@
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/npm/npm-original-wordmark.svg" alt="npm" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/git/git-plain.svg" alt="Git" width="40" height="40">
 </div>
-
-
+--->
 
 <br><br>
 <div align="left">
