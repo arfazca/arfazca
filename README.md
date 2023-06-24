@@ -62,7 +62,7 @@
   </tr>
 </table>
 
-computer :computer: racing car :racing_car: blossom :blossom: dart :dart: nut&bolt :nut_and_bolt:
+computer :computer: racing car :racing_car: blossom :blossom: dart :dart: nut&bolt :nut_and_bolt: keycap star :keycap_star: floppy disk :floppy_disk: desktop :desktop_computer: earth americas :earth_americas:
 
 <!--- 
 ### :toolbox: :wrench:Toolbox:
