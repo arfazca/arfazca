@@ -39,24 +39,19 @@
     </td>
   </tr>
   <tr>
-    <td>Databases</td>
+    <td>BackEnd Tools and Databases :file_folder:</td>
     <td>
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/nodejs/nodejs-original.svg" alt="NodeJS" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/npm/npm-original-wordmark.svg" alt="npm" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/git/git-plain.svg" alt="Git" width="40" height="40">
+      <!---<img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/r/r-original.svg" alt="R" width="40" height="40">--->
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/postgresql/postgresql-original.svg" alt="postgreSQL" width="40" height="40">
     </td>
   </tr>
-  <tr>
-    <td>BackEnd Tools</td>
-    <td>
-      <!---<img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/r/r-original.svg" alt="R" width="40" height="40">--->
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/nodejs/nodejs-original.svg" alt="NodeJS" width="40" height="40">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/npm/npm-original-wordmark.svg" alt="npm" width="40" height="40">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/git/git-plain.svg" alt="Git" width="40" height="40">
-    </td>
-  </tr>
     <tr>
-    <td>Design, Testing and Development :microscope: :art: </td>
+    <td>Design, Testing and Development :gear:</td>
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/gradle/gradle-plain.svg" alt="Gradle" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/intellij/intellij-original.svg" alt="IntelliJ" width="40" height="40">
