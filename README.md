@@ -65,10 +65,9 @@
     <td>Design Tools</td>
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/figma/figma-original.svg" alt="Figma" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/xcode/xcode-plain.svg" alt="XCode" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/xd/xd-plain.svg" alt="XD" width="40" height="40">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/xcode/xcode-original.svg" alt="XCode" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/illustrator/illustrator-plain.svg" alt="Illustrator" width="40" height="40">
-      https://github.com/devicons/devicon/blob/v2.15.1/icons/gradle/gradle-plain.svg
     </td>
   </tr>
 </table>
