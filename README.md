@@ -79,7 +79,7 @@
 </p>
 <p>
   <a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/linkedin/linkedin-original.svg" alt="linkedIn" width="40" height="40"></a>
-  <a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" alt="facebook" width="40" height="40"> </a>
+  <a href="https://open.spotify.com/user/0ctvc2qy815zx9ymyx4d2iao6?si=1dde8243f1f44c4c"><img src="https://commons.wikimedia.org/wiki/File:Spotify_logo_with_text.svg#/media/File:Spotify_logo_without_text.svg" alt="Spotify" width="40" height="40"> </a>
 </p>
 
 <!--- <img src="" alt="" width="40" height="40"> --->
