@@ -22,6 +22,7 @@
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/html5/html5-plain-wordmark.svg" alt="HTML" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/css3/css3-original.svg" alt="CSS" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/jquery/jquery-original-wordmark.svg" alt="JQuery" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/npm/npm-original-wordmark.svg" alt="npm" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/react/react-original-wordmark.svg" alt="React" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/r/r-original.svg" alt="R" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/git/git-plain.svg" alt="Git" width="40" height="40">
