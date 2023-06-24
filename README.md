@@ -7,9 +7,7 @@
 </div>
 <br>
 
-| |  |
-| :--- | :--- |
-| __Programming Languages__ | ![Java](https://github.com/devicons/devicon/blob/v2.15.1/icons/java/java-original.svg) ![C](https://github.com/devicons/devicon/blob/v2.15.1/icons/c/c-original.svg) ![C++](https://github.com/devicons/devicon/blob/v2.15.1/icons/cplusplus/cplusplus-original.svg) ![Python](https://github.com/devicons/devicon/blob/v2.15.1/icons/python/python-original.svg) |
+| __Programming Languages__ | ![Java](https://github.com/devicons/devicon/blob/v2.15.1/icons/java/java-original.svg){:width="40" height="40"} ![C](https://github.com/devicons/devicon/blob/v2.15.1/icons/c/c-original.svg){:width="40" height="40"} ![C++](https://github.com/devicons/devicon/blob/v2.15.1/icons/cplusplus/cplusplus-original.svg){:width="40" height="40"} ![Python](https://github.com/devicons/devicon/blob/v2.15.1/icons/python/python-original.svg){:width="40" height="40"} |
 | __Mobile Development__ | ![Swift](https://github.com/devicons/devicon/blob/v2.15.1/icons/swift/swift-original.svg) ![Kotlin](https://github.com/devicons/devicon/blob/v2.15.1/icons/kotlin/kotlin-original.svg) |
 | __Front End Tools__ |  |
 | __Databases__ |  |
