@@ -12,7 +12,7 @@
     <th colspan="2">:toolbox: Toolbox :wrench:</th>
   </tr>
   <tr>
-    <td>Programming Languages :keyboard:</td>
+    <td>Programming Languages :desktop_computer: :keyboard:</td>
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/java/java-original.svg" alt="Java" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/c/c-original.svg" alt="C" width="40" height="40">
@@ -29,7 +29,7 @@
     </td>
   </tr>
   <tr>
-    <td>FrontEnd Toolkit earth americas :earth_americas:</td>
+    <td>FrontEnd Kits :earth_americas:</td>
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/html5/html5-original.svg" alt="HTML" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/css3/css3-original.svg" alt="CSS" width="40" height="40">
@@ -40,7 +40,7 @@
     </td>
   </tr>
   <tr>
-    <td>BackEnd, Databases :file_folder:</td>
+    <td>BackEnd :floppy_disk:, Databases :file_folder:</td>
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/nodejs/nodejs-original.svg" alt="NodeJS" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/npm/npm-original-wordmark.svg" alt="npm" width="40" height="40">
@@ -52,7 +52,7 @@
     </td>
   </tr>
     <tr>
-    <td>Design and Development :gear:</td>
+    <td>Design & Development :gear:</td>
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/figma/figma-original.svg" alt="Figma" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/gradle/gradle-plain.svg" alt="Gradle" width="40" height="40">
