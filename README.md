@@ -9,53 +9,48 @@
 
 <table>
   <tr>
-    <th>Column 1</th>
-    <th>Column 2</th>
+    <th></th>
+    <th>### :toolbox: :wrench:Toolbox:</th>
   </tr>
   <tr>
-    <td>Text 1</td>
+    <td>Programming Languages</td>
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/java/java-original.svg" alt="Java" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/c/c-original.svg" alt="C" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/python/python-original.svg" alt="Python" width="40" height="40">
     </td>
   </tr>
   <tr>
-    <td>Text 2</td>
+    <td>Android and iOS Development Tools</td>
     <td>
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/python/python-original.svg" alt="Python" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/swift/swift-original.svg" alt="Swift" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="40" height="40">
     </td>
   </tr>
   <tr>
-    <td>Text 3</td>
+    <td>FrontEnd Tools</td>
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/html5/html5-original.svg" alt="HTML" width="40" height="40">
-    </td>
-  </tr>
-  <tr>
-    <td>Text 4</td>
-    <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/css3/css3-original.svg" alt="CSS" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/jquery/jquery-original.svg" alt="JQuery" width="40" height="40">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/nodejs/nodejs-original.svg" alt="NodeJS" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/react/react-original.svg" alt="ReactJS" width="40" height="40">
     </td>
   </tr>
   <tr>
-    <td>Text 5</td>
+    <td>Databases</td>
     <td>
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/react/react-original.svg" alt="ReactJS" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40">
     </td>
   </tr>
   <tr>
-    <td>Text 6</td>
+    <td>BackEnd Tools</td>
     <td>
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/r/r-original.svg" alt="R" width="40" height="40">
+      <!---<img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/r/r-original.svg" alt="R" width="40" height="40">--->
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/nodejs/nodejs-original.svg" alt="NodeJS" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/npm/npm-original-wordmark.svg" alt="npm" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/git/git-plain.svg" alt="Git" width="40" height="40">
     </td>
