@@ -26,6 +26,7 @@
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/swift/swift-original.svg" alt="Swift" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/bash/bash-original.svg" alt="Bash" width="40" height="40">
     </td>
   </tr>
   <tr>
@@ -65,8 +66,8 @@
 <br>
 <p align="left">
   Connect with me!
-  <!---<a href="https://www.arfazhxss.com"><img src=""></a>--->
-  <a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/linkedin/linkedin-original-wordmark.svg" alt="LinkedIn" width="40" height="40"></a>
+  <a href="https://www.arfazhxss.com"><img src=""></a>
+  <a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="40" height="40"></a>
   <a href="mailto:arfazhussain@uvic.ca"><img src="https://img.shields.io/badge/email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
 
