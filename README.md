@@ -24,7 +24,7 @@
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/jquery/jquery-original.svg" alt="JQuery" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/nodejs/nodejs-original.svg" alt="nodeJS" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/npm/npm-original-wordmark.svg" alt="npm" width="40" height="40">
-  <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/express/express-original.svg" alt="express" width="40" height="40">
+  <!--- <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/express/express-original.svg" alt="express" width="40" height="40"> -->
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/react/react-original.svg" alt="ReactJS" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40">
   <img src = "https://github.com/devicons/devicon/blob/v2.15.1/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40">
