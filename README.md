@@ -6,47 +6,19 @@
   <img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count">
 </div>
 <br>
-<div align="left">
-<table>
-    <thead>
-        <tr>
-            <th colspan=7> 👨🏽‍💻 Tools and Languages:</th>
-            <th> 📫 How to reach me:</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td rowspan=6 colspan=7 width=300>
-                <ul><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="40" height="40">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="40" height="40"">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" width="40" height="40"></ul>
-                <ul><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" width="40" height="40">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="40" height="40"></ul>
-            </td>
-            <td align="center" width=250>
-                <ul><a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin"></a></ul>
-                <ul><a href="mailto:arfazhussain@uvic.ca"><img src="https://img.shields.io/badge/email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"></a></ul>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2" align="left">
-                (250) 880-8402
-            </td>
-        </tr>
-    </tbody>
-</table>
-  </div>
 
  
 ### :toolbox: :wrench:Toolbox:
 <div>
- <img src = "https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" width="40" height="40">
- <img src = "https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" width="40" height="40">
- <img src = "https://github.com/devicons/devicon/blob/master/icons/c/c-plain.svg" width="40" height="40">
- <img src = "https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" width="40" height="40">
- <img src = "https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain.svg" width="40" height="40">
- <img src = "https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" alt="Java" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/master/icons/c/c-plain.svg" alt="C" width="40" height="40">
+  <img src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40">
+  <img src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" alt="Python" width="40" height="40">
+  <img src = "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="40" height="40"">
+  <img src = "https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/master/icons/html5/html5-plain.svg" alt="HTML" width="40" height="40">
+  <img src = "https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" alt="Git" width="40" height="40">
 </div>
 
 
@@ -59,6 +31,8 @@
 <br>
 <p align="left">
   <a href="https://www.arfazhxss.com"><img src="https://img.shields.io/badge/website-%231a73e8.svg?style=for-the-badge&logo=google-chrome&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin"></a>
+  <a href="mailto:arfazhussain@uvic.ca"><img src="https://img.shields.io/badge/email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
 
 
