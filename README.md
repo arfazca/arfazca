@@ -18,6 +18,7 @@
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/c/c-original.svg" alt="C" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/python/python-original.svg" alt="Python" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/bash/bash-original.svg" alt="Bash" width="40" height="40">
     </td>
   </tr>
   <tr>
@@ -26,7 +27,7 @@
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/swift/swift-original.svg" alt="Swift" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio" width="40" height="40">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/bash/bash-original.svg" alt="Bash" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/xcode/xcode-plain.svg" alt="XCode" width="40" height="40">
     </td>
   </tr>
   <tr>
@@ -58,7 +59,6 @@
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/figma/figma-original.svg" alt="Figma" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/gradle/gradle-plain.svg" alt="Gradle" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/selenium/selenium-original.svg" alt="Selenium" width="40" height="40">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/xcode/xcode-plain.svg" alt="XCode" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/intellij/intellij-original.svg" alt="IntelliJ" width="40" height="40">
     </td>
   </tr>
@@ -72,16 +72,17 @@
   </tr>
 </table>
 
-<!--- <img src="" alt="" width="40" height="40"> --->
-
 <br>
 <p align="left">
-  Connect with me!
-  <a href="https://www.arfazhxss.com"><img src=""></a>
-  <a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="40" height="40"></a>
-  <a href="mailto:arfazhussain@uvic.ca"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="EMAIL" width="40" height="40"></a>
-  
+  <a href="https://www.arfazhxss.com"><img src="https://img.shields.io/badge/website-%231a73e8.svg?style=for-the-badge&logo=google-chrome&logoColor=white"></a>
+  <a href="mailto:arfazhussain@uvic.ca"><img src="https://img.shields.io/badge/email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
+<p>
+  <a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/linkedin/linkedin-original.svg" alt="linkedIn" width="40" height="40"></a>
+  <a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" alt="facebook" width="40" height="40"> </a>
+</p>
+
+<!--- <img src="" alt="" width="40" height="40"> --->
 
 <!--- 
 ### :toolbox: :wrench:Toolbox:
