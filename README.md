@@ -86,10 +86,10 @@
   <a href="https://www.arfazhxss.com"><img src="https://img.shields.io/badge/website-%231a73e8.svg?style=for-the-badge&logo=google-chrome&logoColor=white"></a>
   <a href="mailto:arfazhussain@uvic.ca"><img src="https://img.shields.io/badge/email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"></a>
 </p>
-<p>
+<!-- <p>
   <a href="https://www.linkedin.com/in/arfazhxss/"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/linkedin/linkedin-original.svg" alt="linkedIn" width="40" height="40"></a>
   <a href="https://open.spotify.com/user/0ctvc2qy815zx9ymyx4d2iao6?si=1dde8243f1f44c4c"><img src="https://user-images.githubusercontent.com/33750251/59486049-ec63fa80-8e6f-11e9-8d17-9a31324a63e8.png" alt="Spotify" width="40" height="40"> </a>
-</p>
+</p> -->
 
 <!--- <img src="" alt="" width="40" height="40"> --->
 
