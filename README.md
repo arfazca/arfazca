@@ -45,7 +45,7 @@
     </td>
   </tr>
   <tr>
-    <td>BackEnd Databases :file_folder:</td>
+    <td>BackEnd & Databases :file_folder:</td>
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/nodejs/nodejs-original.svg" alt="NodeJS" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/npm/npm-original-wordmark.svg" alt="npm" width="40" height="40">
