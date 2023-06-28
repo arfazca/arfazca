@@ -77,12 +77,10 @@
     <td>GraphicsAPI's :globe_with_meridians:</td>
     <td>
       <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/VulkanAPI.svg" alt="VulkanAPI" width="80" height="40">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/ubuntu/ubuntu-plain.svg" alt="OpenGL" width="80" height="40">
+      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/OpenGL.svg" alt="OpenGL" width="80" height="40">
     </td>
   </tr>
 </table>
-
-https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/VulkanAPI.svg
 
 <br>
 <div align="left">
