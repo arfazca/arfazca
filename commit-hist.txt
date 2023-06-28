@@ -1,3 +1,10 @@
+commit ec6797dd00fd1c88df10a0392e03c100c50a56e2
+Author: arfazhxss <arfazhussain@uvic.ca>
+Date:   Tue Jun 27 22:30:32 2023 -0700
+
+    SVG Update
+    Commit by @arfazhxss on Tue 27 Jun 2023
+
 commit 9aa9e655129bc999749fe6f7ac1723efd5cfdc9c
 Author: arfazhxss <arfazhussain@uvic.ca>
 Date:   Mon Jun 26 19:54:30 2023 -0700
