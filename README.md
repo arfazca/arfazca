@@ -76,8 +76,8 @@
   <tr>
     <td>Graphics API 🎮</td>
     <td>
-      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/VulkanAPI.svg" alt="VulkanAPI" width="100" height="50">
-      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/OpenGL.svg" alt="OpenGL" width="100" height="50">
+      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/VulkanAPI.svg" alt="VulkanAPI" width="120" height="60">
+      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/OpenGL.svg" alt="OpenGL" width="120" height="60">
     </td>
   </tr>
 </table>
