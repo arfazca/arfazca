@@ -65,7 +65,7 @@
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/intellij/intellij-original.svg" alt="IntelliJ" width="40" height="40">
     </td>
   </tr>
-      <tr>
+  <tr>
     <td>Operating Systems :globe_with_meridians:</td>
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/fedora/fedora-original.svg" alt="Fedora" width="40" height="40">
@@ -73,7 +73,16 @@
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/unix/unix-original.svg" alt="Unix" width="40" height="40">
     </td>
   </tr>
+  <tr>
+    <td>GraphicsAPI's :globe_with_meridians:</td>
+    <td>
+      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/VulkanAPI.svg" alt="VulkanAPI" width="80" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/ubuntu/ubuntu-plain.svg" alt="OpenGL" width="80" height="40">
+    </td>
+  </tr>
 </table>
+
+https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/VulkanAPI.svg
 
 <br>
 <div align="left">
