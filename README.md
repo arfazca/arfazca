@@ -57,7 +57,7 @@
     </td>
   </tr>
     <tr>
-    <td>Design, Test & Development :gear:</td>
+    <td>Design, Test & Deploy :gear:</td>
     <td>
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/figma/figma-original.svg" alt="Figma" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/gradle/gradle-plain.svg" alt="Gradle" width="40" height="40">
