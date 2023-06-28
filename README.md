@@ -74,10 +74,10 @@
     </td>
   </tr>
   <tr>
-    <td>GraphicsAPI's :globe_with_meridians:</td>
+    <td>Graphics API 🎮</td>
     <td>
-      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/VulkanAPI.svg" alt="VulkanAPI" width="80" height="40">
-      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/OpenGL.svg" alt="OpenGL" width="80" height="40">
+      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/VulkanAPI.svg" alt="VulkanAPI" width="100" height="50">
+      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/OpenGL.svg" alt="OpenGL" width="100" height="50">
     </td>
   </tr>
 </table>
