@@ -1,9 +1,35 @@
+commit 841ba13bb57f5abea33faa2fd44ce2282e93f255
+Author: arfazhxss <arfazhussain@uvic.ca>
+Date:   Tue Jun 27 22:38:36 2023 -0700
+
+    Routine Commit
+    by @arfazhxss on Tue 27 Jun 2023
+
+commit 3d985224e4c154af578cc833b416fabaa5e40f9b
+Merge: 2a70fe0 208f8d2
+Author: arfazhxss <arfazhussain@uvic.ca>
+Date:   Tue Jun 27 22:38:15 2023 -0700
+
+    Merge branch 'main' of https://github.com/arfazhxss/arfazhxss
+
 commit 2a70fe02bb7779f656c401126d94daac6f1d7243
 Author: arfazhxss <arfazhussain@uvic.ca>
 Date:   Tue Jun 27 22:38:04 2023 -0700
 
     Routine Commit
     by @arfazhxss on Tue 27 Jun 2023
+
+commit 208f8d26fab401940db33139ef704692ada6a1fb
+Author: Arfaz Hussain <arfazhussain@uvic.ca>
+Date:   Tue Jun 27 22:37:54 2023 -0700
+
+    Update README.md
+
+commit 5c0bbe1732d57908aadd9c7d75257140e923d65d
+Author: Arfaz Hussain <arfazhussain@uvic.ca>
+Date:   Tue Jun 27 22:37:03 2023 -0700
+
+    Update README.md
 
 commit dbe30a9cca6a70701d0f097adf1505030dd33967
 Author: arfazhxss <arfazhussain@uvic.ca>
