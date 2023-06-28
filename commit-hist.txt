@@ -1,3 +1,22 @@
+commit c30ae58818100f044f723953650d99d2a0f25195
+Author: arfazhxss <arfazhussain@uvic.ca>
+Date:   Tue Jun 27 23:47:27 2023 -0700
+
+    Routine Commit
+    by @arfazhxss on Tue 27 Jun 2023
+
+commit 2ec4b8353bdc63c14c6a2b8a9e021eb3ab6f5a30
+Author: Arfaz Hussain <arfazhussain@uvic.ca>
+Date:   Tue Jun 27 22:44:19 2023 -0700
+
+    Update README.md
+
+commit 4402f81d8698c2800eb9fe1b2559a90d74a7f989
+Author: Arfaz Hussain <arfazhussain@uvic.ca>
+Date:   Tue Jun 27 22:43:45 2023 -0700
+
+    Update README.md
+
 commit 65380d39bd1930c455887d5379395926640cc3cb
 Author: arfazhxss <arfazhussain@uvic.ca>
 Date:   Tue Jun 27 22:39:12 2023 -0700
