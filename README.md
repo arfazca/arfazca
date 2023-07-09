@@ -6,7 +6,6 @@
 </div>
 <div align="left">
   <a href="https://github.com/ellerbrock/open-source-badges/"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a>
-  <img alt="Static Badge" src="https://img.shields.io/badge/website_link-s?style=plastic&logo=npm&link=https%3A%2F%2Fwww.arfazhxss.com%2F%23about">
   <a href="https://www.arfazhxss.com"><img alt="Static Badge" src="https://img.shields.io/badge/_www.arfazhxss.com-LINK?style=plastic&logo=react&logoColor=white&color=blue&link=https%3A%2F%2Fwww.arfazhxss.com%2F%23about" height="20"></a>
   <a href="mailto:arfazhussain@uvic.ca"><img src="https://img.shields.io/badge/email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white" height="20"></a>
 </div>
