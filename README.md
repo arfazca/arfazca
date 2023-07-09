@@ -3,7 +3,7 @@
   <a href="https://www.linkedin.com/in/arfazhxss/"><img align="right" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/linkedin/linkedin-original.svg" alt="Arfaz's LinkedIn" width="40" height="40"></a>
 <!--   <a href="https://open.spotify.com/user/0ctvc2qy815zx9ymyx4d2iao6?si=1dde8243f1f44c4c"><img align="right" src="https://user-images.githubusercontent.com/33750251/59486049-ec63fa80-8e6f-11e9-8d17-9a31324a63e8.png" alt="Arfaz's Spotify" width="40" height="40"> </a> -->
   </h1>
-  <p>My GitHub Portfolio encompasses a range of recent or archieved projects I have worked on from time to time.</p>
+  <p>My GitHub Portfolio encompasses a range of recent or achieved projects I have worked on occasionally.</p>
 </div>
 <div align="left">
   <img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count">
@@ -12,7 +12,9 @@
 
 <table>
   <tr>
-    <td colspan="4" align="center"><h2>:toolbox: Toolbox :wrench:</h2></td>
+    <td colspan="4" align="center">
+      <h2>:toolbox: Toolbox :wrench:</h2>
+    </td>
   </tr>
   <tr>
     <td>Programming Languages :keyboard:</td>
@@ -81,7 +83,7 @@
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/VulkanAPI.svg" alt="VulkanAPI" width="140" height="70">
+      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/VulkanAPI.svg" alt="Vulkan" width="140" height="70">
     </td>
     <td align="center">
       <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/WebGL.svg" alt="WebGL" height="50">
