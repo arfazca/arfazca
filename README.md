@@ -12,7 +12,7 @@
 
 <table>
   <tr>
-    <th colspan="2">:toolbox: Toolbox :wrench:</th>
+    <th colspan="4">:toolbox: Toolbox :wrench:</th>
   </tr>
   <tr>
     <td>Programming Languages :keyboard:</td>
