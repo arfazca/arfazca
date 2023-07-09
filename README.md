@@ -16,7 +16,7 @@
   </tr>
   <tr>
     <td>Programming Languages :keyboard:</td>
-    <td colspan="2">
+    <td colspan="3">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/java/java-original.svg" alt="Java" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/c/c-original.svg" alt="C" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40">
