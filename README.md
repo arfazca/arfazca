@@ -4,11 +4,8 @@
   </h1>
   <p>My GitHub Portfolio encompasses a range of recent or achieved projects I have worked on occasionally.</p>
 </div>
-<div align="left">
-  <a href="https://github.com/ellerbrock/open-source-badges/"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love"></a>
-  <a href="https://github.com/arfazhxss"><img src="https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg" alt="Ask Me Anything"></a>
-  <img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="20">
-</div>
+<div align="left"><a href="https://github.com/ellerbrock/open-source-badges/"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love"></a></div>
+<div align="center"><img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="20"></div>
 <br>
 
 <table align="center">
