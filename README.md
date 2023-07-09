@@ -9,8 +9,7 @@
 </div>
 <br>
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=arfazhxss.arfazhxss)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 <table align="center">
   <tr>
