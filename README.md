@@ -1,8 +1,6 @@
   <div align="left">
-  <h1> Hi, This is Arfaz!
-  <a href="https://www.linkedin.com/in/arfazhxss/"><img align="right" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/linkedin/linkedin-original.svg" alt="Arfaz's LinkedIn" width="40" height="40"></a>
-  </h1>
-  <p>My GitHub Portfolio encompasses a range of recent or achieved projects I have worked on occasionally.</p>
+  <h1> Hi, This is Arfaz! 👨‍💻<a href="https://www.linkedin.com/in/arfazhxss/"><img align="right" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/linkedin/linkedin-original.svg" alt="Arfaz's LinkedIn" width="40" height="40"></a></h1>
+  <p>I am a Software Engineering student, currently in my second year at the University Of Victoria. My GitHub Portfolio encompasses a range of recent or achieved projects I have worked on occasionally.</p>
 </div>
 <div align="left">
   <a href="https://github.com/ellerbrock/open-source-badges/"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a>
