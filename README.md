@@ -6,10 +6,11 @@
 </div>
 <div align="left">
   <img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="20">
-  [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+  <a href="https://github.com/ellerbrock/open-source-badges/"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love"></a>
 </div>
 <br>
 
+<!--   [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) -->
 <table align="center">
   <tr>
     <td colspan="4" align="center" font-size="100">
