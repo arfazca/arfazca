@@ -8,6 +8,8 @@
   <img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count">
 </div>
 <br>
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=arfazhxss)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 
 <table align="center">
   <tr>
@@ -124,9 +126,6 @@
     <img src="https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white&color=071A2C" alt="Facebook"/>
   </a>
 </p>
-
-<img src="https://raw.githubusercontent.com/arfazhxss/profile-summary-cards/master/profile-summary-card-output/nord_dark/1-repos-per-language.svg" width="32.5%">
-<img src="https://raw.githubusercontent.com/arfazhxss/profile-summary-cards/master/profile-summary-card-output/nord_dark/2-most-commit-language.svg" width="32.5%">
 
 <!--- <img src="" alt="" width="40" height="40"> --->
 
