@@ -2,7 +2,7 @@
 #auto-git v6.2
 
 find . -name ".DS_Store" -type f -delete
-echo -e ".DS_Store\ncommit_history.txt" > .gitignore
+echo -e ".DS_Store\ncommit-hist.txt" > .gitignore
 
 echo -e "\n_______________________________________________________\n\n\t\tDELETE LOCAL CHANGES? (YES) \n\t\t\tOR\n\t\tPUSH LOCAL CHANGES (ENTER)\n"
 read -s -n 3 -p "(yes/ENTER): " answer
