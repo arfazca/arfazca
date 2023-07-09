@@ -12,7 +12,7 @@
 
 <table>
   <tr>
-    <td colspan="4" align="center">
+    <td colspan="4">
       <h2>:toolbox: Toolbox :wrench:</h2>
     </td>
   </tr>
