@@ -10,7 +10,7 @@
   <a href="mailto:arfazhussain@uvic.ca"><img alt="Static Badge" src="https://img.shields.io/badge/_arfazhussain%40uvic.ca-LINK?style=plastic&logo=gmail&logoColor=white&color=orange&link=mailto%3Aarfazhussain%40uvic.ca" height="20"></a>
 <!--   <img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="20"> -->
 </div>
-<div align="left"><img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="40"></div>
+<div align="center"><img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="40"></div>
 <br>
 
 <table align="center">
