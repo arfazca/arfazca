@@ -102,13 +102,13 @@
   </tr>
 </table><br>
 
-<div align="left">
+<div align="center">
   <a href="https://github.com/arfazhxss"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" height="185"/></a>
   <a href="https://github.com/arfazhxss"><img src="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=algolia&show_icons=true" height="185"/></a>
 </div> 
 
 <br>
-<p align="left">
+<p align="center">
   <a href="https://twitter.com/arfazhxss" target="_blank"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white&color=071A2C" alt="Arfaz's Twitter"/></a>
   <a href="https://www.linkedin.com/in/arfazhxss" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white&color=071A2C" alt="Arfaz's LinkedIn"/></a>
   <a href="https://instagram.com/arfazhxss" target="_blank"><img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white&color=071A2C" alt="Arfaz's Instagram"/></a>
