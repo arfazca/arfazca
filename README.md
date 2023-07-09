@@ -72,18 +72,18 @@
       <H3>Graphics APIs</H3>
       <p>🎮</p>
     </td>
-    <td colspan="2">
+    <td colspan="2" align="center">
       <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/OpenGL.svg" alt="OpenGL" width="140" height="70">
     </td>
-    <td>
+    <td align="center">
       <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/OpenXR.svg" alt="OpenXR" width="140" height="70">
     </td>
   </tr>
   <tr>
-    <td colspan="2">
+    <td colspan="2" align="center">
       <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/VulkanAPI.svg" alt="VulkanAPI" width="140" height="70">
     </td>
-    <td>
+    <td align="center">
       <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/WebGL.svg" alt="WebGL" height="50">
     </td>
   </tr>
