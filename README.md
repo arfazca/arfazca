@@ -102,8 +102,10 @@
   </tr>
 </table><br>
 
-<div align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" height = "185"/> </img></div> 
-<a href="https://git.io/streak-stats"><img src="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=highcontrast&hide_border=true" width="350" /></a>
+<div align="left">
+  <a href="https://git.io/streak-stats"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" height = "185"/></a>
+  <a href="https://git.io/streak-stats"><img src="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=highcontrast&hide_border=true" width="350"/></a>
+</div> 
 
 <br>
 <p align="left">
