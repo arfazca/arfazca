@@ -89,7 +89,7 @@
   </tr>
   <tr>
     <td align="center">:globe_with_meridians:</td>
-    <td colspan="3">
+    <td colspan="3" align="center">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/fedora/fedora-original.svg" alt="Fedora" height="30">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu" height="30">
 <!--       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/unix/unix-original.svg" alt="Unix" width="40" height="40"> -->
