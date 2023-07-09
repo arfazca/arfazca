@@ -7,7 +7,7 @@
 <div align="left">
   <a href="https://github.com/ellerbrock/open-source-badges/"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a>
   <a href="https://www.arfazhxss.com"><img alt="Static Badge" src="https://img.shields.io/badge/_www.arfazhxss.com-LINK?style=plastic&logo=superuser&color=grey&link=https%3A%2F%2Fwww.arfazhxss.com%2F%23about" height="20"></a>
-  <a href="mailto:arfazhussain@uvic.ca"><img alt="Static Badge" src="https://img.shields.io/badge/_arfazhussain%40uvic.ca-LINK?style=plastic&logo=telegram&color=grey&logoColor=white&link=mailto%3Aarfazhussain%40uvic.ca" height="20"></a>
+  <a href="mailto:arfazhussain@uvic.ca"><img alt="Static Badge" src="https://img.shields.io/badge/_arfazhussain%40uvic.ca-LINK?style=plastic&logo=stackexchange&color=grey&logoColor=white&link=mailto%3Aarfazhussain%40uvic.ca" height="20"></a>
   <a href="https://www.linkedin.com/in/arfazhxss/"><img alt="Static Badge" src="https://img.shields.io/badge/-arfazhxss-blue?style=plastic&logo=Linkedin&link=https://www.linkedin.com/in/arfazhxss/" height="20"></a>
 <!--   <img alt="Static Badge" src="https://img.shields.io/badge/count%3A-8A2BE2?style=plastic&link=https://profile-counter.glitch.me/{arfazhxss}/count.svg" height="20">
   <img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="20"> -->
