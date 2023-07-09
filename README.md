@@ -1,10 +1,12 @@
   <div align="left">
-  <h1> Hi, This is Arfaz! 👨‍💻<a href="https://www.linkedin.com/in/arfazhxss/"><img align="right" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/linkedin/linkedin-original.svg" alt="Arfaz's LinkedIn" width="40" height="40"></a></h1>
+  <h1> Hi, This is Arfaz! 👨‍💻
+<!--     <a href="https://www.linkedin.com/in/arfazhxss/"><img align="right" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/linkedin/linkedin-original.svg" alt="Arfaz's LinkedIn" width="40" height="40"></a>   -->
+  </h1>
   <p>I am a Software Engineering student, currently in my second year at the University Of Victoria. My GitHub Portfolio encompasses a range of recent or achieved projects I have worked on occasionally.</p>
 </div>
 <div align="left">
   <a href="https://github.com/ellerbrock/open-source-badges/"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a>
-  <a href="https://www.arfazhxss.com"><img alt="Static Badge" src="https://img.shields.io/badge/_www.arfazhxss.com-LINK?style=plastic&logo=superuser&logoColor=white&color=blue&link=https%3A%2F%2Fwww.arfazhxss.com%2F%23about" height="20"></a>
+  <a href="https://www.arfazhxss.com"><img alt="Static Badge" src="https://img.shields.io/badge/_www.arfazhxss.com-LINK?style=plastic&logo=superuser&color=grey&link=https%3A%2F%2Fwww.arfazhxss.com%2F%23about" height="20"></a>
   <a href="mailto:arfazhussain@uvic.ca"><img alt="Static Badge" src="https://img.shields.io/badge/_arfazhussain%40uvic.ca-LINK?style=plastic&logo=telegram&color=grey&link=mailto%3Aarfazhussain%40uvic.ca" height="20"></a>
   <a href="https://www.linkedin.com/in/arfazhxss/"><img alt="Static Badge" src="https://img.shields.io/badge/-arfazhxss-blue?style=plastic&logo=Linkedin&link=https://www.linkedin.com/in/arfazhxss/" height="20"></a>
 <!--   <img alt="Static Badge" src="https://img.shields.io/badge/count%3A-8A2BE2?style=plastic&link=https://profile-counter.glitch.me/{arfazhxss}/count.svg" height="20">
