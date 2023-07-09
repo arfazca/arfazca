@@ -6,10 +6,9 @@
 </div>
 <div align="left">
   <img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="20">
+  [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 </div>
 <br>
-
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
 <table align="center">
   <tr>
