@@ -5,12 +5,12 @@
   <p>My GitHub Portfolio encompasses a range of recent or achieved projects I have worked on occasionally.</p>
 </div>
 <div align="left">
-  <img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="20">
   <a href="https://github.com/ellerbrock/open-source-badges/"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love"></a>
+  <a href="https://github.com/arfazhxss"><img src="https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg" alt="Ask Me Anything"></a>
+  <img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="20">
 </div>
 <br>
 
-<!--   [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) -->
 <table align="center">
   <tr>
     <td colspan="4" align="center" font-size="100">
