@@ -15,8 +15,8 @@
     <th colspan="4">:toolbox: Toolbox :wrench:</th>
   </tr>
   <tr>
-    <td colspan="2">Programming Languages :keyboard:</td>
-    <td>
+    <td>Programming Languages :keyboard:</td>
+    <td colspan="2">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/java/java-original.svg" alt="Java" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/c/c-original.svg" alt="C" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40">
