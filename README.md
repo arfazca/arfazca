@@ -75,7 +75,7 @@
 <!--       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/unix/unix-original.svg" alt="Unix" width="40" height="40"> -->
 <!--       <img src="https://archlinux.org/static/logos/archlinux-logo-light-scalable.1ae4cc2e2469.svg" alt="ArchLinux" height="40"> -->
       <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/Arch.svg" alt="ArchLinux" height="40">
-      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/MacOS.svg" alt="MacOS" height="40">
+<!--       <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/MacOS.svg" alt="MacOS" height="40"> -->
       <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/W11.svg" alt="Windows" height="40">
     </td>
   </tr>
