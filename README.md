@@ -8,10 +8,10 @@
   <a href="https://github.com/ellerbrock/open-source-badges/"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a>
   <a href="https://www.arfazhxss.com"><img alt="Static Badge" src="https://img.shields.io/badge/_www.arfazhxss.com-LINK?style=plastic&logo=react&logoColor=white&color=blue&link=https%3A%2F%2Fwww.arfazhxss.com%2F%23about" height="20"></a>
   <a href="mailto:arfazhussain@uvic.ca"><img alt="Static Badge" src="https://img.shields.io/badge/_arfazhussain%40uvic.ca-LINK?style=plastic&logo=gmail&logoColor=white&color=orange&link=mailto%3Aarfazhussain%40uvic.ca" height="20"></a>
-<!--   <img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="20"> -->
-</div><br>
+  <img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="20">
+</div><be>
 
-<div align="center"><img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="40"></div><br>
+<!-- <div align="center"><img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="40"></div><be> -->
 
 <table align="center">
   <tr>
