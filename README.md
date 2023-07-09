@@ -9,9 +9,9 @@
   <a href="https://www.arfazhxss.com"><img alt="Static Badge" src="https://img.shields.io/badge/_www.arfazhxss.com-LINK?style=plastic&logo=react&logoColor=white&color=blue&link=https%3A%2F%2Fwww.arfazhxss.com%2F%23about" height="20"></a>
   <a href="mailto:arfazhussain@uvic.ca"><img alt="Static Badge" src="https://img.shields.io/badge/_arfazhussain%40uvic.ca-LINK?style=plastic&logo=gmail&logoColor=white&color=orange&link=mailto%3Aarfazhussain%40uvic.ca" height="20"></a>
 <!--   <img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="20"> -->
-</div>
-<div align="center"><img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="40"></div>
-<br>
+</div><br>
+
+<div align="center"><img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="40"></div><br>
 
 <table align="center">
   <tr>
@@ -103,7 +103,7 @@
   </tr>
 </table><br>
 
-<div align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" height = "185"/> </img></div>
+<div align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" height = "185"/> </img></div><br>
 
 <p align="center">
   <a href="https://twitter.com/arfazhxss" target="_blank"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white&color=071A2C" alt="Arfaz's Twitter"/></a>
