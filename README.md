@@ -78,12 +78,12 @@
       <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/OpenGL.svg" alt="OpenGL" width="140" height="70">
     </td>
     <td align="center">
-      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/OpenXR.svg" alt="OpenXR" width="140" height="70">
+      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/VulkanAPI.svg" alt="Vulkan" width="140" height="70">
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/VulkanAPI.svg" alt="Vulkan" width="140" height="70">
+      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/OpenXR.svg" alt="OpenXR" width="140" height="70">
     </td>
     <td align="center">
       <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/WebGL.svg" alt="WebGL" height="50">
