@@ -7,7 +7,7 @@
 <div align="left">
   <a href="https://github.com/ellerbrock/open-source-badges/"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a>
   <a href="https://www.arfazhxss.com"><img alt="Static Badge" src="https://img.shields.io/badge/_www.arfazhxss.com-LINK?style=plastic&logo=react&logoColor=white&color=blue&link=https%3A%2F%2Fwww.arfazhxss.com%2F%23about" height="20"></a>
-  <a href="mailto:arfazhussain@uvic.ca"><img src="https://img.shields.io/badge/email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white" height="20"></a>
+  <a href="mailto:arfazhussain@uvic.ca"><img alt="Static Badge" src="https://img.shields.io/badge/_arfazhussain%40uvic.ca-LINK?style=plastic&logo=gmail&logoColor=white&color=orange&link=mailto%3Aarfazhussain%40uvic.ca" height="20"></a>
 </div>
 <div align="center"><img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="20"></div>
 <br>
@@ -100,32 +100,15 @@
       <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/Arch.svg" alt="ArchLinux" height="30">  
     </td>
   </tr>
-</table>
+</table><br>
 
-<br>
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" height = "185"/> </img>
-</div>
-
-<br>
-<p align="center">
-  <a href="https://www.arfazhxss.com"><img src="https://img.shields.io/badge/website-%231a73e8.svg?style=for-the-badge&logo=google-chrome&logoColor=white"></a>
-  <a href="mailto:arfazhussain@uvic.ca"><img src="https://img.shields.io/badge/email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white"></a>
-</p>
+<div align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" height = "185"/> </img></div>
 
 <p align="center">
-  <a href="https://twitter.com/arfazhxss" target="_blank">
-    <img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white&color=071A2C" alt="Twitter"/>
-  </a>
-  <a href="https://www.linkedin.com/in/arfazhxss" target="_blank">
-    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white&color=071A2C" alt="LinkedIn"/>
-  </a>
-  <a href="https://instagram.com/arfazhxss" target="_blank">
-    <img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white&color=071A2C" alt="Instagram"/>
-  </a>
-  <a href="https://www.facebook.com/arfazhxss" target="_blank">
-    <img src="https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white&color=071A2C" alt="Facebook"/>
-  </a>
+  <a href="https://twitter.com/arfazhxss" target="_blank"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white&color=071A2C" alt="Arfaz's Twitter"/></a>
+  <a href="https://www.linkedin.com/in/arfazhxss" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white&color=071A2C" alt="Arfaz's LinkedIn"/></a>
+  <a href="https://instagram.com/arfazhxss" target="_blank"><img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white&color=071A2C" alt="Arfaz's Instagram"/></a>
+  <a href="https://www.facebook.com/arfazhxss" target="_blank"><img src="https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white&color=071A2C" alt="Arfaz's Facebook"/></a>
 </p>
 
 <!--- <img src="" alt="" width="40" height="40"> --->
