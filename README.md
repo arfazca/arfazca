@@ -10,7 +10,7 @@
 </div>
 <br>
 
-<table>
+<table align="center">
   <tr>
     <td colspan="4" align="center" font-size="100">
       <h3>:toolbox: Toolbox :wrench:</h3>
