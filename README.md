@@ -4,7 +4,11 @@
   </h1>
   <p>My GitHub Portfolio encompasses a range of recent or achieved projects I have worked on occasionally.</p>
 </div>
-<div align="left"><a href="https://github.com/ellerbrock/open-source-badges/"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love"></a></div>
+<div align="left">
+  <a href="https://github.com/ellerbrock/open-source-badges/"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a>
+  <a href="https://www.arfazhxss.com"><img src="https://img.shields.io/badge/website-%231a73e8.svg?style=for-the-badge&logo=google-chrome&logoColor=white" height="20"></a>
+  <a href="mailto:arfazhussain@uvic.ca"><img src="https://img.shields.io/badge/email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white" height="20"></a>
+</div>
 <div align="center"><img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="20"></div>
 <br>
 
