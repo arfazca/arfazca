@@ -5,7 +5,7 @@
   <p>My GitHub Portfolio encompasses a range of recent or achieved projects I have worked on occasionally.</p>
 </div>
 <div align="left">
-  <img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="10">
+  <img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="20">
 </div>
 <br>
 
