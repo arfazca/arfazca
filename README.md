@@ -90,13 +90,13 @@
   <tr>
     <td>Operating Systems :globe_with_meridians:</td>
     <td colspan="3">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/fedora/fedora-original.svg" alt="Fedora" width="40" height="40">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/fedora/fedora-original.svg" alt="Fedora" height="20">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu" height="20">
 <!--       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/unix/unix-original.svg" alt="Unix" width="40" height="40"> -->
 <!--       <img src="https://archlinux.org/static/logos/archlinux-logo-light-scalable.1ae4cc2e2469.svg" alt="ArchLinux" height="40"> -->
-      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/Arch.svg" alt="ArchLinux" height="40">
+      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/Arch.svg" alt="ArchLinux" height="20">
 <!--       <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/MacOS.svg" alt="MacOS" height="40"> -->
-      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/W11.svg" alt="Windows" height="40">
+      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/W11.svg" alt="Windows" height="20">
     </td>
   </tr>
 </table>
