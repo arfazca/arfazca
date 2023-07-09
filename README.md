@@ -14,6 +14,7 @@
   <tr>
     <td colspan="4" align="center" font-size="100">
       <h2>:toolbox: Toolbox :wrench:</h2>
+      <p>this is a text</p>
     </td>
   </tr>
   <tr>
