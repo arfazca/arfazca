@@ -61,7 +61,7 @@
     </td>
   </tr>
   <tr>
-    <td rowspan="3" align="center">
+    <td rowspan="2" align="center">
       <H3>Graphics APIs</H3>
       <p>🎮</p>
     </td>
