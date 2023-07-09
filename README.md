@@ -103,7 +103,7 @@
 </table><br>
 
 <div align="left">
-  <a href="https://github.com/arfazhxss"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" height="185"/></a>
+  <a href="https://github.com/arfazhxss"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" height="385"/></a>
   <a href="https://github.com/arfazhxss"><img src="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=algolia&show_icons=true" height="185"/></a>
 </div> 
 
