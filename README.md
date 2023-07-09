@@ -82,7 +82,7 @@
       <H3>Graphics APIs</H3>
       <p>🎮</p>
     </td>
-    <td colspan="2">
+    <td colspan="4">
       <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/OpenGL.svg" alt="OpenGL" width="140" height="70">
     </td>
   </tr>
