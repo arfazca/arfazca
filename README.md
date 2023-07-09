@@ -81,6 +81,15 @@
     </td>
   </tr>
   <tr>
+    <td>Design, Test & Deploy :gear:</td>
+    <td colspan="3">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/figma/figma-original.svg" alt="Figma" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/gradle/gradle-plain.svg" alt="Gradle" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/selenium/selenium-original.svg" alt="Selenium" width="40" height="40">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/intellij/intellij-original.svg" alt="IntelliJ" width="40" height="40">
+    </td>
+  </tr>
+  <tr>
 <!--     <td align="center">:globe_with_meridians:</td> -->
     <td colspan="4" align="center">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu" height="30">
@@ -89,15 +98,6 @@
       <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/kali-drag.svg" alt="Kali" height="30">
       <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/MacOS.svg" alt="MacOS" height="30">
       <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/Arch.svg" alt="ArchLinux" height="30">  
-    </td>
-  </tr>
-  <tr>
-    <td>Design, Test & Deploy :gear:</td>
-    <td colspan="3">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/figma/figma-original.svg" alt="Figma" width="40" height="40">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/gradle/gradle-plain.svg" alt="Gradle" width="40" height="40">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/selenium/selenium-original.svg" alt="Selenium" width="40" height="40">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/intellij/intellij-original.svg" alt="IntelliJ" width="40" height="40">
     </td>
   </tr>
 </table>
