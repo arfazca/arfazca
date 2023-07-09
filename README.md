@@ -78,7 +78,7 @@
     </td>
   </tr>
   <tr>
-    <td rowspan="2" >Graphics API 🎮</td>
+    <td rowspan="2" align="center"><H3>Graphics API 🎮</H3></td>
     <td>
       <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/OpenGL.svg" alt="OpenGL" width="140" height="70">
       <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/OpenXR.svg" alt="OpenXR" width="140" height="70">
