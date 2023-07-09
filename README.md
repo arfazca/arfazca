@@ -31,7 +31,7 @@
       <!---<img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/kotlin/kotlin-original.svg" alt="Kotlin" width="40" height="40">--->
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio" width="40" height="40">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/xcode/xcode-plain.svg" alt="XCode" width="40" height="40">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/unity/unity-original.svg" alt="Unity" width="40" height="40">
+      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/Unity.svg" alt="Unity" width="40" height="40">
 <!--       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/unrealengine/unrealengine-original.svg" alt="Unreal" width="40" height="40"> -->
     </td>
   </tr>
