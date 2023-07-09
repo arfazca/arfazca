@@ -1,4 +1,4 @@
-<div align="left">
+  <div align="left">
   <h1> Hi, This is Arfaz!
   <a href="https://www.linkedin.com/in/arfazhxss/"><img align="right" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/linkedin/linkedin-original.svg" alt="Arfaz's LinkedIn" width="40" height="40"></a>
 <!--   <a href="https://open.spotify.com/user/0ctvc2qy815zx9ymyx4d2iao6?si=1dde8243f1f44c4c"><img align="right" src="https://user-images.githubusercontent.com/33750251/59486049-ec63fa80-8e6f-11e9-8d17-9a31324a63e8.png" alt="Arfaz's Spotify" width="40" height="40"> </a> -->
@@ -90,13 +90,13 @@
   <tr>
 <!--     <td align="center">:globe_with_meridians:</td> -->
     <td colspan="4" align="center">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/fedora/fedora-original.svg" alt="Fedora" height="30">
-      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/W11.svg" alt="Windows" height="30">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu" height="30">
+      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/W11.svg" alt="Windows" height="30">
+      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/fedora/fedora-original.svg" alt="Fedora" height="30">
+      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/MacOS.svg" alt="MacOS" height="40">
 <!--       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/unix/unix-original.svg" alt="Unix" width="40" height="40"> -->
 <!--       <img src="https://archlinux.org/static/logos/archlinux-logo-light-scalable.1ae4cc2e2469.svg" alt="ArchLinux" height="40"> -->
-      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/Arch.svg" alt="ArchLinux" height="30">
-<!--       <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/MacOS.svg" alt="MacOS" height="40"> -->  
+      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/Arch.svg" alt="ArchLinux" height="30">  
     </td>
   </tr>
 </table>
