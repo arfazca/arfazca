@@ -88,7 +88,7 @@
     </td>
   </tr>
   <tr>
-    <td>Operating Systems :globe_with_meridians:</td>
+    <td align="center"><H4>:globe_with_meridians:</H4></td>
     <td colspan="3">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/fedora/fedora-original.svg" alt="Fedora" height="30">
       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu" height="30">
