@@ -104,7 +104,7 @@
   </tr>
 </table><br>
 
-<div align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" height = "185"/> </img></div><br>
+<div align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" height = "185"/> </img></div><br>
 
 <p align="center">
   <a href="https://twitter.com/arfazhxss" target="_blank"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white&color=071A2C" alt="Arfaz's Twitter"/></a>
