@@ -11,7 +11,7 @@ if [[ $answer == "yes" || $answer == "Yes" || $answer == "YES" ]]; then
   echo -e "YES'ED\n-------------------------------------------------------"
   git stash
   git stash clear
-  git pull
+  git pull origin main
   echo -e "-------------------------------------------------------\n\t\tYour Repository is synced\n\t\twith the latest commit :)\n_______________________________________________________"
 else
   echo -e "ENTER'ED\n-------------------------------------------------------"
