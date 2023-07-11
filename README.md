@@ -66,7 +66,7 @@
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/WebGL.svg" alt="WebGL" height="50">
+      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/WebGL.svg" alt="WebGL" width="120" height="60">
     </td>
     <td align="center">
       <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/OpenXR.svg" alt="OpenXR" width="140" height="70">
