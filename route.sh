@@ -1,5 +1,5 @@
 #!/bin/bash
-#auto-git v6.2
+#auto-git v6.3
 
 find . -name ".DS_Store" -type f -delete
 echo -e ".DS_Store\ncommit-hist.txt" > .gitignore
