@@ -123,6 +123,7 @@
 <!--- <img src="" alt="" width="40" height="40"> --->
 
 <!---
-Icon Packs Taken From:
+SVG Image and Codes:
 https://github.com/devicons/devicon/tree/v2.15.1/icons/
 --->
+
