@@ -106,7 +106,7 @@
 </table><br>
 
 <div align="center">
-  <a href="https://github.com/arfazhxss"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true" height="185"/></a>
+  <a href="https://github.com/arfazhxss"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&layout=compact&theme=algolia&show_icons=true&size_weight=0.5&count_weight=0.5&exclude_repo=csc111,js-base,vulkanapi-mactests,vulkanapi,portfolio-website" height="185"/></a>
   <a href="https://github.com/arfazhxss"><img src="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=algolia&show_icons=true" height="185"/></a>
 </div> 
 
