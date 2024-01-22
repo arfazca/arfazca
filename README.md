@@ -117,7 +117,6 @@
   <a href="https://instagram.com/arfazhxss" target="_blank"><img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white&color=071A2C" alt="Arfaz's Instagram"/></a>
   <a href="https://www.facebook.com/arfazhxss" target="_blank"><img src="https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white&color=071A2C" alt="Arfaz's Facebook"/></a>
   <a href="https://open.spotify.com/user/0ctvc2qy815zx9ymyx4d2iao6?si=c2084bc1218e4b04" target="_blank"><img src="https://img.shields.io/badge/spotify-%231877F2.svg?&style=for-the-badge&logo=spotify&logoColor=white&color=071A2C" alt="Arfaz's Spotify"/></a>
-  
 </p>
 
 <!--- <img src="" alt="" width="40" height="40"> --->
