@@ -95,12 +95,12 @@
   </tr>
   <tr>
     <td colspan="4" align="center">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu" height="30">
-      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/W11.svg" alt="Windows" height="30">
-      <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/fedora/fedora-original.svg" alt="Fedora" height="30">
-      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/kali-drag.svg" alt="Kali" height="30">
-      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/MacOS.svg" alt="MacOS" height="30">
-      <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/Arch.svg" alt="ArchLinux" height="30">  
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu" height="30"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/W11.svg" alt="Windows" height="30"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/fedora/fedora-original.svg" alt="Fedora" height="30"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/kali-drag.svg" alt="Kali" height="30"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/MacOS.svg" alt="MacOS" height="30"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/Arch.svg" alt="ArchLinux" height="30"></a>  
     </td>
   </tr>
 </table><br>
