@@ -14,8 +14,9 @@
 </div><br>
 
 <!-- <div align="center"><img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="40"></div><be> &logoColor=white -->
-![Alt text](Resources/grid-snake.svg)
+![Alt text](1%20Resources/grid-snake.svg)
 <table align="center">
+  ![Alt text](1%20Resources/grid-snake.svg)
   <tr>
     <td colspan="4" align="center" font-size="100">
       <h3>:toolbox: Toolbox :wrench:</h3>
