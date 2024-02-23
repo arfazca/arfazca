@@ -21,10 +21,12 @@
       height="20">
   </a>
 </div>
-<div align="center">
+
+<!-- <div align="center">
   <img src="1%20Resources/grid-snake.svg" alt="Grided Contributions">
 </div>
-<br>
+<br> -->
+
 <table align="center">
   <tr>
     <td colspan="4" align="center" font-size="100">
