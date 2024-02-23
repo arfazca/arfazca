@@ -24,7 +24,7 @@
 <div align="center">
   <img src="1%20Resources/grid-snake.svg" alt="Grided Contributions">
 </div>
-<br><br>
+<br>
 <table align="center">
   <tr>
     <td colspan="4" align="center" font-size="100">
@@ -115,6 +115,12 @@
   </tr>
 </table><br>
 
+</div>
+<div align="center">
+  <img src="1%20Resources/grid-snake.svg" alt="Grided Contributions">
+</div>
+<br>
+
 <div align="center">
   <picture>
     <source srcset="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5&cache_seconds=0&locale=en&layout=compact&theme=vision-friendly-dark&show_icons=true&size_weight=0.5&count_weight=0.5&hide=html,shell,css,glsl,tex,c,makefile,xslt,cmake,java,objective-c,lex&exclude_repo=csc111,js-base,vulkanapi-mactests,vulkanapi,portfolio-website,FirstYearEngineering,SecondYearEngineering,ThirdYearEngineering%22%20height=%22185%22" height="185" media="(prefers-color-scheme: dark)"/>
@@ -127,7 +133,6 @@
     <img src="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=vision-friendly-light&show_icons=true&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5" height="185" media="(prefers-color-scheme: light)"/>
   </picture>
 </div> 
-
 <br>
 <!-- <p align="center">
   <a href="https://twitter.com/arfazhxss" target="_blank"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white&color=071A2C" alt="Arfaz's Twitter"/></a>
