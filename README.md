@@ -4,11 +4,6 @@
   </h1>
   <p>I am a Software Engineering student, currently in my second year at the University Of Victoria. My GitHub Portfolio encompasses a range of recent or archived projects I have worked on occasionally.</p>
 </div>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazhxss/arfazhxss/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arfazhxss/arfazhxss/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/arfazhxss/arfazhxss/output/github-contribution-grid-snake.svg">
-</picture>
 <div align="left">
   <a href="https://github.com/arfazhxss"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a>
   <a href="https://www.arfazhxss.ca/"><img alt="Static Badge" src="https://img.shields.io/badge/_arfazhxss.ca-LINK?style=plastic&logo=superuser&color=grey&logoColor=white&link=https%3A%2F%2Fwww.arfazhxss.com%2F%23about" height="20"></a>
