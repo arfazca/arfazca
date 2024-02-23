@@ -25,7 +25,7 @@
 <br>
 
 <div align="center">
-  ![Grided Contributions](1%20Resources/grid-snake.svg)
+  <img src="1%20Resources/grid-snake.svg" alt="Grided Contributions">
 </div>
 
 <table align="center">
