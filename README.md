@@ -14,7 +14,7 @@
 </div><br>
 
 <!-- <div align="center"><img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="40"></div><be> &logoColor=white -->
-![Alt text](1\ Resources/grid-snake.svg)
+![Alt text](Resources/grid-snake.svg)
 <table align="center">
   <tr>
     <td colspan="4" align="center" font-size="100">
