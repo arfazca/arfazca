@@ -9,9 +9,9 @@
   <a href="https://www.linkedin.com/in/arfazhxss/"><img alt="Static Badge" src="https://img.shields.io/badge/-arfazhxss-blue?style=plastic&logo=Linkedin&link=https://www.linkedin.com/in/arfazhxss/" height="20"></a>
 </div>
 
-<!-- <div align="center">
+<div align="left">
   <img src="1%20Resources/grid-snake.svg" alt="Grided Contributions">
-</div> -->
+</div>
 <br>
 
 <table align="center">
@@ -105,7 +105,7 @@
 </table><br>
 
 </div>
-<div align="center">
+<div align="left">
   <img src="1%20Resources/grid-snake.svg" alt="Grided Contributions">
 </div>
 <br>
