@@ -1,22 +1,34 @@
-  <div align="left">
-  <h1> Hi, This is Arfaz! 👨‍💻
-<!--     <a href="https://www.linkedin.com/in/arfazhxss/"><img align="right" src="https://github.com/devicons/devicon/blob/v2.15.1/icons/linkedin/linkedin-original.svg" alt="Arfaz's LinkedIn" width="40" height="40"></a>   -->
-  </h1>
+<div align="left">
+  <h1> Hi, This is Arfaz! 👨‍💻 </h1>
   <p>I am a Software Engineering student, currently in my second year at the University Of Victoria. My GitHub Portfolio encompasses a range of recent or archived projects I have worked on occasionally.</p>
 </div>
 <div align="left">
   <a href="https://github.com/arfazhxss"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a>
-  <a href="https://www.arfazhxss.ca/"><img alt="Static Badge" src="https://img.shields.io/badge/_arfazhxss.ca-LINK?style=plastic&logo=superuser&color=grey&logoColor=white&link=https%3A%2F%2Fwww.arfazhxss.com%2F%23about" height="20"></a>
-  <a href="mailto:arfazhussain@uvic.ca"><img alt="Static Badge" src="https://img.shields.io/badge/_arfazhussain%40uvic.ca-LINK?style=plastic&logo=stackexchange&color=grey&logoColor=white&link=mailto%3Aarfazhussain%40uvic.ca" height="20"></a>
-  <a href="https://www.linkedin.com/in/arfazhxss/"><img alt="Static Badge" src="https://img.shields.io/badge/-arfazhxss-blue?style=plastic&logo=Linkedin&link=https://www.linkedin.com/in/arfazhxss/" height="20"></a>
-<!--   <img alt="Static Badge" src="https://img.shields.io/badge/count%3A-8A2BE2?style=plastic&link=https://profile-counter.glitch.me/{arfazhxss}/count.svg" height="20">
-  <img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="20"> -->
-</div><br>
+  <a href="https://www.arfazhxss.ca/">
+    <img alt="Static Badge" 
+      src="https://img.shields.io/badge/_arfazhxss.ca-LINK?style=plastic&logo=superuser&color=grey&logoColor=white&link=https%3A%2F%2Fwww.arfazhxss.com%2F%23about" 
+      height="20">
+  </a>
+  <a href="mailto:arfazhussain@uvic.ca">
+    <img alt="Static Badge" 
+      src="https://img.shields.io/badge/_arfazhussain%40uvic.ca-LINK?style=plastic&logo=stackexchange&color=grey&logoColor=white&link=mailto%3Aarfazhussain%40uvic.ca" 
+      height="20">
+  </a>
+  <a href="https://www.linkedin.com/in/arfazhxss/">
+    <img 
+      alt="Static Badge" 
+      src="https://img.shields.io/badge/-arfazhxss-blue?style=plastic&logo=Linkedin&link=https://www.linkedin.com/in/arfazhxss/" 
+      height="20">
+  </a>
+</div>
 
-<!-- <div align="center"><img src="https://profile-counter.glitch.me/{arfazhxss}/count.svg" alt="count" height="40"></div><be> &logoColor=white -->
-![Alt text](1%20Resources/grid-snake.svg)
+<br>
+
+<div align="center">
+  ![Grided Contributions](1%20Resources/grid-snake.svg)
+</div>
+
 <table align="center">
-  ![Alt text](1%20Resources/grid-snake.svg)
   <tr>
     <td colspan="4" align="center" font-size="100">
       <h3>:toolbox: Toolbox :wrench:</h3>
@@ -112,14 +124,11 @@
     <source srcset="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5&cache_seconds=0&locale=en&layout=compact&theme=light&show_icons=true&size_weight=0.5&count_weight=0.5&hide=html,shell,css,glsl,tex,c,makefile,xslt,cmake,java,objective-c&exclude_repo=csc111,js-base,vulkanapi-mactests,vulkanapi,portfolio-website,FirstYearEngineering,SecondYearEngineering,ThirdYearEngineering%22%20height=%22185%22" height="185" media="(prefers-color-scheme: light)"/>
     <img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5&cache_seconds=0&locale=en&layout=compact&theme=vision-friendly-dark&show_icons=true&size_weight=0.5&count_weight=0.5&hide=html,shell,css,glsl,tex,c,makefile,xslt,cmake,java,objective-c,lex&exclude_repo=csc111,js-base,vulkanapi-mactests,vulkanapi,portfolio-website,FirstYearEngineering,SecondYearEngineering,ThirdYearEngineering%22%20height=%22185%22" height="185" media="(prefers-color-scheme: dark)"/>
   </picture>
-
   <picture>
     <source srcset="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=vision-friendly-dark&show_icons=true&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5" height="185" media="(prefers-color-scheme: dark)"/>
     <source srcset="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=vision-friendly-light&show_icons=true&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5" height="185" media="(prefers-color-scheme: light)"/>
     <img src="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=vision-friendly-light&show_icons=true&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5" height="185" media="(prefers-color-scheme: light)"/>
   </picture>
-<!--   <a href="https://github.com/arfazhxss"><img src="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5&cache_seconds=0&locale=en&layout=compact&theme=vision-friendly-dark&show_icons=true&size_weight=0.5&count_weight=0.5&hide=html,shell,css,glsl,tex,c,makefile,xslt,cmake,java,objective-c,lex&exclude_repo=csc111,js-base,vulkanapi-mactests,vulkanapi,portfolio-website,FirstYearEngineering,SecondYearEngineering,ThirdYearEngineering%22%20height=%22185%22" height="185" media="(prefers-color-scheme: dark)"/></a> -->
-<!--   <a href="https://github.com/arfazhxss"><img src="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=vision-friendly-dark&show_icons=true&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5" height="185" media="(prefers-color-scheme: dark)"/></a> -->
 </div> 
 
 <br>
