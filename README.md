@@ -5,9 +5,9 @@
   <p>I am a Software Engineering student, currently in my second year at the University Of Victoria. My GitHub Portfolio encompasses a range of recent or archived projects I have worked on occasionally.</p>
 </div>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danigallegdup/danigallegdup/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danigallegdup/danigallegdup/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/danigallegdup/danigallegdup/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazhxss/arfazhxss/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arfazhxss/arfazhxss/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/arfazhxss/arfazhxss/output/github-contribution-grid-snake.svg">
 </picture>
 <div align="left">
   <a href="https://github.com/arfazhxss"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a>
