@@ -105,9 +105,11 @@
 </table><br>
 
 </div>
-<div align="left">
+
+<!-- <div align="left">
   <img src="1%20Resources/grid-snake.svg" alt="Grided Contributions">
-</div>
+</div> -->
+
 <br>
 
 <div align="center">
