@@ -2,8 +2,8 @@
   <h1> Hi, This is Arfaz! 👨‍💻 </h1>
   <p>I am a Software Engineering student, currently in my second year at the University Of Victoria. My GitHub Portfolio encompasses a range of recent or archived projects I have worked on occasionally.</p>
 </div>
-<div align="left"> <img src="1%20Resources/grid-snake.svg" alt="Grided Contributions"> </div>
 <div align="left"> <a href="https://github.com/arfazhxss"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a> </div>
+<div align="left"> <img src="1%20Resources/grid-snake.svg" alt="Grided Contributions"> </div>
 <br>
 <table align="center">
   <tr>
