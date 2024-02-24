@@ -121,7 +121,7 @@
   <picture>
     <source srcset="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=vision-friendly-dark&show_icons=true&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5" height="185" media="(prefers-color-scheme: dark)"/>
     <source srcset="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=vision-friendly-light&show_icons=true&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5" height="185" media="(prefers-color-scheme: light)"/>
-    <img src="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=vision-friendly-light&show_icons=true&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5" height="185" media="(prefers-color-scheme: light)"/>
+    <img src="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=vision-friendly-light&show_icons=true&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5" height="185"/>
   </picture>
 </div> 
 <br>
