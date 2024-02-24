@@ -2,13 +2,9 @@
   <h1> Hi, This is Arfaz! 👨‍💻 </h1>
   <p>I am a Software Engineering student, currently in my second year at the University Of Victoria. My GitHub Portfolio encompasses a range of recent or archived projects I have worked on occasionally.</p>
 </div>
-<div align="left">
-  <img src="1%20Resources/grid-snake.svg" alt="Grided Contributions">
-  <a href="https://github.com/arfazhxss"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a>
-<!--   <a href="https://www.arfazhxss.ca/"><img alt="Static Badge" src="https://img.shields.io/badge/_arfazhxss.ca-LINK?style=plastic&logo=superuser&color=grey&logoColor=white&link=https%3A%2F%2Fwww.arfazhxss.com%2F%23about" height="20"></a> -->
-<!--   <a href="mailto:arfazhussain@uvic.ca"><img alt="Static Badge" src="https://img.shields.io/badge/_arfazhussain%40uvic.ca-LINK?style=plastic&logo=stackexchange&color=grey&logoColor=white&link=mailto%3Aarfazhussain%40uvic.ca" height="20"></a> -->
-<!--   <a href="https://www.linkedin.com/in/arfazhxss/"><img alt="Static Badge" src="https://img.shields.io/badge/-arfazhxss-blue?style=plastic&logo=Linkedin&link=https://www.linkedin.com/in/arfazhxss/" height="20"></a> -->
-</div>
+  
+<div align="left"> <img src="1%20Resources/grid-snake.svg" alt="Grided Contributions"> </div>
+<div align="left"> <a href="https://github.com/arfazhxss"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a> </div>
 <br>
 
 <table align="center">
