@@ -1,7 +1,7 @@
 <div align="left">
 <!-- Hi, This is Arfaz! 👨‍💻 -->
 <!--   <div align="center"> <img src="https://capsule-render.vercel.app/api?type=venom&height=150&color=timeGradient&text=Hi,%20This%20is%20Arfaz!%20%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB&descAlign=49&descAlignY=65&reversal=false&fontAlign=50&fontAlignY=47&stroke=FFFFFF&fontSize=60&fontColor=393D69&strokeWidth=0.3&desc=Software%20Engineer&descSize=15&rotate=0&section=header&theme=gruvbox_light"> </div> -->
-  <div align="left"> <img src="https://capsule-render.vercel.app/api?type=venom&height=150&color=timeGradient&text=Hi,%20I%27m%20Arfaz!%20%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB&descAlign=14&descAlignY=66&fontAlignY=42&desc=Software%20Engineer%20in%20training&descSize=17&fontColor=393D69&fontSize=65&fontAlign=27&stroke=FFFFFF&strokeWidth=0.3&theme=gruvbox_light"> </div>
+  <div align="left"> <img src="https://capsule-render.vercel.app/api?type=venom&height=150&color=timeGradient&text=Hi,%20I%27m%20Arfaz!%20%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB&descAlign=14&descAlignY=66&fontAlignY=42&desc=Software%20Engineer%20in%20training&descSize=17&fontColor=393D69&fontSize=65&fontAlign=27&theme=gruvbox_light"> </div>
 
   
   <p>I am a Software Engineering student, currently in my second year at the University Of Victoria. My GitHub Portfolio encompasses a range of recent or archived projects I have worked on occasionally.</p>
