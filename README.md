@@ -130,4 +130,4 @@
 SVG Image and Codes:
 https://github.com/devicons/devicon/tree/v2.15.1/icons/
 --->
-
+![Metrics](https://metrics.lecoq.io/arfazhxss?template=classic&base.skip=true&repositories.forks=true&base.header=0&base.activity=0&base.community=0&base.metadata=0&isocalendar=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=true&isocalendar=false&isocalendar.duration=half-year&config.timezone=America%2FVancouver&config.twemoji=true&config.octicon=true&config.padding=1000000%2C%201000000%20%2B%201000000%25)
