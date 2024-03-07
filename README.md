@@ -82,18 +82,18 @@
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/intellij/intellij-original.svg" alt="IntelliJ" width="40" height="40"></a>
     </td>
   </tr>
-  <tr>
-    <td colspan="4" align="center">
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu" height="30"></a>
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/W11.svg" alt="Windows" height="30"></a>
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/fedora/fedora-original.svg" alt="Fedora" height="30"></a>
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/kali-drag.svg" alt="Kali" height="30"></a>
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/MacOS.svg" alt="MacOS" height="30"></a>
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/Arch.svg" alt="ArchLinux" height="30"></a>  
-    </td>
-  </tr>
-</table><br>
-
+    <tr>
+      <td colspan="4" align="center">
+        <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu" height="30"></a>
+        <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/W11.svg" alt="Windows" height="30"></a>
+        <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/fedora/fedora-original.svg" alt="Fedora" height="30"></a>
+        <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/kali-drag.svg" alt="Kali" height="30"></a>
+        <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/MacOS.svg" alt="MacOS" height="30"></a>
+        <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/Arch.svg" alt="ArchLinux" height="30"></a>  
+      </td>
+    </tr>
+  </table>
+  <br>
 </div>
 
 <!-- <div align="left">
@@ -101,7 +101,6 @@
 </div> -->
 
 <br>
-
 <div align="center">
   <picture>
     <source srcset="https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5&cache_seconds=0&locale=en&layout=compact&theme=vision-friendly-dark&show_icons=true&size_weight=0.5&count_weight=0.5&hide=html,shell,css,glsl,tex,c,makefile,xslt,cmake,java,objective-c,lex&exclude_repo=csc111,js-base,vulkanapi-mactests,vulkanapi,portfolio-website,FirstYearEngineering,SecondYearEngineering,ThirdYearEngineering%22%20height=%22185%22" height="185" media="(prefers-color-scheme: dark)"/>
@@ -114,8 +113,8 @@
     <img src="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=vision-friendly-light&show_icons=true&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5" height="185"/>
   </picture>
 </div> 
-<br>
 <div align="center"> <img src="1%20Resources/grid-snake.svg" alt="Grided Contributions"> </div>
+<br>
 <!-- <p align="center">
   <a href="https://twitter.com/arfazhxss" target="_blank"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white&color=071A2C" alt="Arfaz's Twitter"/></a>
   <a href="https://www.linkedin.com/in/arfazhxss" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white&color=071A2C" alt="Arfaz's LinkedIn"/></a>
