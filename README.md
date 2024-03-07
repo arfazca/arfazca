@@ -4,7 +4,7 @@
     <picture>
         <source srcset="https://capsule-render.vercel.app/api?type=venom&height=200&color=gradient&text=Hi,%20This%20is%20Arfaz!%20👨‍💻&descAlign=49&descAlignY=61&textBg=false&reversal=false&fontAlign=50&fontAlignY=47&stroke=000000&fontSize=60&fontColor=FFFFFF&strokeWidth=0.5&desc=Aspiring%20Software%20Engineer&descSize=15&rotate=0" media="(prefers-color-scheme: dark)"/>
         <source srcset="https://capsule-render.vercel.app/api?type=venom&height=200&color=gradient&text=Hi,%20This%20is%20Arfaz!%20👨‍💻&descAlign=49&descAlignY=61&textBg=false&reversal=false&fontAlign=50&fontAlignY=47&stroke=FFFFFF&fontSize=60&fontColor=000000&strokeWidth=0.5&desc=Aspiring%20Software%20Engineer&descSize=15&rotate=0" media="(prefers-color-scheme: light)"/>
-        <img src="https://capsule-render.vercel.app/api?type=venom&height=200&color=gradient&text=Hi,%20This%20is%20Arfaz!%20👨‍💻&descAlign=49&descAlignY=61&textBg=false&reversal=false&fontAlign=50&fontAlignY=47&stroke=FFFFFF&fontSize=60&fontColor=000000&strokeWidth=0.5&desc=Aspiring%20Software%20Engineer&descSize=15&rotate=0" />
+        <img src="https://capsule-render.vercel.app/api?type=venom&height=200&color=gradient&text=Hi%20This%20is%20Arfaz!%20👨‍💻&descAlign=49&descAlignY=61&textBg=false&reversal=false&fontAlign=50&fontAlignY=47&stroke=FFFFFF&fontSize=60&fontColor=000000&strokeWidth=0.5&desc=Aspiring%20Software%20Engineer&descSize=15&rotate=0" />
     </picture>
   <p>I am a Software Engineering student, currently in my second year at the University Of Victoria. My GitHub Portfolio encompasses a range of recent or archived projects I have worked on occasionally.</p>
 </div>
