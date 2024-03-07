@@ -1,6 +1,6 @@
 <div align="left">
 <!--   <h1> Hi, This is Arfaz! 👨‍💻 </h1> -->
-  <div align="center"> <img src="https://capsule-render.vercel.app/api?type=venom&height=200&color=gradient&text=Hi,%20This%20is%20Arfaz!%20👨‍💻&descAlign=93&descAlignY=56&textBg=false&reversal=false&fontAlign=50&fontAlignY=47&stroke=FFFFFF&fontSize=50&fontColor=000000&strokeWidth=0.5"> </div>
+  <div align="center"> <img src="https://capsule-render.vercel.app/api?type=venom&height=200&color=gradient&text=Hi,%20This%20is%20Arfaz!%20👨‍💻&descAlign=49&descAlignY=61&textBg=false&reversal=false&fontAlign=50&fontAlignY=47&stroke=FFFFFF&fontSize=60&fontColor=000000&strokeWidth=0.5&desc=Aspiring%20Software%20Engineer&descSize=15&rotate=0"> </div>
   <p>I am a Software Engineering student, currently in my second year at the University Of Victoria. My GitHub Portfolio encompasses a range of recent or archived projects I have worked on occasionally.</p>
 </div>
 <div align="left"> <a href="https://github.com/arfazhxss"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a> </div>
