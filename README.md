@@ -1,9 +1,4 @@
 <div align="left"> <img src="https://capsule-render.vercel.app/api?type=waving&height=130&color=gradient&text=Arfaz%20👨‍💻&fontColor=000000&fontSize=40&fontAlign=50&desc=◀%20is%20trying%20really%20hard%20not%20to%20break%20production%20▶&descAlign=50&reversal=true&descSize=10&descAlignY=53&textBg=false&fontAlignY=33"></div>
-<div>
-  <picture>
-    <source srcset="https://capsule-render.vercel.app/api?type=waving&height=130&color=gradient&text=Arfaz%20👨‍💻&fontColor=000000&fontSize=40&fontAlign=50&desc=◀%20is%20trying%20really%20hard%20not%20to%20break%20production%20▶&descAlign=50&reversal=true&descSize=10&descAlignY=53&textBg=false&fontAlignY=33"/>
-  </picture>
-</div>
 <div align="left"><p>I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications.</p></div>
 <div align="left"><a href="https://github.com/arfazhxss"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a></div>
 
@@ -101,10 +96,6 @@
   <br>
 </div>
 
-<!-- <div align="left">
-  <img src="1%20Resources/grid-snake.svg" alt="Grided Contributions">
-</div> -->
-
 <br>
 <div align="center">
   <picture>
@@ -119,7 +110,6 @@
   </picture>
 </div> 
 <br>
-<!--- <img src="" alt="" width="40" height="40"> --->
 
 <!---
 SVG Image and Codes:
