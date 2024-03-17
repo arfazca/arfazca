@@ -1,7 +1,8 @@
 <div align="left">
 <!-- Hi, This is Arfaz! 👨‍💻 -->
 <!--   <div align="center"> <img src="https://capsule-render.vercel.app/api?type=venom&height=150&color=timeGradient&text=Hi,%20This%20is%20Arfaz!%20%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB&descAlign=49&descAlignY=65&reversal=false&fontAlign=50&fontAlignY=47&stroke=FFFFFF&fontSize=60&fontColor=393D69&strokeWidth=0.3&desc=Software%20Engineer&descSize=15&rotate=0&section=header&theme=gruvbox_light"> </div> -->
-  <div align="left"> <img src="https://capsule-render.vercel.app/api?type=venom&height=140&color=timeGradient&text=Hi,%20I%27m%20Arfaz!%20%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB&descAlign=13.8&descAlignY=77&fontAlignY=52&desc=Software%20Engineer%20in%20training&descSize=17&fontColor=393D69&fontSize=65&fontAlign=26.5&theme=gruvbox_light"> </div>
+<!--   <div align="left"> <img src="https://capsule-render.vercel.app/api?type=venom&height=140&color=timeGradient&text=Hi,%20I%27m%20Arfaz!%20%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB&descAlign=13.8&descAlignY=77&fontAlignY=52&desc=Software%20Engineer%20in%20training&descSize=17&fontColor=393D69&fontSize=65&fontAlign=26.5&theme=gruvbox_light"> </div> -->
+  <div align="left"> <img src="https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&text=arfaz%20here%20:)"> </div>
 
   
   <p>I am a Software Engineering student, currently in my second year at the University Of Victoria. My GitHub Portfolio encompasses a range of recent or archived projects I have worked on occasionally.</p>
@@ -117,7 +118,7 @@
     <img src="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=vision-friendly-light&show_icons=true&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5" height="185"/>
   </picture>
 </div> 
-<div align="center"> <img src="1%20Resources/grid-snake.svg" alt="Grided Contributions"> </div>
+<!-- <div align="center"> <img src="1%20Resources/grid-snake.svg" alt="Grided Contributions"> </div> -->
 <br>
 <!-- <p align="center">
   <a href="https://twitter.com/arfazhxss" target="_blank"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white&color=071A2C" alt="Arfaz's Twitter"/></a>
