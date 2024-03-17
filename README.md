@@ -1,8 +1,8 @@
 <div align="left">
   <p>I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications.</p>
   <div align="left"> <img src="https://capsule-render.vercel.app/api?type=soft&height=102&color=0d1117&text=Arfaz%20👨‍💻&textBg=false&fontAlign=43&fontColor=f7f5f5&fontSize=50&reversal=true&fontAlignY=55&desc=is%20trying%20really%20hard%20not%20to%20break%20production%20&descSize=10&descAlignY=64&descAlign=67"> \
-  <a href="https://github.com/arfazhxss"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a>  
 </div>
+<div align="left"><a href="https://github.com/arfazhxss"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a></div>
 <br>
 <!-- <table align="center">
   <tr>
