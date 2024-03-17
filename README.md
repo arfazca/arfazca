@@ -2,7 +2,7 @@
 <div align="left"><p>I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications.</p></div>
 <div align="left"><a href="https://github.com/arfazhxss"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a></div>
 <br>
-<table align="left">
+<table align="center">
   <tr>
     <td colspan="4" align="center" font-size="100">
       <h3>:toolbox: Toolbox :wrench:</h3>
@@ -36,6 +36,10 @@
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/jquery/jquery-original.svg" alt="JQuery" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/react/react-original.svg" alt="ReactJS" width="40" height="40"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/react/react-original.svg" alt="ReactJS" width="40" height="40"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/react/react-original.svg" alt="ReactJS" width="40" height="40"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/react/react-original.svg" alt="ReactJS" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/react/react-original.svg" alt="ReactJS" width="40" height="40"></a>
     </td>
   </tr>
