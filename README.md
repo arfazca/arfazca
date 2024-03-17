@@ -1,8 +1,8 @@
-<div align="left"><p>I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications.</p></div>
 <div align="left"> <img src="https://capsule-render.vercel.app/api?type=soft&height=102&color=0d1117&text=Arfaz%20👨‍💻&textBg=false&fontAlign=43&fontColor=f7f5f5&fontSize=50&reversal=true&fontAlignY=55&desc=is%20trying%20really%20hard%20not%20to%20break%20production%20&descSize=10&descAlignY=64&descAlign=67"></div>
+<div align="left"><p>I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications.</p></div>
 <div align="left"><a href="https://github.com/arfazhxss"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a></div>
 <br>
-<!-- <table align="center">
+<table align="center">
   <tr>
     <td colspan="4" align="center" font-size="100">
       <h3>:toolbox: Toolbox :wrench:</h3>
@@ -24,9 +24,9 @@
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/swift/swift-original.svg" alt="Swift" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/xcode/xcode-plain.svg" alt="XCode" width="40" height="40"></a>
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/unity-original.svg" alt="Unity" width="40" height="40"></a> -->
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/unity-original.svg" alt="Unity" width="40" height="40"></a>
 <!--       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/unrealengine/unrealengine-original.svg" alt="Unreal" width="40" height="40"> -->
-<!--     </td>
+    </td>
   </tr>
   <tr>
     <td>FrontEnd Design :desktop_computer:</td>
@@ -64,9 +64,9 @@
     <td colspan="3">
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/nodejs/nodejs-original.svg" alt="NodeJS" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/npm/npm-original-wordmark.svg" alt="npm" width="40" height="40"></a>
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/git/git-plain.svg" alt="Git" width="40" height="40"></a> -->
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/git/git-plain.svg" alt="Git" width="40" height="40"></a>
       <!---<img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/r/r-original.svg" alt="R" width="40" height="40">--->
-<!--       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/postgresql/postgresql-original.svg" alt="postgreSQL" width="40" height="40"></a>
     </td>
@@ -92,7 +92,7 @@
     </tr>
   </table>
   <br>
-</div> -->
+</div>
 
 <!-- <div align="left">
   <img src="1%20Resources/grid-snake.svg" alt="Grided Contributions">
