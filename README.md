@@ -1,7 +1,4 @@
 <div align="left">
-<!-- Hi, This is Arfaz! 👨‍💻 -->
-<!--   <div align="center"> <img src="https://capsule-render.vercel.app/api?type=venom&height=150&color=timeGradient&text=Hi,%20This%20is%20Arfaz!%20%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB&descAlign=49&descAlignY=65&reversal=false&fontAlign=50&fontAlignY=47&stroke=FFFFFF&fontSize=60&fontColor=393D69&strokeWidth=0.3&desc=Software%20Engineer&descSize=15&rotate=0&section=header&theme=gruvbox_light"> </div> -->
-<!--   <div align="left"> <img src="https://capsule-render.vercel.app/api?type=venom&height=140&color=timeGradient&text=Hi,%20I%27m%20Arfaz!%20%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB&descAlign=13.8&descAlignY=77&fontAlignY=52&desc=Software%20Engineer%20in%20training&descSize=17&fontColor=393D69&fontSize=65&fontAlign=26.5&theme=gruvbox_light"> </div> -->
   <div align="left"> <img src="https://capsule-render.vercel.app/api?type=soft&height=102&color=0d1117&text=Arfaz%20👨‍💻&textBg=false&fontAlign=43&fontColor=f7f5f5&fontSize=50&reversal=true&fontAlignY=55&desc=is%20trying%20really%20hard%20not%20to%20break%20production%20&descSize=10&descAlignY=64&descAlign=67"> </div>
 
   
@@ -9,7 +6,7 @@
 </div>
 <div align="left"> <a href="https://github.com/arfazhxss"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a> </div>
 <br>
-<table align="center">
+<!-- <table align="center">
   <tr>
     <td colspan="4" align="center" font-size="100">
       <h3>:toolbox: Toolbox :wrench:</h3>
@@ -31,9 +28,9 @@
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/swift/swift-original.svg" alt="Swift" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/xcode/xcode-plain.svg" alt="XCode" width="40" height="40"></a>
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/unity-original.svg" alt="Unity" width="40" height="40"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/unity-original.svg" alt="Unity" width="40" height="40"></a> -->
 <!--       <img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/unrealengine/unrealengine-original.svg" alt="Unreal" width="40" height="40"> -->
-    </td>
+<!--     </td>
   </tr>
   <tr>
     <td>FrontEnd Design :desktop_computer:</td>
@@ -71,9 +68,9 @@
     <td colspan="3">
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/nodejs/nodejs-original.svg" alt="NodeJS" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/npm/npm-original-wordmark.svg" alt="npm" width="40" height="40"></a>
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/git/git-plain.svg" alt="Git" width="40" height="40"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/git/git-plain.svg" alt="Git" width="40" height="40"></a> -->
       <!---<img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/r/r-original.svg" alt="R" width="40" height="40">--->
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40"></a>
+<!--       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/postgresql/postgresql-original.svg" alt="postgreSQL" width="40" height="40"></a>
     </td>
@@ -99,7 +96,7 @@
     </tr>
   </table>
   <br>
-</div>
+</div> -->
 
 <!-- <div align="left">
   <img src="1%20Resources/grid-snake.svg" alt="Grided Contributions">
@@ -118,16 +115,7 @@
     <img src="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=vision-friendly-light&show_icons=true&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5" height="185"/>
   </picture>
 </div> 
-<!-- <div align="center"> <img src="1%20Resources/grid-snake.svg" alt="Grided Contributions"> </div> -->
 <br>
-<!-- <p align="center">
-  <a href="https://twitter.com/arfazhxss" target="_blank"><img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white&color=071A2C" alt="Arfaz's Twitter"/></a>
-  <a href="https://www.linkedin.com/in/arfazhxss" target="_blank"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white&color=071A2C" alt="Arfaz's LinkedIn"/></a>
-  <a href="https://instagram.com/arfazhxss" target="_blank"><img src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white&color=071A2C" alt="Arfaz's Instagram"/></a>
-  <a href="https://www.facebook.com/arfazhxss" target="_blank"><img src="https://img.shields.io/badge/facebook-%231877F2.svg?&style=for-the-badge&logo=facebook&logoColor=white&color=071A2C" alt="Arfaz's Facebook"/></a>
-  <a href="https://open.spotify.com/user/0ctvc2qy815zx9ymyx4d2iao6?si=c2084bc1218e4b04" target="_blank"><img src="https://img.shields.io/badge/spotify-%231877F2.svg?&style=for-the-badge&logo=spotify&logoColor=white&color=071A2C&border_radius=20.5" alt="Arfaz's Spotify"/></a>
-</p> -->
-
 <!--- <img src="" alt="" width="40" height="40"> --->
 
 <!---
