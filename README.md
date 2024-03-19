@@ -10,21 +10,21 @@
     </td>
   </tr>
   <tr>
-    <td>Base Languages :keyboard:</td>
+    <td>Script Languages :keyboard:</td>
     <td colspan="3">
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/powershell/powershell-original.svg" alt="PowerShell" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/bash/bash-original.svg" alt="Bash" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/python/python-original.svg" alt="Python" width="40" height="40"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/swift/swift-original.svg" alt="Swift" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/java/java-original.svg" alt="Java" width="40" height="40"></a>
     </td>
   </tr>
   <tr>
     <td>Development Environment :iphone:</td>
     <td colspan="3">
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/swift/swift-original.svg" alt="Swift" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/neovim/neovim-original.svg" alt="NeoVim" width="40" height="40"></a>
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio" width="40" height="40"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/vscode/vscode-original.svg" alt="Code" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/xcode/xcode-plain.svg" alt="XCode" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss">
         <picture>
