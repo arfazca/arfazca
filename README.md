@@ -107,6 +107,7 @@
     <source 
       media = "(prefers-color-scheme: dark)" 
       height="1"
+      srcset = "/"
     />
     <img 
       height="185"
