@@ -32,13 +32,13 @@
             media = "(prefers-color-scheme: dark)" 
             width="40" 
             height="40"
-            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/UE-dark.svg" 
+            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/UE-light.svg" 
           />
           <source 
             media = "(prefers-color-scheme: light)" 
             width="40" 
             height="40"
-            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/UE-light.svg" 
+            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/UE-dark.svg" 
           />
           <img 
             alt="shadcn-l"
