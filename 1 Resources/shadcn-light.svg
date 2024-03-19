@@ -1,0 +1,23 @@
+<svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="256" height="256" style="fill:none;" />
+  <rect
+    x=".29"
+    y="108.11"
+    width="231.4"
+    height="15.72"
+    rx="7.86"
+    ry="7.86"
+    transform="translate(-48.03 115.61) rotate(-44.87)"
+    style="fill:#00234a;"
+  />
+  <rect
+    x="102.85"
+    y="160.14"
+    width="129.86"
+    height="15.72"
+    rx="7.86"
+    ry="7.86"
+    transform="translate(-69.65 167.3) rotate(-44.87)"
+    style="fill:#00234a;"
+  />
+</svg>
