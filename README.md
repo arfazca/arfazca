@@ -12,12 +12,11 @@
   <tr>
     <td>Programming Languages :keyboard:</td>
     <td colspan="3">
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/java/java-original.svg" alt="Java" width="40" height="40"></a>
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/c/c-original.svg" alt="C" width="40" height="40"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/powershell/powershell-original.svg" alt="PowerShell" width="40" height="40"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/bash/bash-original.svg" alt="Bash" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/python/python-original.svg" alt="Python" width="40" height="40"></a>
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/bash/bash-original.svg" alt="Bash" width="40" height="40"></a>
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/powershell/powershell-original.svg" alt="PowerShell" width="40" height="40"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/java/java-original.svg" alt="Java" width="40" height="40"></a>
     </td>
   </tr>
   <tr>
