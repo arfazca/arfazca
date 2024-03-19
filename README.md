@@ -10,7 +10,7 @@
     </td>
   </tr>
   <tr>
-    <td>Programming Languages :keyboard:</td>
+    <td>Base Languages :keyboard:</td>
     <td colspan="3">
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/powershell/powershell-original.svg" alt="PowerShell" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/bash/bash-original.svg" alt="Bash" width="40" height="40"></a>
@@ -20,9 +20,10 @@
     </td>
   </tr>
   <tr>
-    <td>Application Development :iphone:</td>
+    <td>Development Environment :iphone:</td>
     <td colspan="3">
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/swift/swift-original.svg" alt="Swift" width="40" height="40"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/neovim/neovim-original.svg" alt="NeoVim" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/xcode/xcode-plain.svg" alt="XCode" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/unity/unity-original.svg" alt="Unity" width="40" height="40"></a>
@@ -53,6 +54,9 @@
   <tr>
     <td>Website Development  :desktop_computer:</td>
     <td colspan="3">
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/jquery/jquery-original.svg" alt="JQuery" width="40" height="40"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss">
         <picture>
           <source 
@@ -75,9 +79,6 @@
           />
         </picture>
       </a>
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"></a>
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/jquery/jquery-original.svg" alt="JQuery" width="40" height="40"></a>
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss">
         <picture>
           <source 
