@@ -60,9 +60,6 @@
         src = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/shadcn-light.svg"
       />
     </picture>
-        
-        
-        <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/shadcn-light.svg" alt="shadcn-l" width="40" height="40"></a>
     </td>
   </tr>
   <tr>
