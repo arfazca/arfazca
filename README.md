@@ -38,19 +38,19 @@
             media = "(prefers-color-scheme: dark)" 
             width="40" 
             height="40"
-            srcset = "https://github.com/devicons/devicon/blob/v2.16.0/icons/php/php-plain.svg" 
+            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/php-dark.svg" 
           />
           <source 
             media = "(prefers-color-scheme: light)" 
             width="40" 
             height="40"
-            srcset = "https://github.com/devicons/devicon/blob/v2.16.0/icons/php/php-original.svg" 
+            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/php-light.svg" 
           />
           <img 
             alt="shadcn-l"
             width="40" 
             height="40"
-            src = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/php-original.svg"
+            src = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/php-light.svg"
           />
         </picture>
       </a>
@@ -149,20 +149,20 @@
           <picture>
             <source 
               media = "(prefers-color-scheme: dark)" 
-              width="40" 
-              height="40"
+              width="30" 
+              height="30"
               srcset = "https://github.com/devicons/devicon/blob/v2.16.0/icons/ubuntu/ubuntu-original.svg" 
             />
             <source 
               media = "(prefers-color-scheme: light)" 
-              width="40" 
-              height="40"
+              width="30" 
+              height="30"
               srcset = "https://github.com/devicons/devicon/blob/v2.16.0/icons/ubuntu/ubuntu-plain.svg" 
             />
             <img 
               alt="shadcn-l"
-              width="40" 
-              height="40"
+              width="30" 
+              height="30"
               src = "https://github.com/devicons/devicon/blob/v2.16.0/icons/ubuntu/ubuntu-original.svg"
             />
           </picture>
