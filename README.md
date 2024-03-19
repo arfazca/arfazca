@@ -32,34 +32,54 @@
   <tr>
     <td>FrontEnd Design :desktop_computer:</td>
     <td colspan="3">
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/html5/html5-original.svg" alt="HTML" width="40" height="40"></a>
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/css3/css3-original.svg" alt="CSS" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/jquery/jquery-original.svg" alt="JQuery" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/react/react-original.svg" alt="ReactJS" width="40" height="40"></a>
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/nextjs.svg" alt="Next" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss">
-      <picture>
-        <source 
-          media = "(prefers-color-scheme: dark)" 
-          width="40" 
-          height="40"
-          srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/shadcn-dark.svg" 
-        />
-        <source 
-          media = "(prefers-color-scheme: light)" 
-          width="40" 
-          height="40"
-          srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/shadcn-light.svg" 
-        />
-      <img 
-        alt="shadcn-l"
-        width="40" 
-        height="40"
-        src = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/shadcn-light.svg"
-      />
-    </picture>
+        <picture>
+          <source 
+            media = "(prefers-color-scheme: dark)" 
+            width="40" 
+            height="40"
+            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/nextjs-dark.svg" 
+          />
+          <source 
+            media = "(prefers-color-scheme: light)" 
+            width="40" 
+            height="40"
+            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/nextjs-light.svg" 
+          />
+          <img 
+            alt="shadcn-l"
+            width="40" 
+            height="40"
+            src = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/shadcn-light.svg"
+          />
+        </picture>
+      </a>
+      <a href="https://github.com/arfazhxss">
+        <picture>
+          <source 
+            media = "(prefers-color-scheme: dark)" 
+            width="40" 
+            height="40"
+            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/shadcn-dark.svg" 
+          />
+          <source 
+            media = "(prefers-color-scheme: light)" 
+            width="40" 
+            height="40"
+            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/shadcn-light.svg" 
+          />
+          <img 
+            alt="shadcn-l"
+            width="40" 
+            height="40"
+            src = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/shadcn-light.svg"
+          />
+        </picture>
+      </a>
     </td>
   </tr>
   <tr>
@@ -88,7 +108,6 @@
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/nodejs/nodejs-original.svg" alt="NodeJS" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/npm/npm-original-wordmark.svg" alt="npm" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/git/git-plain.svg" alt="Git" width="40" height="40"></a>
-      <!---<img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/r/r-original.svg" alt="R" width="40" height="40">--->
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/postgresql/postgresql-original.svg" alt="postgreSQL" width="40" height="40"></a>
