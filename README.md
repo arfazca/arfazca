@@ -100,11 +100,11 @@
     <source 
       media = "(prefers-color-scheme: light)" 
       height="185"
-      srcset = "https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5&layout=compact&show_icons=true&size_weight=0.5&count_weight=0.5&hide=html,shell,css,glsl,tex,c,makefile,xslt,cmake,java,objective-c,lex&exclude_repo=csc111,js-base,vulkanapi-mactests,vulkanapi,portfolio-website,FirstYearEngineering,SecondYearEngineering,ThirdYearEngineering%22%20height=%22185%22"
+      srcset = "https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5&layout=compact&theme=vision-friendly-dark&show_icons=true&size_weight=0.5&count_weight=0.5&hide=html,shell,css,glsl,tex,c,makefile,xslt,cmake,java,objective-c,lex&exclude_repo=csc111,js-base,vulkanapi-mactests,vulkanapi,portfolio-website,FirstYearEngineering,SecondYearEngineering,ThirdYearEngineering%22%20height=%22185%22"
     />
     <img 
       height="185"
-      src = "https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5&layout=compact&theme=vision-friendly-dark&show_icons=true&size_weight=0.5&count_weight=0.5&hide=html,shell,css,glsl,tex,c,makefile,xslt,cmake,java,objective-c,lex&exclude_repo=csc111,js-base,vulkanapi-mactests,vulkanapi,portfolio-website,FirstYearEngineering,SecondYearEngineering,ThirdYearEngineering%22%20height=%22185%22"
+      src = "https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5&layout=compact&show_icons=true&size_weight=0.5&count_weight=0.5&hide=html,shell,css,glsl,tex,c,makefile,xslt,cmake,java,objective-c,lex&exclude_repo=csc111,js-base,vulkanapi-mactests,vulkanapi,portfolio-website,FirstYearEngineering,SecondYearEngineering,ThirdYearEngineering%22%20height=%22185%22"
     />
   </picture>
   
