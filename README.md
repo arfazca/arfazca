@@ -105,7 +105,7 @@
     <source 
       media = "(prefers-color-scheme: dark)" 
       height="185"
-      srcset = "https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&hide=html,shell,css,glsl,tex,c,makefile,xslt,cmake,java,objective-c,lex&theme=vision-friendly-dark"
+      srcset = "https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&hide=html,shell,css,glsl,tex,c&theme=vision-friendly-dark"
     />
     <img 
       height="185"
