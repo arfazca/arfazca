@@ -101,6 +101,7 @@
     <source 
       media = "(prefers-color-scheme: light)" 
       height="0.1"
+      width="0.1"
       srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/noIMG.svg" 
     />
     <img 
@@ -113,6 +114,7 @@
     <source 
       media = "(prefers-color-scheme: dark)" 
       height="0.1"
+      width="0.1"
       srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/noIMG.svg" 
     />
     <img 
