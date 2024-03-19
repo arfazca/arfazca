@@ -107,7 +107,7 @@
     <source 
       media = "(prefers-color-scheme: dark)" 
       height="1"
-      srcset = "/"
+      srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/noIMG.svg" 
     />
     <img 
       height="185"
