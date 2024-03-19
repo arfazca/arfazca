@@ -39,6 +39,30 @@
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/react/react-original.svg" alt="ReactJS" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/nextjs.svg" alt="Next" width="40" height="40"></a>
+      <a href="https://github.com/arfazhxss">
+      <picture>
+        <source 
+          media = "(prefers-color-scheme: dark)" 
+          width="40" 
+          height="40"
+          srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/shadcn-dark.svg" 
+        />
+        <source 
+          media = "(prefers-color-scheme: light)" 
+          width="40" 
+          height="40"
+          srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/shadcn-light.svg" 
+        />
+      <img 
+        alt="shadcn-l"
+        width="40" 
+        height="40"
+        src = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/shadcn-light.svg"
+      />
+    </picture>
+        
+        
+        <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/shadcn-light.svg" alt="shadcn-l" width="40" height="40"></a>
     </td>
   </tr>
   <tr>
