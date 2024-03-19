@@ -26,7 +26,7 @@
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/xcode/xcode-plain.svg" alt="XCode" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/unity-original.svg" alt="Unity" width="40" height="40"></a>
-<!--       <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/unrealengine/unrealengine-original.svg" alt="Unreal" width="40" height="40"> -->
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/unrealengine/unrealengine-original.svg" alt="Unreal" width="40" height="40">
     </td>
   </tr>
   <tr>
@@ -57,27 +57,27 @@
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/jquery/jquery-original.svg" alt="JQuery" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"></a>
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/nextjs/nextjs-original.svg" alt="NextJS" width="40" height="40">
-<!--         <picture>
+      <a href="https://github.com/arfazhxss">
+        <picture>
           <source 
             media = "(prefers-color-scheme: dark)" 
             width="40" 
             height="40"
-            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/nextjs-dark.svg" 
+            srcset = "https://github.com/devicons/devicon/blob/v2.16.0/icons/nextjs/nextjs-original.svg" 
           />
           <source 
             media = "(prefers-color-scheme: light)" 
             width="40" 
             height="40"
-            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/nextjs-light.svg" 
+            srcset = "https://github.com/devicons/devicon/blob/v2.16.0/icons/nextjs/nextjs-original.svg" 
           />
           <img 
             alt="shadcn-l"
             width="40" 
             height="40"
-            src = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/shadcn-light.svg"
+            src = "https://github.com/devicons/devicon/blob/v2.16.0/icons/nextjs/nextjs-original.svg"
           />
-        </picture> -->
+        </picture>
       </a>
       <a href="https://github.com/arfazhxss">
         <picture>
