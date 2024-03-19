@@ -32,7 +32,7 @@
             media = "(prefers-color-scheme: dark)" 
             width="40" 
             height="40"
-            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/unity-dark.svg" 
+            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/unity-dark-original.svg" 
           />
           <source 
             media = "(prefers-color-scheme: light)" 
