@@ -26,7 +26,28 @@
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/neovim/neovim-original.svg" alt="NeoVim" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/xcode/xcode-plain.svg" alt="XCode" width="40" height="40"></a>
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/unity/unity-original.svg" alt="Unity" width="40" height="40"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/unity/unity-original.svg" alt="Unity" width="40" height="40">
+        <picture>
+          <source 
+            media = "(prefers-color-scheme: dark)" 
+            width="40" 
+            height="40"
+            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/unity-dark.svg" 
+          />
+          <source 
+            media = "(prefers-color-scheme: light)" 
+            width="40" 
+            height="40"
+            srcset = "https://github.com/devicons/devicon/blob/v2.16.0/icons/unity/unity-original.svg" 
+          />
+          <img 
+            alt="shadcn-l"
+            width="40" 
+            height="40"
+            src = "https://github.com/devicons/devicon/blob/v2.16.0/icons/unity/unity-original.svg"
+          />
+        </picture>
+      </a>
       <a href="https://github.com/arfazhxss">
         <picture>
           <source 
