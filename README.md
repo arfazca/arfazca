@@ -145,7 +145,28 @@
   </tr>
     <tr>
       <td colspan="4" align="center">
-        <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/ubuntu/ubuntu-plain.svg" alt="Ubuntu" height="30"></a>
+        <a href="https://github.com/arfazhxss">
+          <picture>
+            <source 
+              media = "(prefers-color-scheme: dark)" 
+              width="40" 
+              height="40"
+              srcset = "https://github.com/devicons/devicon/blob/v2.16.0/icons/ubuntu/ubuntu-original.svg" 
+            />
+            <source 
+              media = "(prefers-color-scheme: light)" 
+              width="40" 
+              height="40"
+              srcset = "https://github.com/devicons/devicon/blob/v2.16.0/icons/ubuntu/ubuntu-plain.svg" 
+            />
+            <img 
+              alt="shadcn-l"
+              width="40" 
+              height="40"
+              src = "https://github.com/devicons/devicon/blob/v2.16.0/icons/ubuntu/ubuntu-original.svg"
+            />
+          </picture>
+        </a>
         <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/W11.svg" alt="Windows" height="30"></a>
         <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/fedora/fedora-original.svg" alt="Fedora" height="30"></a>
         <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/kali-drag.svg" alt="Kali" height="30"></a>
