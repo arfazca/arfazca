@@ -51,7 +51,7 @@
     </td>
   </tr>
   <tr>
-    <td>Website Development :desktop_computer:</td>
+    <td>Website Development  :desktop_computer:</td>
     <td colspan="3">
       <a href="https://github.com/arfazhxss">
         <picture>
@@ -160,6 +160,7 @@
     <td colspan="3">
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/figma/figma-original.svg" alt="Figma" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/gradle-plain.svg" alt="Gradle" width="40" height="40"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/maven/maven-original.svg" alt="Maven" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/selenium/selenium-original.svg" alt="Selenium" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/intellij/intellij-original.svg" alt="IntelliJ" width="40" height="40"></a>
     </td>
