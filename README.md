@@ -32,12 +32,34 @@
   <tr>
     <td>FrontEnd Design :desktop_computer:</td>
     <td colspan="3">
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/php/php-plain.svg" alt="PHP" width="40" height="40">
+        <picture>
+          <source 
+            media = "(prefers-color-scheme: dark)" 
+            width="40" 
+            height="40"
+            srcset = "https://github.com/devicons/devicon/blob/v2.16.0/icons/php/php-plain.svg" 
+          />
+          <source 
+            media = "(prefers-color-scheme: light)" 
+            width="40" 
+            height="40"
+            srcset = "https://github.com/devicons/devicon/blob/v2.16.0/icons/php/php-original.svg" 
+          />
+          <img 
+            alt="shadcn-l"
+            width="40" 
+            height="40"
+            src = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/php-original.svg"
+          />
+        </picture>
+      </a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/jquery/jquery-original.svg" alt="JQuery" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/react/react-original.svg" alt="ReactJS" width="40" height="40"></a>
-      <a href="https://github.com/arfazhxss">
-        <picture>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/nextjs/nextjs-original.svg" alt="NextJS" width="40" height="40">
+<!--         <picture>
           <source 
             media = "(prefers-color-scheme: dark)" 
             width="40" 
@@ -56,7 +78,7 @@
             height="40"
             src = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/shadcn-light.svg"
           />
-        </picture>
+        </picture> -->
       </a>
       <a href="https://github.com/arfazhxss">
         <picture>
