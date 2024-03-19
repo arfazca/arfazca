@@ -106,7 +106,7 @@
     /> -->
     <source 
       media = "(prefers-color-scheme: dark)" 
-      height="185"
+      height="1"
       srcset = ""
     />
     <img 
