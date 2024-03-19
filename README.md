@@ -25,12 +25,33 @@
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/swift/swift-original.svg" alt="Swift" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/xcode/xcode-plain.svg" alt="XCode" width="40" height="40"></a>
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/unity-original.svg" alt="Unity" width="40" height="40"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/unity/unity-original.svg" alt="Unity" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/unrealengine/unrealengine-original.svg" alt="Unreal" width="40" height="40">
+        <picture>
+          <source 
+            media = "(prefers-color-scheme: dark)" 
+            width="40" 
+            height="40"
+            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/UE-dark.svg" 
+          />
+          <source 
+            media = "(prefers-color-scheme: light)" 
+            width="40" 
+            height="40"
+            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/UE-light.svg" 
+          />
+          <img 
+            alt="shadcn-l"
+            width="40" 
+            height="40"
+            src = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/UE-light.svg"
+          />
+        </picture>
+      </a>
     </td>
   </tr>
   <tr>
-    <td>FrontEnd Design :desktop_computer:</td>
+    <td>Website Development :desktop_computer:</td>
     <td colspan="3">
       <a href="https://github.com/arfazhxss">
         <picture>
@@ -54,8 +75,8 @@
           />
         </picture>
       </a>
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/jquery/jquery-original.svg" alt="JQuery" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/jquery/jquery-original.svg" alt="JQuery" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss">
         <picture>
@@ -167,9 +188,7 @@
             />
           </picture>
         </a>
-        <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/W11.svg" alt="Windows" height="30"></a>
         <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/fedora/fedora-original.svg" alt="Fedora" height="30"></a>
-        <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/kali-drag.svg" alt="Kali" height="30"></a>
         <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/MacOS.svg" alt="MacOS" height="30"></a>
         <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/Arch.svg" alt="ArchLinux" height="30"></a>  
       </td>
