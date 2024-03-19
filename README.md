@@ -32,7 +32,7 @@
   <tr>
     <td>FrontEnd Design :desktop_computer:</td>
     <td colspan="3">
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/php/php-plain.svg" alt="PHP" width="40" height="40">
+      <a href="https://github.com/arfazhxss">
         <picture>
           <source 
             media = "(prefers-color-scheme: dark)" 
