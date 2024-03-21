@@ -121,6 +121,7 @@
           />
         </picture>
       </a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss">
         <picture>
           <source 
