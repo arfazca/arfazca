@@ -241,8 +241,9 @@
   </table>
 <br></div><br>
 
-<!--    Unless GitHub Markup fixes this issue < https://github.com/github/markup/issues/1583 > this is redundant -->
-<div align="center">
+<!--    Unless GitHub Markup fixes this issue <<<< https://github.com/github/markup/issues/1583 >>>> this is redundant -->
+<div align="left">
+    <!--    DARK MODE    -->
     <picture>
     <source 
       media = "(prefers-color-scheme: light)" 
@@ -255,7 +256,8 @@
       src = "https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&theme=transparent&text_color=ffffff&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5&layout=compact&show_icons=true&size_weight=0.5&count_weight=0.5&hide=html,shell,css,javascript,assembly,c-sharp,nasl,glsl,tex,c,makefile,xslt,cmake,java,objective-c,lex&exclude_repo=csc111,js-base,vulkanapi-mactests,vulkanapi,portfolio-website,FirstYearEngineering,SecondYearEngineering,ThirdYearEngineering%22%20height%3D%22185%22"
     />
   </picture>
-
+  
+  <!--    LIGHT MODE    -->
   <picture>
     <source 
       media = "(prefers-color-scheme: dark)" 
@@ -285,11 +287,7 @@
       src="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=vision-friendly-light&show_icons=true&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5"
     />
   </picture>
-  
 </div> 
 <br>
 
-<!---
-SVG Image and Codes:
-https://github.com/devicons/devicon/tree/v2.16.0/icons/
---->
+<!---    SVG Image and Codes <<<< https://github.com/devicons/devicon/tree/v2.16.0/icons/ >>>>    --->
