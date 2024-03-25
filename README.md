@@ -252,7 +252,7 @@
     />
     <img 
       height="185"
-      src = "https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&theme=transparent&text_color=ffffff&border_radius=1&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5&layout=compact&show_icons=true&size_weight=0.5&count_weight=0.5&hide=html,shell,css,javascript,assembly,c-sharp,nasl,glsl,tex,c,makefile,xslt,cmake,java,objective-c,lex&exclude_repo=csc111,js-base,vulkanapi-mactests,vulkanapi,portfolio-website,FirstYearEngineering,SecondYearEngineering,ThirdYearEngineering%22%20height%3D%22185%22"
+      src = "https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&theme=transparent&text_color=ffffff&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5&layout=compact&show_icons=true&size_weight=0.5&count_weight=0.5&hide=html,shell,css,javascript,assembly,c-sharp,nasl,glsl,tex,c,makefile,xslt,cmake,java,objective-c,lex&exclude_repo=csc111,js-base,vulkanapi-mactests,vulkanapi,portfolio-website,FirstYearEngineering,SecondYearEngineering,ThirdYearEngineering%22%20height%3D%22185%22"
 <!--       src = "https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&theme=vision-friendly-dark&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5&layout=compact&show_icons=true&size_weight=0.5&count_weight=0.5&hide=html,shell,css,javascript,assembly,c-sharp,nasl,glsl,tex,c,makefile,xslt,cmake,java,objective-c,lex&exclude_repo=csc111,js-base,vulkanapi-mactests,vulkanapi,portfolio-website,FirstYearEngineering,SecondYearEngineering,ThirdYearEngineering%22%20height%3D%22185%22" -->
     />
   </picture>
@@ -266,7 +266,7 @@
     />
     <img 
       height="185"
-      src = "https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&theme=transparent&text_color=000000&border_radius=1&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5&layout=compact&show_icons=true&size_weight=0.5&count_weight=0.5&hide=html,shell,css,javascript,assembly,c-sharp,nasl,glsl,tex,c,makefile,xslt,cmake,java,objective-c,lex&exclude_repo=csc111,js-base,vulkanapi-mactests,vulkanapi,portfolio-website,FirstYearEngineering,SecondYearEngineering,ThirdYearEngineering%22%20height%3D%22185%22"
+      src = "https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&theme=transparent&text_color=000000&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5&layout=compact&show_icons=true&size_weight=0.5&count_weight=0.5&hide=html,shell,css,javascript,assembly,c-sharp,nasl,glsl,tex,c,makefile,xslt,cmake,java,objective-c,lex&exclude_repo=csc111,js-base,vulkanapi-mactests,vulkanapi,portfolio-website,FirstYearEngineering,SecondYearEngineering,ThirdYearEngineering%22%20height%3D%22185%22"
 <!--       src = "https://github-readme-stats.vercel.app/api/top-langs?username=arfazhxss&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5&layout=compact&show_icons=true&size_weight=0.5&count_weight=0.5&hide=html,shell,css,javascript,assembly,c-sharp,nasl,glsl,tex,c,makefile,xslt,cmake,java,objective-c,lex&exclude_repo=csc111,js-base,vulkanapi-mactests,vulkanapi,portfolio-website,FirstYearEngineering,SecondYearEngineering,ThirdYearEngineering%22%20height=%22185%22" -->
     />
   </picture>
@@ -275,16 +275,16 @@
     <source 
       media="(prefers-color-scheme: dark)"
       height="185"
-      srcset="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=transparent&text_color=ffffff&border_radius=1&show_icons=true&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5"
+      srcset="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=transparent&text_color=ffffff&show_icons=true&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5"
     />
     <source 
       media="(prefers-color-scheme: light)"
       height="185"
-      srcset="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=transparent&text_color=000000&border_radius=1&show_icons=true&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5"
+      srcset="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=transparent&text_color=000000&show_icons=true&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5"
     />
     <img 
       height="185"
-      src="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=vision-friendly-light&border_radius=1&show_icons=true&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5"
+      src="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=vision-friendly-light&show_icons=true&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5"
     />
   </picture>
   
