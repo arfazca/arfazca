@@ -273,7 +273,7 @@
     <source 
       media="(prefers-color-scheme: dark)"
       height="185"
-      srcset="https://github-readme-streak-stats.herokuapp.com/?user=arfazhxss&theme=youtube-dark&show_icons=true&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5"
+      srcset="http://github-readme-streak-stats.herokuapp.com?user=arfazhxss&theme=transparent&text_color=ffffff&show_icons=true&include_all_commits=true&line_height=10&show_owner=true&border_radius=20.5&dates=ffffff"
     />
     <source 
       media="(prefers-color-scheme: light)"
