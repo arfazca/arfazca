@@ -3,7 +3,7 @@
 <div align="left"><a href="https://github.com/arfazhxss"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a></div>
 
 <br>
-<details open>
+<details>
 <summary>View My Toolbox 🛠️</summary>
 <table align="center">
   <tr>
