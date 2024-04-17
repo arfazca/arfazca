@@ -244,8 +244,9 @@
   </table>
 </details>
 <details>
-<summary>GitHub Stats 📈 </summary>
-<br>
+<!-- <summary>GitHub Stats 📈 </summary> -->
+<summary>$\color[RGB]{155,127,0} GitHub Stats 📈$ </summary>
+  
 <!--    Unless GitHub Markup fixes this issue <<<< https://github.com/github/markup/issues/1583 >>>> this is redundant -->
 <div align="center">
     <!--    DARK MODE    -->
