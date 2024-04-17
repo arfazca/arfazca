@@ -242,7 +242,7 @@
     </tr>
   </table>
 </details>
-</div><br>
+<br>
 
 <!--    Unless GitHub Markup fixes this issue <<<< https://github.com/github/markup/issues/1583 >>>> this is redundant -->
 <div align="center">
