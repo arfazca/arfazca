@@ -245,7 +245,7 @@
 </details>
 <details>
 <!-- <summary>View My GitHub Stats 📈 </summary> -->
-<summary> ${{\color{yellow}{This\ is\ a\ Big\ Title}}}$ </summary>
+<summary> ${{\color{blue}{This\ is\ a\ Big\ Title}}}$ </summary>
 <br>
 <!--    Unless GitHub Markup fixes this issue <<<< https://github.com/github/markup/issues/1583 >>>> this is redundant -->
 <div align="center">
