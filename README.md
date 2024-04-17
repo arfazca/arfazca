@@ -4,7 +4,7 @@
 
 <br>
 <details>
-<summary>View My Toolbox 🛠️</summary>
+<summary>Tech Stack 🛠️</summary>
 <br>
 <table align="center">
   <tr>
@@ -244,8 +244,7 @@
   </table>
 </details>
 <details>
-<summary>View My GitHub Stats 📈 </summary>
-<!-- <summary> ${{\color{blue}{This\ is\ a\ Big\ Title}}}$ </summary> -->
+<summary>GitHub Stats 📈 </summary>
 <br>
 <!--    Unless GitHub Markup fixes this issue <<<< https://github.com/github/markup/issues/1583 >>>> this is redundant -->
 <div align="center">
