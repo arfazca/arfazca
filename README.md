@@ -4,7 +4,7 @@
 
 <br>
 <details>
-<summary><h3>Tech Stack 🛠️</h3></summary>
+<summary><h4>Tech Stack 🛠️</h4></summary>
 <br>
 <table align="center">
   <tr>
@@ -244,7 +244,7 @@
   </table>
 </details>
 <details>
-<summary><h3> GitHub Stats 📈 </h3></summary>
+<summary><h4> GitHub Stats 📈 </h4></summary>
 <!--    Unless GitHub Markup fixes this issue <<<< https://github.com/github/markup/issues/1583 >>>> this is redundant -->
 <div align="center">
     <!--    DARK MODE    -->
