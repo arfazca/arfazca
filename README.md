@@ -4,7 +4,8 @@
 
 <br>
 <details>
-<summary><h4>Tech Stack 🛠️</h4></summary>
+<!-- <summary><h4>Tech Stack 🛠️</h4></summary> -->
+<summary>Tech Stack 🛠️</summary>
 <br>
 <table align="center">
   <tr>
