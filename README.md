@@ -5,7 +5,7 @@
 <br>
 <details open>
 <summary>About Me</summary>
-  <table border="0" align="center">
+  <table width="100px" border="0" align="center">
     <tr>
       <td colspan="2" align="center" font-size="50">
         <div align="left">
