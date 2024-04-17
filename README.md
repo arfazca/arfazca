@@ -6,11 +6,10 @@
 <details open>
 <summary>About Me</summary>
     <div align="left">
-      <p>I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications.
+<!--       <p>I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications.</p> -->
       <dl><dd><dl><dd><dl><dd><dl><dd>
-      Yes, but syntax gets messy, unless you write it single line :)
+      I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications.
       </dd></dl></dd></dl></dd></dl></dd></dl>
-      </p>
     </div>
 </details>
 <details>
