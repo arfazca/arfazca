@@ -2,7 +2,8 @@
 <div align="left"><p>I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications.</p></div>
 <div align="left"><a href="https://github.com/arfazhxss"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a></div>
 
-<br>
+<details open>
+<summary>View My Toolbox 🛠️</summary>
 <table align="center">
   <tr>
     <td colspan="4" align="center" font-size="100">
@@ -239,6 +240,10 @@
       </td>
     </tr>
   </table>
+</details>
+
+<br>
+
 <br></div><br>
 
 <!--    Unless GitHub Markup fixes this issue <<<< https://github.com/github/markup/issues/1583 >>>> this is redundant -->
