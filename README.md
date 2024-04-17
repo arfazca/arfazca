@@ -2,6 +2,7 @@
 <div align="left"><p>I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications.</p></div>
 <div align="left"><a href="https://github.com/arfazhxss"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a></div>
 
+<br>
 <details>
 <br>
 <summary>View My Toolbox 🛠️</summary>
