@@ -244,7 +244,8 @@
   </table>
 </details>
 <details>
-<summary>View My GitHub Stats 📈 </summary>
+<!-- <summary>View My GitHub Stats 📈 </summary> -->
+<summary> $\colorbox{green}{{\color{white}{This\ is\ a\ Big\ Title}}}$ </summary>
 <br>
   $${\color{white}White}$$
 <!--    Unless GitHub Markup fixes this issue <<<< https://github.com/github/markup/issues/1583 >>>> this is redundant -->
