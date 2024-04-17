@@ -246,7 +246,7 @@
 </details>
 <details>
 <!-- <summary><h4> GitHub Stats 📈 </h4></summary> -->
-<summary> GitHub Stats 📈 </summary>
+<h4><summary> GitHub Stats 📈</summary></h4>
 <!--    Unless GitHub Markup fixes this issue <<<< https://github.com/github/markup/issues/1583 >>>> this is redundant -->
 <div align="center">
     <!--    DARK MODE    -->
