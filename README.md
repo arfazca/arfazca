@@ -242,7 +242,6 @@
       </td>
     </tr>
   </table>
-  <br>
 </details>
 <details>
 <summary>View My GitHub Stats 📈 </summary>
