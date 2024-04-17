@@ -4,8 +4,8 @@
 
 <br>
 <details>
-<br>
 <summary>View My Toolbox 🛠️</summary>
+<br>
 <table align="center">
   <tr>
     <td colspan="4" align="center" font-size="100">
@@ -245,8 +245,8 @@
   <br>
 </details>
 <details>
-<br>
 <summary>View My GitHub Stats 📈 </summary>
+<br>
 <!--    Unless GitHub Markup fixes this issue <<<< https://github.com/github/markup/issues/1583 >>>> this is redundant -->
 <div align="center">
     <!--    DARK MODE    -->
