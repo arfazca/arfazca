@@ -244,7 +244,7 @@
   </table>
 </details>
 <details>
-<summary>## GitHub Stats 📈 </summary>
+<summary><h5> GitHub Stats 📈 </h5></summary>
 
 <!--    Unless GitHub Markup fixes this issue <<<< https://github.com/github/markup/issues/1583 >>>> this is redundant -->
 <div align="center">
