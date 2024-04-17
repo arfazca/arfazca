@@ -245,7 +245,6 @@
 </details>
 <details>
 <summary><h3> GitHub Stats 📈 </h3></summary>
-
 <!--    Unless GitHub Markup fixes this issue <<<< https://github.com/github/markup/issues/1583 >>>> this is redundant -->
 <div align="center">
     <!--    DARK MODE    -->
