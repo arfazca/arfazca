@@ -5,16 +5,21 @@
 <br>
 <details open>
 <summary>About Me</summary>
-<div style="display: flex; align-items: center; justify-content: center;">
-  <div style="flex: 0 0 80%; padding: 10px;">
-    <p>I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications.</p>
-  </div>
-  <div style="flex: 0 0 20%; text-align: center; padding: 10px;">
-    <a href="https://github.com/arfazhxss/arfazhxss/graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=arfazhxss/arfazhxss" alt="ARFAZ" width="50" height="50"/>
-    </a>
-  </div>
-</div>
+  <table border="0" align="center">
+    <tr>
+      <td width=80% align="center" font-size="50" style="padding:10px;">
+        <div align="left">
+          <p>I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications.
+          </p>
+        </div>
+      </td>
+      <td align="center">
+          <a href="https://github.com/arfazhxss/arfazhxss/graphs/contributors">
+            <img src="https://contrib.rocks/image?repo=arfazhxss/arfazhxss" alt="ARFAZ" width="50" height="50"/>
+          </a>
+      </td>
+    </tr>
+  </table>
 </details>
 <details>
 <!-- <summary><h4>Tech Stack 🛠️</h4></summary> -->
