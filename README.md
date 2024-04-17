@@ -7,13 +7,13 @@
 <summary>About Me</summary>
   <table border="0" align="center">
     <tr>
-      <td width=80% align="center" font-size="50" style="padding:10px;">
+      <td colspan="2" align="center" font-size="50">
         <div align="left">
           <p>I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications.
           </p>
         </div>
       </td>
-      <td align="center">
+      <td colspan="2" align="center">
           <a href="https://github.com/arfazhxss/arfazhxss/graphs/contributors">
             <img src="https://contrib.rocks/image?repo=arfazhxss/arfazhxss" alt="ARFAZ" width="50" height="50"/>
           </a>
