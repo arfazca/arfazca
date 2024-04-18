@@ -6,7 +6,6 @@
 <details open>
 <summary>About Me</summary>
     <div align="left">
-<!--       <p>I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications.</p> -->
       <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl>
       I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications.
       </dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
@@ -16,7 +15,6 @@
     </div>
 </details>
 <details>
-<!-- <summary><h4>Tech Stack 🛠️</h4></summary> -->
 <summary>Tech Stack 🛠️</summary>
 <br>
 <table align="center">
