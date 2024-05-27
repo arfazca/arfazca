@@ -8,7 +8,7 @@
      <svg xmlns="http://www.w3.org/2000/svg" fill="none">
         <foreignObject width="50%" height="50%"> 
             <div xmlns="http://www.w3.org/1999/xhtml">
-              <div align="left">
+              <div align="left" width="50%" height="50%">
                 I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications.
                 <a href="https://arfazhxss.ca/resume.pdf">resume</a> / <a href="https://arfazhxss.ca/">portfolio</a>
               </div>
