@@ -5,6 +5,9 @@
 <br>
 <details open>
 <summary>About Me</summary>
+     <svg xmlns="http://www.w3.org/2000/svg" fill="none">
+        <foreignObject width="100%" height="100%"> 
+            <div xmlns="http://www.w3.org/1999/xhtml">
     <div align="left">
       <dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl><dd><dl>
       I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications.
@@ -13,6 +16,10 @@
       <a href="https://arfazhxss.ca/resume.pdf">resume</a> / <a href="https://arfazhxss.ca/">portfolio</a>
       </dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl></dd></dl>
     </div>
+                <!--we can include <style> elements, html elements etc. here now, with a few restrictions! Note it must be in xHTML style (so <img src="" /> not <img src="" > to be valid -->
+            </div>
+       </foreignObject>
+</svg>
 </details>
 <details>
 <summary>Tech Stack 🛠️</summary>
