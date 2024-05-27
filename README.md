@@ -11,7 +11,7 @@
               <div align="left" width="50%">
                 <table align="center">
                     <tr>
-                         <td colspan="4" width="50" align="left" font-size="100">
+                         <td colspan="4" width="5000" align="left" font-size="100">
                               I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications.
                 <a href="https://arfazhxss.ca/resume.pdf">resume</a> / <a href="https://arfazhxss.ca/">portfolio</a>
                          </td>
