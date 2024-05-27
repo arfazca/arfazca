@@ -8,7 +8,7 @@
      <table align="center">
           <tr>
                <td width="550" align="left" font-size="100">
-               <p>I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications. <br></p>
+               <p>I love creating and designing full-stack software systems. My current interests include working with different language models, leveraging machine learning algorithms and natural language processing (NLP) techniques, developing scalable, sustainable systems, and building versatile full-stack applications. I am passionate about integrating innovative solutions to solve complex problems and continuously improving my skill set to stay ahead in the ever-evolving tech landscape.<br></p>
                </td>
           </tr>
           <tr>
