@@ -6,7 +6,7 @@
 <details open>
 <summary>About Me</summary>
      <svg xmlns="http://www.w3.org/2000/svg" fill="none">
-        <foreignObject width="50%" height="50%"> 
+        <foreignObject width="100%" height="100%"> 
             <div xmlns="http://www.w3.org/1999/xhtml">
               <div align="left" width="100">
                 <table align="center" width="100">
