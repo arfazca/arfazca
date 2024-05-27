@@ -9,7 +9,7 @@
         <foreignObject width="50%" height="50%"> 
             <div xmlns="http://www.w3.org/1999/xhtml">
               <div align="left" width="50">
-                <table align="center" width="50">
+                <table align="center" width="100">
                     <tr width="50">
                          <td colspan="4" width="50" align="left" font-size="100">
                               I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications.
