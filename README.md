@@ -8,7 +8,7 @@
      <table align="center">
           <tr>
                <td width="550" align="left" font-size="100">
-               <p>I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications.</p>
+               <p>I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications. <br></p>
                </td>
           </tr>
           <tr>
