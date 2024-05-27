@@ -10,9 +10,9 @@
             <div xmlns="http://www.w3.org/1999/xhtml">
               <div align="left" width="50%" height="50%">
                 <table align="center">
-               <tr>I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications.
+               <tr><td>I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications.
                 <a href="https://arfazhxss.ca/resume.pdf">resume</a> / <a href="https://arfazhxss.ca/">portfolio</a>
-               </tr>
+               </td></tr>
                 </table>
               </div>
           </div>
