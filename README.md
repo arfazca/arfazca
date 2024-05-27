@@ -7,13 +7,13 @@
 <summary>About Me</summary>
      <table align="center">
           <tr>
-               <td width="600" align="left" font-size="100">
+               <td width="550" align="left" font-size="100">
                <p>I love creating and designing systems. Current interests include working with the latest VR/AR technologies, building unique experiences to users in virtual spaces, developing scalable, sustainable systems and building versatile full-stack applications.</p>
                </td>
           </tr>
           <tr>
-               <td>
-                    <a href="https://arfazhxss.ca/resume.pdf">resume</a> / <a href="https://arfazhxss.ca/">portfolio</a>
+               <td align="center" font-size="50">
+                    <a href="https://arfazhxss.ca/">Professional Website</a>
                </td>
           </tr>
       </table>
