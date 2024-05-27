@@ -8,7 +8,7 @@
      <svg xmlns="http://www.w3.org/2000/svg" fill="none">
         <foreignObject width="50%" height="50%"> 
             <div xmlns="http://www.w3.org/1999/xhtml">
-              <div align="left" width="50">
+              <div align="left" width="100">
                 <table align="center" width="100">
                     <tr width="100">
                          <td colspan="4" width="100" align="left" font-size="100">
