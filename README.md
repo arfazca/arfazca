@@ -7,14 +7,14 @@
 <summary>About Me</summary>
      <table align="center">
           <tr>
-               <td width="550" align="left" font-size="100">
+               <td width="550" width="550" align="left" font-size="100">
                <p>I love creating and designing full-stack software systems. My current interests include working with different language models, leveraging machine learning algorithms and natural language processing (NLP) techniques, developing scalable, sustainable systems, and building versatile full-stack applications.<br></p>
-               </td>
+               </td width="550">
           </tr>
           <tr>
-               <td align="center" font-size="50">
+               <td width="550" align="center" font-size="50">
                     <a href="https://arfazhxss.ca/">Professional Website</a>
-               </td>
+               </td width="550">
           </tr>
       </table>
 </details>
@@ -23,13 +23,13 @@
 <br>
 <table align="center">
   <tr>
-    <td colspan="4" align="center" font-size="100">
+    <td width="550" colspan="4" align="center" font-size="100">
       <h3>:toolbox: Toolbox :wrench:</h3>
-    </td>
+    </td width="550">
   </tr>
   <tr>
-    <td>Script Languages :keyboard:</td>
-    <td colspan="3">
+    <td width="550">Script Languages :keyboard:</td width="550">
+    <td width="550" colspan="3">
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/powershell/powershell-original.svg" alt="PowerShell" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss">
         <picture>
@@ -57,11 +57,11 @@
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/python/python-original.svg" alt="Python" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/swift/swift-original.svg" alt="Swift" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/java/java-original.svg" alt="Java" width="40" height="40"></a>
-    </td>
+    </td width="550">
   </tr>
   <tr>
-    <td>Development Environment :iphone:</td>
-    <td colspan="3">
+    <td width="550">Development Environment :iphone:</td width="550">
+    <td width="550" colspan="3">
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/neovim/neovim-original.svg" alt="NeoVim" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/vscode/vscode-original.svg" alt="Code" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/xcode/xcode-plain.svg" alt="XCode" width="40" height="40"></a>
@@ -109,11 +109,11 @@
           />
         </picture>
       </a>
-    </td>
+    </td width="550">
   </tr>
   <tr>
-    <td>Website Development  :desktop_computer:</td>
-    <td colspan="3">
+    <td width="550">Website Development  :desktop_computer:</td width="550">
+    <td width="550" colspan="3">
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/jquery/jquery-original.svg" alt="JQuery" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"></a>
@@ -184,51 +184,51 @@
           />
         </picture>
       </a>
-    </td>
+    </td width="550">
   </tr>
 <!--   <tr>
-    <td rowspan="2" align="center">
+    <td width="550" rowspan="2" align="center">
       <H3>Graphics APIs</H3>
       <p>🎮</p>
-    </td>
-    <td colspan="2" align="center">
+    </td width="550">
+    <td width="550" colspan="2" align="center">
       <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/OpenGL.svg" alt="OpenGL" width="140" height="70"></a>
-    </td>
-    <td align="center">
+    </td width="550">
+    <td width="550" align="center">
       <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/VulkanAPI.svg" alt="Vulkan" width="140" height="70"></a>
-    </td>
+    </td width="550">
   </tr>
   <tr>
-    <td colspan="2" align="center">
+    <td width="550" colspan="2" align="center">
       <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/WebGL.svg" alt="WebGL" width="120" height="60"></a>
-    </td>
-    <td align="center">
+    </td width="550">
+    <td width="550" align="center">
       <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/OpenXR.svg" alt="OpenXR" width="140" height="70"></a>
-    </td>
+    </td width="550">
   </tr> -->
   <tr>
-    <td>BackEnd & Databases :file_folder:</td>
-    <td colspan="3">
+    <td width="550">BackEnd & Databases :file_folder:</td width="550">
+    <td width="550" colspan="3">
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/nodejs/nodejs-original.svg" alt="NodeJS" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/npm/npm-original-wordmark.svg" alt="npm" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/git/git-plain.svg" alt="Git" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/postgresql/postgresql-original.svg" alt="postgreSQL" width="40" height="40"></a>
-    </td>
+    </td width="550">
   </tr>
   <tr>
-    <td>Design, Test & Deploy :gear:</td>
-    <td colspan="3">
+    <td width="550">Design, Test & Deploy :gear:</td width="550">
+    <td width="550" colspan="3">
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/figma/figma-original.svg" alt="Figma" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/gradle-plain.svg" alt="Gradle" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/maven/maven-original.svg" alt="Maven" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/selenium/selenium-original.svg" alt="Selenium" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/intellij/intellij-original.svg" alt="IntelliJ" width="40" height="40"></a>
-    </td>
+    </td width="550">
   </tr>
     <tr>
-      <td colspan="4" align="center">
+      <td width="550" colspan="4" align="center">
         <a href="https://github.com/arfazhxss">
           <picture>
             <source 
@@ -254,7 +254,7 @@
         <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/fedora/fedora-original.svg" alt="Fedora" height="30"></a>
         <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/MacOS.svg" alt="MacOS" height="30"></a>
         <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/Arch.svg" alt="ArchLinux" height="30"></a>  
-      </td>
+      </td width="550">
     </tr>
   </table>
 </details>
