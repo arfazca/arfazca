@@ -186,7 +186,7 @@
       </a>
     </td>
   </tr>
-  <tr>
+<!--   <tr>
     <td rowspan="2" align="center">
       <H3>Graphics APIs</H3>
       <p>🎮</p>
@@ -205,7 +205,7 @@
     <td align="center">
       <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/OpenXR.svg" alt="OpenXR" width="140" height="70"></a>
     </td>
-  </tr>
+  </tr> -->
   <tr>
     <td>BackEnd & Databases :file_folder:</td>
     <td colspan="3">
