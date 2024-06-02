@@ -1,0 +1,209 @@
+\documentclass[a4paper,10pt]{article}
+
+% Import necessary packages
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage[left=0.75in, right=1in, top=1.10in, bottom=0.75in]{geometry}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,     % Color of internal links
+    urlcolor=black,     % Color of URL links
+    citecolor=blue      % Color of citations
+}
+
+% Reduce vertical space in lists
+\setlist{itemsep=0pt, parsep=0pt, topsep=5pt, partopsep=0pt}
+
+% Reduce space around sections and line spacing
+\titlespacing{\section}{0pt}{0pt}{5pt}
+\setlength{\parskip}{0.3em}
+\renewcommand{\baselinestretch}{1.0}
+
+% Set up the page style
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-0.75in}
+\addtolength{\textheight}{1.5in}
+
+% URL style
+\urlstyle{same}
+
+% Section formatting
+\titleformat{\section}{
+  \scshape\large\raggedright
+}{}{0em}{}[\titlerule]
+
+\newcommand{\TechSkillItems}[2]{
+  \item \normalsize{\textbf{#1}{: #2}}
+}
+
+\newcommand{\resumeItemDot}[1]{
+  \item \normalsize{#1}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \item
+    \begin{tabular*}{\dimexpr\textwidth-1.2em\relax}{@{}l@{\extracolsep{\fill}}r@{}}
+      \large \textbf{#1} & \text{#2} \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-2pt}
+}
+
+\newcommand{\resumeScholarshipSubheading}[2]{
+  \item
+    \begin{tabular*}{\dimexpr\textwidth-1.2em\relax}{@{}l@{\extracolsep{\fill}}r@{}}
+      \textbullet \ \ \textbf{#1} & \text{#2} \\
+    \end{tabular*}\vspace{-2pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\TechSkillItems{#1}{#2}}
+
+\newenvironment{resumeSubHeadingListStart}
+{\begin{itemize}[leftmargin=0.15in, label={}]}
+{\end{itemize}}
+
+\newenvironment{resumeItemListStart}
+{\begin{itemize}[leftmargin=0.15in, label={$\bullet$}]}
+{\end{itemize}}
+
+\begin{document}
+
+% Header
+\begin{center}
+    \textbf{\huge Arfaz Hossain} \\ \vspace{2pt}
+    +1 (250) 880 8402 \ $|$ \
+    \href{mailto:arfazhussain@uvic.ca}
+    {arfazhussain@uvic.ca} \ $|$ \ 
+    \href{https://www.linkedin.com/in/arfazhussain}{linkedin.com/in/arfazhussain} \ $|$ \ 
+    \href{https://github.com/arfazhxss}{github.com/arfazhxss} \vspace{2pt} \\
+    \href{https://www.arfazhxss.ca}{\large \textbf{www.arfazhxss.ca}}
+\end{center}
+
+% Education
+\section{Education}
+\begin{resumeSubHeadingListStart}
+\resumeSubheading
+    {Bachelor of Software Engineering (BEng)}
+    {Sept. 2021 – Present}
+    {University of Victoria}
+    {Victoria, BC}
+\end{resumeSubHeadingListStart}
+
+% Technical Skills
+\section{Technical Skills}
+\begin{resumeSubHeadingListStart}
+\resumeSubItem{Languages}{Java, Python, TypeScript, JavaScript, Objective-C (Swift), C++, HTML/CSS, R}
+\resumeSubItem{Frameworks and Libraries}{Node, Next.js, React, Express, Material, Shadcn, Tailwind}
+\resumeSubItem{Databases}{MySQL, PosgreSQL, SQLite, MongoDB, Redis, DynamoDB, CloudSQL}
+\resumeSubItem{Developer Tools}{Visual Studio, IntelliJ, JUnit, Eclipse, Maven, Gradle, Git, Docker}
+\end{resumeSubHeadingListStart}
+
+% Selected Collaborative Projects
+\section{Selected Collaborative Projects}
+\begin{resumeSubHeadingListStart}
+\resumeSubheading
+    {Study Sprints}
+    {Feb 2024 – Present}
+    {\textcolor{blue}{www.github.com/VikeLabs/Study-Sprints}}
+    {Victoria, BC}
+\begin{resumeItemListStart}
+    \resumeItemDot
+    {Collaborating with a team of 6 developers to create a full-stack Pomodoro application utilizing React with TypeScript, addressing users' time management requirements}
+    \resumeItemDot
+    {Utilizing Next.js framework for efficient routing and MongoDB for data storage and retrieval, to track and review past activities of users over the last day, month and year}
+\end{resumeItemListStart}
+\end{resumeSubHeadingListStart}
+
+\begin{resumeSubHeadingListStart}
+\resumeSubheading
+    {Ground Support System}
+    {Jul 2023 – Jan 2024}
+    {\textcolor{blue}{www.github.com/UVicRocketry/Ground-Support}}
+    {Victoria, BC}
+\begin{resumeItemListStart}
+    \resumeItemDot{Collaborated with a team of 13 developers in developing a full-stack telemetry visualization and post-flight analytical software for engineering students analyzing rocket performance in real-time}
+    \resumeItemDot{Developed a total of 13 Material-UI components in React with TypeScript, ensuring type safety and fidelity to Figma designs, enhancing adaptability and usability across multiple platforms}
+\end{resumeItemListStart}
+\end{resumeSubHeadingListStart}
+
+% Selected Personal Projects
+\section{Selected Personal Projects}
+\begin{resumeSubHeadingListStart}
+\resumeSubheading
+    {Rubik’s Cube (3D Simulation)}{Feb 2023 – June 2023}
+    {\textcolor{blue}{www.github.com/arfazhxss/OpenGL-projects}}
+    {Victoria, BC}
+\begin{resumeItemListStart}
+    \resumeItemDot{Developed a 3D simulation utilizing OpenGL libraries GLUT, GLFW, and GLM, incorporating graphics rendering techniques through GLSL (Shader Language) for visualizations, mathematical operations}
+    \resumeItemDot{Implemented intuitive keyboard and mouse controls, including precise cube rotations with keys such as L, J, I, K, and dynamic zoom functionalities with keyboard shortcuts}
+\end{resumeItemListStart}
+\end{resumeSubHeadingListStart}
+
+\begin{resumeSubHeadingListStart}
+\resumeSubheading
+    {Simple Weather Application (iOS)}
+    {Apr 2023 – Nov 2023}
+    {\textcolor{blue}{www.github.com/arfazhxss/Weather-Application}}
+    {Victoria, BC}
+\begin{resumeItemListStart}
+    \resumeItemDot{Developed a simple iOS application using Swift programming language on object-oriented programming principles, ensuring a modular and maintainable codebase}
+    \resumeItemDot{Implemented a user-friendly interface that seamlessly integrates with OpenWeather API, allowing users to access and navigate through accurate weather information for their current city}
+\end{resumeItemListStart}
+\end{resumeSubHeadingListStart}
+
+% Relevant Experiences
+\section{Relevant Experiences}
+\begin{resumeSubHeadingListStart}
+\resumeSubheading
+    {Software Team Lead}
+    {Feb 2024 – Present}
+    {VikeLabs}
+    {Victoria, BC}
+\begin{resumeItemListStart}
+    \resumeItemDot{Simultaneously working in 3 full-stack projects courseup, coopme and study-sprints facilitating collaboration with team leads through meetings and progress tracking across teams}
+\end{resumeItemListStart}
+\end{resumeSubHeadingListStart}
+
+\begin{resumeSubHeadingListStart}
+\resumeSubheading
+    {Graphics Coordinator}
+    {Jan 2023 – Present}
+    {Engineering Student’s Society}
+    {Victoria, BC}
+\begin{resumeItemListStart}
+    \resumeItemDot{Designed and illustrated a total 15+ posters and 20+ social media posts while managing office hours to ensure the availability of the student lounge, maintaining websites and social media accounts}
+\end{resumeItemListStart}
+\end{resumeSubHeadingListStart}
+
+\begin{resumeSubHeadingListStart}
+\resumeSubheading
+    {Grocery Clerk}
+    {Sept. 2021 – Aug 2023}
+    {Save On Foods}
+    {Victoria, BC}
+\begin{resumeItemListStart}
+    \resumeItemDot{Oversaw store operations in a 10-to-12-member team while addressing 50 inquiries each shift, maintaining inventory through detailed stock records and rotations, helping in reducing stock shortages by 7}
+\end{resumeItemListStart}
+\end{resumeSubHeadingListStart}
+
+% Honors and Awards
+\section{Honors and Awards}
+\begin{resumeSubHeadingListStart}
+\resumeScholarshipSubheading{Recipient of University of Victoria’s International Entrance Scholarship}{2021 – 2022}
+\end{resumeSubHeadingListStart}
+
+\end{document}
+
