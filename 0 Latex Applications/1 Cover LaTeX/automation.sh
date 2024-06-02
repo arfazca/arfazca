@@ -8,13 +8,16 @@ read -p "Enter Company Name [Some-Company]: " company_name
 company_name=${company_name:-Some-Company}
 
 read -p "Enter Company Name Suffix [Some-Corporation]: " company_suffix
-company_suffix=${company_suffix:-Some-Corporation}
+company_suffix=${company_suffix:-" "}
 
 read -p "Enter Division [Human Resource]: " division
 division=${division:-Human Resource}
 
-read -p "Enter Location [Victoria, British Columbia]: " location
-location=${location:-Victoria, British Columbia}
+read -p "Enter Location of the City [Victoria]: " locationCity
+locationCity=${location:-Victoria}
+
+read -p "Enter Location of the Province [British Columbia]: " locationState
+locationState=${location:-British Columbia}
 
 read -p "Enter Terms [an 8-month]: " terms
 terms=${terms:-an 8-month}
@@ -59,7 +62,8 @@ cat <<EOL > tntx.tex
 \newcommand{\CompanyName}{$company_name}
 \newcommand{\CompanyNameSuffix}{$company_suffix}
 \newcommand{\Division}{$division}
-\newcommand{\Location}{$location}
+\newcommand{\LocationCity}{$locationCity}
+\newcommand{\LocationState}{$locationState}
 \newcommand{\Terms}{$terms}
 
 \begin{document}
@@ -90,19 +94,19 @@ cat <<EOL > tntx.tex
 % Letter details
 \textbf{\CompanyName}\textbf{ \CompanyNameSuffix} \\\\
 \text{Division: \Division} \\\\
-\text{Location: \Location}
+\text{Location: \LocationCity}, \text{\LocationState} \\\\
 
-\vspace{8pt}
+\vspace{5pt}
 \text{Dear Hiring Manager,}
 
 \vspace{3pt}
-I am excited to apply for the \textbf{\Position\ at \CompanyName}. I am a software engineering student at the University of Victoria in British Columbia. I am eager to learn and grow in the field of computer and software engineering, and I believe that this role will help me gain valuable work experience related to my interests and help me acquire a practical understanding in a real-world setting.
+I am excited to apply for the {\fontsize{11}{11.5}\selectfont \bfseries \Position} at {\fontsize{11}{11.5}\selectfont \bfseries \CompanyName}. I am a software engineering student at the University of Victoria in British Columbia. I am eager to learn and grow in the field of computer and software engineering, and I believe that this role will help me gain valuable work experience related to my interests and help me acquire a practical understanding in a real-world setting.
 
-\textbf{I have a fascination for developing web and mobile applications, and I am continually learning new skills through personal projects outside school.} I have been involved in more than 13 software development projects, including developing an iOS weather application in Swift Programming Language, creating a 3D graphical simulation of a Rubik’s Cube in OpenGL and C++, and developing web development projects in React, JavaScript, and TypeScript. I have been an active member of the Engineering Students Society and UVic Students Society, where I have worked as a mentor during my second year and volunteered in multiple events while engaging in software development projects throughout my time.
+{\fontsize{11}{11.5}\selectfont \bfseries I have a fascination for developing web and mobile applications, and I am continually learning new skills through personal projects outside school.} I have been involved in more than 13 software development projects, including developing an iOS weather application in Swift Programming Language, creating a 3D graphical simulation of a Rubik’s Cube in OpenGL and C++, and developing web development projects in React, JavaScript, and TypeScript. I have been an active member of the Engineering Students Society and UVic Students Society, where I have worked as a mentor during my second year and volunteered in multiple events while engaging in software development projects throughout my time.
 
-\textbf{Throughout my academic endeavours, I have had the chance to learn the basic concepts of object-oriented programming, software architecture and development, testing and evolution, data structures and algorithms.} I have actively contributed to UVic Rocketry and VikeLabs as a full-stack web developer, where I have spent much of my time collaborating and developing solutions to issues while reviewing code mostly written in TypeScript and Python. My experience includes developing schemas in both MongoDB and PostgreSQL using Atlas, as well as other database tools and services such as Prisma, PlanetScale, and Mongoose. Throughout my projects, I have used automation and testing frameworks such as Selenium, Puppeteer, JUnit, Maven, and Gradle. While working in teams at UVic Rocketry, I used ticketing tools such as Jira and Kanban. I plan to specialize in visual computing and data mining, involved in projects that are closely tied to my interests. My strength lies in my ability to work independently, collaborate, adapt to new environments, and gain familiarity with new tools necessary to excel in this role.
+{\fontsize{11}{11.5}\selectfont \bfseries Throughout my academic endeavours, I have had the chance to learn the basic concepts of object-oriented programming, software architecture and development, testing and evolution, data structures and algorithms.} I have actively contributed to UVic Rocketry and VikeLabs as a full-stack web developer, where I have spent much of my time collaborating and developing solutions to issues while reviewing code mostly written in TypeScript and Python. My experience includes developing schemas in both MongoDB and PostgreSQL using Atlas, as well as other database tools and services such as Prisma, PlanetScale, and Mongoose. Throughout my projects, I have used automation and testing frameworks such as Selenium, Puppeteer, JUnit, Maven, and Gradle. While working in teams at UVic Rocketry, I used ticketing tools such as Jira and Kanban. I plan to specialize in visual computing and data mining, involved in projects that are closely tied to my interests. My strength lies in my ability to work independently, collaborate, adapt to new environments, and gain familiarity with new tools necessary to excel in this role.
 
-\textbf{I am currently available for \Terms\ work term and would be open to the possibility of participating in more than two consecutive terms.} Thank you for considering my application. I look forward to the opportunity to further discuss my skills and experience with \CompanyName.
+{\fontsize{11}{11.5}\selectfont \bfseries I am currently available for \Terms\ work term and would be open to the possibility of participating in more than two consecutive terms.} Thank you for considering my application. I look forward to the opportunity to further discuss my skills and experience with \CompanyName.
 
 \vspace{10pt}
 \text{Most Sincerely,}
@@ -126,7 +130,7 @@ mv tntx.tex "9.2 PostProcessed/tex-outputs/" || exit
 cd "9.2 PostProcessed/tex-outputs"
 pdflatex tntx.tex && mv tntx.pdf "$filename.pdf"
 cp "$filename.pdf" ../
-cp "$filename.pdf" ../../0\ mcy\ 10/
+cp "$filename.pdf" ../../1\ jne\ 10/
 shopt -s extglob
 rm -f !(*.tex)
 cd ../../ || exit
