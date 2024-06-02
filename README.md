@@ -37,7 +37,7 @@
             media = "(prefers-color-scheme: dark)" 
             width="40" 
             height="40"
-            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/bash-dark.svg" 
+            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/bash-dark.svg" 
           />
           <source 
             media = "(prefers-color-scheme: light)" 
@@ -71,7 +71,7 @@
             media = "(prefers-color-scheme: dark)" 
             width="40" 
             height="40"
-            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/unity-dark-original.svg" 
+            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/unity-dark-original.svg" 
           />
           <source 
             media = "(prefers-color-scheme: light)" 
@@ -93,19 +93,19 @@
             media = "(prefers-color-scheme: dark)" 
             width="40" 
             height="40"
-            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/UE-light.svg" 
+            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/UE-light.svg" 
           />
           <source 
             media = "(prefers-color-scheme: light)" 
             width="40" 
             height="40"
-            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/UE-dark.svg" 
+            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/UE-dark.svg" 
           />
           <img 
             alt="shadcn-l"
             width="40" 
             height="40"
-            src = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/UE-light.svg"
+            src = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/UE-light.svg"
           />
         </picture>
       </a>
@@ -123,19 +123,19 @@
             media = "(prefers-color-scheme: dark)" 
             width="40" 
             height="40"
-            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/php-dark.svg" 
+            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/php-dark.svg" 
           />
           <source 
             media = "(prefers-color-scheme: light)" 
             width="40" 
             height="40"
-            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/php-light.svg" 
+            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/php-light.svg" 
           />
           <img 
             alt="shadcn-l"
             width="40" 
             height="40"
-            src = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/php-light.svg"
+            src = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/php-light.svg"
           />
         </picture>
       </a>
@@ -168,19 +168,19 @@
             media = "(prefers-color-scheme: dark)" 
             width="40" 
             height="40"
-            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/shadcn-dark.svg" 
+            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/shadcn-dark.svg" 
           />
           <source 
             media = "(prefers-color-scheme: light)" 
             width="40" 
             height="40"
-            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/shadcn-light.svg" 
+            srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/shadcn-light.svg" 
           />
           <img 
             alt="shadcn-l"
             width="40" 
             height="40"
-            src = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/shadcn-light.svg"
+            src = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/shadcn-light.svg"
           />
         </picture>
       </a>
@@ -192,18 +192,18 @@
       <p>🎮</p>
     </td>
     <td colspan="2" align="center">
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/OpenGL.svg" alt="OpenGL" width="140" height="70"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/OpenGL.svg" alt="OpenGL" width="140" height="70"></a>
     </td>
     <td align="center">
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/VulkanAPI.svg" alt="Vulkan" width="140" height="70"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/VulkanAPI.svg" alt="Vulkan" width="140" height="70"></a>
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/WebGL.svg" alt="WebGL" width="120" height="60"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/WebGL.svg" alt="WebGL" width="120" height="60"></a>
     </td>
     <td align="center">
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/OpenXR.svg" alt="OpenXR" width="140" height="70"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/OpenXR.svg" alt="OpenXR" width="140" height="70"></a>
     </td>
   </tr>
   <tr>
@@ -221,7 +221,7 @@
     <td>Design, Test & Deploy :gear:</td>
     <td colspan="3">
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/figma/figma-original.svg" alt="Figma" width="40" height="40"></a>
-      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/gradle-plain.svg" alt="Gradle" width="40" height="40"></a>
+      <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/gradle-plain.svg" alt="Gradle" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/maven/maven-original.svg" alt="Maven" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/selenium/selenium-original.svg" alt="Selenium" width="40" height="40"></a>
       <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/intellij/intellij-original.svg" alt="IntelliJ" width="40" height="40"></a>
@@ -252,8 +252,8 @@
           </picture>
         </a>
         <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/fedora/fedora-original.svg" alt="Fedora" height="30"></a>
-        <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/MacOS.svg" alt="MacOS" height="30"></a>
-        <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/Arch.svg" alt="ArchLinux" height="30"></a>  
+        <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/MacOS.svg" alt="MacOS" height="30"></a>
+        <a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/Arch.svg" alt="ArchLinux" height="30"></a>  
       </td>
     </tr>
   </table>
@@ -269,7 +269,7 @@
       media = "(prefers-color-scheme: light)" 
       height="0.1"
       width="0.1"
-      srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/noIMG.svg" 
+      srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/noIMG.svg" 
     />
     <img 
       height="185"
@@ -283,7 +283,7 @@
       media = "(prefers-color-scheme: dark)" 
       height="0.1"
       width="0.1"
-      srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Resources/noIMG.svg" 
+      srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/noIMG.svg" 
     />
     <img 
       height="185"
