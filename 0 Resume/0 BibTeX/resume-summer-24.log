@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2024.3.20)  2 JUN 2024 01:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2024.3.20)  2 JUN 2024 02:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -371,28 +371,27 @@ ackend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count291
 \l__pdf_internal_box=\box55
-)
-No file resume-summer-24.aux.
+) (./resume-summer-24.aux)
 \openout1 = `resume-summer-24.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
 
 (/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/tex/context/base/mkii/s
 upp-pdf.mkii
@@ -409,7 +408,8 @@ upp-pdf.mkii
 \makeMPintoPDFobject=\count297
 \everyMPtoPDFconversion=\toks28
 )
-Package hyperref Info: Link coloring ON on input line 82.
+Package hyperref Info: Link coloring ON on input line 84.
+ (./resume-summer-24.out) (./resume-summer-24.out)
 \@outlinefile=\write3
 \openout3 = `resume-summer-24.out'.
 
@@ -422,14 +422,14 @@ Package hyperref Info: Link coloring ON on input line 82.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(54.2025pt, 471.03539pt, 72.26999pt)
+* h-part:(L,W,R)=(46.97505pt, 485.49026pt, 65.04256pt)
 * v-part:(T,H,B)=(79.49744pt, 711.34691pt, 54.2025pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=543.30537pt
+* \textwidth=557.76025pt
 * \textheight=819.7519pt
-* \oddsidemargin=-45.16873pt
-* \evensidemargin=-45.16873pt
+* \oddsidemargin=-52.39618pt
+* \evensidemargin=-52.39618pt
 * \topmargin=-46.97505pt
 * \headheight=0.0pt
 * \headsep=0.0pt
@@ -448,7 +448,7 @@ Package hyperref Info: Link coloring ON on input line 82.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 87
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 89
 .
 
 (/opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/tex/latex/base/ulasy.fd
@@ -468,24 +468,17 @@ vips/cm-super/cm-super-ts1.enc}] (./resume-summer-24.aux)
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-Package rerunfilecheck Warning: File `resume-summer-24.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume-summer-24.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  94CEA44DE882DABFF18E1836E83FA456;877.
+Package rerunfilecheck Info: File `resume-summer-24.out' has not changed.
+(rerunfilecheck)             Checksum: 94CEA44DE882DABFF18E1836E83FA456;877.
  ) 
 Here is how much of TeX's memory you used:
- 10541 strings out of 474116
- 163093 string characters out of 5733619
- 1955187 words of memory out of 5000000
- 32793 multiletter control sequences out of 15000+600000
- 561344 words of font info for 49 fonts, out of 8000000 for 9000
+ 10558 strings out of 474116
+ 163384 string characters out of 5733619
+ 1956187 words of memory out of 5000000
+ 32804 multiletter control sequences out of 15000+600000
+ 561644 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,284b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,287b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmbx10.pfb></opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmbx12.pfb></opt/homebrew/Cellar/texlive/20240312/
@@ -495,10 +488,10 @@ ar/texlive/20240312/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
 nts/cm/cmsy10.pfb></opt/homebrew/Cellar/texlive/20240312/share/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmti10.pfb></opt/homebrew/Cellar/texlive/20240312/sha
 re/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on resume-summer-24.pdf (1 page, 107992 bytes).
+Output written on resume-summer-24.pdf (1 page, 108405 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 80 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
