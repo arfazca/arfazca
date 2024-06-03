@@ -1,4 +1,18 @@
-#!/bin/bash
+# #!/bin/bash
+
+# Function to escape LaTeX special characters
+ESC_LATEX() {
+    echo "$1" | sed -e 's/\\/\\\\/g' \
+                    -e 's/{/\\{/g' \
+                    -e 's/}/\\}/g' \
+                    -e 's/\$/\\$/g' \
+                    -e 's/&/\\&/g' \
+                    -e 's/#/\\#/g' \
+                    -e 's/_/\\_/g' \
+                    -e 's/%/\\%/g' \
+                    -e 's/\^/\\^/g' \
+                    -e 's/\~/\\~/g'
+}
 
 # Prompt for variables with default values
 read -p "Enter Position [Software Developer]: " position
@@ -10,20 +24,28 @@ company_name=${company_name:-Some-Company}
 read -p "Enter Company Name Suffix [Some-Corporation]: " company_suffix
 company_suffix=${company_suffix:-" "}
 
-read -p "Enter Division [Human Resource]: " division
-division=${division:-Human Resource}
+read -p "Enter Division [Human Resources]: " division
+division=${division:-Human Resources}
 
 read -p "Enter Location of the City [Victoria]: " locationCity
-locationCity=${location:-Victoria}
+locationCity=${locationCity:-Victoria}
 
 read -p "Enter Location of the Province [British Columbia]: " locationState
-locationState=${location:-British Columbia}
+locationState=${locationState:-British Columbia}
 
 read -p "Enter Terms [an 8-month]: " terms
 terms=${terms:-an 8-month}
 
 filename="Hussain, Arfaz - Placement Application - ${position} - ${company_name} ${company_suffix} - ${division}"
-echo "$filename"
+
+# Escape LaTeX special characters in variables
+position=$(ESC_LATEX "$position")
+company_name=$(ESC_LATEX "$company_name")
+company_suffix=$(ESC_LATEX "$company_suffix")
+division=$(ESC_LATEX "$division")
+locationCity=$(ESC_LATEX "$locationCity")
+locationState=$(ESC_LATEX "$locationState")
+terms=$(ESC_LATEX "$terms")
 
 # Generate LaTeX file content
 cat <<EOL > tntx.tex
@@ -96,11 +118,12 @@ cat <<EOL > tntx.tex
 \text{Division: \Division} \\\\
 \text{Location: \LocationCity}, \text{\LocationState} \\\\
 
-\vspace{5pt}
+\vspace{-5pt}
+
 \text{Dear Hiring Manager,}
 
 \vspace{3pt}
-I am excited to apply for the {\fontsize{11}{11.5}\selectfont \bfseries \Position} at {\fontsize{11}{11.5}\selectfont \bfseries \CompanyName}. I am a software engineering student at the University of Victoria in British Columbia. I am eager to learn and grow in the field of computer and software engineering, and I believe that this role will help me gain valuable work experience related to my interests and help me acquire a practical understanding in a real-world setting.
+I am excited to apply for the {\fontsize{11}{11.5}\selectfont \bfseries \Position} Co-op Placement at {\fontsize{11}{11.5}\selectfont \bfseries \CompanyName}. I am a software engineering student at the University of Victoria in British Columbia. I am eager to learn and grow in the field of computer and software engineering, and I believe that this role will help me gain valuable work experience related to my interests and help me acquire a practical understanding in a real-world setting.
 
 {\fontsize{11}{11.5}\selectfont \bfseries I have a fascination for developing web and mobile applications, and I am continually learning new skills through personal projects outside school.} I have been involved in more than 13 software development projects, including developing an iOS weather application in Swift Programming Language, creating a 3D graphical simulation of a Rubik’s Cube in OpenGL and C++, and developing web development projects in React, JavaScript, and TypeScript. I have been an active member of the Engineering Students Society and UVic Students Society, where I have worked as a mentor during my second year and volunteered in multiple events while engaging in software development projects throughout my time.
 

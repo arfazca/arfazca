@@ -1,51 +1,64 @@
 #!/bin/bash
 
+ESC_LATEX() {
+    echo "$1" | sed -e 's/\\/\\\\/g' \
+                    -e 's/{/\\{/g' \
+                    -e 's/}/\\}/g' \
+                    -e 's/\$/\\$/g' \
+                    -e 's/&/\\&/g' \
+                    -e 's/#/\\#/g' \
+                    -e 's/_/\\_/g' \
+                    -e 's/%/\\%/g' \
+                    -e 's/\^/\\^/g' \
+                    -e 's/\~/\\~/g'
+}
+
 # Define the data for the entries
-PersonalProject_001_NAME="Rubik’s Cube (3D Simulation)"
-PersonalProject_001_DATE="Feb 2023 – June 2023"
-PersonalProject_001_LINK="www.github.com/arfazhxss/OpenGL-projects"
-PersonalProject_001_LOCATION="Victoria, BC"
-PersonalProject_001_DESC1="Developed a 3D simulation utilizing OpenGL libraries GLUT, GLFW, and GLM, incorporating graphics rendering techniques through GLSL (Shader Language) for visualizations, mathematical operations"
-PersonalProject_001_DESC2="Implemented intuitive keyboard and mouse controls, including precise cube rotations with keys such as L, J, I, K, and dynamic zoom functionalities with keyboard shortcuts"
+PersonalProject_001_NAME=$(ESC_LATEX "Rubik’s Cube (3D Simulation)")
+PersonalProject_001_DATE=$(ESC_LATEX "Feb 2023 – June 2023")
+PersonalProject_001_LINK=$(ESC_LATEX "www.github.com/arfazhxss/OpenGL-projects")
+PersonalProject_001_LOCATION=$(ESC_LATEX "Victoria, BC")
+PersonalProject_001_DESC1=$(ESC_LATEX "Developed a 3D simulation utilizing OpenGL libraries GLUT, GLFW, and GLM, incorporating graphics rendering techniques through GLSL (Shader Language) for visualizations, mathematical operations")
+PersonalProject_001_DESC2=$(ESC_LATEX "Implemented intuitive keyboard and mouse controls, including precise cube rotations with keys such as L, J, I, K, and dynamic zoom functionalities with keyboard shortcuts")
 
-PersonalProject_002_NAME="Simple Weather Application (iOS)"
-PersonalProject_002_DATE="Apr 2023 – Nov 2023"
-PersonalProject_002_LINK="www.github.com/arfazhxss/Weather-Application"
-PersonalProject_002_LOCATION="Victoria, BC"
-PersonalProject_002_DESC1="Developed a simple iOS application using Swift programming language on object-oriented programming principles, ensuring a modular and maintainable codebase"
-PersonalProject_002_DESC2="Implemented a user-friendly interface that seamlessly integrates with OpenWeather API, allowing users to access and navigate through accurate weather information for their current city"
+PersonalProject_002_NAME=$(ESC_LATEX "Simple Weather Application (iOS)")
+PersonalProject_002_DATE=$(ESC_LATEX "Apr 2023 – Nov 2023")
+PersonalProject_002_LINK=$(ESC_LATEX "www.github.com/arfazhxss/Weather-Application")
+PersonalProject_002_LOCATION=$(ESC_LATEX "Victoria, BC")
+PersonalProject_002_DESC1=$(ESC_LATEX "Developed a simple iOS application using Swift programming language on object-oriented programming principles, ensuring a modular and maintainable codebase")
+PersonalProject_002_DESC2=$(ESC_LATEX "Implemented a user-friendly interface that seamlessly integrates with OpenWeather API, allowing users to access and navigate through accurate weather information for their current city")
 
-CollaborativeProject_001_NAME="Study Sprints"
-CollaborativeProject_001_DATE="Feb 2024 – Present"
-CollaborativeProject_001_LINK="www.github.com/VikeLabs/Study-Sprints"
-CollaborativeProject_001_LOCATION="Victoria, BC"
-CollaborativeProject_001_DESC1="Collaborating with a team of 6 developers to create a full-stack Pomodoro application utilizing React with TypeScript, addressing users' time management requirements"
-CollaborativeProject_001_DESC2="Utilizing Next.js framework for efficient routing and MongoDB for data storage and retrieval, to track and review past activities of users over the last day, month and year"
+CollaborativeProject_001_NAME=$(ESC_LATEX "Study Sprints")
+CollaborativeProject_001_DATE=$(ESC_LATEX "Feb 2024 – Present")
+CollaborativeProject_001_LINK=$(ESC_LATEX "www.github.com/VikeLabs/Study-Sprints")
+CollaborativeProject_001_LOCATION=$(ESC_LATEX "Victoria, BC")
+CollaborativeProject_001_DESC1=$(ESC_LATEX "Collaborating with a team of 6 developers to create a full-stack Pomodoro application utilizing React with TypeScript, addressing users' time management requirements")
+CollaborativeProject_001_DESC2=$(ESC_LATEX "Utilizing Next.js framework for efficient routing and MongoDB for data storage and retrieval, to track and review past activities of users over the last day, month and year")
 
-CollaborativeProject_002_NAME="Ground Support System"
-CollaborativeProject_002_DATE="Jul 2023 – Jan 2024"
-CollaborativeProject_002_LINK="www.github.com/UVicRocketry/Ground-Support"
-CollaborativeProject_002_LOCATION="Victoria, BC"
-CollaborativeProject_002_DESC1="Collaborated with a team of 13 developers in developing a full-stack telemetry visualization and post-flight analytical software for engineering students analyzing rocket performance in real-time"
-CollaborativeProject_002_DESC2="Developed a total of 13 Material-UI components in React with TypeScript, ensuring type safety and fidelity to Figma designs, enhancing adaptability and usability across multiple platforms"
+CollaborativeProject_002_NAME=$(ESC_LATEX "Ground Support System")
+CollaborativeProject_002_DATE=$(ESC_LATEX "Jul 2023 – Jan 2024")
+CollaborativeProject_002_LINK=$(ESC_LATEX "www.github.com/UVicRocketry/Ground-Support")
+CollaborativeProject_002_LOCATION=$(ESC_LATEX "Victoria, BC")
+CollaborativeProject_002_DESC1=$(ESC_LATEX "Collaborated with a team of 13 developers in developing a full-stack telemetry visualization and post-flight analytical software for engineering students analyzing rocket performance in real-time")
+CollaborativeProject_002_DESC2=$(ESC_LATEX "Developed a total of 13 Material-UI components in React with TypeScript, ensuring type safety and fidelity to Figma designs, enhancing adaptability and usability across multiple platforms")
 
-Experience_001_NAME="Software Team Lead"
-Experience_001_DATE="Feb 2024 – Present"
-Experience_001_ORGANIZATION="VikeLabs"
-Experience_001_LOCATION="Victoria, BC"
-Experience_001_DESC1="Simultaneously working in 3 full-stack projects courseup, coopme and study-sprints facilitating collaboration with team leads through meetings and progress tracking across teams"
+Experience_001_NAME=$(ESC_LATEX "Software Team Lead")
+Experience_001_DATE=$(ESC_LATEX "Feb 2024 – Present")
+Experience_001_ORGANIZATION=$(ESC_LATEX "VikeLabs")
+Experience_001_LOCATION=$(ESC_LATEX "Victoria, BC")
+Experience_001_DESC1=$(ESC_LATEX "Simultaneously working in 3 full-stack projects courseup, coopme and study-sprints facilitating collaboration with team leads through meetings and progress tracking across teams")
 
-Experience_002_NAME="Graphics Coordinator"
-Experience_002_DATE="Jan 2023 – Present"
-Experience_002_ORGANIZATION="Engineering Student’s Society"
-Experience_002_LOCATION="Victoria, BC"
-Experience_002_DESC1="Designed and illustrated a total 15+ posters and 20+ social media posts while managing office hours to ensure the availability of the student lounge, maintaining websites and social media accounts"
+Experience_002_NAME=$(ESC_LATEX "Graphics Coordinator")
+Experience_002_DATE=$(ESC_LATEX "Jan 2023 – Present")
+Experience_002_ORGANIZATION=$(ESC_LATEX "Engineering Student’s Society")
+Experience_002_LOCATION=$(ESC_LATEX "Victoria, BC")
+Experience_002_DESC1=$(ESC_LATEX "Designed and illustrated a total 15+ posters and 20+ social media posts while managing office hours to ensure the availability of the student lounge, maintaining websites and social media accounts")
 
-Experience_003_NAME="Grocery Clerk"
-Experience_003_DATE="Apr 2022 – Sept 2022"
-Experience_003_ORGANIZATION="Save On Foods"
-Experience_003_LOCATION="Victoria, BC"
-Experience_003_DESC1="Oversaw store operations in a 10-to-12-member team while addressing 50 inquiries each shift, maintaining inventory through detailed stock records and rotations, helping in reducing stock shortages by 7"
+Experience_003_NAME=$(ESC_LATEX "Grocery Clerk")
+Experience_003_DATE=$(ESC_LATEX "Apr 2022 – Sept 2022")
+Experience_003_ORGANIZATION=$(ESC_LATEX "Save On Foods")
+Experience_003_LOCATION=$(ESC_LATEX "Victoria, BC")
+Experience_003_DESC1=$(ESC_LATEX "Oversaw store operations in a 10-to-12-member team while addressing 50 inquiries each shift, maintaining inventory through detailed stock records and rotations, helping in reducing stock shortages by 7")
 
 # Generate the LaTeX file
 cat <<EOT > resume.tex
@@ -261,3 +274,5 @@ EOT
 # Compile the LaTeX file to PDF
 pdflatex resume.tex
 
+shopt -s extglob
+rm -f !(*.tex|*.pdf|*.sh|*.png)
