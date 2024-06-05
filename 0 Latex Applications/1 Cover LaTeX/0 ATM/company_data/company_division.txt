@@ -1,57 +1,57 @@
-Human Resources
-Finance
-Information Technology
-Research and Development
-Product Development
-Quality Assurance
-Manufacturing
-Sales and Marketing
-Customer Support
-Project Management
-Supply Chain Management
-Legal and Compliance
-Facilities Management
-Business Development
-Training and Development
-Strategic Planning
-Risk Management
-Corporate Communications
-Environmental Health and Safety
-Information Security
-Procurement
-Operations
-Corporate Strategy
-Internal Audit
-Regulatory Affairs
-Business Intelligence
-Corporate Social Responsibility
-Innovation
-Data Science
-Technical Support
-Network Operations
-Infrastructure Management
 Application Development
-Systems Engineering
-Cybersecurity
-Software Engineering
-Hardware Engineering
-User Experience (UX) Design
-User Interface (UI) Design
-Cloud Computing
-Mobile Development
-Web Development
-Database Management
+BC Ferries Head Office (Human Resources)
+Business Development
+Business Intelligence
 Change Management
-Talent Acquisition
+Cloud Computing
 Compensation and Benefits
+Connaught Campus
+Corporate Communications
+Corporate Social Responsibility
+Corporate Strategy
+Customer Support
+Cybersecurity
+Data Science
+Database Management
 Diversity and Inclusion
 Employee Relations
-Learning and Development
-Organizational Development
-Research & Development
-Identity, People & Accounts
-TEST-TEST-TEST
-Connaught Campus
-BC Ferries Head Office (Human Resources)
+Environmental Health and Safety
+Facilities Management
+Finance
+Hardware Engineering
 Head Office
+Human Resources
 Human Resources, Talent Acquisition
+Identity, People & Accounts
+Information Security
+Information Technology
+Infrastructure Management
+Innovation
+Internal Audit
+Learning and Development
+Legal and Compliance
+Manufacturing
+Mobile Development
+Network Operations
+Operations
+Organizational Development
+Procurement
+Product Development
+Project Management
+Quality Assurance
+Regulatory Affairs
+Research & Development
+Research and Development
+Risk Management
+Sales and Marketing
+Software Engineering
+Strategic Planning
+Supply Chain Management
+Systems Engineering
+TEST-TEST-TEST
+Talent Acquisition
+Technical Support
+Training and Development
+User Experience (UX) Design
+User Interface (UI) Design
+Web Development

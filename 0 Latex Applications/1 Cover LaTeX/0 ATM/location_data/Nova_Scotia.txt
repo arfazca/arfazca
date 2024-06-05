@@ -1,10 +1,10 @@
-Halifax
-Dartmouth
-Sydney
-Truro
-New Glasgow
-Glace Bay
-Kentville
 Amherst
 Bridgewater
+Dartmouth
+Glace Bay
+Halifax
+Kentville
+New Glasgow
+Sydney
+Truro
 Yarmouth

@@ -1,23 +1,23 @@
-Vancouver
-Victoria
-Surrey
-Burnaby
-Richmond
 Abbotsford
+Burnaby
+Campbell River
+Chilliwack
 Coquitlam
-Kelowna
-Langley
-Saanich
+Courtenay
 Delta
 Kamloops
-Nanaimo
-Chilliwack
-Prince George
-Penticton
-Vernon
-Courtenay
-Campbell River
-Port Coquitlam
-New Westminster
+Kelowna
+Langley
 Maple Ridge
+Nanaimo
+New Westminster
 North Vancouver
+Penticton
+Port Coquitlam
+Prince George
+Richmond
+Saanich
+Surrey
+Vancouver
+Vernon
+Victoria
