@@ -1,10 +1,10 @@
-Winnipeg
-Steinbach
 Brandon
-Thompson
-Portage la Prairie
-Winkler
-Selkirk
-Morden
 Dauphin
+Morden
+Portage la Prairie
+Selkirk
+Steinbach
 The Pas
+Thompson
+Winkler
+Winnipeg

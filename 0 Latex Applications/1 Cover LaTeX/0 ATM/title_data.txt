@@ -1,179 +1,168 @@
-Software Engineer
-Full Stack Developer
-Frontend Developer
-Backend Developer
-DevOps Engineer
-Data Engineer
-Data Scientist
-Machine Learning Engineer
-Artificial Intelligence Engineer
-Quality Assurance Engineer
-Test Automation Engineer
-UI/UX Designer
-Product Manager
-Project Manager
-Technical Lead
-Software Architect
-Systems Analyst
-Database Administrator
-Network Engineer
-Security Analyst
-Penetration Tester
-IT Support Specialist
-Technical Writer
-Scrum Master
-Agile Coach
-Business Analyst
-Solution Architect
-Cloud Architect
-Infrastructure Engineer
-Systems Administrator
-Cybersecurity Engineer
-Site Reliability Engineer
-Embedded Systems Engineer
-Mobile App Developer
-Web Developer
-Enterprise Architect
-Big Data Engineer
-Blockchain Developer
-AR/VR Developer
-Game Developer
-Bioinformatics Developer
-UI/UX Researcher
-Algorithm Engineer
-Robotics Engineer
-Digital Forensics Analyst
-IT Auditor
-IT Consultant
-ERP Specialist
-CRM Specialist
-GIS Developer
-Multimedia Developer
-RPA Developer
-Virtualization Engineer
-Knowledge Engineer
-API Engineer
-Content Manager
-IoT Developer
-Voice Interface Designer
-Web Content Developer
-Localization Engineer
-Compiler Engineer
-Configuration Manager
-SCM Specialist
-Knowledge Engineer
-Product Owner
-Release Manager
-Database Developer
-Network Administrator
-Network Security Specialist
-Computer Vision Engineer
-Information Security Engineer
-Technical Recruiter
-Business Systems Analyst
-Statistical Programmer
-Data Visualization Specialist
-Software Development Manager
-E-commerce Specialist
-IT Trainer
-Data Modeler
-Enterprise Data Architect
-Full Stack Engineer
-Machine Learning Specialist
-Frontend Architect
-Backend Architect
 AI Research Scientist
-Chatbot Developer
-Systems Integrator
-Web Content Manager
-Solutions Specialist
-Systems Designer
-Business Continuity Analyst
-IT Risk Analyst
-Risk Assurance Analyst
-Technical Program Manager
-Business Intelligence Developer
-Statistical Analyst
-Security Engineer
-Webmaster
-Process Analyst
-Process Designer
-Process Engineer
-IT Operations Manager
-Configuration Analyst
-Configuration Engineer
-Knowledge Engineer
-Process Architect
-Technical Account Manager
-IT Asset Manager
-Change Manager
-Software Configuration Manager
-Data Administrator
-Technology Manager
-Systems Analyst
-Digital Marketing Analyst
-IT Security Consultant
-Technical Consultant
-IT Sales Engineer
-IT Operations Analyst
-Data Governance Analyst
-Technical Account Manager
-Software Deployment Engineer
-Systems Support Engineer
-Database Analyst
-Web Analyst
-QA Automation Engineer
-Software Test Engineer
-Software Release Engineer
-Performance Engineer
-Systems Engineer
-Server Administrator
-Web Operations Engineer
-Software Implementation Consultant
-Technical Writer
-UX/UI Designer
-SEO Specialist
-Software Maintenance Engineer
-Data Warehouse Specialist
-Data Analyst
-IT Security Analyst
-Computer Systems Analyst
-Integration Engineer
-Computer Programmer
+API Engineer
+AR/VR Developer
+Agile Coach
+Algorithm Engineer
 Application Developer
+Artificial Intelligence Engineer
+Backend Architect
+Backend Developer
+Battery Systems Engineer
+Big Data Engineer
+Bioinformatics Developer
+Blockchain Developer
+Business Analyst
+Business Continuity Analyst
+Business Intelligence Developer
 Business Systems Analyst
-Systems Support Analyst
-Computer Technician
-Desktop Support Specialist
-IT Support Technician
-Technical Support Engineer
-Computer Support Specialist
-Computer Network Specialist
-Network Support Engineer
-Network Administrator
-Network Analyst
-Network Manager
-Network Security Engineer
-Information Systems Manager
-IT Manager
-IT Director
-Chief Technology Officer
+Business Technology
+CRM Specialist
+Change Manager
+Chatbot Developer
 Chief Information Officer
-IT Consultant
-IT Sales Representative
-Computer and Information Research Scientist
+Chief Technology Officer
+Cloud Architect
+Compiler Engineer
 Computer Network Architect
+Computer Network Specialist
+Computer Programmer
+Computer Support Specialist
 Computer Systems Administrator
 Computer Systems Analyst
+Computer Technician
+Computer Vision Engineer
+Computer and Information Research Scientist
+Configuration Analyst
+Configuration Engineer
+Configuration Manager
+Content Manager
+Cybersecurity Engineer
+Data Administrator
+Data Analyst
+Data Engineer
+Data Governance Analyst
+Data Modeler
+Data Scientist
+Data Visualization Specialist
+Data Warehouse Specialist
 Database Administrator
-Information Security Analyst
-Network and Computer Systems Administrator
-Software Developer
-Web Developer
-Software Development Engineer
+Database Analyst
+Database Developer
+Desktop Support Specialist
+DevOps Engineer
+Digital Forensics Analyst
 Digital Information Technologies & Solutions
-Software
-Business Technology
+Digital Marketing Analyst
+E-commerce Specialist
+ERP Specialist
+Embedded Systems Engineer
+Enterprise Architect
+Enterprise Data Architect
+Frontend Architect
+Frontend Developer
+Full Stack Developer
+Full Stack Engineer
+GIS Developer
+Game Developer
+IT Asset Manager
+IT Auditor
+IT Consultant
+IT Director
+IT Manager
+IT Operations Analyst
+IT Operations Manager
+IT Risk Analyst
+IT Sales Engineer
+IT Sales Representative
+IT Security Analyst
+IT Security Consultant
+IT Support Specialist
+IT Support Technician
+IT Trainer
+Information Security Analyst
+Information Security Engineer
+Information Systems Manager
+Infrastructure Engineer
+Integration Engineer
+IoT Developer
+Knowledge Engineer
+Localization Engineer
+Machine Learning Engineer
+Machine Learning Specialist
+Mobile App Developer
+Multimedia Developer
+Network Administrator
+Network Analyst
+Network Engineer
+Network Manager
+Network Security Engineer
+Network Security Specialist
+Network Support Engineer
+Network and Computer Systems Administrator
+Penetration Tester
+Performance Engineer
+Process Analyst
+Process Architect
+Process Designer
+Process Engineer
+Product Manager
+Product Owner
+Project Manager
+QA Automation Engineer
+Quality Assurance Engineer
+RPA Developer
+Release Manager
+Risk Assurance Analyst
+Robotics Engineer
+SCM Specialist
+SEO Specialist
+Scrum Master
+Security Analyst
+Security Engineer
+Server Administrator
 Service Desk
-Battery Systems Engineer
+Site Reliability Engineer
+Software
+Software Architect
+Software Configuration Manager
+Software Deployment Engineer
+Software Developer
+Software Development Engineer
+Software Development Manager
+Software Engineer
+Software Implementation Consultant
+Software Maintenance Engineer
+Software Release Engineer
+Software Test Engineer
+Solution Architect
+Solutions Specialist
+Statistical Analyst
+Statistical Programmer
+Systems Administrator
+Systems Analyst
+Systems Designer
+Systems Engineer
+Systems Integrator
+Systems Support Analyst
+Systems Support Engineer
 TEST-TEST-TEST
+Technical Account Manager
+Technical Consultant
+Technical Lead
+Technical Program Manager
+Technical Recruiter
+Technical Support Engineer
+Technical Writer
+Technology Manager
+Test Automation Engineer
+UI/UX Designer
+UI/UX Researcher
+UX/UI Designer
+Virtualization Engineer
+Voice Interface Designer
+Web Analyst
+Web Content Developer
+Web Content Manager
+Web Developer
+Web Operations Engineer
+Webmaster

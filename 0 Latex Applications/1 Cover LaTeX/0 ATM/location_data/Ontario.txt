@@ -1,17 +1,17 @@
-Toronto
-Ottawa
-Waterloo
-Oakville
+Barrie
+Brampton
+Cambridge
+Guelph
+Hamilton
+Kingston
+Kitchener
+London
 Markham
 Mississauga
-Brampton
-Hamilton
-London
-Kitchener
-Windsor
-Guelph
-Cambridge
-Barrie
-Kingston
-Thunder Bay
+Oakville
+Ottawa
 Sudbury
+Thunder Bay
+Toronto
+Waterloo
+Windsor
