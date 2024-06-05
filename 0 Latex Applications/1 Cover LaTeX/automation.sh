@@ -59,20 +59,17 @@ get_company_suffix() {
 get_location() {
     local province_origin="$DATA_DIR/0 ATM/location_data/Provinces.txt"
     local province_query="Enter Province name:"
-    local locationState=$(DROP_DOWN "$province_origin" "$province_query")
+    locationState=$(DROP_DOWN "$province_origin" "$province_query")
 
     if [ -n "$locationState" ]; then
         local city_query="Enter City name:"
         local city_origin="$DATA_DIR/0 ATM/location_data/${locationState// /_}.txt"
-        local locationCity=$(DROP_DOWN "$city_origin" "$city_query")
+        locationCity=$(DROP_DOWN "$city_origin" "$city_query")
         [ -z "$locationCity" ] && { echo "$city_query No city selected."; exit 1; }
     else
         echo "$province_query No province selected."
         exit 1
     fi
-
-    echo "$locationState"
-    echo "$locationCity"
 }
 
 # Function to get the Division
@@ -206,20 +203,19 @@ position=$(ESC_LATEX "$(get_title)")
 company_name=$(ESC_LATEX "$(get_company_name)")
 company_suffix=$(ESC_LATEX "$(get_company_suffix)")
 division=$(ESC_LATEX "$(get_division)")
-location=($(get_location))
-locationCity=$(ESC_LATEX "${location[@]:(-1):1}")
-locationState=$(ESC_LATEX "${location[@]:(-2):1}")
+get_location
+locationCity=$(ESC_LATEX "${locationCity}")
+locationState=$(ESC_LATEX "${locationState}")
 terms=$(ESC_LATEX "$(get_terms)")
-unset location
 
-# Check if any of the variables are empty and exit if so
+Check if any of the variables are empty and exit if so
 for var in position company_name division locationCity locationState terms; do
     [[ -z ${!var} ]] && { echo "The variable '$var' is empty. Exiting."; exit 1; }
 done
 
 filename="Hussain, Arfaz - Placement Application - ${position} - ${company_name} ${company_suffix} - ${division}"
 generate_cover_latex "$position" "$company_name" "$company_suffix" "$division" "$locationCity" "$locationState" "$terms"
-unset position company_name company_suffix division locationCity locationState terms filename
+unset position company_name company_suffix division locationCity locationState terms 
 
 echo "$filename"
 mv tntx.tex "9.2 PostProcessed/tex-outputs/" || exit
@@ -232,3 +228,4 @@ rm -f !(*.tex)
 cd ../../ || exit
 
 echo "Cover letter generated and saved as $filename.pdf"
+unset filename DATA_DIR
