@@ -16,8 +16,81 @@ ESC_LATEX() {
                     -e 's/\~/\\~/g'
 }
 
+# Function to create a dropdown menu
+DROP_DOWN() {
+    local origin="$1"
+    local query="$2"
+    local ADD="++++++"
+    local options=$(cat "$origin" 2>/dev/null)
+    local state=$(echo "$ADD\n$options" | fzf --height 10% --border --prompt "$query ")
+    [[ -z "$state" || "$state" == "exit" ]] && exit
+    if [ "$state" = "$ADD" ]; then
+        read -p $'\e[1;33mEnter State: \e[0m' new_state
+        read -n 1 -r -s -p $'Press any key to continue...\n'
+        echo "$new_state" >>"$origin"
+        echo "$new_state"
+    else
+        echo "$state"
+    fi
+}
+
+# Function to get the Position
+get_title() {
+    local title_origin="$DATA_DIR/0 ATM/title_data.txt"
+    local title_query="Enter Position:"
+    echo "$(DROP_DOWN "$title_origin" "$title_query")"
+}
+
+# Function to get the Company Name
+get_company_name() {
+    local company_name_origin="$DATA_DIR/0 ATM/company_data/company_name.txt"
+    local company_name_query="Enter Company Name:"
+    echo "$(DROP_DOWN "$company_name_origin" "$company_name_query")"
+}
+
+# Function to get the Company Suffix
+get_company_suffix() {
+    local company_suffix_origin="$DATA_DIR/0 ATM/company_data/company_suffix.txt"
+    local company_suffix_query="Enter Company Suffix:"
+    echo "$(DROP_DOWN "$company_suffix_origin" "$company_suffix_query")"
+}
+
+# Function to get the City and their Provinces
+get_location() {
+    local province_origin="$DATA_DIR/0 ATM/location_data/Provinces.txt"
+    local province_query="Enter Province name:"
+    local locationState=$(DROP_DOWN "$province_origin" "$province_query")
+
+    if [ -n "$locationState" ]; then
+        local city_query="Enter City name:"
+        local city_origin="$DATA_DIR/0 ATM/location_data/${locationState// /_}.txt"
+        local locationCity=$(DROP_DOWN "$city_origin" "$city_query")
+        [ -z "$locationCity" ] && { echo "$city_query No city selected."; exit 1; }
+    else
+        echo "$province_query No province selected."
+        exit 1
+    fi
+
+    echo "$locationState"
+    echo "$locationCity"
+}
+
+# Function to get the Division
+get_division() {
+    local division_origin="$DATA_DIR/0 ATM/company_data/company_division.txt"
+    local division_query="Enter Division:"
+    echo "$(DROP_DOWN "$division_origin" "$division_query")"
+}
+
+# Function to get the Terms
+get_terms() {
+    local terms_origin="$DATA_DIR/0 ATM/term_data.txt"
+    local terms_query="Enter Terms:"
+    echo "$(DROP_DOWN "$terms_origin" "$terms_query")"
+}
+
 # Function to generate LaTeX file
-generate_latex() {
+generate_cover_latex() {
     position="$1"
     company_name="$2"
     company_suffix="$3"
@@ -128,78 +201,6 @@ generate_latex() {
 EOL
 }
 
-# Function to create a dropdown menu
-DROP_DOWN() {
-    local origin="$1"
-    local query="$2"
-    local ADD="++++++"
-    local options=$(cat "$origin" 2>/dev/null)
-    local state=$(echo "$ADD\n$options" | fzf --height 10% --border --prompt "$query ")
-    [[ -z "$state" || "$state" == "exit" ]] && exit
-    if [ "$state" = "$ADD" ]; then
-        read -p $'\e[1;33mEnter State: \e[0m' new_state
-        echo "$new_state" >>"$origin"
-        echo "$new_state"
-    else
-        echo "$state"
-    fi
-}
-
-# Function to get the Position
-get_title() {
-    local title_origin="$DATA_DIR/0 ATM/title_data.txt"
-    local title_query="Enter Position:"
-    echo "$(DROP_DOWN "$title_origin" "$title_query")"
-}
-
-# Function to get the Company Name
-get_company_name() {
-    local company_name_origin="$DATA_DIR/0 ATM/company_data/company_name.txt"
-    local company_name_query="Enter Company Name:"
-    echo "$(DROP_DOWN "$company_name_origin" "$company_name_query")"
-}
-
-# Function to get the Company Suffix
-get_company_suffix() {
-    local company_suffix_origin="$DATA_DIR/0 ATM/company_data/company_suffix.txt"
-    local company_suffix_query="Enter Company Suffix:"
-    echo "$(DROP_DOWN "$company_suffix_origin" "$company_suffix_query")"
-}
-
-# Function to get the City and their Provinces
-get_location() {
-    local province_origin="$DATA_DIR/0 ATM/location_data/Provinces.txt"
-    local province_query="Enter Province name:"
-    local locationState=$(DROP_DOWN "$province_origin" "$province_query")
-
-    if [ -n "$locationState" ]; then
-        local city_query="Enter City name:"
-        local city_origin="$DATA_DIR/0 ATM/location_data/${locationState// /_}.txt"
-        local locationCity=$(DROP_DOWN "$city_origin" "$city_query")
-        [ -z "$locationCity" ] && { echo "$city_query No city selected."; exit 1; }
-    else
-        echo "$province_query No province selected."
-        exit 1
-    fi
-
-    echo "$locationState"
-    echo "$locationCity"
-}
-
-# Function to get the Division
-get_division() {
-    local division_origin="$DATA_DIR/0 ATM/company_data/company_division.txt"
-    local division_query="Enter Division:"
-    echo "$(DROP_DOWN "$division_origin" "$division_query")"
-}
-
-# Function to get the Terms
-get_terms() {
-    local terms_origin="$DATA_DIR/0 ATM/term_data.txt"
-    local terms_query="Enter Terms:"
-    echo "$(DROP_DOWN "$terms_origin" "$terms_query")"
-}
-
 # Escape LaTeX special characters in variables
 position=$(ESC_LATEX "$(get_title)")
 company_name=$(ESC_LATEX "$(get_company_name)")
@@ -212,12 +213,13 @@ terms=$(ESC_LATEX "$(get_terms)")
 unset location
 
 # Check if any of the variables are empty and exit if so
-for var in position company_name company_suffix division locationCity locationState terms; do
-    [[ -z ${!var} ]] && { echo "One or more variables are empty. Exiting."; exit 1; }
+for var in position company_name division locationCity locationState terms; do
+    [[ -z ${!var} ]] && { echo "The variable '$var' is empty. Exiting."; exit 1; }
 done
 
 filename="Hussain, Arfaz - Placement Application - ${position} - ${company_name} ${company_suffix} - ${division}"
-generate_latex "$position" "$company_name" "$company_suffix" "$division" "$locationCity" "$locationState" "$terms"
+generate_cover_latex "$position" "$company_name" "$company_suffix" "$division" "$locationCity" "$locationState" "$terms"
+unset position company_name company_suffix division locationCity locationState terms filename
 
 echo "$filename"
 mv tntx.tex "9.2 PostProcessed/tex-outputs/" || exit
