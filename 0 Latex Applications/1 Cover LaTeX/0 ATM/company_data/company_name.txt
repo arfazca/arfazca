@@ -1,13 +1,95 @@
-Microsoft
-Amazon
 ICBC
 1Password
-TEST-TEST-TEST
 Sanofi
 BC Ferries
 Clio
 Invinity Energy Systems
 BCLC
 BC Pension Corporation
-WorkSafeBC
-ICBC
+WorkSafeBCMicrosoft
+Amazon
+Microsoft
+Amazon
+Shopify
+Netsuite
+OpenText
+BlackBerry
+Hootsuite
+Lightspeed
+Kik
+Slack
+FreshBooks
+PointClickCare
+Clio
+Wave
+D2L
+Klipfolio
+ecobee
+League
+Mediagrif
+Q4
+Vidyard
+Element AI
+Trulioo
+Certn
+Mogo
+Bold Commerce
+Unbounce
+Vendasta
+Magnet Forensics
+Elastic Path
+Ceridian
+Top Hat
+Thinkific
+Bench
+Intuit
+Autodesk
+Adobe
+Salesforce
+HubSpot
+ServiceNow
+CrowdStrike
+Tanium
+Snowflake
+Splunk
+Toptal
+Datadog
+GitLab
+Zoom
+Atlassian
+Trello
+Smartsheet
+Workday
+Asana
+MongoDB
+Coupa
+Okta
+TEST-TEST-TEST
+Vision Critical
+Resolver
+Benevity
+Kira Systems
+Axonify
+Piktochart
+Wattpad
+Lightsail
+Tulip
+Kinaxis
+Solium
+Densify
+Dejero
+Intelex
+Ada
+Ritual
+PayBright
+Flipp
+MindBridge
+MavTek
+Sonder
+Ceridian
+Security Compass
+Vend
+Fluence
+Achievers
+CaseWare
+Breather
