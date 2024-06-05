@@ -87,3 +87,5 @@ ENERGY
 ENTERPRISES
 (Insurance Corporation of British Columbia)
 TEST-TEST-TEST
+(BC Lottery Corporation)
+(Insurance Corporation of British Columbia)
