@@ -55,21 +55,20 @@ get_company_suffix() {
     echo "$(DROP_DOWN "$company_suffix_origin" "$company_suffix_query")"
 }
 
-# Function to get the City and their Provinces
-get_location() {
+get_state() {
     local province_origin="$DATA_DIR/0 ATM/location_data/Provinces.txt"
     local province_query="Enter Province name:"
-    locationState=$(DROP_DOWN "$province_origin" "$province_query")
+    echo "$(DROP_DOWN "$province_origin" "$province_query")"
+}
 
-    if [ -n "$locationState" ]; then
-        local city_query="Enter City name:"
-        local city_origin="$DATA_DIR/0 ATM/location_data/${locationState// /_}.txt"
-        locationCity=$(DROP_DOWN "$city_origin" "$city_query")
-        [ -z "$locationCity" ] && { echo "$city_query No city selected."; exit 1; }
-    else
-        echo "$province_query No province selected."
-        exit 1
-    fi
+get_city() {
+    local locationState="$1"
+    [ -z "$locationState" ] && { echo "$province_query No province selected."; exit 1; }
+    local city_origin="$DATA_DIR/0 ATM/location_data/${locationState// /_}.txt"
+    local city_query="Enter City name:"
+    local locationCity=$(DROP_DOWN "$city_origin" "$city_query")
+    [ -z "$locationCity" ] && { echo "$city_query No city selected."; exit 1; } 
+    echo "$locationCity"
 }
 
 # Function to get the Division
@@ -203,12 +202,11 @@ position=$(ESC_LATEX "$(get_title)")
 company_name=$(ESC_LATEX "$(get_company_name)")
 company_suffix=$(ESC_LATEX "$(get_company_suffix)")
 division=$(ESC_LATEX "$(get_division)")
-get_location
-locationCity=$(ESC_LATEX "${locationCity}")
-locationState=$(ESC_LATEX "${locationState}")
+locationState=$(ESC_LATEX "$(get_state)")
+locationCity=$(ESC_LATEX "$(get_city "$locationState")")
 terms=$(ESC_LATEX "$(get_terms)")
 
-Check if any of the variables are empty and exit if so
+# Check if any of the variables are empty and exit if so
 for var in position company_name division locationCity locationState terms; do
     [[ -z ${!var} ]] && { echo "The variable '$var' is empty. Exiting."; exit 1; }
 done
