@@ -215,7 +215,8 @@ filename="Hussain, Arfaz - Placement Application - ${position} - ${company_name}
 generate_cover_latex "$position" "$company_name" "$company_suffix" "$division" "$locationCity" "$locationState" "$terms"
 unset position company_name company_suffix division locationCity locationState terms 
 
-echo "$filename"
+# echo "$filename"
+filename=$(echo "$filename" | sed 's/[\/\\,;]//g')
 mv tntx.tex "9.2 PostProcessed/tex-outputs/" || exit
 cd "9.2 PostProcessed/tex-outputs"
 pdflatex tntx.tex && mv tntx.pdf "$filename.pdf"
