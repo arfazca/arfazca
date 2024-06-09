@@ -1,5 +1,6 @@
 
 (BC Lottery Corporation)
+(Connaught Campus)
 (Insurance Corporation of British Columbia)
 AB
 AG
@@ -17,6 +18,7 @@ CONSULTANTS
 CONSULTING
 Co.
 Company
+Constructors Westcoast Inc.
 Corp.
 Corporation
 DESIGNS
@@ -31,6 +33,7 @@ FZE
 GLOBAL
 GROUP
 GmbH
+Group Ltd.
 HEALTH
 HOLDINGS
 INCORPORATED
@@ -81,4 +84,7 @@ TECHNOLOGIES
 TECHNOLOGY
 TELECOMMUNICATIONS
 TEST-TEST-TEST
+Technologies
+Technologies Inc.
+Test/Test/test
 VENTURES
