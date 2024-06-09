@@ -1,7 +1,11 @@
 Application Development
+BC Cancer Research Institute
 BC Ferries Head Office (Human Resources)
 Business Development
 Business Intelligence
+Calian Advanced Technology
+Canalyst by Tegus
+Ceridian (Toronto)
 Change Management
 Cloud Computing
 Compensation and Benefits
@@ -15,9 +19,11 @@ Data Science
 Database Management
 Diversity and Inclusion
 Employee Relations
+Employment and Labour Market Services Division
 Environmental Health and Safety
 Facilities Management
 Finance
+Fuel Cell Research Laboratory (FCReL)
 Hardware Engineering
 Head Office
 Human Resources
@@ -39,9 +45,11 @@ Procurement
 Product Development
 Project Management
 Quality Assurance
+R&D/Engineering
 Regulatory Affairs
 Research & Development
 Research and Development
+Richmond HQ
 Risk Management
 Sales and Marketing
 Software Engineering
@@ -51,7 +59,9 @@ Systems Engineering
 TEST-TEST-TEST
 Talent Acquisition
 Technical Support
+Test/Test/test
 Training and Development
 User Experience (UX) Design
 User Interface (UI) Design
+Vancouver HQ
 Web Development

@@ -3,26 +3,33 @@ Achievers
 Ada
 Adobe
 Amazon
+Arlo
 Asana
 Atlassian
 Autodesk
 Axonify
 BC Ferries
+BC Ministry of Social Development and Poverty Reduction
 BC Pension Corporation
 BCLC
+Ballard Power Systems
 Bench
 Benevity
 BlackBerry
 Bold Commerce
 Breather
+Broadcom
+Calian
 CaseWare
 Ceridian
 Certn
 Clio
 Coupa
 CrowdStrike
+D-Wave Systems
 D2L
 Datadog
+Dayforce
 Dejero
 Densify
 Elastic Path
@@ -50,12 +57,15 @@ Mediagrif
 MindBridge
 Mogo
 MongoDB
+NETINT
 Netsuite
 Okta
 OpenText
+PCL
 PayBright
 Piktochart
 PointClickCare
+Provincial Health Services Authority
 Q4
 Resolver
 Ritual
@@ -64,6 +74,7 @@ Sanofi
 Security Compass
 ServiceNow
 Shopify
+Simon Fraser University
 Slack
 Smartsheet
 Snowflake
@@ -72,9 +83,13 @@ Sonder
 Splunk
 TEST-TEST-TEST
 Tanium
+Tegus
+Test/Test/test
 Thinkific
 Top Hat
 Toptal
+Toronto Hydro
+Tradable Bits
 Trello
 Trulioo
 Tulip
