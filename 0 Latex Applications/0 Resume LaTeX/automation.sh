@@ -21,44 +21,44 @@ PersonalProject_001_LOCATION=$(ESC_LATEX "Victoria, BC")
 PersonalProject_001_DESC1=$(ESC_LATEX "Developed a 3D simulation utilizing OpenGL libraries GLUT, GLFW, and GLM, incorporating graphics rendering techniques through GLSL (Shader Language) for visualizations, mathematical operations")
 PersonalProject_001_DESC2=$(ESC_LATEX "Implemented intuitive keyboard and mouse controls, including precise cube rotations with keys such as L, J, I, K, and dynamic zoom functionalities with keyboard shortcuts")
 
-PersonalProject_002_NAME=$(ESC_LATEX "Simple Weather Application (iOS)")
-PersonalProject_002_DATE=$(ESC_LATEX "Apr 2023 – Nov 2023")
-PersonalProject_002_LINK=$(ESC_LATEX "www.github.com/arfazhxss/Weather-Application")
-PersonalProject_002_LOCATION=$(ESC_LATEX "Victoria, BC")
-PersonalProject_002_DESC1=$(ESC_LATEX "Developed a simple iOS application using Swift programming language on object-oriented programming principles, ensuring a modular and maintainable codebase")
-PersonalProject_002_DESC2=$(ESC_LATEX "Implemented a user-friendly interface that seamlessly integrates with OpenWeather API, allowing users to access and navigate through accurate weather information for their current city")
-
-CollaborativeProject_001_NAME=$(ESC_LATEX "Study Sprints")
+CollaborativeProject_001_NAME=$(ESC_LATEX "Course Planner")
 CollaborativeProject_001_DATE=$(ESC_LATEX "Feb 2024 – Present")
-CollaborativeProject_001_LINK=$(ESC_LATEX "www.github.com/VikeLabs/Study-Sprints")
+CollaborativeProject_001_LINK=$(ESC_LATEX "www.github.com/arfazhxss/course-planner")
 CollaborativeProject_001_LOCATION=$(ESC_LATEX "Victoria, BC")
-CollaborativeProject_001_DESC1=$(ESC_LATEX "Collaborating with a team of 6 developers to create a full-stack Pomodoro application utilizing React with TypeScript, addressing users' time management requirements")
-CollaborativeProject_001_DESC2=$(ESC_LATEX "Utilizing Next.js framework for efficient routing and MongoDB for data storage and retrieval, to track and review past activities of users over the last day, month and year")
+CollaborativeProject_001_DESC1=$(ESC_LATEX "Developing a course planning tool for students using Next.js and PostgreSQL, facilitating students to plan their course selection and checking degree progress by dragging and dropping courses into the database")
+CollaborativeProject_001_DESC2=$(ESC_LATEX "Utilizing Puppeteer and Selenium for automated web scraping, extracting course data from degree-specific websites, and using Node.js in the backend with PostgreSQL for database management")
 
-CollaborativeProject_002_NAME=$(ESC_LATEX "Ground Support System")
-CollaborativeProject_002_DATE=$(ESC_LATEX "Jul 2023 – Jan 2024")
-CollaborativeProject_002_LINK=$(ESC_LATEX "www.github.com/UVicRocketry/Ground-Support")
+CollaborativeProject_002_NAME=$(ESC_LATEX "Coop-me")
+CollaborativeProject_002_DATE=$(ESC_LATEX "Dec 2023 – Present")
+CollaborativeProject_002_LINK=$(ESC_LATEX "www.github.com/VikeLabs/coopme")
 CollaborativeProject_002_LOCATION=$(ESC_LATEX "Victoria, BC")
-CollaborativeProject_002_DESC1=$(ESC_LATEX "Collaborated with a team of 13 developers in developing a full-stack telemetry visualization and post-flight analytical software for engineering students analyzing rocket performance in real-time")
-CollaborativeProject_002_DESC2=$(ESC_LATEX "Developed a total of 13 Material-UI components in React with TypeScript, ensuring type safety and fidelity to Figma designs, enhancing adaptability and usability across multiple platforms")
+CollaborativeProject_002_DESC1=$(ESC_LATEX "Developing an improved co-op job search platform for University of Victoria students by scraping data from Learning In Motion (LIM) using Puppeteer and Cypress, and populating the database with job listing data")
+CollaborativeProject_002_DESC2=$(ESC_LATEX "Integrating Prisma Object-Relational Mapping tool with PostgreSQL for backend database management, NextAuth.js for authentication, Next.js for server-side rendering, Tailwind CSS and Shadcn for UI/UX design")
+
+CollaborativeProject_003_NAME=$(ESC_LATEX "Ground Support System")
+CollaborativeProject_003_DATE=$(ESC_LATEX "Jul 2023 – Jan 2024")
+CollaborativeProject_003_LINK=$(ESC_LATEX "www.github.com/UVicRocketry/Ground-Support")
+CollaborativeProject_003_LOCATION=$(ESC_LATEX "Victoria, BC")
+CollaborativeProject_003_DESC1=$(ESC_LATEX "Collaborated with a team of 13 developers in developing a full-stack telemetry visualization and post-flight analytical software for engineering students analyzing rocket performance in real-time")
+CollaborativeProject_003_DESC2=$(ESC_LATEX "Developed front-end components in React using TypeScript, contributed to the project’s final Figma designs, and implemented data visualizations through Material-UI tables and charts")
 
 Experience_001_NAME=$(ESC_LATEX "Software Team Lead")
 Experience_001_DATE=$(ESC_LATEX "Feb 2024 – Present")
 Experience_001_ORGANIZATION=$(ESC_LATEX "VikeLabs")
 Experience_001_LOCATION=$(ESC_LATEX "Victoria, BC")
-Experience_001_DESC1=$(ESC_LATEX "Simultaneously working in 3 full-stack projects courseup, coopme and study-sprints facilitating collaboration with team leads through meetings and progress tracking across teams")
+Experience_001_DESC1=$(ESC_LATEX "Collaborating with 5+ software team leads and executives to arrange workshops for 100+ computer science and software engineering students, attending weekly meetings and bi-weekly hackathons, and leading two full-stack projects")
 
 Experience_002_NAME=$(ESC_LATEX "Graphics Coordinator")
 Experience_002_DATE=$(ESC_LATEX "Jan 2023 – Present")
-Experience_002_ORGANIZATION=$(ESC_LATEX "Engineering Student’s Society")
+Experience_002_ORGANIZATION=$(ESC_LATEX "Engineering and Computer Science Student’s Society")
 Experience_002_LOCATION=$(ESC_LATEX "Victoria, BC")
-Experience_002_DESC1=$(ESC_LATEX "Designed and illustrated a total 15+ posters and 20+ social media posts while managing office hours to ensure the availability of the student lounge, maintaining websites and social media accounts")
+Experience_002_DESC1=$(ESC_LATEX "Designing posters and social media content, volunteering at events, managing office hours to ensure the availability of the student lounge, and maintaining the official website and the exam bank for all engineering and computer science students")
 
 Experience_003_NAME=$(ESC_LATEX "Grocery Clerk")
 Experience_003_DATE=$(ESC_LATEX "Apr 2022 – Sept 2022")
 Experience_003_ORGANIZATION=$(ESC_LATEX "Save On Foods")
 Experience_003_LOCATION=$(ESC_LATEX "Victoria, BC")
-Experience_003_DESC1=$(ESC_LATEX "Oversaw store operations in a 10-to-12-member team while addressing 50 inquiries each shift, maintaining inventory through detailed stock records and rotations, helping in reducing stock shortages by 7")
+Experience_003_DESC1=$(ESC_LATEX "Oversaw store operations with a team of 10 to 12 members, addressed customer inquiries, maintained inventory through detailed stock records and rotations, helped reduce stock shortages by 7%, and stocked products into store shelves")
 
 # Generate the LaTeX file
 cat <<EOT > resume.tex
@@ -171,7 +171,7 @@ cat <<EOT > resume.tex
 \section{Technical Skills}
 \begin{resumeSubHeadingListStart}
 \resumeSubItem{Languages}{Java, Python, TypeScript, JavaScript, Objective-C (Swift), C++, HTML/CSS, R}
-\resumeSubItem{Frameworks and Libraries}{Node, Next.js, React, Express, Material, Shadcn, Tailwind}
+\resumeSubItem{Frameworks and Libraries}{Node, Next.js, React, Express, Material, Shadcn, Tailwind CSS}
 \resumeSubItem{Databases}{MySQL, PosgreSQL, SQLite, MongoDB, Redis, DynamoDB, CloudSQL}
 \resumeSubItem{Developer Tools}{Visual Studio, IntelliJ, JUnit, Eclipse, Maven, Gradle, Git, Docker}
 \end{resumeSubHeadingListStart}
@@ -202,6 +202,18 @@ cat <<EOT > resume.tex
 \end{resumeItemListStart}
 \end{resumeSubHeadingListStart}
 
+\begin{resumeSubHeadingListStart}
+\resumeSubheading
+    {$CollaborativeProject_003_NAME}
+    {$CollaborativeProject_003_DATE}
+    {\textcolor{blue}{$CollaborativeProject_003_LINK}}
+    {$CollaborativeProject_003_LOCATION}
+\begin{resumeItemListStart}
+    \resumeItemDot{$CollaborativeProject_003_DESC1}
+    \resumeItemDot{$CollaborativeProject_003_DESC2}
+\end{resumeItemListStart}
+\end{resumeSubHeadingListStart}
+
 % Selected Personal Projects
 \section{Selected Personal Projects}
 \begin{resumeSubHeadingListStart}
@@ -212,18 +224,6 @@ cat <<EOT > resume.tex
 \begin{resumeItemListStart}
     \resumeItemDot{$PersonalProject_001_DESC1}
     \resumeItemDot{$PersonalProject_001_DESC2}
-\end{resumeItemListStart}
-\end{resumeSubHeadingListStart}
-
-\begin{resumeSubHeadingListStart}
-\resumeSubheading
-    {$PersonalProject_002_NAME}
-    {$PersonalProject_002_DATE}
-    {\textcolor{blue}{$PersonalProject_002_LINK}}
-    {$PersonalProject_002_LOCATION}
-\begin{resumeItemListStart}
-    \resumeItemDot{$PersonalProject_002_DESC1}
-    \resumeItemDot{$PersonalProject_002_DESC2}
 \end{resumeItemListStart}
 \end{resumeSubHeadingListStart}
 
