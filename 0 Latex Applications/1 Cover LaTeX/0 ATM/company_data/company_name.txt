@@ -38,6 +38,7 @@ Flipp
 Fluence
 FreshBooks
 GitLab
+Global Relay Communications
 Hootsuite
 HubSpot
 ICBC
@@ -81,10 +82,8 @@ Snowflake
 Solium
 Sonder
 Splunk
-TEST-TEST-TEST
 Tanium
 Tegus
-Test/Test/test
 Thinkific
 Top Hat
 Toptal
@@ -94,6 +93,7 @@ Trello
 Trulioo
 Tulip
 Unbounce
+University of Victoria
 Vend
 Vendasta
 Vidyard
@@ -103,4 +103,5 @@ Wave
 WorkSafeBC
 Workday
 Zoom
+dd
 ecobee
