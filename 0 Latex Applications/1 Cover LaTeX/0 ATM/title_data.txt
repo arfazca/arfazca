@@ -24,6 +24,7 @@ Chief Information Officer
 Chief Technology Officer
 Cloud Architect
 Compiler Engineer
+Computer Help Desk Analyst
 Computer Network Architect
 Computer Network Specialist
 Computer Programmer
@@ -144,6 +145,7 @@ Software Configuration Manager
 Software Deployment Engineer
 Software Developer
 Software Developer (Processor)
+Software Developer in Test
 Software Development Engineer
 Software Development Manager
 Software Engineer
@@ -165,8 +167,6 @@ Systems Engineer
 Systems Integrator
 Systems Support Analyst
 Systems Support Engineer
-TEST-TEST-TEST
-TEST/Test/test
 Technical Account Manager
 Technical Consultant
 Technical Content Developer
@@ -178,7 +178,6 @@ Technical Support Engineer
 Technical Writer
 Technology Manager
 Test Automation Engineer
-Test/Test/test
 UI/UX Designer
 UI/UX Researcher
 UX/UI Designer
