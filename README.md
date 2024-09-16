@@ -13,7 +13,7 @@
           </tr>
           <tr>
                <td width="550" align="center" font-size="50">
-                    <a href="https://arfazhxss.ca/">arfazhxss.ca</a>
+                    <a href="https://arfazhxss.ca/">www.arfazhxss.ca</a>
                </td>
           </tr>
       </table>
