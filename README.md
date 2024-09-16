@@ -8,12 +8,12 @@
      <table align="center">
           <tr>
                <td width="550" align="left" font-size="100">
-               <p>I love creating and designing full-stack software systems. My current interests include developing scalable, sustainable systems, and building versatile full-stack applications.<br></p>
+               <p>I love creating and designing systems. My interests include developing scalable, sustainable systems, and building versatile full-stack applications.<br></p>
                </td>
           </tr>
           <tr>
                <td width="550" align="center" font-size="50">
-                    <a href="https://arfazhxss.ca/">Professional Website</a>
+                    <a href="https://arfazhxss.ca/">arfazhxss.ca</a>
                </td>
           </tr>
       </table>
