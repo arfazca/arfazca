@@ -18,7 +18,7 @@
           </tr>
       </table>
 </details>
-<details open>
+<details>
 <summary>Tech Stack 🛠️</summary>
 <br>
 <table align="center">
