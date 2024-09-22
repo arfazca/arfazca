@@ -426,18 +426,10 @@
         </td>
         <td>
           Recreation of Google's offline T-Rex game with obstacle collision and scoring mechanisms using Java Swing.<br><br>
-          <a href="https://github.com/arfazhxss/T-Rex">
-            <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/java/java-original.svg" alt="Java" width="20" height="20">
-          </a>
-          <a href="https://github.com/arfazhxss/T-Rex">
-            <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/intellij/intellij-original.svg" alt="IntelliJ" width="20" height="20">
-          </a>
-          <a href="https://github.com/arfazhxss/T-Rex">
-            <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/maven/maven-original.svg" alt="Maven" width="20" height="20">
-          </a>
-          <a href="https://github.com/arfazhxss/T-Rex">
-            <img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/gradle-plain.svg" alt="Gradle" width="20" height="20">
-          </a>
+          <a href="https://github.com/arfazhxss/T-Rex"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/java/java-original.svg" alt="Java" width="20" height="20"></a>
+          <a href="https://github.com/arfazhxss/T-Rex"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/intellij/intellij-original.svg" alt="IntelliJ" width="20" height="20"></a>
+          <a href="https://github.com/arfazhxss/T-Rex"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/maven/maven-original.svg" alt="Maven" width="20" height="20"></a>
+          <a href="https://github.com/arfazhxss/T-Rex"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/gradle-plain.svg" alt="Gradle" width="20" height="20"></a>
         </td>
       </tr>
     </tbody>
