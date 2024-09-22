@@ -336,7 +336,7 @@
       </tr>
       <tr>
         <td>📚 Jabref<br><br><a href="https://github.com/arfazhxss/jabref"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
-        <td>Optimized performance and memory management through unit, caching, and integration tests.</td>
+        <td>Optimized performance and memory management through unit, caching, and integration tests.<br><br><a href="https://github.com/arfazhxss/jabref"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/java/java-original.svg" alt="Java" width="20" height="20"></a></td>
       </tr>
       <tr>
         <td>🚀 Ground Support System<br><br><a href="https://github.com/UVicRocketry/Ground-Support"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
@@ -344,7 +344,7 @@
       </tr>
       <tr>
         <td>🎲 Rubik's Cube<br><br><a href="https://github.com/arfazhxss/rubiks-cube-cpp"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
-        <td>A 3D Rubik's Cube simulation with keyboard controls and dynamic zoom using C++ and OpenGL.<br><br><a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/OpenGL.svg" alt="OpenGL" width="40" height="20"></a></td>
+        <td>A 3D Rubik's Cube simulation with keyboard controls and dynamic zoom using C++ and OpenGL.<br><br><a href="https://github.com/arfazhxss/rubiks-cube-cpp"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/OpenGL.svg" alt="OpenGL" width="40" height="20"></a></td>
       </tr>
       <tr>
         <td>🗂️ Lexigraphy Context Mapper<br><br><a href="https://github.com/yourusername/concordance-tool"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
@@ -360,7 +360,7 @@
       </tr>
       <tr>
         <td>🦖 T-Rex<br><br><a href="https://github.com/arfazhxss/T-Rex"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
-        <td>Recreation of Google's offline T-Rex game with obstacle collision and scoring mechanisms using Java Swing.</td>
+        <td>Recreation of Google's offline T-Rex game with obstacle collision and scoring mechanisms using Java Swing.<br><br><a href="https://github.com/arfazhxss/T-Rex"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/java/java-original.svg" alt="Java" width="20" height="20"></a></td>
       </tr>
     </tbody>
   </table>
