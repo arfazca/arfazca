@@ -314,56 +314,56 @@
 <details open>
 <summary>Projects</summary>
 <br>
-     <table align="center" width="650">
-       <thead>
-         <tr>
-           <th width="200">Project Name</th>
-           <th width="450">Description</th>
-         </tr>
-       </thead>
-       <tbody>
-         <tr>
-           <td><a href="https://github.com/arfazhxss/smart-med">SmartMed</a></td>
-           <td>Designing a medical information system using a microservices architecture and UML diagrams through Flask and REST APIs.</td>
-         </tr>
-         <tr>
-           <td><a href="https://github.com/arfazhxss/app-sys">Automated Application System</a></td>
-           <td>Automated the job application process using multithreading in Bash and Python, optimizing data processing and reducing runtime by 60%.</td>
-         </tr>
-         <tr>
-           <td><a href="https://github.com/vikelabs/coopme">CoopMe</a></td>
-           <td>Developing a coop planning tool for students using Next.js, React, and PostgreSQL, with drag-and-drop features.</td>
-         </tr>
-         <tr>
-           <td><a href="https://github.com/arfazhxss/jabref">Jabref</a></td>
-           <td>Developed unit, caching, and integration tests for JabRef, improving performance and memory management.</td>
-         </tr>
-         <tr>
-           <td><a href="https://github.com/UVicRocketry/Ground-Support">Ground Support System</a></td>
-           <td>Developed front-end components and integrated live telemetry data for rocket performance analysis.</td>
-         </tr>
-         <tr>
-           <td><a href="https://github.com/arfazhxss/rubiks-cube-cpp">Rubik's Cube</a></td>
-           <td>Built a 3D Rubik's Cube simulation with keyboard controls and dynamic zoom.</td>
-         </tr>
-         <tr>
-           <td><a href="https://github.com/yourusername/concordance-tool">Lexigraphy Context Mapper</a></td>
-           <td>Developed a command-line tool for generating keyword-in-context concordances, using regular expressions and Valgrind for memory handling.</td>
-         </tr>
-         <tr>
-           <td><a href="https://github.com/arfazhxss/tic-tac-toe-cpp">Tic-Tac-Toe</a></td>
-           <td>Developed a command-line Tic-Tac-Toe game in C++, featuring player turns, board updates, and winner detection.</td>
-         </tr>
-         <tr>
-           <td><a href="https://github.com/arfazhxss/vex-robotics-project">VEX Robotics</a></td>
-           <td>Programmed a VEX Robot with sensor-based functionalities for ENGR120, including object detection and obstacle avoidance.</td>
-         </tr>
-         <tr>
-           <td><a href="https://github.com/arfazhxss/T-Rex">T-Rex Game</a></td>
-           <td>Recreated Google's offline T-Rex game using object-oriented design principles in Java.</td>
-         </tr>
-       </tbody>
-     </table>
+  <table align="center" width="650">
+    <thead>
+      <tr>
+        <th width="200">Project Name</th>
+        <th width="450">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>🩺 SmartMed<br><br><a href="https://github.com/arfazhxss/smart-med">[Link][GitHub]</a></td>
+        <td>A microservices-based medical information system utilizing Flask and REST APIs, with UML diagrams and design patterns.</td>
+      </tr>
+      <tr>
+        <td>🖥️ Automated Application System<br><br><a href="https://github.com/arfazhxss/app-sys">[Link][GitHub]</a></td>
+        <td>An automated job application system with multithreading in Bash and Python, improving workflow efficiency and reducing runtime by 60%.</td>
+      </tr>
+      <tr>
+        <td>📝 CoopMe<br><br><a href="https://github.com/vikelabs/coopme">[Link][GitHub]</a></td>
+        <td>A coop planning tool using Next.js, PostgreSQL, and drag-and-drop features to help students plan and track work terms.</td>
+      </tr>
+      <tr>
+        <td>📚 Jabref<br><br><a href="https://github.com/arfazhxss/jabref">[Link][GitHub]</a></td>
+        <td>Optimized performance and memory management through unit, caching, and integration tests.</td>
+      </tr>
+      <tr>
+        <td>🚀 Ground Support System<br><br><a href="https://github.com/UVicRocketry/Ground-Support">[Link][GitHub]</a></td>
+        <td>Telemetry software for analyzing rocket performance, integrating live data into MaterialUI tables for post-flight analysis.</td>
+      </tr>
+      <tr>
+        <td>🎲 Rubik's Cube<br><br><a href="https://github.com/arfazhxss/rubiks-cube-cpp">[Link][GitHub]</a></td>
+        <td>A 3D Rubik's Cube simulation with keyboard controls and dynamic zoom using C++ and OpenGL.</td>
+      </tr>
+      <tr>
+        <td>🗂️ Lexigraphy Context Mapper<br><br><a href="https://github.com/yourusername/concordance-tool">[Link][GitHub]</a></td>
+        <td>A command-line concordance tool that generates keyword-in-context indexes from text files using RegEx and Valgrind.</td>
+      </tr>
+      <tr>
+        <td>❌ Tic-Tac-Toe<br><br><a href="https://github.com/arfazhxss/tic-tac-toe-cpp">[Link][GitHub]</a></td>
+        <td>A C++ command-line Tic-Tac-Toe game with player turns, board updates, and winner detection.</td>
+      </tr>
+      <tr>
+        <td>🤖 VEX Robotics<br><br><a href="https://github.com/arfazhxss/vex-robotics-project">[Link][GitHub]</a></td>
+        <td>A VEX robot with IR and sonar sensors for object detection and obstacle avoidance, programmed for ENGR120.</td>
+      </tr>
+      <tr>
+        <td>🦖 T-Rex Game<br><br><a href="https://github.com/arfazhxss/T-Rex">[Link][GitHub]</a></td>
+        <td>Recreation of Google's offline T-Rex game with obstacle collision and scoring mechanisms using Java Swing.</td>
+      </tr>
+    </tbody>
+  </table>
 </details>
 
 
