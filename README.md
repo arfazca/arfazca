@@ -318,7 +318,7 @@
     <thead>
       <tr>
         <th width="200">Project Name</th>
-        <th width="450">Description</th>
+        <th width="350">Description</th>
       </tr>
     </thead>
     <tbody>
