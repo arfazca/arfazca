@@ -311,4 +311,49 @@
 <br>
 </details>
 
+<!-- Table for Projects in GitHub README -->
+<table align="center">
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Description</th>
+      <th>Technologies</th>
+      <th>GitHub Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Course Planner</strong></td>
+      <td>A course planning tool for students to track their degree progress and organize courses efficiently.</td>
+      <td>Next.js, React, TypeScript, PostgreSQL, TailwindCSS</td>
+      <td><a href="https://github.com/arfazhxss/course-planner">GitHub Repo</a></td>
+    </tr>
+    <tr>
+      <td><strong>Automated Application System</strong></td>
+      <td>An automated job application system that streamlines data extraction, cleanup, and workflow processing.</td>
+      <td>Bash, Python, LaTeX</td>
+      <td><a href="https://github.com/arfazhxss/app-sys">GitHub Repo</a></td>
+    </tr>
+    <tr>
+      <td><strong>JabRef - Open Source Contributions</strong></td>
+      <td>Developed unit and integration tests to improve database performance and reliability in JabRef.</td>
+      <td>Java, JUnit</td>
+      <td><a href="https://github.com/arfazhxss/jabref">GitHub Repo</a></td>
+    </tr>
+    <tr>
+      <td><strong>Ground Support System</strong></td>
+      <td>A portable telemetry software for rocket performance analysis with real-time data visualizations.</td>
+      <td>React, TypeScript, MongoDB, Figma</td>
+      <td><a href="https://github.com/UVicRocketry/Ground-Support">GitHub Repo</a></td>
+    </tr>
+    <tr>
+      <td><strong>Rubik’s Cube (3D Simulation)</strong></td>
+      <td>A 3D Rubik's Cube simulation with customizable keyboard controls and dynamic zoom functionality.</td>
+      <td>C++, OpenGL</td>
+      <td><a href="https://github.com/arfazhxss/rubiks-cube-cpp">GitHub Repo</a></td>
+    </tr>
+  </tbody>
+</table>
+
+
 <!---    SVG Image and Codes <<<< https://github.com/devicons/devicon/tree/v2.16.0/icons/ >>>>    --->
