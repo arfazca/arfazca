@@ -344,7 +344,7 @@
       </tr>
       <tr>
         <td>🎲 Rubik's Cube<br><br><a href="https://github.com/arfazhxss/rubiks-cube-cpp"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
-        <td>A 3D Rubik's Cube simulation with keyboard controls and dynamic zoom using C++ and OpenGL.</td>
+        <td>A 3D Rubik's Cube simulation with keyboard controls and dynamic zoom using C++ and OpenGL.<br><br><a href="https://github.com/arfazhxss"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/OpenGL.svg" alt="OpenGL" width="30" height="15"></a></td>
       </tr>
       <tr>
         <td>🗂️ Lexigraphy Context Mapper<br><br><a href="https://github.com/yourusername/concordance-tool"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
