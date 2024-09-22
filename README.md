@@ -339,17 +339,15 @@
           </a>
         </td>
         <td>
-          An automated job application system with multithreading in Bash and Python, improving workflow efficiency and reducing runtime by 60%.
+          An automated job application system with multithreading in Bash and Python, improving workflow efficiency and reducing runtime by 60%<br><br>
         </td>
       </tr>
       <tr>
         <td>📝 CoopMe<br><br>
-          <a href="https://github.com/vikelabs/coopme">
-            <img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-          </a>
+          <a href="https://github.com/vikelabs/coopme"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
         </td>
         <td>
-          A coop planning tool using Next.js, PostgreSQL, and drag-and-drop features to help students plan and track work terms.
+          A coop planning tool using Next.js, PostgreSQL, and drag-and-drop features to help students plan and track work terms<br><br>
         </td>
       </tr>
       <tr>
@@ -357,7 +355,7 @@
           <a href="https://github.com/arfazhxss/jabref"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
         </td>
         <td>
-          Optimized performance and memory management through unit, caching, and integration tests.<br><br>
+          Optimized performance and memory management through unit, caching, and integration tests<br><br>
           <a href="https://github.com/arfazhxss/jabref"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/java/java-original.svg" alt="Java" width="20" height="20"></a>
           <a href="https://github.com/arfazhxss/jabref"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/intellij/intellij-original.svg" alt="IntelliJ" width="20" height="20"></a>
           <a href="https://github.com/arfazhxss/jabref"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/maven/maven-original.svg" alt="Maven" width="20" height="20"></a>
@@ -366,12 +364,11 @@
       </tr>
       <tr>
         <td>🚀 Ground Support System<br><br>
-          <a href="https://github.com/UVicRocketry/Ground-Support">
-            <img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-          </a>
+          <a href="https://github.com/UVicRocketry/Ground-Support"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
         </td>
         <td>
-          Telemetry software for analyzing rocket performance, integrating live data into MaterialUI tables for post-flight analysis.
+          Telemetry software for analyzing rocket performance, integrating live data into MaterialUI tables for post-flight analysis<br><br>
+          <a href="https://github.com/arfazhxss/Ground-Support"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/materialui/materialui-original.svg" alt="Gradle" width="20" height="20"></a>
         </td>
       </tr>
       <tr>
@@ -381,6 +378,7 @@
         <td>
           A 3D Rubik's Cube simulation with keyboard controls and dynamic zoom<br><br>
           <a href="https://github.com/arfazhxss/rubiks-cube-cpp"><img src="https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/OpenGL.svg" alt="OpenGL" width="40" height="20"></a>
+          <a href="https://github.com/arfazhxss/rubiks-cube-cpp"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/cplusplus/cplusplus-original.svg" alt="C++" width="20" height="20"></a>
         </td>
       </tr>
       <tr>
@@ -399,7 +397,7 @@
         </td>
         <td>
           A command-line Tic-Tac-Toe game with player turns, board updates, and winner detection<br><br>
-          <a href="https://github.com/arfazhxss"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/cplusplus/cplusplus-original.svg" alt="C++" width="20" height="20"></a>
+          <a href="https://github.com/arfazhxss/tic-tac-toe-cpp"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/cplusplus/cplusplus-original.svg" alt="C++" width="20" height="20"></a>
         </td>
       </tr>
       <tr>
@@ -407,7 +405,7 @@
           <a href="https://github.com/arfazhxss/vex-robotics-project"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
         </td>
         <td>
-          A VEX robot with IR and sonar sensors for object detection and obstacle avoidance, programmed for ENGR120.<br><br>
+          A VEX robot with IR and sonar sensors for object detection and obstacle avoidance, programmed for ENGR120<br><br>
           <a href="https://github.com/arfazhxss/vex-robotics-project"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/c/c-plain.svg" alt="C++" width="20" height="20"></a>
         </td>
       </tr>
@@ -416,7 +414,7 @@
           <a href="https://github.com/arfazhxss/T-Rex"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
         </td>
         <td>
-          Recreation of Google's offline T-Rex game with obstacle collision and scoring mechanisms using Java Swing.<br><br>
+          Recreation of Google's offline T-Rex game with obstacle collision and scoring mechanisms using Java Swing<br><br>
           <a href="https://github.com/arfazhxss/T-Rex"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/java/java-original.svg" alt="Java" width="20" height="20"></a>
           <a href="https://github.com/arfazhxss/T-Rex"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/intellij/intellij-original.svg" alt="IntelliJ" width="20" height="20"></a>
           <a href="https://github.com/arfazhxss/T-Rex"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/maven/maven-original.svg" alt="Maven" width="20" height="20"></a>
