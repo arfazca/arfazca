@@ -348,6 +348,28 @@
         </td>
         <td>
           A coop planning tool using Next.js, PostgreSQL, and drag-and-drop features to help students plan and track work terms<br><br>
+          <a href="https://github.com/arfazhxss">
+             <picture>
+               <source 
+                 media = "(prefers-color-scheme: dark)" 
+                 width="20" 
+                 height="20"
+                 srcset = "https://github.com/devicons/devicon/blob/v2.16.0/icons/nextjs/nextjs-original.svg" 
+               />
+               <source 
+                 media = "(prefers-color-scheme: light)" 
+                 width="20" 
+                 height="20"
+                 srcset = "https://github.com/devicons/devicon/blob/v2.16.0/icons/nextjs/nextjs-original.svg" 
+               />
+               <img 
+                 alt="shadcn-l"
+                 width="20" 
+                 height="20"
+                 src = "https://github.com/devicons/devicon/blob/v2.16.0/icons/nextjs/nextjs-original.svg"
+               />
+             </picture>
+          </a>
         </td>
       </tr>
       <tr>
