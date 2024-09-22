@@ -323,43 +323,43 @@
     </thead>
     <tbody>
       <tr>
-        <td>🩺 SmartMed<br><br><a href="https://github.com/arfazhxss/smart-med"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
+        <td>🩺 SmartMed<br><a href="https://github.com/arfazhxss/smart-med"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
         <td>A microservices-based medical information system utilizing Flask and REST APIs, with UML diagrams and design patterns.</td>
       </tr>
       <tr>
-        <td>🖥️ Automated Application System<br><br><a href="https://github.com/arfazhxss/app-sys"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
+        <td>🖥️ Automated Application System<br><a href="https://github.com/arfazhxss/app-sys"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
         <td>An automated job application system with multithreading in Bash and Python, improving workflow efficiency and reducing runtime by 60%.</td>
       </tr>
       <tr>
-        <td>📝 CoopMe<br><br><a href="https://github.com/vikelabs/coopme"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
+        <td>📝 CoopMe<br><a href="https://github.com/vikelabs/coopme"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
         <td>A coop planning tool using Next.js, PostgreSQL, and drag-and-drop features to help students plan and track work terms.</td>
       </tr>
       <tr>
-        <td>📚 Jabref<br><br><a href="https://github.com/arfazhxss/jabref"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
+        <td>📚 Jabref<br><a href="https://github.com/arfazhxss/jabref"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
         <td>Optimized performance and memory management through unit, caching, and integration tests.</td>
       </tr>
       <tr>
-        <td>🚀 Ground Support System<br><br><a href="https://github.com/UVicRocketry/Ground-Support"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
+        <td>🚀 Ground Support System<br><a href="https://github.com/UVicRocketry/Ground-Support"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
         <td>Telemetry software for analyzing rocket performance, integrating live data into MaterialUI tables for post-flight analysis.</td>
       </tr>
       <tr>
-        <td>🎲 Rubik's Cube<br><br><a href="https://github.com/arfazhxss/rubiks-cube-cpp"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
+        <td>🎲 Rubik's Cube<br><a href="https://github.com/arfazhxss/rubiks-cube-cpp"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
         <td>A 3D Rubik's Cube simulation with keyboard controls and dynamic zoom using C++ and OpenGL.</td>
       </tr>
       <tr>
-        <td>🗂️ Lexigraphy Context Mapper<br><br><a href="https://github.com/yourusername/concordance-tool"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
+        <td>🗂️ Lexigraphy Context Mapper<br><a href="https://github.com/yourusername/concordance-tool"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
         <td>A command-line concordance tool that generates keyword-in-context indexes from text files using RegEx and Valgrind.</td>
       </tr>
       <tr>
-        <td>❌ Tic-Tac-Toe<br><br><a href="https://github.com/arfazhxss/tic-tac-toe-cpp"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
+        <td>❌ Tic-Tac-Toe<br><a href="https://github.com/arfazhxss/tic-tac-toe-cpp"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
         <td>A C++ command-line Tic-Tac-Toe game with player turns, board updates, and winner detection.</td>
       </tr>
       <tr>
-        <td>🤖 VEX Robotics<br><br><a href="https://github.com/arfazhxss/vex-robotics-project"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
+        <td>🤖 VEX Robotics<br><a href="https://github.com/arfazhxss/vex-robotics-project"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
         <td>A VEX robot with IR and sonar sensors for object detection and obstacle avoidance, programmed for ENGR120.</td>
       </tr>
       <tr>
-        <td>🦖 T-Rex<br><br><a href="https://github.com/arfazhxss/T-Rex"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
+        <td>🦖 T-Rex Game<br><a href="https://github.com/arfazhxss/T-Rex"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a></td>
         <td>Recreation of Google's offline T-Rex game with obstacle collision and scoring mechanisms using Java Swing.</td>
       </tr>
     </tbody>
