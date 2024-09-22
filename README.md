@@ -311,20 +311,20 @@
 <br>
 </details>
 
-<details>
+<details open>
 <summary>Projects</summary>
 <br>
      <table align="center" width="650">
        <thead>
          <tr>
-           <th width="150">Project</th>
+           <th width="150">Project Name</th>
            <th width="350">Description</th>
            <th width="150">Technologies</th>
          </tr>
        </thead>
        <tbody>
          <tr>
-           <td><a href="https://github.com/arfazhxss/smart-med">SmartMed: Medical Information & Resource System</a></td>
+           <td><a href="https://github.com/arfazhxss/smart-med">SmartMed</a></td>
            <td>Designing a medical information system using a microservices architecture and UML diagrams through Flask and REST APIs.</td>
            <td>Python, Flask, REST APIs, Microservices, UML, Design Patterns</td>
          </tr>
@@ -339,7 +339,7 @@
            <td>Next.js, React, TypeScript, PostgreSQL, TailwindCSS</td>
          </tr>
          <tr>
-           <td><a href="https://github.com/arfazhxss/jabref">Jabref (Open Source Contributions)</a></td>
+           <td><a href="https://github.com/arfazhxss/jabref">Jabref</a></td>
            <td>Developed unit, caching, and integration tests for JabRef, improving performance and memory management.</td>
            <td>Java, JUnit</td>
          </tr>
@@ -349,7 +349,7 @@
            <td>React, TypeScript, MongoDB, Figma</td>
          </tr>
          <tr>
-           <td><a href="https://github.com/arfazhxss/rubiks-cube-cpp">Rubik's Cube (3D Simulation)</a></td>
+           <td><a href="https://github.com/arfazhxss/rubiks-cube-cpp">Rubik's Cube</a></td>
            <td>Built a 3D Rubik's Cube simulation with keyboard controls and dynamic zoom.</td>
            <td>C++, OpenGL, GLSL</td>
          </tr>
@@ -359,17 +359,17 @@
            <td>Python, C, RegEx, Valgrind</td>
          </tr>
          <tr>
-           <td><a href="https://github.com/arfazhxss/tic-tac-toe-cpp">Tic-Tac-Toe Game</a></td>
+           <td><a href="https://github.com/arfazhxss/tic-tac-toe-cpp">Tic-Tac-Toe</a></td>
            <td>Developed a command-line Tic-Tac-Toe game in C++, featuring player turns, board updates, and winner detection.</td>
            <td>C++, Object-Oriented Design, I/O Operations</td>
          </tr>
          <tr>
-           <td><a href="https://github.com/arfazhxss/vex-robotics-project">VEX Robotics Project</a></td>
+           <td><a href="https://github.com/arfazhxss/vex-robotics-project">VEX Robotics</a></td>
            <td>Programmed a VEX Robot with sensor-based functionalities for ENGR120, including object detection and obstacle avoidance.</td>
            <td>RobotC, VEX EDR Kit, IR Sensors, Sonar Sensors</td>
          </tr>
          <tr>
-           <td><a href="https://github.com/arfazhxss/T-Rex">T-Rex Game (Java-based)</a></td>
+           <td><a href="https://github.com/arfazhxss/T-Rex">T-Rex Game</a></td>
            <td>Recreated Google's offline T-Rex game using object-oriented design principles in Java.</td>
            <td>Java, Object-Oriented Design, Swing</td>
          </tr>
