@@ -312,11 +312,11 @@
 </details>
 
 <!-- Table for Projects in GitHub README -->
-<table width="550">
+<table width="650">
   <thead>
     <tr>
-      <th width="100">Project</th>
-      <th width="300">Description</th>
+      <th width="150">Project</th>
+      <th width="350">Description</th>
       <th width="150">Technologies</th>
     </tr>
   </thead>
