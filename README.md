@@ -404,7 +404,8 @@
           <a href="https://github.com/arfazhxss/vex-robotics-project"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
         </td>
         <td>
-          A VEX robot with IR and sonar sensors for object detection and obstacle avoidance, programmed for ENGR120.
+          A VEX robot with IR and sonar sensors for object detection and obstacle avoidance, programmed for ENGR120.<br><br>
+             <a href="https://github.com/arfazhxss/vex-robotics-project"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/c/c-plain.svg" alt="C++" width="20" height="20"></a>
         </td>
       </tr>
       <tr>
