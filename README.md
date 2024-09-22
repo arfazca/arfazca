@@ -312,48 +312,79 @@
 </details>
 
 <!-- Table for Projects in GitHub README -->
-<table align="center">
+<table>
   <thead>
     <tr>
       <th>Project</th>
       <th>Description</th>
       <th>Technologies</th>
-      <th>GitHub Link</th>
+      <th>Dates</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>Course Planner</strong></td>
-      <td>A course planning tool for students to track their degree progress and organize courses efficiently.</td>
-      <td>Next.js, React, TypeScript, PostgreSQL, TailwindCSS</td>
-      <td><a href="https://github.com/arfazhxss/course-planner">GitHub Repo</a></td>
+      <td><a href="https://github.com/arfazhxss/smart-med">SmartMed: Medical Information & Resource System</a></td>
+      <td>Designing a medical information system using a microservices architecture and UML diagrams through Flask and REST APIs.</td>
+      <td>Python, Flask, REST APIs, Microservices, UML, Design Patterns</td>
+      <td>Sep 2024 - Present</td>
     </tr>
     <tr>
-      <td><strong>Automated Application System</strong></td>
-      <td>An automated job application system that streamlines data extraction, cleanup, and workflow processing.</td>
+      <td><a href="https://github.com/arfazhxss/app-sys">Automated Application System</a></td>
+      <td>Automated the job application process using multithreading in Bash and Python, optimizing data processing and reducing runtime by 60%.</td>
       <td>Bash, Python, LaTeX</td>
-      <td><a href="https://github.com/arfazhxss/app-sys">GitHub Repo</a></td>
+      <td>Dec 2023 - Present</td>
     </tr>
     <tr>
-      <td><strong>JabRef - Open Source Contributions</strong></td>
-      <td>Developed unit and integration tests to improve database performance and reliability in JabRef.</td>
+      <td><a href="https://github.com/vikelabs/coopme">CoopMe</a></td>
+      <td>Developing a coop planning tool for students using Next.js, React, and PostgreSQL, with drag-and-drop features.</td>
+      <td>Next.js, React, TypeScript, PostgreSQL, TailwindCSS</td>
+      <td>Feb 2024 - Present</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/arfazhxss/jabref">Jabref (Open Source Contributions)</a></td>
+      <td>Developed unit, caching, and integration tests for JabRef, improving performance and memory management.</td>
       <td>Java, JUnit</td>
-      <td><a href="https://github.com/arfazhxss/jabref">GitHub Repo</a></td>
+      <td>Dec 2023 - May 2024</td>
     </tr>
     <tr>
-      <td><strong>Ground Support System</strong></td>
-      <td>A portable telemetry software for rocket performance analysis with real-time data visualizations.</td>
+      <td><a href="https://github.com/UVicRocketry/Ground-Support">Ground Support System</a></td>
+      <td>Developed front-end components and integrated live telemetry data for rocket performance analysis.</td>
       <td>React, TypeScript, MongoDB, Figma</td>
-      <td><a href="https://github.com/UVicRocketry/Ground-Support">GitHub Repo</a></td>
+      <td>Jul 2023 - Jan 2024</td>
     </tr>
     <tr>
-      <td><strong>Rubik’s Cube (3D Simulation)</strong></td>
-      <td>A 3D Rubik's Cube simulation with customizable keyboard controls and dynamic zoom functionality.</td>
-      <td>C++, OpenGL</td>
-      <td><a href="https://github.com/arfazhxss/rubiks-cube-cpp">GitHub Repo</a></td>
+      <td><a href="https://github.com/arfazhxss/rubiks-cube-cpp">Rubik's Cube (3D Simulation)</a></td>
+      <td>Built a 3D Rubik's Cube simulation with keyboard controls and dynamic zoom.</td>
+      <td>C++, OpenGL, GLSL</td>
+      <td>Feb 2023 - Jun 2023</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/yourusername/concordance-tool">Lexigraphy Context Mapper</a></td>
+      <td>Developed a command-line tool for generating keyword-in-context concordances, using regular expressions and Valgrind for memory handling.</td>
+      <td>Python, C, RegEx, Valgrind</td>
+      <td>Sep 2022 - Nov 2022</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/arfazhxss/tic-tac-toe-cpp">Tic-Tac-Toe Game</a></td>
+      <td>Developed a command-line Tic-Tac-Toe game in C++, featuring player turns, board updates, and winner detection.</td>
+      <td>C++, Object-Oriented Design, I/O Operations</td>
+      <td>Apr 2022 - Aug 2022</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/arfazhxss/vex-robotics-project">VEX Robotics Project</a></td>
+      <td>Programmed a VEX Robot with sensor-based functionalities for ENGR120, including object detection and obstacle avoidance.</td>
+      <td>RobotC, VEX EDR Kit, IR Sensors, Sonar Sensors</td>
+      <td>Jan 2022 - Apr 2022</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/arfazhxss/T-Rex">T-Rex Game (Java-based)</a></td>
+      <td>Recreated Google's offline T-Rex game using object-oriented design principles in Java.</td>
+      <td>Java, Object-Oriented Design, Swing</td>
+      <td>Aug 2021 - Dec 2021</td>
     </tr>
   </tbody>
 </table>
+
 
 
 <!---    SVG Image and Codes <<<< https://github.com/devicons/devicon/tree/v2.16.0/icons/ >>>>    --->
