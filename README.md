@@ -1,6 +1,6 @@
 <div align="center"><a href="https://github.com/arfazhxss"><img src="https://capsule-render.vercel.app/api?type=waving&height=130&color=gradient&customColorList=0,1,3,4,6,7,8,12,14,15,18,19,20,24,26,27,28,29,30&text=Arfaz%20%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB&fontColor=000000&fontSize=40&fontAlign=50&desc=%E2%97%80%20is%20trying%20to%20not%20break%20production%20again%20%E2%96%B6&descAlign=50&reversal=true&descSize=10&descAlignY=53&textBg=false&fontAlignY=33"></a></div>
 
-<div align="center"><a href="https://github.com/arfazhxss"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a></div>
+<div align="center"><a href="https://www.arfazhxss.ca"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a></div>
 
 <br>
 <details open>
