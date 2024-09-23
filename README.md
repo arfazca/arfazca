@@ -17,14 +17,14 @@
                        <picture>
                          <source 
                            media = "(prefers-color-scheme: dark)" 
-                           width="20" 
-                           height="20"
+                           width="100" 
+                           height="30"
                            srcset = "https://img.shields.io/badge/arfx.ca-151B23.svg?style=flat-square&logo=airfrance&logoColor=fff&logoSize=100&link=https://www.arfazhxss.ca" 
                          />
                          <source 
                            media = "(prefers-color-scheme: light)" 
-                           width="20" 
-                           height="20"
+                           width="100" 
+                           height="30"
                            srcset = "https://img.shields.io/badge/arfx.ca-F6F8FA.svg?style=flat-square&logo=airfrance&logoColor=000&logoSize=100&link=https://www.arfazhxss.ca" 
                          />
                          <img 
