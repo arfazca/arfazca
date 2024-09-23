@@ -19,19 +19,19 @@
                            media = "(prefers-color-scheme: dark)" 
                            width="100" 
                            height="33"
-                           srcset = "arfx-transparent-black.svg" 
+                           srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/arfx-transparent-white.svg" 
                          />
                          <source 
                            media = "(prefers-color-scheme: light)" 
                            width="100" 
                            height="33"
-                           srcset = "a" 
+                           srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/arfx-transparent-black.svg" 
                          />
                          <img 
                            alt="ARFX"
                            width="100" 
                            height="33"
-                           src = "a"
+                           src = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/arfx-transparent-black.svg"
                          />
                        </picture>
                </td>
