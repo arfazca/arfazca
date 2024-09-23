@@ -18,19 +18,19 @@
                          <source 
                            media = "(prefers-color-scheme: dark)" 
                            width="100" 
-                           height="30"
+                           height="40"
                            srcset = "https://img.shields.io/badge/arfx.ca-151B23.svg?style=flat-square&logo=airfrance&logoColor=fff&logoSize=100&link=https://www.arfazhxss.ca" 
                          />
                          <source 
                            media = "(prefers-color-scheme: light)" 
                            width="100" 
-                           height="30"
+                           height="40"
                            srcset = "https://img.shields.io/badge/arfx.ca-F6F8FA.svg?style=flat-square&logo=airfrance&logoColor=000&logoSize=100&link=https://www.arfazhxss.ca" 
                          />
                          <img 
                            alt="ARFX"
                            width="100" 
-                           height="30"
+                           height="40"
                            src = "https://img.shields.io/badge/arfx.ca-F6F8FA.svg?style=flat-square&logo=airfrance&logoColor=000&logoSize=100&link=https://www.arfazhxss.ca"
                          />
                        </picture>
