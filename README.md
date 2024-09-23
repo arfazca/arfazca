@@ -337,7 +337,7 @@
   <table align="center" width="650">
     <thead>
       <tr>
-        <th width="200">Project Name</th>
+        <th width="200">Name</th>
         <th width="350">Description</th>
       </tr>
     </thead>
