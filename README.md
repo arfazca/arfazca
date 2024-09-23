@@ -430,26 +430,26 @@
                />
              </picture>
           </a>
-          <a href="https://github.com/vikelabs/coopme"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind" width="40" height="40"></a>
+          <a href="https://github.com/vikelabs/coopme"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind" width="20" height="20"></a>
           <a href="https://github.com/vikelabs/coopme"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/postgresql/postgresql-original.svg" alt="postgreSQL" width="20" height="20"></a>
           <a href="https://github.com/vikelabs/coopme">
              <picture>
                <source 
                  media = "(prefers-color-scheme: dark)" 
-                 width="40" 
-                 height="40"
+                 width="20" 
+                 height="20"
                  srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/shadcn-dark.svg" 
                />
                <source 
                  media = "(prefers-color-scheme: light)" 
-                 width="40" 
-                 height="40"
+                 width="20" 
+                 height="20"
                  srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/shadcn-light.svg" 
                />
                <img 
                  alt="Shadcn"
-                 width="40" 
-                 height="40"
+                 width="20" 
+                 height="20"
                  src = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/shadcn-light.svg"
                />
              </picture>
