@@ -13,7 +13,11 @@
           </tr>
           <tr>
                <td width="550" align="center" font-size="50">
-                    <a href="https://www.arfazhxss.ca"><img alt="Static Badge" src="https://img.shields.io/badge/WEB-000?style=flat&logo=airfrance&logoColor=fff&logoSize=100&link=https%3A%2F%2Fwww.arfazhxss.ca"></a>
+                    <a href="https://www.arfazhxss.ca"><img 
+                         alt="Static Badge" 
+                         width="50"
+                         height="10"
+                         src="https://img.shields.io/badge/WEB-000?style=flat&logo=airfrance&logoColor=fff&logoSize=100&link=https%3A%2F%2Fwww.arfazhxss.ca"></a>
                </td>
           </tr>
       </table>
