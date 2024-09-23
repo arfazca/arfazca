@@ -348,15 +348,15 @@
              <picture>
                <source 
                  media = "(prefers-color-scheme: dark)" 
-                 srcset = "https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" 
+                 srcset = "https://img.shields.io/badge/GitHub-0C1117?style=flat-square&logo=github&logoColor=white" 
                />
                <source 
                  media = "(prefers-color-scheme: light)" 
-                 srcset = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black" 
+                 srcset = "https://img.shields.io/badge/GitHub-FFFFFF?style=flat-square&logo=github&logoColor=black" 
                />
                <img 
                  alt="GitHub"
-                 src = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black"
+                 src = "https://img.shields.io/badge/GitHub-FFFFFF?style=flat-square&logo=github&logoColor=black"
                />
              </picture>
           </a>
@@ -455,15 +455,15 @@
              <picture>
                <source 
                  media = "(prefers-color-scheme: dark)" 
-                 srcset = "https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" 
+                 srcset = "https://img.shields.io/badge/GitHub-0C1117?style=flat-square&logo=github&logoColor=white" 
                />
                <source 
                  media = "(prefers-color-scheme: light)" 
-                 srcset = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black" 
+                 srcset = "https://img.shields.io/badge/GitHub-FFFFFF?style=flat-square&logo=github&logoColor=black" 
                />
                <img 
                  alt="GitHub"
-                 src = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black"
+                 src = "https://img.shields.io/badge/GitHub-FFFFFF?style=flat-square&logo=github&logoColor=black"
                />
              </picture>
           </a>
@@ -549,7 +549,22 @@
       </tr>
       <tr>
         <td>🚀 Ground Support System<br><br>
-          <a href="https://github.com/UVicRocketry/Ground-Support"><img src="https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+          <a href="https://github.com/arfazhxss/Ground-Support" />
+             <picture>
+               <source 
+                 media = "(prefers-color-scheme: dark)" 
+                 srcset = "https://img.shields.io/badge/GitHub-0C1117?style=flat-square&logo=github&logoColor=white" 
+               />
+               <source 
+                 media = "(prefers-color-scheme: light)" 
+                 srcset = "https://img.shields.io/badge/GitHub-FFFFFF?style=flat-square&logo=github&logoColor=black" 
+               />
+               <img 
+                 alt="GitHub"
+                 src = "https://img.shields.io/badge/GitHub-FFFFFF?style=flat-square&logo=github&logoColor=black"
+               />
+             </picture>
+          </a>
         </td>
         <td>
           Telemetry software for analyzing rocket performance, integrating live data into MaterialUI tables for post-flight analysis<br><br>
@@ -575,15 +590,15 @@
              <picture>
                <source 
                  media = "(prefers-color-scheme: dark)" 
-                 srcset = "https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" 
+                 srcset = "https://img.shields.io/badge/GitHub-0C1117?style=flat-square&logo=github&logoColor=white" 
                />
                <source 
                  media = "(prefers-color-scheme: light)" 
-                 srcset = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black" 
+                 srcset = "https://img.shields.io/badge/GitHub-FFFFFF?style=flat-square&logo=github&logoColor=black" 
                />
                <img 
                  alt="GitHub"
-                 src = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black"
+                 src = "https://img.shields.io/badge/GitHub-FFFFFF?style=flat-square&logo=github&logoColor=black"
                />
              </picture>
           </a>
@@ -605,7 +620,22 @@
       </tr>
       <tr>
         <td>🤖 VEX Robotics<br><br>
-          <a href="https://github.com/arfazhxss/vex-robotics-project"><img src="https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+          <a href="https://github.com/arfazhxss/vex-robotics-project">
+             <picture>
+               <source 
+                 media = "(prefers-color-scheme: dark)" 
+                 srcset = "https://img.shields.io/badge/GitHub-0C1117?style=flat-square&logo=github&logoColor=white" 
+               />
+               <source 
+                 media = "(prefers-color-scheme: light)" 
+                 srcset = "https://img.shields.io/badge/GitHub-FFFFFF?style=flat-square&logo=github&logoColor=black" 
+               />
+               <img 
+                 alt="GitHub"
+                 src = "https://img.shields.io/badge/GitHub-FFFFFF?style=flat-square&logo=github&logoColor=black"
+               />
+             </picture>
+          </a>
         </td>
         <td>
           A VEX robot with IR and sonar sensors for object detection and obstacle avoidance, programmed for ENGR120<br><br>
