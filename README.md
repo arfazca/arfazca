@@ -344,7 +344,26 @@
     <tbody>
       <tr>
         <td>🩺 SmartMed<br><br>
-          <a href="https://github.com/arfazhxss/smart-med"><img src="https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+          <a href="https://github.com/arfazhxss/smart-med">
+             <picture>
+               <source 
+                 media = "(prefers-color-scheme: dark)" 
+                 width="100" 
+                 height="35"
+                 srcset = "https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" 
+               />
+               <source 
+                 media = "(prefers-color-scheme: light)" 
+                 width="100" 
+                 height="35"
+                 srcset = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black" 
+               />
+               <img 
+                 alt="GitHub"
+                 src = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black"
+               />
+             </picture>
+          </a>
         </td>
         <td>
           A microservices-based medical information system utilizing Flask and REST APIs, with UML diagrams and design patterns<br><br>
@@ -373,7 +392,24 @@
       <tr>
         <td>🖥️ Automated Application System<br><br>
           <a href="https://github.com/arfazhxss/app-sys">
-            <img src="https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+             <picture>
+               <source 
+                 media = "(prefers-color-scheme: dark)" 
+                 width="100" 
+                 height="35"
+                 srcset = "https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" 
+               />
+               <source 
+                 media = "(prefers-color-scheme: light)" 
+                 width="100" 
+                 height="35"
+                 srcset = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black" 
+               />
+               <img 
+                 alt="GitHub"
+                 src = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black"
+               />
+             </picture>
           </a>
         </td>
         <td>
@@ -423,7 +459,26 @@
       </tr>
       <tr>
         <td>📝 CoopMe<br><br>
-          <a href="https://github.com/vikelabs/coopme"><img src="https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+          <a href="https://github.com/vikelabs/coopme">
+             <picture>
+               <source 
+                 media = "(prefers-color-scheme: dark)" 
+                 width="100" 
+                 height="35"
+                 srcset = "https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" 
+               />
+               <source 
+                 media = "(prefers-color-scheme: light)" 
+                 width="100" 
+                 height="35"
+                 srcset = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black" 
+               />
+               <img 
+                 alt="GitHub"
+                 src = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black"
+               />
+             </picture>
+          </a>
         </td>
         <td>
           A coop planning tool using Next.js, PostgreSQL, and drag-and-drop features to help students plan and track work terms<br><br>
@@ -478,7 +533,27 @@
       </tr>
       <tr>
         <td>📚 Jabref<br><br>
-          <a href="https://github.com/arfazhxss/jabref"><img src="https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+          <a href="https://github.com/arfazhxss/jabref">
+             <picture>
+               <source 
+                 media = "(prefers-color-scheme: dark)" 
+                 width="100" 
+                 height="35"
+                 srcset = "https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" 
+               />
+               <source 
+                 media = "(prefers-color-scheme: light)" 
+                 width="100" 
+                 height="35"
+                 srcset = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black" 
+               />
+               <img 
+                 alt="GitHub"
+                 src = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black"
+               />
+             </picture>
+          </a>
+          </a>
         </td>
         <td>
           Optimized performance and memory management through unit, caching, and integration tests<br><br>
@@ -494,7 +569,7 @@
         </td>
         <td>
           Telemetry software for analyzing rocket performance, integrating live data into MaterialUI tables for post-flight analysis<br><br>
-           <a href="https://github.com/arfazhxss/Ground-Support"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/typescript/typescript-original.svg" alt="TypeScript" width="20" height="20"></a>
+          <a href="https://github.com/arfazhxss/Ground-Support"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/typescript/typescript-original.svg" alt="TypeScript" width="20" height="20"></a>
           <a href="https://github.com/arfazhxss/Ground-Support"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/materialui/materialui-original.svg" alt="TypeScript" width="20" height="20"></a>
           <a href="https://github.com/arfazhxss/Ground-Support"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="20" height="20"></a>
           <a href="https://github.com/arfazhxss/Ground-Support"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind" width="20" height="20"></a>
@@ -512,7 +587,26 @@
       </tr>
       <tr>
         <td>🗂️ Lexigraphy Context Mapper<br><br>
-          <a href="https://github.com/arfazhxss/lexigraph"><img src="https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+          <a href="https://github.com/arfazhxss/lexigraph">
+             <picture>
+               <source 
+                 media = "(prefers-color-scheme: dark)" 
+                 width="100" 
+                 height="35"
+                 srcset = "https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" 
+               />
+               <source 
+                 media = "(prefers-color-scheme: light)" 
+                 width="100" 
+                 height="35"
+                 srcset = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black" 
+               />
+               <img 
+                 alt="GitHub"
+                 src = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black"
+               />
+             </picture>
+          </a>
         </td>
         <td>
           A command-line concordance tool that generates keyword-in-context indexes from text files using RegEx and Valgrind<br><br>
@@ -540,7 +634,26 @@
       </tr>
       <tr>
         <td>🦖 T-Rex<br><br>
-          <a href="https://github.com/arfazhxss/T-Rex"><img src="https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+          <a href="https://github.com/arfazhxss/T-Rex">
+             <picture>
+               <source 
+                 media = "(prefers-color-scheme: dark)" 
+                 width="100" 
+                 height="35"
+                 srcset = "https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" 
+               />
+               <source 
+                 media = "(prefers-color-scheme: light)" 
+                 width="100" 
+                 height="35"
+                 srcset = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black" 
+               />
+               <img 
+                 alt="GitHub"
+                 src = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black"
+               />
+             </picture>
+          </a>
         </td>
         <td>
           Recreation of Google's offline T-Rex game with obstacle collision and scoring mechanisms using Java Swing<br><br>
