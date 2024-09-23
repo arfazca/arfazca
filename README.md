@@ -576,7 +576,22 @@
       </tr>
       <tr>
         <td>🎲 Rubik's Cube<br><br>
-          <a href="https://github.com/arfazhxss/rubiks-cube-cpp"><img src="https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+          <a href="https://github.com/arfazhxss/rubiks-cube-cpp">
+             <picture>
+               <source 
+                 media = "(prefers-color-scheme: dark)" 
+                 srcset = "https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" 
+               />
+               <source 
+                 media = "(prefers-color-scheme: light)" 
+                 srcset = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black" 
+               />
+               <img 
+                 alt="GitHub"
+                 src = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black"
+               />
+             </picture>
+          </a>
         </td>
         <td>
           A 3D Rubik's Cube simulation with keyboard controls and dynamic zoom<br><br>
@@ -611,7 +626,22 @@
       </tr>
       <tr>
         <td>❌ Tic-Tac-Toe<br><br>
-          <a href="https://github.com/arfazhxss/tic-tac-toe-cpp"><img src="https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+          <a href="https://github.com/arfazhxss/tic-tac-toe-cpp">
+             <picture>
+               <source 
+                 media = "(prefers-color-scheme: dark)" 
+                 srcset = "https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" 
+               />
+               <source 
+                 media = "(prefers-color-scheme: light)" 
+                 srcset = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black" 
+               />
+               <img 
+                 alt="GitHub"
+                 src = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black"
+               />
+             </picture>
+          </a>
         </td>
         <td>
           A command-line Tic-Tac-Toe game with player turns, board updates, and winner detection<br><br>
@@ -648,14 +678,10 @@
              <picture>
                <source 
                  media = "(prefers-color-scheme: dark)" 
-                 width="100" 
-                 height="35"
                  srcset = "https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" 
                />
                <source 
                  media = "(prefers-color-scheme: light)" 
-                 width="100" 
-                 height="35"
                  srcset = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black" 
                />
                <img 
