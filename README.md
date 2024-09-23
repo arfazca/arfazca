@@ -348,14 +348,10 @@
              <picture>
                <source 
                  media = "(prefers-color-scheme: dark)" 
-                 width="100" 
-                 height="35"
                  srcset = "https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" 
                />
                <source 
                  media = "(prefers-color-scheme: light)" 
-                 width="100" 
-                 height="35"
                  srcset = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black" 
                />
                <img 
@@ -395,14 +391,10 @@
              <picture>
                <source 
                  media = "(prefers-color-scheme: dark)" 
-                 width="100" 
-                 height="35"
                  srcset = "https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" 
                />
                <source 
                  media = "(prefers-color-scheme: light)" 
-                 width="100" 
-                 height="35"
                  srcset = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black" 
                />
                <img 
@@ -463,14 +455,10 @@
              <picture>
                <source 
                  media = "(prefers-color-scheme: dark)" 
-                 width="100" 
-                 height="35"
                  srcset = "https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" 
                />
                <source 
                  media = "(prefers-color-scheme: light)" 
-                 width="100" 
-                 height="35"
                  srcset = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black" 
                />
                <img 
@@ -537,14 +525,10 @@
              <picture>
                <source 
                  media = "(prefers-color-scheme: dark)" 
-                 width="100" 
-                 height="35"
                  srcset = "https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" 
                />
                <source 
                  media = "(prefers-color-scheme: light)" 
-                 width="100" 
-                 height="35"
                  srcset = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black" 
                />
                <img 
@@ -591,14 +575,10 @@
              <picture>
                <source 
                  media = "(prefers-color-scheme: dark)" 
-                 width="100" 
-                 height="35"
                  srcset = "https://img.shields.io/badge/GitHub-151B23?style=flat-square&logo=github&logoColor=white" 
                />
                <source 
                  media = "(prefers-color-scheme: light)" 
-                 width="100" 
-                 height="35"
                  srcset = "https://img.shields.io/badge/GitHub-F6F8FA?style=flat-square&logo=github&logoColor=black" 
                />
                <img 
