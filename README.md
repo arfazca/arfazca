@@ -620,7 +620,7 @@
         </td>
         <td>
           A command-line concordance tool that generates keyword-in-context indexes from text files using RegEx and Valgrind<br><br>
-          <a href="https://github.com/arfazhxss/lexigraph"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/c/c-plain.svg" alt="C" width="20" height="20"></a>
+          <a href="https://github.com/arfazhxss/lexigraph"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/c/c-original.svg" alt="C" width="20" height="20"></a>
           <a href="https://github.com/arfazhxss/lexigraph"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/python/python-original.svg" alt="Python" width="20" height="20"></a>
         </td>
       </tr>
@@ -669,7 +669,7 @@
         </td>
         <td>
           A VEX robot with IR and sonar sensors for object detection and obstacle avoidance, programmed for ENGR120<br><br>
-          <a href="https://github.com/arfazhxss/vex-robotics-project"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/c/c-plain.svg" alt="C++" width="20" height="20"></a>
+          <a href="https://github.com/arfazhxss/vex-robotics-project"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/c/c-original.svg" alt="C++" width="20" height="20"></a>
         </td>
       </tr>
       <tr>
