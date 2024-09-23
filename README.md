@@ -13,11 +13,27 @@
           </tr>
           <tr>
                <td width="550" align="center" font-size="50">
-                    <a href="https://www.arfazhxss.ca"><img 
-                         alt="Static Badge"
-                         width="100"
-                         height="30"
-                         src="https://img.shields.io/badge/arfx.ca-151B23.svg?style=flat-square&logo=airfrance&logoColor=fff&logoSize=100&link=https://www.arfazhxss.ca"></a>
+                    <a href="https://www.arfazhxss.ca">
+                       <picture>
+                         <source 
+                           media = "(prefers-color-scheme: dark)" 
+                           width="20" 
+                           height="20"
+                           srcset = "https://img.shields.io/badge/arfx.ca-151B23.svg?style=flat-square&logo=airfrance&logoColor=fff&logoSize=100&link=https://www.arfazhxss.ca" 
+                         />
+                         <source 
+                           media = "(prefers-color-scheme: light)" 
+                           width="20" 
+                           height="20"
+                           srcset = "https://img.shields.io/badge/arfx.ca-F6F8FA.svg?style=flat-square&logo=airfrance&logoColor=000&logoSize=100&link=https://www.arfazhxss.ca" 
+                         />
+                         <img 
+                           alt="ARFX"
+                           width="100" 
+                           height="30"
+                           src = "https://img.shields.io/badge/arfx.ca-F6F8FA.svg?style=flat-square&logo=airfrance&logoColor=000&logoSize=100&link=https://www.arfazhxss.ca"
+                         />
+                       </picture>
                </td>
           </tr>
       </table>
