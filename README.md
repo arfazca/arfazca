@@ -16,7 +16,7 @@
                     <a href="https://www.arfazhxss.ca"><img 
                          alt="Static Badge" 
                          width="50"
-                         height="10"
+                         height="20"
                          src="https://img.shields.io/badge/WEB-000?style=flat&logo=airfrance&logoColor=fff&logoSize=100&link=https%3A%2F%2Fwww.arfazhxss.ca"></a>
                </td>
           </tr>
