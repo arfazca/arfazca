@@ -382,20 +382,20 @@
           <a href="https://github.com/arfazhxss/app-sys"><picture>
                <source 
                  media = "(prefers-color-scheme: dark)" 
-                 width="20" 
-                 height="40"
+                 width="50" 
+                 height="20"
                  srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/latex-dark.svg" 
                />
                <source 
                  media = "(prefers-color-scheme: light)" 
-                 width="20" 
-                 height="40"
+                 width="50" 
+                 height="20"
                  srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/latex.svg" 
                />
                <img 
                  alt="shadcn-l"
-                 width="20" 
-                 height="40"
+                 width="50" 
+                 height="20"
                  src = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/latex.svg"
                />
              </picture></a>
