@@ -17,7 +17,7 @@
                          alt="Static Badge" 
                          width="150"
                          height="25"
-                         src="https://img.shields.io/badge/www.arfazhxss.ca-000?style=flat&logo=airfrance&logoColor=fff&logoSize=100&link=https%3A%2F%2Fwww.arfazhxss.ca"></a>
+                         src="https://img.shields.io/badge/www.arfazhxss.ca-151B23?style=flat&logo=airfrance&logoColor=fff&logoSize=100&link=https%3A%2F%2Fwww.arfazhxss.ca"></a>
                </td>
           </tr>
       </table>
