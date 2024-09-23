@@ -19,19 +19,19 @@
                            media = "(prefers-color-scheme: dark)" 
                            width="100" 
                            height="33"
-                           srcset = "https://img.shields.io/badge/arfx.ca-151B23.svg?style=flat-square&logo=copaairlines&logoColor=fff&logoSize=100&link=https://www.arfazhxss.ca" 
+                           srcset = "arfx-transparent-black.svg" 
                          />
                          <source 
                            media = "(prefers-color-scheme: light)" 
                            width="100" 
                            height="33"
-                           srcset = "https://img.shields.io/badge/arfx.ca-F6F8FA.svg?style=flat-square&logo=copaairlines&logoColor=000&logoSize=100&link=https://www.arfazhxss.ca" 
+                           srcset = "a" 
                          />
                          <img 
                            alt="ARFX"
                            width="100" 
                            height="33"
-                           src = "https://img.shields.io/badge/arfx.ca-F6F8FA.svg?style=flat-square&logo=copaairlines&logoColor=000&logoSize=100&link=https://www.arfazhxss.ca"
+                           src = "a"
                          />
                        </picture>
                </td>
