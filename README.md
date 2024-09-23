@@ -46,7 +46,7 @@
             srcset = "https://github.com/devicons/devicon/blob/v2.16.0/icons/bash/bash-original.svg" 
           />
           <img 
-            alt="shadcn-l"
+            alt="bash"
             width="40" 
             height="40"
             src = "https://github.com/devicons/devicon/blob/v2.16.0/icons/bash/bash-original.svg"
@@ -80,7 +80,7 @@
             srcset = "https://github.com/devicons/devicon/blob/v2.16.0/icons/unity/unity-original.svg" 
           />
           <img 
-            alt="shadcn-l"
+            alt="unity"
             width="40" 
             height="40"
             src = "https://github.com/devicons/devicon/blob/v2.16.0/icons/unity/unity-original.svg"
@@ -102,7 +102,7 @@
             srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/UE-dark.svg" 
           />
           <img 
-            alt="shadcn-l"
+            alt="Unreal Engine"
             width="40" 
             height="40"
             src = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/UE-light.svg"
@@ -177,7 +177,7 @@
             srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/shadcn-light.svg" 
           />
           <img 
-            alt="shadcn-l"
+            alt="Shadcn"
             width="40" 
             height="40"
             src = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/shadcn-light.svg"
@@ -430,7 +430,30 @@
                />
              </picture>
           </a>
+          <a href="https://github.com/vikelabs/coopme"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind" width="40" height="40"></a>
           <a href="https://github.com/vikelabs/coopme"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/postgresql/postgresql-original.svg" alt="postgreSQL" width="20" height="20"></a>
+          <a href="https://github.com/vikelabs/coopme">
+             <picture>
+               <source 
+                 media = "(prefers-color-scheme: dark)" 
+                 width="40" 
+                 height="40"
+                 srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/shadcn-dark.svg" 
+               />
+               <source 
+                 media = "(prefers-color-scheme: light)" 
+                 width="40" 
+                 height="40"
+                 srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/shadcn-light.svg" 
+               />
+               <img 
+                 alt="Shadcn"
+                 width="40" 
+                 height="40"
+                 src = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/shadcn-light.svg"
+               />
+             </picture>
+          </a>
         </td>
       </tr>
       <tr>
@@ -454,6 +477,7 @@
            <a href="https://github.com/arfazhxss/Ground-Support"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/typescript/typescript-original.svg" alt="TypeScript" width="20" height="20"></a>
           <a href="https://github.com/arfazhxss/Ground-Support"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/materialui/materialui-original.svg" alt="TypeScript" width="20" height="20"></a>
           <a href="https://github.com/arfazhxss/Ground-Support"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="20" height="20"></a>
+          <a href="https://github.com/arfazhxss/Ground-Support"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind" width="20" height="20"></a>
         </td>
       </tr>
       <tr>
