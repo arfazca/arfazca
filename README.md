@@ -329,7 +329,27 @@
           </a>
         </td>
         <td>
-          A microservices-based medical information system utilizing Flask and REST APIs, with UML diagrams and design patterns.
+          A microservices-based medical information system utilizing Flask and REST APIs, with UML diagrams and design patterns<br><br>
+             <picture>
+               <source 
+                 media = "(prefers-color-scheme: dark)" 
+                 width="20" 
+                 height="20"
+                 srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/flask-dark.svg" 
+               />
+               <source 
+                 media = "(prefers-color-scheme: light)" 
+                 width="20" 
+                 height="20"
+                 srcset = "https://github.com/devicons/devicon/blob/v2.16.0/icons/flask/flask-original.svg" 
+               />
+               <img 
+                 alt="bash"
+                 width="20" 
+                 height="20"
+                 src = "https://github.com/devicons/devicon/blob/v2.16.0/icons/flask/flask-original.svg"
+               />
+             </picture>
         </td>
       </tr>
       <tr>
@@ -340,6 +360,26 @@
         </td>
         <td>
           An automated job application system with multithreading in Bash and Python, improving workflow efficiency and reducing runtime by 60%<br><br>
+             <picture>
+               <source 
+                 media = "(prefers-color-scheme: dark)" 
+                 width="20" 
+                 height="20"
+                 srcset = "https://github.com/arfazhxss/arfazhxss/blob/main/1%20Server%20Resources/bash-dark.svg" 
+               />
+               <source 
+                 media = "(prefers-color-scheme: light)" 
+                 width="20" 
+                 height="20"
+                 srcset = "https://github.com/devicons/devicon/blob/v2.16.0/icons/bash/bash-original.svg" 
+               />
+               <img 
+                 alt="shadcn-l"
+                 width="20" 
+                 height="20"
+                 src = "https://github.com/devicons/devicon/blob/v2.16.0/icons/bash/bash-original.svg"
+               />
+             </picture>
         </td>
       </tr>
       <tr>
