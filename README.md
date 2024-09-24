@@ -405,7 +405,7 @@
           </a>
         </td>
         <td>
-          An automated job application system with multithreading in Bash and Python, improving workflow efficiency and reducing runtime by 60%<br><br>
+          An automated job application system with multithreading in Bash and Python, which improved my workflow efficiency and reducing runtime by 60%<br><br>
              <a href="https://github.com/arfazhxss/app-sys"><picture>
                <source 
                  media = "(prefers-color-scheme: dark)" 
