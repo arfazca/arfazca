@@ -700,7 +700,4 @@
   </table>
 </details>
 
-
-
-
 <!---    SVG Image and Codes <<<< https://github.com/devicons/devicon/tree/v2.16.0/icons/ >>>>    --->
