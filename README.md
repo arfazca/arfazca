@@ -343,8 +343,8 @@
     </thead>
     <tbody>
       <tr>
-        <td>🩺 SmartMed<br><br>
-          <a href="https://github.com/arfazhxss/smart-med">
+        <td>🩺 ICU360<br><br>
+          <a href="https://github.com/arfazhxss/icu360">
              <picture>
                <source 
                  media = "(prefers-color-scheme: dark)" 
