@@ -3,7 +3,7 @@
 <div align="center"><a href="https://www.arfazhxss.ca"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a></div>
 
 <br>
-<details open>
+<details>
 <summary>About Me</summary>
      <table align="center">
           <tr>
@@ -332,7 +332,7 @@
 </details>
 
 <details>
-  <summary>Projects</summary>
+  <summary>Projects 📂</summary>
   <br>
   <table align="center" width="650">
     <thead>
