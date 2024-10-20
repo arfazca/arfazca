@@ -331,7 +331,7 @@
 <br>
 </details>
 
-<details open>
+<details>
   <summary>Projects</summary>
   <br>
   <table align="center" width="650">
