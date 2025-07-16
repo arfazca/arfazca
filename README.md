@@ -1,42 +1,30 @@
-<div align="center"><a href="https://www.arfazca.ca"><img src="https://capsule-render.vercel.app/api?type=waving&height=130&color=gradient&customColorList=0,1,3,4,6,7,8,12,14,15,18,19,20,24,26,27,28,29,30&text=Arfaz%20%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB&fontColor=000000&fontSize=40&fontAlign=50&desc=%E2%97%80%20is%20trying%20to%20not%20break%20production%20again%20%E2%96%B6&descAlign=50&reversal=true&descSize=10&descAlignY=53&textBg=false&fontAlignY=33"></a></div>
+<div align="center"><a href="https://www.arfaz.ca"><img src="https://capsule-render.vercel.app/api?type=waving&height=130&color=gradient&customColorList=0,1,3,4,6,7,8,12,14,15,18,19,20,24,26,27,28,29,30&text=Arfaz%20%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB&fontColor=000000&fontSize=40&fontAlign=50&desc=%E2%97%80%20is%20trying%20to%20not%20break%20production%20again%20%E2%96%B6&descAlign=50&reversal=true&descSize=10&descAlignY=53&textBg=false&fontAlignY=33"></a></div>
 
 <div align="center"><a href="https://www.arfazca.ca"><img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103" alt="Open Source Love" height="20"></a></div>
 
 <br>
-<details>
+<details open>
 <summary>About Me 👷‍♂️</summary>
-     <table align="center">
-          <tr>
-               <td width="550" align="left" font-size="100">
-               <p>I love creating and designing systems. My interests include developing scalable, sustainable systems, and building versatile full-stack applications.<br></p>
-               </td>
-          </tr>
-          <tr>
-               <td width="550" align="center" font-size="50">
-                    <a href="https://www.arfazca.ca">
-                       <picture>
-                         <source 
-                           media = "(prefers-color-scheme: dark)" 
-                           width="120" 
-                           height="33"
-                           srcset = "https://github.com/arfazca/arfazca/blob/main/1%20Server%20Resources/arfx-transparent-white.svg" 
-                         />
-                         <source 
-                           media = "(prefers-color-scheme: light)" 
-                           width="120" 
-                           height="33"
-                           srcset = "https://github.com/arfazca/arfazca/blob/main/1%20Server%20Resources/arfx-transparent-black.svg" 
-                         />
-                         <img 
-                           alt="ARFX"
-                           width="120" 
-                           height="33"
-                           src = "https://github.com/arfazca/arfazca/blob/main/1%20Server%20Resources/arfx-transparent-black.svg"
-                         />
-                       </picture>
-               </td>
-          </tr>
-      </table>
+<table align="center" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+     <td style="font-family: monospace; font-size: 14px; line-height: 1.6; padding: 10px; text-align: center;" align="center">
+       <pre style="margin: 0; background: none; border: none;">
+I love creating and designing systems.
+My interests include developing scalable, sustainable systems, 
+and building versatile full-stack applications.</pre>
+     </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">
+      <pre style="font-family: monospace; font-size: 14px;">
+     {     
+            "web": "<a href='https://arfaz.ca'>https://arfaz.ca</a>",
+            "portfolio": "<a href='https://arfaz.ca/portfolio'>https://arfaz.ca/portfolio</a>",
+            "blog": "<a href='https://arfaz.ca/blog'>https://arfaz.ca/blog</a>"
+     }</pre>
+    </td>
+  </tr>
+</table>
 </details>
 <details>
 <summary>Tech Stack 🛠️</summary>
