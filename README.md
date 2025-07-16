@@ -18,9 +18,9 @@ and building versatile full-stack applications.</pre>
     <td style="padding: 10px;">
       <pre style="font-family: monospace; font-size: 14px;">
      {     
-            "web": "<a href='https://arfaz.ca'>https://arfaz.ca</a>",
-            "portfolio": "<a href='https://arfaz.ca/portfolio'>https://arfaz.ca/portfolio</a>",
-            "blog": "<a href='https://arfaz.ca/blog'>https://arfaz.ca/blog</a>"
+            "web":        "<a href='https://arfaz.ca'>https://arfaz.ca</a>",
+            "blog":       "<a href='https://arfaz.ca/blog'>https://arfaz.ca/blog</a>,
+            "portfolio":  "<a href='https://arfaz.ca/portfolio'>https://arfaz.ca/portfolio</a>"
      }</pre>
     </td>
   </tr>
