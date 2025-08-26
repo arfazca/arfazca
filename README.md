@@ -10,8 +10,8 @@
      <td style="font-family: monospace; font-size: 14px; line-height: 1.6; padding: 10px; text-align: center;" align="center">
        <pre style="margin: 0; background: none; border: none;">
 I love creating and designing systems.
-My interests include developing scalable, sustainable systems, 
-and building versatile full-stack applications.</pre>
+My interests include building and maintaining scalable, 
+sustainable solutions across Microsoft and Apple platforms.</pre>
      </td>
   </tr>
   <tr>
