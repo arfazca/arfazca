@@ -273,7 +273,7 @@ sustainable solutions across Microsoft and Apple platforms.</pre>
 <!--    Unless GitHub Markup fixes this issue <<<< https://github.com/github/markup/issues/1583 >>>> this is redundant -->
 <div align="center">
     <!--    DARK MODE    -->
-    <picture>
+    <!--<picture>
     <source 
       media = "(prefers-color-scheme: light)" 
       height="0.1"
@@ -284,10 +284,10 @@ sustainable solutions across Microsoft and Apple platforms.</pre>
       height="185"
       src = "https://github-readme-stats.vercel.app/api/top-langs?username=arfazca&theme=transparent&text_color=ffffff&include_all_commits=true&line_height=05&show_owner=true&border_radius=20.5&layout=compact&show_icons=true&size_weight=0.5&count_weight=0.5&hide=html,shell,css,javascript,assembly,c-sharp,nasl,glsl,tex,c,makefile,xslt,cmake,java,objective-c,rtf,lex,ANTLR,Groovy,Lua,Powershell,fortran,cuda&exclude_repo=csc111,js-base,vulkanapi-mactests,vulkanapi,portfolio-website,FirstYearEngineering,SecondYearEngineering,ThirdYearEngineering%22%20height%3D%22185%22&disable_animations=true"
     />
-  </picture>
+  </picture>-->
   
   <!--    LIGHT MODE    -->
-  <picture>
+  <!--<picture>
     <source 
       media = "(prefers-color-scheme: dark)" 
       height="0.1"
@@ -298,7 +298,7 @@ sustainable solutions across Microsoft and Apple platforms.</pre>
       height="185"
       src = "https://github-readme-stats.vercel.app/api/top-langs?username=arfazca&theme=transparent&text_color=000000&include_all_commits=true&line_height=05&show_owner=true&border_radius=20.5&layout=compact&show_icons=true&size_weight=0.5&count_weight=0.5&hide=html,shell,css,javascript,assembly,c-sharp,nasl,glsl,tex,c,makefile,xslt,cmake,java,objective-c,rtf,lex,ANTLR,Groovy,Lua,Powershell,fortran,cuda&exclude_repo=csc111,js-base,vulkanapi-mactests,vulkanapi,portfolio-website,FirstYearEngineering,SecondYearEngineering,ThirdYearEngineering%22%20height%3D%22185%22&disable_animations=true"
     />
-  </picture>
+  </picture>-->
   
   <picture>
     <source 
