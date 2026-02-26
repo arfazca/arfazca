@@ -20,6 +20,7 @@ sustainable solutions across Microsoft and Apple platforms.</pre>
      {     
             "web":        "<a href='https://arfaz.ca'>https://arfaz.ca</a>",
             "blog":       "<a href='https://arfaz.ca/blog'>https://arfaz.ca/blog</a>,
+            "resume":     "<a href='https://arfaz.ca/resume'>https://arfaz.ca/resume</a>,
             "portfolio":  "<a href='https://arfaz.ca/portfolio'>https://arfaz.ca/portfolio</a>"
      }</pre>
     </td>
