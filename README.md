@@ -19,8 +19,8 @@ sustainable solutions across Microsoft and Apple platforms.</pre>
       <pre style="font-family: monospace; font-size: 14px;">
      {     
             "web":        "<a href='https://arfaz.ca'>https://arfaz.ca</a>",
-            "blog":       "<a href='https://arfaz.ca/blog'>https://arfaz.ca/blog</a>,
-            "resume":     "<a href='https://arfaz.ca/resume'>https://arfaz.ca/resume</a>,
+            "blog":       "<a href='https://arfaz.ca/blog'>https://arfaz.ca/blog</a>",
+            "resume":     "<a href='https://arfaz.ca/resume'>https://arfaz.ca/resume</a>",
             "portfolio":  "<a href='https://arfaz.ca/portfolio'>https://arfaz.ca/portfolio</a>"
      }</pre>
     </td>
@@ -38,9 +38,8 @@ sustainable solutions across Microsoft and Apple platforms.</pre>
   </tr>
   <tr>
     <td>Script Languages :keyboard:</td>
-    <td colspan="3">
-      <a href="https://github.com/arfazca"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/powershell/powershell-original.svg" alt="PowerShell" width="40" height="40"></a>
-      <a href="https://github.com/arfazca">
+    <td colspan="3"><a href="https://github.com/arfazca"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/powershell/powershell-original.svg" alt="PowerShell" width="40" height="40"></a>
+        <a href="https://github.com/arfazca">
         <picture>
           <source 
             media = "(prefers-color-scheme: dark)" 
@@ -53,15 +52,12 @@ sustainable solutions across Microsoft and Apple platforms.</pre>
             width="40" 
             height="40"
             srcset = "https://github.com/devicons/devicon/blob/v2.16.0/icons/bash/bash-original.svg" 
-          />
-          <img 
+          /><img 
             alt="bash"
             width="40" 
             height="40"
             src = "https://github.com/devicons/devicon/blob/v2.16.0/icons/bash/bash-original.svg"
-          />
-        </picture>
-      </a>
+          /></picture></a>
       <a href="https://github.com/arfazca"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40"></a>
       <a href="https://github.com/arfazca"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/python/python-original.svg" alt="Python" width="40" height="40"></a>
       <a href="https://github.com/arfazca"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/swift/swift-original.svg" alt="Swift" width="40" height="40"></a>
@@ -93,9 +89,7 @@ sustainable solutions across Microsoft and Apple platforms.</pre>
             width="40" 
             height="40"
             src = "https://github.com/devicons/devicon/blob/v2.16.0/icons/unity/unity-original.svg"
-          />
-        </picture>
-      </a>
+          /></picture></a>
       <a href="https://github.com/arfazca">
         <picture>
           <source 
@@ -115,9 +109,7 @@ sustainable solutions across Microsoft and Apple platforms.</pre>
             width="40" 
             height="40"
             src = "https://github.com/arfazca/arfazca/blob/main/1%20Server%20Resources/UE-light.svg"
-          />
-        </picture>
-      </a>
+          /></picture></a>
     </td>
   </tr>
   <tr>
@@ -145,9 +137,7 @@ sustainable solutions across Microsoft and Apple platforms.</pre>
             width="40" 
             height="40"
             src = "https://github.com/arfazca/arfazca/blob/main/1%20Server%20Resources/php-light.svg"
-          />
-        </picture>
-      </a>
+          /></picture></a>
       <a href="https://github.com/arfazca"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind" width="40" height="40"></a>
       <a href="https://github.com/arfazca">
         <picture>
@@ -168,9 +158,7 @@ sustainable solutions across Microsoft and Apple platforms.</pre>
             width="40" 
             height="40"
             src = "https://github.com/devicons/devicon/blob/v2.16.0/icons/nextjs/nextjs-original.svg"
-          />
-        </picture>
-      </a>
+          /></picture></a>
       <a href="https://github.com/arfazca">
         <picture>
           <source 
@@ -190,9 +178,7 @@ sustainable solutions across Microsoft and Apple platforms.</pre>
             width="40" 
             height="40"
             src = "https://github.com/arfazca/arfazca/blob/main/1%20Server%20Resources/shadcn-light.svg"
-          />
-        </picture>
-      </a>
+          /></picture></a>
     </td>
   </tr>
   <tr>
@@ -257,9 +243,7 @@ sustainable solutions across Microsoft and Apple platforms.</pre>
               width="30" 
               height="30"
               src = "https://github.com/devicons/devicon/blob/v2.16.0/icons/ubuntu/ubuntu-original.svg"
-            />
-          </picture>
-        </a>
+            /></picture></a>
         <a href="https://github.com/arfazca"><img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/fedora/fedora-original.svg" alt="Fedora" height="30"></a>
         <a href="https://github.com/arfazca"><img src="https://github.com/arfazca/arfazca/blob/main/1%20Server%20Resources/MacOS.svg" alt="MacOS" height="30"></a>
         <a href="https://github.com/arfazca"><img src="https://github.com/arfazca/arfazca/blob/main/1%20Server%20Resources/Arch.svg" alt="ArchLinux" height="30"></a>  
