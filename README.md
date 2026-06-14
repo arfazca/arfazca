@@ -9,233 +9,74 @@
   <!-- Animated about-me JSON, self-theming via <picture>. about-light.svg / about-dark.svg are rendered by my own Action (arfazca/github-stats, scripts/render_about.py) with a transparent background + no border so it sits flush on the README. -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/github-stats/generated/about-dark.svg" />
-    <img width="720" alt="About Arfaz Hussain — a JSON object with name, email, a short bio, work (Software Developer at Megabyte Systems, VP Corporate Relations at UVic ECSS, Industry Relations at UVicHacks), socials and links" src="https://raw.githubusercontent.com/arfazca/github-stats/generated/about-light.svg" />
+    <img width="720" alt="About Arfaz Hussain — 'I love creating and designing systems. My interests include building and maintaining scalable, sustainable solutions across Microsoft and Apple platforms.' followed by a JSON object of links: web, blog, resume, portfolio" src="https://raw.githubusercontent.com/arfazca/github-stats/generated/about-light.svg" />
   </picture>
 </div>
 </details>
 <details>
 <summary>Tech Stack 🛠️</summary>
 <br>
-<table align="center">
-  <tr>
-    <td width="550" colspan="4" align="center" font-size="100">
-      <h3>:toolbox: Toolbox :wrench:</h3>
-    </td>
-  </tr>
-  <tr>
-    <td>Script Languages :keyboard:</td>
-    <td colspan="3"><a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/powershell/powershell-original.svg" alt="PowerShell" width="40" height="40"></a>
-        <a href="https://github.com/arfazca">
-        <picture>
-          <source 
-            media = "(prefers-color-scheme: dark)" 
-            width="40" 
-            height="40"
-            srcset = "https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/bash-dark.svg" 
-          />
-          <source 
-            media = "(prefers-color-scheme: light)" 
-            width="40" 
-            height="40"
-            srcset = "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/bash/bash-original.svg" 
-          /><img 
-            alt="bash"
-            width="40" 
-            height="40"
-            src = "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/bash/bash-original.svg"
-          /></picture></a>
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40"></a>
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/python/python-original.svg" alt="Python" width="40" height="40"></a>
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/swift/swift-original.svg" alt="Swift" width="40" height="40"></a>
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/java/java-original.svg" alt="Java" width="40" height="40"></a>
-    </td>
-  </tr>
-  <tr>
-    <td>Development Environment :iphone:</td>
-    <td colspan="3">
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/neovim/neovim-original.svg" alt="NeoVim" width="40" height="40"></a>
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/vscode/vscode-original.svg" alt="Code" width="40" height="40"></a>
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/xcode/xcode-plain.svg" alt="XCode" width="40" height="40"></a>
-      <a href="https://github.com/arfazca">
-        <picture>
-          <source 
-            media = "(prefers-color-scheme: dark)" 
-            width="40" 
-            height="40"
-            srcset = "https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/unity-dark-original.svg" 
-          />
-          <source 
-            media = "(prefers-color-scheme: light)" 
-            width="40" 
-            height="40"
-            srcset = "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/unity/unity-original.svg" 
-          />
-          <img 
-            alt="unity"
-            width="40" 
-            height="40"
-            src = "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/unity/unity-original.svg"
-          /></picture></a>
-      <a href="https://github.com/arfazca">
-        <picture>
-          <source 
-            media = "(prefers-color-scheme: dark)" 
-            width="40" 
-            height="40"
-            srcset = "https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/UE-light.svg" 
-          />
-          <source 
-            media = "(prefers-color-scheme: light)" 
-            width="40" 
-            height="40"
-            srcset = "https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/UE-dark.svg" 
-          />
-          <img 
-            alt="Unreal Engine"
-            width="40" 
-            height="40"
-            src = "https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/UE-light.svg"
-          /></picture></a>
-    </td>
-  </tr>
-  <tr>
-    <td>Website Development  :desktop_computer:</td>
-    <td colspan="3">
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"></a>
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/jquery/jquery-original.svg" alt="JQuery" width="40" height="40"></a>
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"></a>
-      <a href="https://github.com/arfazca">
-        <picture>
-          <source 
-            media = "(prefers-color-scheme: dark)" 
-            width="40" 
-            height="40"
-            srcset = "https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/php-dark.svg" 
-          />
-          <source 
-            media = "(prefers-color-scheme: light)" 
-            width="40" 
-            height="40"
-            srcset = "https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/php-light.svg" 
-          />
-          <img 
-            alt="shadcn-l"
-            width="40" 
-            height="40"
-            src = "https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/php-light.svg"
-          /></picture></a>
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind" width="40" height="40"></a>
-      <a href="https://github.com/arfazca">
-        <picture>
-          <source 
-            media = "(prefers-color-scheme: dark)" 
-            width="40" 
-            height="40"
-            srcset = "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/nextjs/nextjs-original.svg" 
-          />
-          <source 
-            media = "(prefers-color-scheme: light)" 
-            width="40" 
-            height="40"
-            srcset = "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/nextjs/nextjs-original.svg" 
-          />
-          <img 
-            alt="shadcn-l"
-            width="40" 
-            height="40"
-            src = "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/nextjs/nextjs-original.svg"
-          /></picture></a>
-      <a href="https://github.com/arfazca">
-        <picture>
-          <source 
-            media = "(prefers-color-scheme: dark)" 
-            width="40" 
-            height="40"
-            srcset = "https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/shadcn-dark.svg" 
-          />
-          <source 
-            media = "(prefers-color-scheme: light)" 
-            width="40" 
-            height="40"
-            srcset = "https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/shadcn-light.svg" 
-          />
-          <img 
-            alt="Shadcn"
-            width="40" 
-            height="40"
-            src = "https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/shadcn-light.svg"
-          /></picture></a>
-    </td>
-  </tr>
-  <tr>
-    <td rowspan="2" align="center">
-      <H3>Graphics APIs</H3>
-      <p>🎮</p>
-    </td>
-    <td colspan="2" align="center">
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/OpenGL.svg" alt="OpenGL" width="140" height="70"></a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/VulkanAPI.svg" alt="Vulkan" width="140" height="70"></a>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/WebGL.svg" alt="WebGL" width="120" height="60"></a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/OpenXR.svg" alt="OpenXR" width="140" height="70"></a>
-    </td>
-  </tr>
-  <tr>
-    <td>BackEnd & Databases :file_folder:</td>
-    <td colspan="3">
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/nodejs/nodejs-original.svg" alt="NodeJS" width="40" height="40"></a>
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/npm/npm-original-wordmark.svg" alt="npm" width="40" height="40"></a>
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/git/git-plain.svg" alt="Git" width="40" height="40"></a>
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40"></a>
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40"></a>
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/postgresql/postgresql-original.svg" alt="postgreSQL" width="40" height="40"></a>
-    </td>
-  </tr>
-  <tr>
-    <td>Design, Test & Deploy :gear:</td>
-    <td colspan="3">
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/figma/figma-original.svg" alt="Figma" width="40" height="40"></a>
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/gradle-plain.svg" alt="Gradle" width="40" height="40"></a>
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/maven/maven-original.svg" alt="Maven" width="40" height="40"></a>
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/selenium/selenium-original.svg" alt="Selenium" width="40" height="40"></a>
-      <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/intellij/intellij-original.svg" alt="IntelliJ" width="40" height="40"></a>
-    </td>
-  </tr>
-    <tr>
-      <td colspan="4" align="center">
-        <a href="https://github.com/arfazca">
-          <picture>
-            <source 
-              media = "(prefers-color-scheme: dark)" 
-              width="30" 
-              height="30"
-              srcset = "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/ubuntu/ubuntu-original.svg" 
-            />
-            <source 
-              media = "(prefers-color-scheme: light)" 
-              width="30" 
-              height="30"
-              srcset = "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/ubuntu/ubuntu-plain.svg" 
-            />
-            <img 
-              alt="shadcn-l"
-              width="30" 
-              height="30"
-              src = "https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/ubuntu/ubuntu-original.svg"
-            /></picture></a>
-        <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/fedora/fedora-original.svg" alt="Fedora" height="30"></a>
-        <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/MacOS.svg" alt="MacOS" height="30"></a>
-        <a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/Arch.svg" alt="ArchLinux" height="30"></a>  
-      </td>
-    </tr>
-  </table>
+<div align="center">
+
+<h3>🧰 Toolbox 🔧</h3>
+
+<strong>Script Languages ⌨️</strong>
+<br><br>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/powershell/powershell-original.svg" alt="PowerShell" width="40" height="40"></a>
+<a href="https://github.com/arfazca"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/bash-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/bash/bash-original.svg" /><img alt="bash" width="40" height="40" src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/bash/bash-original.svg" /></picture></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40"></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/python/python-original.svg" alt="Python" width="40" height="40"></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/swift/swift-original.svg" alt="Swift" width="40" height="40"></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/java/java-original.svg" alt="Java" width="40" height="40"></a>
+<br><br>
+<strong>Development Environment 📱</strong>
+<br><br>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/neovim/neovim-original.svg" alt="NeoVim" width="40" height="40"></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/vscode/vscode-original.svg" alt="Code" width="40" height="40"></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/xcode/xcode-plain.svg" alt="XCode" width="40" height="40"></a>
+<a href="https://github.com/arfazca"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/unity-dark-original.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/unity/unity-original.svg" /><img alt="unity" width="40" height="40" src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/unity/unity-original.svg" /></picture></a>
+<a href="https://github.com/arfazca"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/UE-light.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/UE-dark.svg" /><img alt="Unreal Engine" width="40" height="40" src="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/UE-dark.svg" /></picture></a>
+<br><br>
+<strong>Website Development 🖥️</strong>
+<br><br>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/jquery/jquery-original.svg" alt="JQuery" width="40" height="40"></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"></a>
+<a href="https://github.com/arfazca"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/php-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/php-light.svg" /><img alt="php" width="40" height="40" src="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/php-light.svg" /></picture></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind" width="40" height="40"></a>
+<a href="https://github.com/arfazca"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/nextjs/nextjs-original.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/nextjs/nextjs-original.svg" /><img alt="Next.js" width="40" height="40" src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/nextjs/nextjs-original.svg" /></picture></a>
+<a href="https://github.com/arfazca"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/shadcn-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/shadcn-light.svg" /><img alt="Shadcn" width="40" height="40" src="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/shadcn-light.svg" /></picture></a>
+<br><br>
+<strong>Graphics APIs 🎮</strong>
+<br><br>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/OpenGL.svg" alt="OpenGL" width="140" height="70"></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/VulkanAPI.svg" alt="Vulkan" width="140" height="70"></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/WebGL.svg" alt="WebGL" width="120" height="60"></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/OpenXR.svg" alt="OpenXR" width="140" height="70"></a>
+<br><br>
+<strong>BackEnd &amp; Databases 📁</strong>
+<br><br>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/nodejs/nodejs-original.svg" alt="NodeJS" width="40" height="40"></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/npm/npm-original-wordmark.svg" alt="npm" width="40" height="40"></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/git/git-plain.svg" alt="Git" width="40" height="40"></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40"></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40"></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/postgresql/postgresql-original.svg" alt="postgreSQL" width="40" height="40"></a>
+<br><br>
+<strong>Design, Test &amp; Deploy ⚙️</strong>
+<br><br>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/figma/figma-original.svg" alt="Figma" width="40" height="40"></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/gradle-plain.svg" alt="Gradle" width="40" height="40"></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/maven/maven-original.svg" alt="Maven" width="40" height="40"></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/selenium/selenium-original.svg" alt="Selenium" width="40" height="40"></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/intellij/intellij-original.svg" alt="IntelliJ" width="40" height="40"></a>
+<br><br>
+<a href="https://github.com/arfazca"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/ubuntu/ubuntu-original.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/ubuntu/ubuntu-plain.svg" /><img alt="Ubuntu" width="30" height="30" src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/ubuntu/ubuntu-plain.svg" /></picture></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/fedora/fedora-original.svg" alt="Fedora" width="30" height="30"></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/MacOS.svg" alt="MacOS" width="30" height="30"></a>
+<a href="https://github.com/arfazca"><img src="https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/Arch.svg" alt="ArchLinux" width="30" height="30"></a>
+
+</div>
 </details>
 <details>
 <summary>GitHub Stats 📈</summary>
