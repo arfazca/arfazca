@@ -5,27 +5,13 @@
 <br>
 <details open>
 <summary>About Me 👷‍♂️</summary>
-<table align="center" width="100%" cellspacing="0" cellpadding="0">
-  <tr>
-     <td style="font-family: monospace; font-size: 14px; line-height: 1.6; padding: 10px; text-align: center;" align="center">
-       <pre style="margin: 0; background: none; border: none;">
-I love creating and designing systems.
-My interests include building and maintaining scalable, 
-sustainable solutions across Microsoft and Apple platforms.</pre>
-     </td>
-  </tr>
-  <tr>
-    <td style="padding: 10px;">
-      <pre style="font-family: monospace; font-size: 14px;">
-     {     
-            "web":        "<a href='https://arfaz.ca'>https://arfaz.ca</a>",
-            "blog":       "<a href='https://arfaz.ca/blog'>https://arfaz.ca/blog</a>",
-            "resume":     "<a href='https://arfaz.ca/resume'>https://arfaz.ca/resume</a>",
-            "portfolio":  "<a href='https://arfaz.ca/portfolio'>https://arfaz.ca/portfolio</a>"
-     }</pre>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <!-- Animated about-me JSON, self-theming via <picture>. about-light.svg / about-dark.svg are rendered by my own Action (arfazca/github-stats, scripts/render_about.py) with a transparent background + no border so it sits flush on the README. -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/github-stats/generated/about-dark.svg" />
+    <img width="720" alt="About Arfaz Hussain — a JSON object with name, email, a short bio, work (Software Developer at Megabyte Systems, VP Corporate Relations at UVic ECSS, Industry Relations at UVicHacks), socials and links" src="https://raw.githubusercontent.com/arfazca/github-stats/generated/about-light.svg" />
+  </picture>
+</div>
 </details>
 <details>
 <summary>Tech Stack 🛠️</summary>
