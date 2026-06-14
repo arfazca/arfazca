@@ -5,27 +5,18 @@
 <br>
 <details open>
 <summary>About Me 👷‍♂️</summary>
-<table align="center" width="100%" cellspacing="0" cellpadding="0">
-  <tr>
-     <td style="font-family: monospace; font-size: 14px; line-height: 1.6; padding: 10px; text-align: center;" align="center">
-       <pre style="margin: 0; background: none; border: none;">
-I love creating and designing systems.
-My interests include building and maintaining scalable, 
-sustainable solutions across Microsoft and Apple platforms.</pre>
-     </td>
-  </tr>
-  <tr>
-    <td style="padding: 10px;">
-      <pre style="font-family: monospace; font-size: 14px;">
-     {     
-            "web":        "<a href='https://arfaz.ca'>https://arfaz.ca</a>",
-            "blog":       "<a href='https://arfaz.ca/blog'>https://arfaz.ca/blog</a>",
-            "resume":     "<a href='https://arfaz.ca/resume'>https://arfaz.ca/resume</a>",
-            "portfolio":  "<a href='https://arfaz.ca/portfolio'>https://arfaz.ca/portfolio</a>"
-     }</pre>
-    </td>
-  </tr>
-</table>
+<br>
+<p align="center">
+  Engineering student at the University of Victoria who likes building systems end&#8209;to&#8209;end —<br>
+  from low&#8209;level engines and graphics to the web tooling around them — and keeping them<br>
+  clean under the hood and dependable in production.
+</p>
+<div align="center">
+  <a href="https://arfaz.ca"><img src="https://img.shields.io/badge/Website-6366f1?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"></a>&nbsp;
+  <a href="https://arfaz.ca/blog"><img src="https://img.shields.io/badge/Blog-2b2f36?style=flat-square&logo=rss&logoColor=white" alt="Blog"></a>&nbsp;
+  <a href="https://arfaz.ca/resume"><img src="https://img.shields.io/badge/Resume-0a7d33?style=flat-square&logo=readme&logoColor=white" alt="Resume"></a>&nbsp;
+  <a href="https://arfaz.ca/portfolio"><img src="https://img.shields.io/badge/Portfolio-8957e5?style=flat-square&logo=githubpages&logoColor=white" alt="Portfolio"></a>
+</div>
 </details>
 <details>
 <summary>Tech Stack 🛠️</summary>
@@ -255,58 +246,15 @@ sustainable solutions across Microsoft and Apple platforms.</pre>
 <summary>GitHub Stats 📈</summary>
   <br>
 <div align="center">
-  <!-- Static SVGs regenerated DAILY by my own GitHub Action (arfazca/github-stats) using a token that can read PRIVATE repos. So the language + activity numbers below reflect ALL my work, public and private — yet nobody viewing this README can see the private repos themselves. -->
-  <a href="https://github.com/arfazca/github-stats" title="GitHub stats including private repositories">
-    <img height="200" alt="Arfaz — GitHub stats (includes private repos)" src="https://raw.githubusercontent.com/arfazca/github-stats/generated/overview.svg#gh-dark-mode-only" />
-    <img height="200" alt="Arfaz — most-used languages (includes private repos)" src="https://raw.githubusercontent.com/arfazca/github-stats/generated/languages.svg#gh-dark-mode-only" />
-    <img height="200" alt="Arfaz — GitHub stats (includes private repos)" src="https://raw.githubusercontent.com/arfazca/github-stats/generated/overview.svg#gh-light-mode-only" />
-    <img height="200" alt="Arfaz — most-used languages (includes private repos)" src="https://raw.githubusercontent.com/arfazca/github-stats/generated/languages.svg#gh-light-mode-only" />
+  <!-- ONE self-theming widget. card-light.svg / card-dark.svg are pre-rendered DAILY by my own Action (arfazca/github-stats) from a token that can read PRIVATE repos: a Material dashboard with KPIs, a language donut + legend, and the segmented language bar + chips you can see below. <picture> shows exactly one variant per GitHub theme, so it can never duplicate — and the private repos themselves stay hidden. -->
+  <a href="https://github.com/arfazca/github-stats" title="How these stats are generated (includes private repositories)">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/github-stats/generated/card-dark.svg" />
+      <img width="720" alt="Arfaz's GitHub at a glance: stars, forks, repos, contributions, lines changed and top languages aggregated across every repository including private ones, refreshed daily" src="https://raw.githubusercontent.com/arfazca/github-stats/generated/card-light.svg" />
+    </picture>
   </a>
-  <br><br>
-    <!--    DARK MODE    -->
-    <!--<picture>
-    <source 
-      media = "(prefers-color-scheme: light)" 
-      height="0.1"
-      width="0.1"
-      srcset = "https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/noIMG.svg" 
-    />
-    <img 
-      height="185"
-      src = "https://github-readme-stats.vercel.app/api/top-langs?username=arfazca&theme=transparent&text_color=ffffff&include_all_commits=true&line_height=05&show_owner=true&border_radius=20.5&layout=compact&show_icons=true&size_weight=0.5&count_weight=0.5&hide=html,shell,css,javascript,assembly,c-sharp,nasl,glsl,tex,c,makefile,xslt,cmake,java,objective-c,rtf,lex,ANTLR,Groovy,Lua,Powershell,fortran,cuda&exclude_repo=csc111,js-base,vulkanapi-mactests,vulkanapi,portfolio-website,FirstYearEngineering,SecondYearEngineering,ThirdYearEngineering%22%20height%3D%22185%22&disable_animations=true"
-    />
-  </picture>-->
-  
-  <!--    LIGHT MODE    -->
-  <!--<picture>
-    <source 
-      media = "(prefers-color-scheme: dark)" 
-      height="0.1"
-      width="0.1"
-      srcset = "https://raw.githubusercontent.com/arfazca/arfazca/main/1%20Server%20Resources/noIMG.svg" 
-    />
-    <img 
-      height="185"
-      src = "https://github-readme-stats.vercel.app/api/top-langs?username=arfazca&theme=transparent&text_color=000000&include_all_commits=true&line_height=05&show_owner=true&border_radius=20.5&layout=compact&show_icons=true&size_weight=0.5&count_weight=0.5&hide=html,shell,css,javascript,assembly,c-sharp,nasl,glsl,tex,c,makefile,xslt,cmake,java,objective-c,rtf,lex,ANTLR,Groovy,Lua,Powershell,fortran,cuda&exclude_repo=csc111,js-base,vulkanapi-mactests,vulkanapi,portfolio-website,FirstYearEngineering,SecondYearEngineering,ThirdYearEngineering%22%20height%3D%22185%22&disable_animations=true"
-    />
-  </picture>-->
-  
-  <picture>
-    <source 
-      media="(prefers-color-scheme: dark)"
-      height="185"
-      srcset="https://streak-stats.demolab.com?user=arfazca&hide_border=true&background=00000000&ring=58A6FF&fire=58A6FF&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=8B949E&sideLabels=8B949E&dates=8B949E"
-    />
-    <source 
-      media="(prefers-color-scheme: light)"
-      height="185"
-      srcset="https://streak-stats.demolab.com?user=arfazca&hide_border=true&background=00000000&ring=0366D6&fire=0366D6&currStreakNum=24292F&sideNums=24292F&currStreakLabel=586069&sideLabels=586069&dates=586069"
-    />
-    <img 
-      height="185"
-      src="https://streak-stats.demolab.com?user=arfazca&hide_border=true&background=00000000&ring=0366D6&fire=0366D6"
-    />
-  </picture>
+  <br>
+  <sub><em>One card, refreshed daily — aggregated across every repository, public <strong>and</strong> private.</em></sub>
 </div> 
 <br>
 </details>
