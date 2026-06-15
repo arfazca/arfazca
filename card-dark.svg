@@ -11,9 +11,9 @@
 <text x="24" y="193" font-size="8.5" font-weight="600" fill="#9198a1" letter-spacing="0.7">TOTAL CONTRIBUTIONS</text>
 <text x="24" y="225" font-size="20" font-weight="700" fill="#e6edf3" letter-spacing="-0.4">14<tspan font-size="10.5" font-weight="600" fill="#9198a1" dx="3"> days</tspan></text>
 <text x="24" y="238" font-size="8.5" font-weight="600" fill="#9198a1" letter-spacing="0.7">CURRENT STREAK</text>
-<text x="206" y="90" font-size="20" font-weight="700" fill="#e6edf3" letter-spacing="-0.4">34</text>
+<text x="206" y="90" font-size="20" font-weight="700" fill="#e6edf3" letter-spacing="-0.4">33</text>
 <text x="206" y="103" font-size="8.5" font-weight="600" fill="#9198a1" letter-spacing="0.7">PUBLIC REPOS</text>
-<text x="206" y="135" font-size="20" font-weight="700" fill="#e6edf3" letter-spacing="-0.4">31</text>
+<text x="206" y="135" font-size="20" font-weight="700" fill="#e6edf3" letter-spacing="-0.4">32</text>
 <text x="206" y="148" font-size="8.5" font-weight="600" fill="#9198a1" letter-spacing="0.7">PRIVATE REPOS</text>
 <text x="206" y="180" font-size="20" font-weight="700" fill="#e6edf3" letter-spacing="-0.4">12</text>
 <text x="206" y="193" font-size="8.5" font-weight="600" fill="#9198a1" letter-spacing="0.7">COLLABORATORS</text>
@@ -22,16 +22,16 @@
 <circle cx="556" cy="160" r="80" fill="none" stroke="#7678f3" stroke-width="44" stroke-dasharray="138.73 363.92" stroke-dashoffset="-0.00" transform="rotate(-90 556 160)"/>
 <circle cx="556" cy="160" r="80" fill="none" stroke="#ee5ea5" stroke-width="44" stroke-dasharray="127.67 374.98" stroke-dashoffset="-138.73" transform="rotate(-90 556 160)"/>
 <circle cx="556" cy="160" r="80" fill="none" stroke="#30c1b1" stroke-width="44" stroke-dasharray="116.62 386.04" stroke-dashoffset="-266.41" transform="rotate(-90 556 160)"/>
-<circle cx="556" cy="160" r="80" fill="none" stroke="#f6aa28" stroke-width="44" stroke-dasharray="47.66 454.99" stroke-dashoffset="-383.02" transform="rotate(-90 556 160)"/>
-<circle cx="556" cy="160" r="80" fill="none" stroke="#9970f7" stroke-width="44" stroke-dasharray="21.36 481.29" stroke-dashoffset="-430.69" transform="rotate(-90 556 160)"/>
-<circle cx="556" cy="160" r="80" fill="none" stroke="#f15a5a" stroke-width="44" stroke-dasharray="10.14 492.52" stroke-dashoffset="-452.05" transform="rotate(-90 556 160)"/>
-<circle cx="556" cy="160" r="80" fill="none" stroke="#2dc190" stroke-width="44" stroke-dasharray="10.10 492.55" stroke-dashoffset="-462.19" transform="rotate(-90 556 160)"/>
-<circle cx="556" cy="160" r="80" fill="none" stroke="#5391f7" stroke-width="44" stroke-dasharray="8.68 493.98" stroke-dashoffset="-472.29" transform="rotate(-90 556 160)"/>
-<circle cx="556" cy="160" r="80" fill="none" stroke="#fa8432" stroke-width="44" stroke-dasharray="8.30 494.35" stroke-dashoffset="-480.97" transform="rotate(-90 556 160)"/>
-<circle cx="556" cy="160" r="80" fill="none" stroke="#24bfd9" stroke-width="44" stroke-dasharray="5.71 496.95" stroke-dashoffset="-489.27" transform="rotate(-90 556 160)"/>
-<circle cx="556" cy="160" r="80" fill="none" stroke="#b269f8" stroke-width="44" stroke-dasharray="4.09 498.57" stroke-dashoffset="-494.98" transform="rotate(-90 556 160)"/>
-<circle cx="556" cy="160" r="80" fill="none" stroke="#93d232" stroke-width="44" stroke-dasharray="1.81 500.84" stroke-dashoffset="-499.07" transform="rotate(-90 556 160)"/>
-<circle cx="556" cy="160" r="80" fill="none" stroke="#e5385e" stroke-width="44" stroke-dasharray="1.77 500.88" stroke-dashoffset="-500.88" transform="rotate(-90 556 160)"/>
+<circle cx="556" cy="160" r="80" fill="none" stroke="#f6aa28" stroke-width="44" stroke-dasharray="48.07 454.58" stroke-dashoffset="-383.02" transform="rotate(-90 556 160)"/>
+<circle cx="556" cy="160" r="80" fill="none" stroke="#9970f7" stroke-width="44" stroke-dasharray="23.72 478.94" stroke-dashoffset="-431.10" transform="rotate(-90 556 160)"/>
+<circle cx="556" cy="160" r="80" fill="none" stroke="#f15a5a" stroke-width="44" stroke-dasharray="11.26 491.40" stroke-dashoffset="-454.82" transform="rotate(-90 556 160)"/>
+<circle cx="556" cy="160" r="80" fill="none" stroke="#2dc190" stroke-width="44" stroke-dasharray="11.22 491.44" stroke-dashoffset="-466.07" transform="rotate(-90 556 160)"/>
+<circle cx="556" cy="160" r="80" fill="none" stroke="#5391f7" stroke-width="44" stroke-dasharray="9.22 493.44" stroke-dashoffset="-477.29" transform="rotate(-90 556 160)"/>
+<circle cx="556" cy="160" r="80" fill="none" stroke="#fa8432" stroke-width="44" stroke-dasharray="6.34 496.32" stroke-dashoffset="-486.51" transform="rotate(-90 556 160)"/>
+<circle cx="556" cy="160" r="80" fill="none" stroke="#24bfd9" stroke-width="44" stroke-dasharray="4.54 498.12" stroke-dashoffset="-492.85" transform="rotate(-90 556 160)"/>
+<circle cx="556" cy="160" r="80" fill="none" stroke="#b269f8" stroke-width="44" stroke-dasharray="2.01 500.64" stroke-dashoffset="-497.39" transform="rotate(-90 556 160)"/>
+<circle cx="556" cy="160" r="80" fill="none" stroke="#93d232" stroke-width="44" stroke-dasharray="1.97 500.68" stroke-dashoffset="-499.40" transform="rotate(-90 556 160)"/>
+<circle cx="556" cy="160" r="80" fill="none" stroke="#e5385e" stroke-width="44" stroke-dasharray="1.29 501.37" stroke-dashoffset="-501.37" transform="rotate(-90 556 160)"/>
 <text x="556" y="159" text-anchor="middle" font-size="16" font-weight="800"><tspan fill="#7678f3">C</tspan><tspan fill="#9198a1"> and </tspan><tspan fill="#ee5ea5">C++</tspan></text>
 <text x="556" y="179" text-anchor="middle" font-size="11" font-weight="600" fill="#9198a1">53.0% of code</text>
 <line x1="24" y1="262" x2="696" y2="262" stroke="#262c34" stroke-width="1"/>
@@ -47,33 +47,33 @@
 <text x="267.20" y="310.00" font-size="11" fill="#9198a1">23.2%</text>
 <circle cx="317.95" cy="306.00" r="4.5" fill="#f6aa28"/>
 <text x="329.45" y="310.00" font-size="11" font-weight="600" fill="#e6edf3">Python</text>
-<text x="371.75" y="310.00" font-size="11" fill="#9198a1">9.5%</text>
+<text x="371.75" y="310.00" font-size="11" fill="#9198a1">9.6%</text>
 <circle cx="416.45" cy="306.00" r="4.5" fill="#9970f7"/>
 <text x="427.95" y="310.00" font-size="11" font-weight="600" fill="#e6edf3">Shell</text>
-<text x="464.20" y="310.00" font-size="11" fill="#9198a1">4.3%</text>
+<text x="464.20" y="310.00" font-size="11" fill="#9198a1">4.7%</text>
 <circle cx="508.90" cy="306.00" r="4.5" fill="#f15a5a"/>
 <text x="520.40" y="310.00" font-size="11" font-weight="600" fill="#e6edf3">C#</text>
-<text x="538.50" y="310.00" font-size="11" fill="#9198a1">2.0%</text>
+<text x="538.50" y="310.00" font-size="11" fill="#9198a1">2.2%</text>
 <circle cx="583.20" cy="306.00" r="4.5" fill="#2dc190"/>
 <text x="594.70" y="310.00" font-size="11" font-weight="600" fill="#e6edf3">Assembly</text>
-<text x="649.10" y="310.00" font-size="11" fill="#9198a1">2.0%</text>
+<text x="649.10" y="310.00" font-size="11" fill="#9198a1">2.2%</text>
 <circle cx="28.50" cy="332.00" r="4.5" fill="#5391f7"/>
-<text x="40.00" y="336.00" font-size="11" font-weight="600" fill="#e6edf3">Zig</text>
-<text x="64.15" y="336.00" font-size="11" fill="#9198a1">1.7%</text>
-<circle cx="108.85" cy="332.00" r="4.5" fill="#fa8432"/>
-<text x="120.35" y="336.00" font-size="11" font-weight="600" fill="#e6edf3">PowerShell</text>
-<text x="186.85" y="336.00" font-size="11" fill="#9198a1">1.7%</text>
-<circle cx="231.55" cy="332.00" r="4.5" fill="#24bfd9"/>
-<text x="243.05" y="336.00" font-size="11" font-weight="600" fill="#e6edf3">Objective-C</text>
-<text x="315.60" y="336.00" font-size="11" fill="#9198a1">1.1%</text>
-<circle cx="360.30" cy="332.00" r="4.5" fill="#b269f8"/>
-<text x="371.80" y="336.00" font-size="11" font-weight="600" fill="#e6edf3">Rust</text>
-<text x="402.00" y="336.00" font-size="11" fill="#9198a1">0.8%</text>
-<circle cx="446.70" cy="332.00" r="4.5" fill="#93d232"/>
-<text x="458.20" y="336.00" font-size="11" font-weight="600" fill="#e6edf3">Java</text>
-<text x="488.40" y="336.00" font-size="11" fill="#9198a1">0.4%</text>
-<circle cx="533.10" cy="332.00" r="4.5" fill="#e5385e"/>
-<text x="544.60" y="336.00" font-size="11" font-weight="600" fill="#e6edf3">Swift</text>
-<text x="580.85" y="336.00" font-size="11" fill="#9198a1">0.4%</text>
+<text x="40.00" y="336.00" font-size="11" font-weight="600" fill="#e6edf3">PowerShell</text>
+<text x="106.50" y="336.00" font-size="11" fill="#9198a1">1.8%</text>
+<circle cx="151.20" cy="332.00" r="4.5" fill="#fa8432"/>
+<text x="162.70" y="336.00" font-size="11" font-weight="600" fill="#e6edf3">Objective-C</text>
+<text x="235.25" y="336.00" font-size="11" fill="#9198a1">1.3%</text>
+<circle cx="279.95" cy="332.00" r="4.5" fill="#24bfd9"/>
+<text x="291.45" y="336.00" font-size="11" font-weight="600" fill="#e6edf3">Rust</text>
+<text x="321.65" y="336.00" font-size="11" fill="#9198a1">0.9%</text>
+<circle cx="366.35" cy="332.00" r="4.5" fill="#b269f8"/>
+<text x="377.85" y="336.00" font-size="11" font-weight="600" fill="#e6edf3">Java</text>
+<text x="408.05" y="336.00" font-size="11" fill="#9198a1">0.4%</text>
+<circle cx="452.75" cy="332.00" r="4.5" fill="#93d232"/>
+<text x="464.25" y="336.00" font-size="11" font-weight="600" fill="#e6edf3">Swift</text>
+<text x="500.50" y="336.00" font-size="11" fill="#9198a1">0.4%</text>
+<circle cx="545.20" cy="332.00" r="4.5" fill="#e5385e"/>
+<text x="556.70" y="336.00" font-size="11" font-weight="600" fill="#e6edf3">BitBake</text>
+<text x="605.05" y="336.00" font-size="11" fill="#9198a1">0.3%</text>
 <rect x="0.75" y="0.75" width="718.50" height="350.50" rx="20" ry="20" fill="none" stroke="#30363d" stroke-width="1.5"/>
 </svg>
