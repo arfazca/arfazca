@@ -7,13 +7,15 @@
 <summary>About Me 👷‍♂️</summary>
 <br>
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/github-stats/generated/about-dark.svg?v=12" />
-    <img width="720" alt="I love creating and designing systems. My interests include building and maintaining scalable, sustainable solutions across Microsoft and Apple platforms" src="https://raw.githubusercontent.com/arfazca/github-stats/generated/about-light.svg?v=12" />
-  </picture>
+  <a href="https://arfaz.ca" title="About Me">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/github-stats/generated/about-dark.svg?v=12" />
+      <img width="720" alt="I love creating and designing systems. My interests include building and maintaining scalable, sustainable solutions across Microsoft and Apple platforms" src="https://raw.githubusercontent.com/arfazca/github-stats/generated/about-light.svg?v=12" />
+    </picture>
+  <a/>
 </div>
 </details>
-<details open>
+<details>
 <summary>Tech Stack 🛠️</summary>
 <br>
 <div align="center">
