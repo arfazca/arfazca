@@ -13,7 +13,7 @@
   </picture>
 </div>
 </details>
-<details>
+<details open>
 <summary>Tech Stack 🛠️</summary>
 <br>
 <div align="center">
