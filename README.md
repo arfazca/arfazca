@@ -9,8 +9,8 @@
 <div align="center">
   <!-- Animated about-me JSON, self-theming via <picture>. about-light.svg / about-dark.svg are rendered by my own Action (arfazca/github-stats, scripts/render_about.py) with a transparent background + no border so it sits flush on the README. -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/github-stats/generated/about-dark.svg?v=5" />
-    <img width="720" alt="About Arfaz Hussain — 'I love creating and designing systems. My interests include building and maintaining scalable, sustainable solutions across Microsoft and Apple platforms.' followed by a JSON object of links: web, blog, resume, portfolio" src="https://raw.githubusercontent.com/arfazca/github-stats/generated/about-light.svg?v=5" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/github-stats/generated/about-dark.svg?v=6" />
+    <img width="720" alt="About Arfaz Hussain — 'I love creating and designing systems. My interests include building and maintaining scalable, sustainable solutions across Microsoft and Apple platforms.' followed by a JSON object of links: web, blog, resume, portfolio" src="https://raw.githubusercontent.com/arfazca/github-stats/generated/about-light.svg?v=6" />
   </picture>
 </div>
 </details>
@@ -22,8 +22,8 @@
   <!-- Tech Stack 'Toolbox' as a transparent, borderless SVG grid (tech-light/dark.svg from arfazca/github-stats/scripts/render_tech.py, every icon inlined, same rows/columns as the old table). Whole widget links to my GitHub since every icon did. -->
   <a href="https://github.com/arfazca">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/github-stats/generated/tech-dark.svg?v=5" />
-      <img width="720" alt="Tech Stack Toolbox — Script Languages, Development Environment, Website Development, Graphics APIs, BackEnd and Databases, Design Test and Deploy, and platform icons, in rows" src="https://raw.githubusercontent.com/arfazca/github-stats/generated/tech-light.svg?v=5" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/github-stats/generated/tech-dark.svg?v=6" />
+      <img width="720" alt="Tech Stack Toolbox — Script Languages, Development Environment, Website Development, Graphics APIs, BackEnd and Databases, Design Test and Deploy, and platform icons, in rows" src="https://raw.githubusercontent.com/arfazca/github-stats/generated/tech-light.svg?v=6" />
     </picture>
   </a>
 </div>
@@ -35,8 +35,8 @@
   <!-- ONE self-theming card. card-light.svg / card-dark.svg are pre-rendered daily by my own Action (arfazca/github-stats) from a token that can read PRIVATE repos. <picture> shows exactly one variant per GitHub theme, so it can never duplicate — and private repo names stay hidden. -->
   <a href="https://github.com/arfazca/github-stats" title="How these stats are generated">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/github-stats/generated/card-dark.svg?v=5" />
-      <img width="720" alt="Arfaz's GitHub stats: stars, lines changed, contributions, current and longest streak, and top languages across all private and public repositories" src="https://raw.githubusercontent.com/arfazca/github-stats/generated/card-light.svg?v=5" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/github-stats/generated/card-dark.svg?v=6" />
+      <img width="720" alt="Arfaz's GitHub stats: stars, lines changed, contributions, current and longest streak, and top languages across all private and public repositories" src="https://raw.githubusercontent.com/arfazca/github-stats/generated/card-light.svg?v=6" />
     </picture>
   </a>
 </div> 
