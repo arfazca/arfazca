@@ -1,0 +1,18 @@
+[submodule "resume"]
+	path = resume
+	url = https://github.com/arfazca/resume.git
+[submodule "applications"]
+	path = applications
+	url = https://github.com/arfazca/applications.git
+[submodule "dot-files"]
+	path = dot-files
+	url = https://github.com/arfazca/dot-files.git
+[submodule "dot-agents"]
+	path = dot-agents
+	url = https://github.com/arfazca/dot-agents.git
+[submodule "web"]
+	path = web
+	url = https://github.com/arfazca/web.git
+[submodule "PS1-SH"]
+	path = PS1-SH
+	url = https://github.com/arfazca/PS1-SH.git
