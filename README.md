@@ -13,7 +13,8 @@
   </picture>
 </div>
 </details>
-<br>
+<details>
+<summary>Tech Stack 🛠️</summary>
 <br>
 <div align="center">
   <a href="https://github.com/arfazca" title="My Tech Stack Toolbox">
@@ -23,6 +24,7 @@
     </picture>
   </a>
 </div>
+</details>
 <details open>
 <summary>GitHub Stats 📈</summary>
   <br>
