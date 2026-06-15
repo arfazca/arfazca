@@ -40,30 +40,3 @@
 </div> 
 <br>
 </details>
-<details>
-<summary>Latest Applications 📄</summary>
-<br>
-<div align="center">
-  <a href="./resume" title="My Resume">Resume</a> &nbsp;·&nbsp;
-  <a href="./applications" title="My Applications">Applications</a>
-</div>
-<br>
-</details>
-<details>
-<summary>Dotfiles & Config ⚙️</summary>
-<br>
-<div align="center">
-  <a href="./dot-files" title="Dotfiles">dot-files</a> &nbsp;·&nbsp;
-  <a href="./dot-agents" title="Agent Configs">dot-agents</a> &nbsp;·&nbsp;
-  <a href="./web" title="Web">web</a>
-</div>
-<br>
-</details>
-<details>
-<summary>Script Automation 🤖</summary>
-<br>
-<div align="center">
-  <a href="./PS1-SH" title="PowerShell Scripts">PS1-SH</a>
-</div>
-<br>
-</details>
