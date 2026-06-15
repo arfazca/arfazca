@@ -31,7 +31,7 @@
 <summary>GitHub Stats 📈</summary>
   <br>
 <div align="center">
-  <a href="https://github.com/arfazca/arfazca" title="My GitHub Stats">
+  <a href="https://github.com/arfazca" title="My GitHub Stats">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/arfazca/generated/card-dark.svg?v=15" />
       <img width="720" alt="Arfaz's GitHub stats: stars, lines changed, contributions, current and longest streak, and top languages across all private and public repositories" src="https://raw.githubusercontent.com/arfazca/arfazca/generated/card-light.svg?v=15" />
