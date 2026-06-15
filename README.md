@@ -9,8 +9,8 @@
 <div align="center">
   <a href="https://arfaz.ca" title="About Me">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/github-stats/generated/about-dark.svg?v=13" />
-      <img width="720" alt="I love creating and designing systems. My interests include building and maintaining scalable, sustainable solutions across Microsoft and Apple platforms" src="https://raw.githubusercontent.com/arfazca/github-stats/generated/about-light.svg?v=13" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/github-stats/generated/about-dark.svg?v=14" />
+      <img width="720" alt="I love creating and designing systems. My interests include building and maintaining scalable, sustainable solutions across Microsoft and Apple platforms" src="https://raw.githubusercontent.com/arfazca/github-stats/generated/about-light.svg?v=14" />
     </picture>
   <a/>
 </div>
@@ -21,8 +21,8 @@
 <div align="center">
   <a href="https://github.com/arfazca" title="My Tech Stack Toolbox">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/github-stats/generated/tech-dark.svg?v=13" />
-      <img width="720" alt="Tech Stack Toolbox — Script Languages, Development Environment, Website Development, Graphics APIs, BackEnd and Databases, Design Test and Deploy, and platform icons, in rows" src="https://raw.githubusercontent.com/arfazca/github-stats/generated/tech-light.svg?v=13" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/github-stats/generated/tech-dark.svg?v=14" />
+      <img width="720" alt="Tech Stack Toolbox — Script Languages, Development Environment, Website Development, Graphics APIs, BackEnd and Databases, Design Test and Deploy, and platform icons, in rows" src="https://raw.githubusercontent.com/arfazca/github-stats/generated/tech-light.svg?v=14" />
     </picture>
   </a>
 </div>
@@ -33,8 +33,8 @@
 <div align="center">
   <a href="https://github.com/arfazca/github-stats" title="My GitHub Stats">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/github-stats/generated/card-dark.svg?v=13" />
-      <img width="720" alt="Arfaz's GitHub stats: stars, lines changed, contributions, current and longest streak, and top languages across all private and public repositories" src="https://raw.githubusercontent.com/arfazca/github-stats/generated/card-light.svg?v=13" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/github-stats/generated/card-dark.svg?v=14" />
+      <img width="720" alt="Arfaz's GitHub stats: stars, lines changed, contributions, current and longest streak, and top languages across all private and public repositories" src="https://raw.githubusercontent.com/arfazca/github-stats/generated/card-light.svg?v=14" />
     </picture>
   </a>
 </div> 
