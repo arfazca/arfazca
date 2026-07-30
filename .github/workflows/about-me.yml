@@ -1,0 +1,58 @@
+name: Update About Me card
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/scripts/about-me/**"
+      - ".github/workflows/about-me.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r .github/scripts/about-me/requirements.txt
+
+      - name: Generate About Me SVGs
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          USER_NAME: arfazca
+        run: python .github/scripts/about-me/generate.py
+
+      - name: Commit updated LOC cache to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/scripts/about-me/cache
+          git diff --staged --quiet || git commit -m "chore: refresh about-me LOC cache"
+          git push origin HEAD:main
+
+      - name: Push generated SVGs to the generated branch
+        run: |
+          git fetch origin generated
+          git worktree add /tmp/generated-branch origin/generated
+          cp .github/scripts/about-me/about-dark.svg /tmp/generated-branch/about-dark.svg
+          cp .github/scripts/about-me/about-light.svg /tmp/generated-branch/about-light.svg
+          cd /tmp/generated-branch
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add about-dark.svg about-light.svg
+          git diff --staged --quiet || git commit -m "chore: refresh about-me card"
+          git push origin HEAD:generated
