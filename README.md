@@ -9,8 +9,8 @@
 <div align="center">
   <a href="https://arfaz.ca" title="About Me">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/arfazca/generated/about-dark.svg?v=15" />
-      <img width="720" alt="I love creating and designing systems. My interests include building and maintaining scalable, sustainable solutions across Microsoft and Apple platforms" src="https://raw.githubusercontent.com/arfazca/arfazca/generated/about-light.svg?v=15" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/arfazca/generated/about-dark.svg?v=16" />
+      <img width="720" alt="Arfaz Hussain — neofetch-style About Me card with system info, contact, links, and live GitHub stats" src="https://raw.githubusercontent.com/arfazca/arfazca/generated/about-light.svg?v=16" />
     </picture>
   <a/>
 </div>
