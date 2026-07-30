@@ -83,7 +83,9 @@ def repos_and_stars(owner_affiliation, cursor=None, stars=0, count=0):
     data = r.json()["data"]["user"]["repositories"]
     total = data["totalCount"]
     for e in data["edges"]:
-        stars += e["node"]["stargazers"]["totalCount"]
+        node = e.get("node") or {}
+        stargazers = node.get("stargazers") or {}
+        stars += stargazers.get("totalCount", 0)
     count = total
     if data["pageInfo"]["hasNextPage"]:
         return repos_and_stars(owner_affiliation, data["pageInfo"]["endCursor"], stars, count)
@@ -150,7 +152,8 @@ def recursive_loc(owner, repo_name, owner_id, addition_total=0, deletion_total=0
         return 0, 0, 0
     history = branch["target"]["history"]
     for node in history["edges"]:
-        if node["node"]["author"]["user"] == owner_id:
+        author = node["node"]["author"] or {}
+        if author.get("user") == owner_id:
             my_commits += 1
             addition_total += node["node"]["additions"]
             deletion_total += node["node"]["deletions"]
@@ -189,9 +192,12 @@ def cached_loc_and_commits(owner_id):
     loc_add = loc_del = total_commits = 0
     new_lines = []
     for e in edges:
-        name = e["node"]["nameWithOwner"]
+        node = e.get("node")
+        if not node:
+            continue
+        name = node["nameWithOwner"]
         h = hashlib.sha256(name.encode()).hexdigest()
-        branch_ref = e["node"]["defaultBranchRef"]
+        branch_ref = node["defaultBranchRef"]
         remote_commit_count = branch_ref["history"]["totalCount"] if branch_ref else 0
 
         if h in cache and int(cache[h][0]) == remote_commit_count:
