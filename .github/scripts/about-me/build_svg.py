@@ -60,7 +60,7 @@ FONT_STACK = "ui-monospace,'SF Mono','SFMono-Regular','JetBrains Mono','Fira Cod
 ROWS = [
     ("header", "arfaz@github"),
     ("kv", "OS", "macOS Tahoe 26.5.2 (M1, M2)", 34, None),
-    ("kv", "Uptime", "", 28, "age_data"),
+    ("kv", "Uptime", "", 34, "age_data"),
     ("kv", "Devices.Home Server", "Arch Linux, Hyprland v0.56.1, GNU/Linux", 4, None),
     ("kv", "Devices.Work", "Windows 11 — Megabyte Systems, Inc.", 14, None),
     ("kv", "IDE", "Neovim (LazyVim), WezTerm", 33, None),

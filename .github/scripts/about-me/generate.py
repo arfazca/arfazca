@@ -267,15 +267,15 @@ def justify(root, element_id, new_text, target_len=0):
 def overwrite(path, values):
     tree = etree.parse(path)
     root = tree.getroot()
-    justify(root, "age_data", values["age"])
+    justify(root, "age_data", values["age"], 34)
     justify(root, "repo_data", values["repos"], 6)
     justify(root, "contrib_data", values["contrib_repos"])
     justify(root, "star_data", values["stars"], 14)
     justify(root, "commit_data", values["commits"], 22)
     justify(root, "follower_data", values["followers"], 10)
-    justify(root, "loc_data", values["loc_total"], 9)
+    justify(root, "loc_data", values["loc_total"], 14)
     justify(root, "loc_add", values["loc_add"])
-    justify(root, "loc_del", values["loc_del"], 7)
+    justify(root, "loc_del", values["loc_del"], 10)
     tree.write(path, encoding="utf-8", xml_declaration=True)
 
 
