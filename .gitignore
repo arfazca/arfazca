@@ -1,3 +1,6 @@
 .DS_Store
 commit-hist.txt
 exp*
+__pycache__/
+.github/scripts/about-me/about-dark.svg
+.github/scripts/about-me/about-light.svg
