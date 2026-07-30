@@ -198,13 +198,15 @@ def cached_loc_and_commits(owner_id):
         name = node["nameWithOwner"]
         h = hashlib.sha256(name.encode()).hexdigest()
         branch_ref = node["defaultBranchRef"]
-        remote_commit_count = branch_ref["history"]["totalCount"] if branch_ref else 0
+        target = (branch_ref or {}).get("target") or {}
+        history = target.get("history")
+        remote_commit_count = history["totalCount"] if history else 0
 
         if h in cache and int(cache[h][0]) == remote_commit_count:
             commit_count, my_commits, add, dele = cache[h]
         else:
             owner, repo_name = name.split("/", 1)
-            add, dele, my_commits = recursive_loc(owner, repo_name, owner_id) if branch_ref else (0, 0, 0)
+            add, dele, my_commits = recursive_loc(owner, repo_name, owner_id) if history else (0, 0, 0)
             commit_count = remote_commit_count
 
         new_lines.append(f"{h} {commit_count} {my_commits} {add} {dele}\n")
