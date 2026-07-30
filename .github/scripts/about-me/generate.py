@@ -13,6 +13,7 @@ import datetime
 import hashlib
 import os
 import shutil
+import time
 
 import requests
 from dateutil import relativedelta
@@ -25,13 +26,37 @@ HEADERS = {"authorization": "token " + os.environ["ACCESS_TOKEN"]}
 USER_NAME = os.environ.get("USER_NAME", "arfazca")
 BIRTHDAY = datetime.datetime(2002, 6, 15)
 
+RETRYABLE_STATUSES = {502, 503, 504}
+MAX_RETRIES = 5
+
+
+def graphql_post(query, variables):
+    """POST to the GraphQL API, retrying transient 502/503/504s with backoff.
+
+    GitHub's GraphQL backend returns these under load on large commit-history
+    walks (documented upstream in Andrew6rant/Andrew6rant's today.py) - not a
+    logic error, just needs a retry.
+    """
+    last = None
+    for attempt in range(MAX_RETRIES):
+        r = requests.post(
+            "https://api.github.com/graphql",
+            json={"query": query, "variables": variables},
+            headers=HEADERS,
+        )
+        if r.status_code == 200:
+            return r
+        last = r
+        if r.status_code not in RETRYABLE_STATUSES or attempt == MAX_RETRIES - 1:
+            break
+        sleep_for = 5 * (2**attempt)
+        print(f"GraphQL {r.status_code}, retrying in {sleep_for}s (attempt {attempt + 1}/{MAX_RETRIES})")
+        time.sleep(sleep_for)
+    return last
+
 
 def simple_request(name, query, variables):
-    r = requests.post(
-        "https://api.github.com/graphql",
-        json={"query": query, "variables": variables},
-        headers=HEADERS,
-    )
+    r = graphql_post(query, variables)
     if r.status_code == 200:
         return r
     raise Exception(name, "failed", r.status_code, r.text)
@@ -138,11 +163,7 @@ def recursive_loc(owner, repo_name, owner_id, addition_total=0, deletion_total=0
             }
         }
     }"""
-    r = requests.post(
-        "https://api.github.com/graphql",
-        json={"query": query, "variables": {"repo_name": repo_name, "owner": owner, "cursor": cursor}},
-        headers=HEADERS,
-    )
+    r = graphql_post(query, {"repo_name": repo_name, "owner": owner, "cursor": cursor})
     if r.status_code != 200:
         if r.status_code == 403:
             raise Exception("Secondary rate limit hit while walking commit history")
@@ -171,7 +192,8 @@ def cached_loc_and_commits(owner_id):
     repos whose commit count has changed. Mirrors Andrew6rant's cache_builder.
     """
     os.makedirs(CACHE_DIR, exist_ok=True)
-    edges = repo_edges_for_loc(["OWNER", "COLLABORATOR", "ORGANIZATION_MEMBER"])
+    raw_edges = repo_edges_for_loc(["OWNER", "COLLABORATOR", "ORGANIZATION_MEMBER"])
+    edges = [e for e in raw_edges if e.get("node")]  # drop repos the token can't see fully
     filename = os.path.join(CACHE_DIR, hashlib.sha256(USER_NAME.encode()).hexdigest() + ".txt")
 
     try:
@@ -186,15 +208,19 @@ def cached_loc_and_commits(owner_id):
         if len(parts) == 5:
             cache[parts[0]] = parts[1:]
 
-    if len(cache) != len(edges):
-        cache = {}  # repo count changed - rebuild from scratch
+    # Per-repo cache hits are keyed by hash + remote commit count below, so a
+    # changed repo list (additions/deletions) doesn't need to invalidate
+    # everything - this also makes the partial-flush-on-crash below useful,
+    # since a re-run can pick up exactly where it left off.
+
+    def flush(lines):
+        with open(filename, "w") as f:
+            f.writelines(lines)
 
     loc_add = loc_del = total_commits = 0
     new_lines = []
     for e in edges:
-        node = e.get("node")
-        if not node:
-            continue
+        node = e["node"]
         name = node["nameWithOwner"]
         h = hashlib.sha256(name.encode()).hexdigest()
         branch_ref = node["defaultBranchRef"]
@@ -206,16 +232,18 @@ def cached_loc_and_commits(owner_id):
             commit_count, my_commits, add, dele = cache[h]
         else:
             owner, repo_name = name.split("/", 1)
-            add, dele, my_commits = recursive_loc(owner, repo_name, owner_id) if history else (0, 0, 0)
+            try:
+                add, dele, my_commits = recursive_loc(owner, repo_name, owner_id) if history else (0, 0, 0)
+            except Exception:
+                flush(new_lines)  # save whatever we already walked before re-raising
+                raise
             commit_count = remote_commit_count
 
         new_lines.append(f"{h} {commit_count} {my_commits} {add} {dele}\n")
+        flush(new_lines)  # cheap at this repo count, and survives a hard kill/timeout
         loc_add += int(add)
         loc_del += int(dele)
         total_commits += int(my_commits)
-
-    with open(filename, "w") as f:
-        f.writelines(new_lines)
 
     return loc_add, loc_del, total_commits
 
