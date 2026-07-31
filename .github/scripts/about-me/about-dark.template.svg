@@ -6,8 +6,41 @@
 text,tspan{white-space:pre}
 .spin3d{transform-origin:321.0px 337.0px;animation:spin3d 20s linear infinite}
 @keyframes spin3d{0%{transform:scaleX(1.000)}8.33333%{transform:scaleX(0.866)}16.6667%{transform:scaleX(0.500)}25%{transform:scaleX(0.000)}33.3333%{transform:scaleX(-0.500)}41.6667%{transform:scaleX(-0.866)}50%{transform:scaleX(-1.000)}58.3333%{transform:scaleX(-0.866)}66.6667%{transform:scaleX(-0.500)}75%{transform:scaleX(-0.000)}83.3333%{transform:scaleX(0.500)}91.6667%{transform:scaleX(0.866)}100%{transform:scaleX(1.000)}}
+.depth3d{transform-origin:321.0px 337.0px;animation:depth3d 20s linear infinite}
+@keyframes depth3d{0%{transform:scaleX(0.000)}8.33333%{transform:scaleX(0.160)}16.6667%{transform:scaleX(0.277)}25%{transform:scaleX(0.320)}33.3333%{transform:scaleX(0.277)}41.6667%{transform:scaleX(0.160)}50%{transform:scaleX(0.000)}58.3333%{transform:scaleX(0.160)}66.6667%{transform:scaleX(0.277)}75%{transform:scaleX(0.320)}83.3333%{transform:scaleX(0.277)}91.6667%{transform:scaleX(0.160)}100%{transform:scaleX(0.000)}}
 </style>
 <rect x="0.75" y="0.75" width="1316.5" height="656.5" rx="20" ry="20" fill="none" stroke="#30363d" stroke-width="1.5"/>
+<g font-size="15px" class="depth3d">
+<text x="24" y="76" xml:space="preserve" fill="#a5d6ff">                                ..</text>
+<text x="24" y="94" xml:space="preserve" fill="#a5d6ff">                               .::.</text>
+<text x="24" y="112" xml:space="preserve" fill="#a5d6ff">                              .:--:.</text>
+<text x="24" y="130" xml:space="preserve" fill="#a5d6ff">                             .:-==-:.</text>
+<text x="24" y="148" xml:space="preserve" fill="#a5d6ff">                            .:-=++=-:.</text>
+<text x="24" y="166" xml:space="preserve" fill="#a5d6ff">                           .:-=+**+=-:.</text>
+<text x="24" y="184" xml:space="preserve" fill="#a5d6ff">                          .:-=+*##*+=-:.</text>
+<text x="24" y="202" xml:space="preserve" fill="#a5d6ff">                         .:-=+*####*+=-:.</text>
+<text x="24" y="220" xml:space="preserve" fill="#a5d6ff">                        .:-=+*######*+=-:.</text>
+<text x="24" y="238" xml:space="preserve" fill="#a5d6ff">                       .:-=+*########*+=-:.</text>
+<text x="24" y="256" xml:space="preserve" fill="#a5d6ff">                      .:-=+*##########*+=-:.</text>
+<text x="24" y="274" xml:space="preserve" fill="#a5d6ff">                     .:-=+*############*+=-:.</text>
+<text x="24" y="292" xml:space="preserve" fill="#a5d6ff">                    .:-=+*##############*+=-:.</text>
+<text x="24" y="310" xml:space="preserve" fill="#a5d6ff">                   .:-=+*#*+=-:.  .:-=+*#*+=-:.</text>
+<text x="24" y="328" xml:space="preserve" fill="#a5d6ff">                 .:-=+*###*+=-:.  .:-=+*###*+=-:.</text>
+<text x="24" y="346" xml:space="preserve" fill="#a5d6ff">                .:-=+*####*+=-:.  .:-=+*####*+=-:.</text>
+<text x="24" y="364" xml:space="preserve" fill="#a5d6ff">               .:-=+*####*+=-:.    .:-=+*####*+=-:.</text>
+<text x="24" y="382" xml:space="preserve" fill="#a5d6ff">              .:-=+*#####*+=-:.    .:-=+*#####*+=-:.</text>
+<text x="24" y="400" xml:space="preserve" fill="#a5d6ff">             .:-=+*######*+=-:.    .:-=+*######*+=-:.</text>
+<text x="24" y="418" xml:space="preserve" fill="#a5d6ff">            .:-=+*######*+=-:.      .:-=+*######*+=-:.</text>
+<text x="24" y="436" xml:space="preserve" fill="#a5d6ff">           .:-=+*#######*+=-:.      .:-=+*#######*+=-:.</text>
+<text x="24" y="454" xml:space="preserve" fill="#a5d6ff">          .:-=+*#######*+=-:.        .:-=+*#######*+=-:.</text>
+<text x="24" y="472" xml:space="preserve" fill="#a5d6ff">         .:-=+*########*+=-:.        .:-=+*########*+=-:.</text>
+<text x="24" y="490" xml:space="preserve" fill="#a5d6ff">        .:-=+*#########*+=-:.        .:-=+*#########*+=-:.</text>
+<text x="24" y="508" xml:space="preserve" fill="#a5d6ff">       .:-=+*#########*+=-:.          .:-=+*#########*+=-:.</text>
+<text x="24" y="526" xml:space="preserve" fill="#a5d6ff">      .:-=+*##########*+=-:.          .:-=+*##########*+=-:.</text>
+<text x="24" y="544" xml:space="preserve" fill="#a5d6ff">     .:-=+*###########*+=-:.          .:-=+*###########*+=-:.</text>
+<text x="24" y="562" xml:space="preserve" fill="#a5d6ff">    .:-=+*###########*+=-:.            .:-=+*###########*+=-:.</text>
+<text x="24" y="580" xml:space="preserve" fill="#a5d6ff">   .:-=+*############*+=-:.            .:-=+*############*+=-:.</text>
+</g>
 <g font-size="15px" class="spin3d">
 <text x="24" y="40" xml:space="preserve" style="animation-delay:0.0s" class="ln"><tspan fill="#79c0ff">                                 </tspan><tspan fill="#388bfd">                                 </tspan></text>
 <text x="24" y="58" xml:space="preserve" style="animation-delay:0.012s" class="ln"><tspan fill="#79c0ff">                                 </tspan><tspan fill="#388bfd">                                 </tspan></text>
