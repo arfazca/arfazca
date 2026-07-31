@@ -82,15 +82,6 @@ def user_getter(username):
     return r.json()["data"]["user"]["id"]
 
 
-def follower_count(username):
-    query = """
-    query($login: String!){
-        user(login: $login) { followers { totalCount } }
-    }"""
-    r = simple_request("follower_count", query, {"login": username})
-    return int(r.json()["data"]["user"]["followers"]["totalCount"])
-
-
 def repos_and_stars(owner_affiliation, cursor=None, stars=0, count=0):
     query = """
     query ($aff: [RepositoryAffiliation], $login: String!, $cursor: String) {
@@ -254,28 +245,26 @@ def find_and_replace(root, element_id, new_text):
         el.text = new_text
 
 
-def justify(root, element_id, new_text, target_len=0):
+def set_value(root, element_id, new_text):
     if isinstance(new_text, int):
         new_text = "{:,}".format(new_text)
-    new_text = str(new_text)
-    find_and_replace(root, element_id, new_text)
-    pad = max(0, target_len - len(new_text))
-    dot_string = {0: "", 1: " ", 2: ". "}.get(pad, " " + "." * pad + " ")
-    find_and_replace(root, f"{element_id}_dots", dot_string)
+    find_and_replace(root, element_id, str(new_text))
 
 
 def overwrite(path, values):
+    # Dot-leader lengths are baked into the template by build_svg.py, sized
+    # from each row's key so every row's value starts in the same column
+    # regardless of how long the live value is - nothing to recompute here.
     tree = etree.parse(path)
     root = tree.getroot()
-    justify(root, "age_data", values["age"], 34)
-    justify(root, "repo_data", values["repos"], 6)
-    justify(root, "contrib_data", values["contrib_repos"])
-    justify(root, "star_data", values["stars"], 14)
-    justify(root, "commit_data", values["commits"], 22)
-    justify(root, "follower_data", values["followers"], 10)
-    justify(root, "loc_data", values["loc_total"], 14)
-    justify(root, "loc_add", values["loc_add"])
-    justify(root, "loc_del", values["loc_del"], 10)
+    set_value(root, "age_data", values["age"])
+    set_value(root, "repo_data", values["repos"])
+    set_value(root, "contrib_data", values["contrib_repos"])
+    set_value(root, "star_data", values["stars"])
+    set_value(root, "commit_data", values["commits"])
+    set_value(root, "loc_data", values["loc_total"])
+    set_value(root, "loc_add", values["loc_add"])
+    set_value(root, "loc_del", values["loc_del"])
     tree.write(path, encoding="utf-8", xml_declaration=True)
 
 
@@ -284,7 +273,6 @@ def main():
     age = uptime_string()
     repos, stars = repos_and_stars(["OWNER"])
     _, contrib_repos = repos_and_stars(["OWNER", "COLLABORATOR", "ORGANIZATION_MEMBER"])
-    followers = follower_count(USER_NAME)
     loc_add, loc_del, commits = cached_loc_and_commits(owner_id)
 
     values = {
@@ -293,7 +281,6 @@ def main():
         "contrib_repos": contrib_repos,
         "stars": stars,
         "commits": commits,
-        "followers": followers,
         "loc_add": loc_add,
         "loc_del": loc_del,
         "loc_total": loc_add - loc_del,
