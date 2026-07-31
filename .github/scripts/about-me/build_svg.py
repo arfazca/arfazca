@@ -59,6 +59,11 @@ THEMES = {
             "left": color_ramp("#0c2d6b", "#79c0ff", ASCII_TIERS),
             "right": color_ramp("#061a3d", "#388bfd", ASCII_TIERS),
         },
+        # a Fresnel-style glint for the edge-on face - grazing angles on a
+        # real material reflect more light, so this is what's visible right
+        # when the front faces have foreshortened to nothing, instead of the
+        # logo just vanishing to a bare line.
+        "ascii_depth": "#a5d6ff",
     },
     "light": {
         "border": "#d0d7de",
@@ -73,6 +78,7 @@ THEMES = {
             "left": color_ramp("#bfe0ff", "#0550ae", ASCII_TIERS),
             "right": color_ramp("#d9edff", "#0969da", ASCII_TIERS),
         },
+        "ascii_depth": "#0550ae",
     },
 }
 
@@ -167,6 +173,24 @@ def spin_keyframes(steps=12):
     return "".join(lines)
 
 
+DEPTH_MAX = 0.32  # peak width of the edge-on glint, as a fraction of the front face's full width
+
+
+def depth_keyframes(steps=12, d_max=DEPTH_MAX):
+    # abs(sin(theta)) is exactly complementary to spin_keyframes' cos(theta):
+    # zero whenever the front face is at full width, and peaking at d_max
+    # exactly when the front face has foreshortened to nothing - so the two
+    # groups crossfade into each other through pure geometry, no opacity
+    # animation needed, and always show *something* with plausible width.
+    lines = []
+    for i in range(steps + 1):
+        pct = i * 100 / steps
+        theta = i * 360 / steps
+        scale = d_max * abs(math.sin(math.radians(theta)))
+        lines.append(f"{pct:g}%{{transform:scaleX({scale:.3f})}}")
+    return "".join(lines)
+
+
 # '.' (nearest edge) through '#' (deepest interior) distance tiers baked into
 # ascii-art.txt by the logo generator, reused here as a shading index.
 ASCII_TIER = {ch: i for i, ch in enumerate(".:-=+*#")}
@@ -191,6 +215,20 @@ def render_ascii(theme):
             f'<text x="{ASCII_X}" y="{y}" xml:space="preserve" '
             f'style="animation-delay:{delay}s" class="ln">{tspans}</text>'
         )
+        y += ASCII_LINE_HEIGHT
+    return "\n".join(out)
+
+
+def render_ascii_depth(theme):
+    # flat silhouette in a single glint color - no per-line reveal delay,
+    # since it should already be "there" the instant the front face thins out
+    color = theme["ascii_depth"]
+    out = []
+    y = ASCII_Y0
+    for line in ASCII_LINES:
+        stripped = line.rstrip()
+        if stripped:
+            out.append(f'<text x="{ASCII_X}" y="{y}" xml:space="preserve" fill="{color}">{esc(stripped)}</text>')
         y += ASCII_LINE_HEIGHT
     return "\n".join(out)
 
@@ -276,6 +314,7 @@ def build(mode):
     theme = THEMES[mode]
     panel_svg, end_y = render_panel(theme)
     ascii_svg = render_ascii(theme)
+    depth_svg = render_ascii_depth(theme)
     ascii_end_y = ASCII_Y0 + len(ASCII_LINES) * ASCII_LINE_HEIGHT
     height = max(end_y, ascii_end_y) + 24
     width = PANEL_X + 660
@@ -287,8 +326,13 @@ def build(mode):
 text,tspan{{white-space:pre}}
 .spin3d{{transform-origin:{ASCII_CENTER_X}px {ASCII_CENTER_Y}px;animation:spin3d 20s linear infinite}}
 @keyframes spin3d{{{spin_keyframes()}}}
+.depth3d{{transform-origin:{ASCII_CENTER_X}px {ASCII_CENTER_Y}px;animation:depth3d 20s linear infinite}}
+@keyframes depth3d{{{depth_keyframes()}}}
 </style>
 <rect x="0.75" y="0.75" width="{width - 1.5}" height="{height - 1.5}" rx="20" ry="20" fill="none" stroke="{theme['border']}" stroke-width="1.5"/>
+<g font-size="{ASCII_FONT_SIZE}px" class="depth3d">
+{depth_svg}
+</g>
 <g font-size="{ASCII_FONT_SIZE}px" class="spin3d">
 {ascii_svg}
 </g>
