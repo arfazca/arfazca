@@ -38,10 +38,6 @@ STAT_Y = 452.0
 # slowest: that speed difference is the parallax, and it is the only thing
 # giving a flat stack of fills any sense of depth in motion.
 RIDGE_DRIFT_S = [180, 130, 95, 65]
-# Slower than the farthest ridge, because the sky is further away than the
-# furthest hill - it is the last term in the same parallax series.
-STAR_DRIFT_S = 300
-STAR_TWINKLE_S = 7
 
 # The link row under the banner: one small blackletter image per destination,
 # so the row is set in the same face as the name. Every word is drawn at the
@@ -56,15 +52,28 @@ LINK_BASELINE = 30.0
 # GitHub's page background, and this reads on both #ffffff and #0d1117 at the
 # 3:1 large-text threshold, so the row needs no <picture> switching.
 LINK_COLOR = "#7f90a8"
-LINK_ORDER = ["site", "resume", "portfolio", "github", "linkedin", "email"]
+LINK_ORDER = ["site", "resume", "root@arfaz.ca", "linkedin", "desktop"]
 LINK_HREF = {
     "site": "https://arfaz.ca",
     "resume": "https://arfaz.ca/resume",
-    "portfolio": "https://arfaz.ca/portfolio",
-    "github": "https://github.com/arfazca",
+    "root@arfaz.ca": "mailto:root@arfaz.ca",
     "linkedin": "https://linkedin.com/in/arfazca",
-    "email": "mailto:root@arfaz.ca",
+    "desktop": "https://desktop.arfaz.ca",
 }
+# Words given a double-width canvas.
+LINK_WIDE = {"root@arfaz.ca"}
+# A table cell is its image plus GitHub's fixed chrome - 13px padding each
+# side plus the collapsed border, 27px total, which does not scale with the
+# image. So a merely-doubled image yields a cell only ~1.79x its neighbours.
+# Two adjacent cells span 2*img + 54 less the one border they share; matching
+# that with a single cell needs 2*img + 26.
+LINK_CELL_CHROME = 27
+LINK_WIDE_W = LINK_W * 2 + LINK_CELL_CHROME - 1
+
+
+def link_slug(name):
+    """Filename-safe form of a link word: 'root@arfaz.ca' -> 'root-arfaz-ca'."""
+    return "".join(c if c.isalnum() else "-" for c in name).strip("-")
 
 
 # ---------------------------------------------------------------------------
@@ -194,21 +203,10 @@ def style(theme):
         f"@keyframes drift{{from{{transform:translateX(0)}}"
         f"to{{transform:translateX(-{WIDTH}px)}}}}"
     )
-    if theme["stars"]:
-        rules += [
-            f".sky{{animation:drift {STAR_DRIFT_S}s linear infinite}}",
-            f".sa{{animation:tw {STAR_TWINKLE_S}s ease-in-out infinite}}",
-            # Half a cycle out of phase, so one field rises as the other falls
-            # and the total amount of light in the sky stays roughly constant.
-            f".sb{{animation:tw {STAR_TWINKLE_S}s ease-in-out infinite;"
-            f"animation-delay:-{STAR_TWINKLE_S / 2:g}s}}",
-            "@keyframes tw{0%,100%{opacity:1}50%{opacity:.08}}",
-        ]
     # Everything above is decorative drift, so it all collapses to a still
     # frame. Base opacity is already 1, so nothing vanishes when it stops.
     rules.append(
-        "@media(prefers-reduced-motion:reduce){"
-        ".r0,.r1,.r2,.r3,.sky,.sa,.sb{animation:none}}"
+        "@media(prefers-reduced-motion:reduce){.r0,.r1,.r2,.r3{animation:none}}"
     )
     return "<style>" + "".join(rules) + "</style>"
 
@@ -247,29 +245,22 @@ def defs(theme):
         "</filter>",
     ]
     if theme["stars"]:
-        # Two independent star fields rather than one. Cross-fading them is
-        # what actually twinkles: individual points wink out and different
-        # ones arrive, instead of the whole sky pulsing brighter and dimmer
-        # together, which is what animating a single layer's opacity gives.
-        for sid, seed in (("stars", 17), ("stars2", 41)):
-            out += [
-                # Thresholded noise. The steep alpha slope on the last matrix
-                # row turns a smooth field into discrete points: only samples
-                # above ~0.72 survive, the rest clamp to fully transparent.
-                f'<filter id="{sid}" x="0" y="0" width="100%" height="100%">',
-                # Deliberately coarser than the grain's 0.9. At the heavier
-                # grain setting the two sat at the same scale and the stars
-                # read as more grain, which killed the twinkle; separating the
-                # frequencies is what keeps them legible as points of light.
-                f'<feTurbulence type="fractalNoise" baseFrequency="0.5" numOctaves="1" seed="{seed}" result="n"/>',
-                '<feColorMatrix in="n" type="matrix" values="'
-                "0 0 0 0 1 "
-                "0 0 0 0 1 "
-                "0 0 0 0 1 "
-                '5.2 0 0 0 -3.55"/>',
-                "</filter>",
-            ]
         out += [
+            # Thresholded noise. The steep alpha slope on the last matrix row
+            # turns a smooth field into discrete points: only samples above
+            # ~0.72 survive, the rest clamp to fully transparent.
+            '<filter id="stars" x="0" y="0" width="100%" height="100%">',
+            # Deliberately coarser than the grain's 0.9. At the heavier grain
+            # setting the two sat at the same scale and the stars read as more
+            # grain; separating the frequencies keeps them legible as points
+            # of light.
+            '<feTurbulence type="fractalNoise" baseFrequency="0.5" numOctaves="1" seed="17" result="n"/>',
+            '<feColorMatrix in="n" type="matrix" values="'
+            "0 0 0 0 1 "
+            "0 0 0 0 1 "
+            "0 0 0 0 1 "
+            '5.2 0 0 0 -3.55"/>',
+            "</filter>",
             # Stars thin out toward the horizon the way real skyglow washes
             # them, so the field never fights the ridgeline for attention.
             '<linearGradient id="starfade" x1="0" y1="0" x2="0" y2="1">',
@@ -277,11 +268,8 @@ def defs(theme):
             '<stop offset="0.7" stop-color="#fff" stop-opacity="0.18"/>',
             '<stop offset="1" stop-color="#fff" stop-opacity="0"/>',
             "</linearGradient>",
-            # Spans both star tiles: the mask is fixed to the canvas while the
-            # sky drifts under it, so it has to cover the whole drift range or
-            # the incoming tile would be masked out and blink in.
             '<mask id="starmask">',
-            f'<rect width="{WIDTH * 2}" height="{HEIGHT}" fill="url(#starfade)"/>',
+            f'<rect width="{WIDTH}" height="{HEIGHT}" fill="url(#starfade)"/>',
             "</mask>",
         ]
     out.append("</defs>")
@@ -304,21 +292,12 @@ def build(mode):
     ]
 
     if theme["stars"]:
-        tile = (
-            f'<rect class="sa" width="{WIDTH}" height="{HEIGHT}" filter="url(#stars)"/>'
-            f'<rect class="sb" width="{WIDTH}" height="{HEIGHT}" filter="url(#stars2)"/>'
-        )
-        # Two tiles, and each sits in its own translated group rather than
-        # being one rect at x=WIDTH. feTurbulence samples the coordinate space
-        # local to the filtered element, so a rect drawn at x=0 inside a
-        # shifted group generates the *same* noise as the first tile - which is
-        # exactly what makes the wrap invisible. A single wide rect would
-        # sample different noise across its span and the seam would show.
+        # A single static field. The ridges still drift, so the sky needs no
+        # tiling and no second seeded field to cross-fade against.
         parts.append(
-            f'<g mask="url(#starmask)"><g class="sky">'
-            f"<g>{tile}</g>"
-            f'<g transform="translate({WIDTH} 0)">{tile}</g>'
-            f"</g></g>"
+            f'<g mask="url(#starmask)">'
+            f'<rect width="{WIDTH}" height="{HEIGHT}" filter="url(#stars)"/>'
+            f"</g>"
         )
 
     for i, ((seed, base_y, amp, sharp, lattice), fill) in enumerate(
@@ -402,8 +381,9 @@ def build_link(name):
     vertically for words that carry descenders ('github', 'portfolio') against
     ones that do not ('site').
     """
+    canvas_w = LINK_WIDE_W if name in LINK_WIDE else LINK_W
     w, _h, xn, _yn, s = _ink(LINKS[name], LINK_CAP)
-    x = (LINK_W - w) / 2 - xn
+    x = (canvas_w - w) / 2 - xn
     # Horizontally each word is centred on its own ink; vertically they all
     # share one baseline instead. Centring each word's own ink box vertically
     # would put 'resume' (no ascender, no descender) at a different height
@@ -411,8 +391,8 @@ def build_link(name):
     # baseline is placed so the row's combined ink box is centred.
     y = _link_baseline()
     return (
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{LINK_W}" height="{LINK_H}" '
-        f'viewBox="0 0 {LINK_W} {LINK_H}" role="img" aria-label="{name}">'
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{canvas_w}" height="{LINK_H}" '
+        f'viewBox="0 0 {canvas_w} {LINK_H}" role="img" aria-label="{name}">'
         f"<title>{name}</title>"
         f'<g transform="translate({x:.2f} {y:.2f}) scale({s:.5f})">'
         f'<path d="{LINKS[name]["path"]}" fill="{LINK_COLOR}"/></g>'
@@ -430,7 +410,7 @@ if __name__ == "__main__":
     link_dir = os.path.join(HERE, "links")
     os.makedirs(link_dir, exist_ok=True)
     for name in LINK_ORDER:
-        out_path = os.path.join(link_dir, f"{name}.svg")
+        out_path = os.path.join(link_dir, f"{link_slug(name)}.svg")
         with open(out_path, "w", encoding="utf-8", newline="\n") as f:
             f.write(build_link(name))
         print("wrote", out_path)

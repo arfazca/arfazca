@@ -7,5 +7,5 @@
   </a>
 </div>
 
-| [![site](https://raw.githubusercontent.com/arfazca/arfazca/generated/links/site.svg)](https://arfaz.ca) | [![resume](https://raw.githubusercontent.com/arfazca/arfazca/generated/links/resume.svg)](https://arfaz.ca/resume) | [![portfolio](https://raw.githubusercontent.com/arfazca/arfazca/generated/links/portfolio.svg)](https://arfaz.ca/portfolio) | [![github](https://raw.githubusercontent.com/arfazca/arfazca/generated/links/github.svg)](https://github.com/arfazca) | [![linkedin](https://raw.githubusercontent.com/arfazca/arfazca/generated/links/linkedin.svg)](https://linkedin.com/in/arfazca) | [![email](https://raw.githubusercontent.com/arfazca/arfazca/generated/links/email.svg)](mailto:root@arfaz.ca) |
-|:-:|:-:|:-:|:-:|:-:|:-:|
+| [![site](https://raw.githubusercontent.com/arfazca/arfazca/generated/links/site.svg)](https://arfaz.ca) | [![resume](https://raw.githubusercontent.com/arfazca/arfazca/generated/links/resume.svg)](https://arfaz.ca/resume) | [![root@arfaz.ca](https://raw.githubusercontent.com/arfazca/arfazca/generated/links/root-arfaz-ca.svg)](mailto:root@arfaz.ca) | [![linkedin](https://raw.githubusercontent.com/arfazca/arfazca/generated/links/linkedin.svg)](https://linkedin.com/in/arfazca) | [![desktop](https://raw.githubusercontent.com/arfazca/arfazca/generated/links/desktop.svg)](https://desktop.arfaz.ca) |
+|:-:|:-:|:-:|:-:|:-:|
