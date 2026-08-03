@@ -17,7 +17,7 @@ Regenerate with:  python3 build_svg.py
 import os
 import random
 
-from links_path import LINKS, LINKS_CAP
+from links_path import LINKS, LINKS_CAP, LINKS_XHEIGHT
 from wordmark_path import WORDMARK_CAP, WORDMARK_PATH, WORDMARK_WIDTH
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -374,12 +374,30 @@ def _ink(entry, cap):
 
 
 def _link_baseline():
-    """Shared baseline putting the whole row's combined ink box at cell centre."""
+    """Shared baseline that balances the row's per-word ink centres.
+
+    The words keep one baseline - centring each on its own ink would put
+    'resume' (no ascender, no descender) at a different height from
+    'portfolio' (both) and the row would jitter. So the only choice is where
+    that shared baseline sits, and every fixed reference tried is wrong for
+    this face:
+
+      combined ink box  -> the four words without descenders sit ~2.5px high
+      ascender band     -> overcorrects, words sit ~1.8px low
+      x-height          -> still ~2.5px high; most of these words carry
+                           ascenders, and this font's OS/2 x-height is short
+                           of what it actually draws anyway
+
+    So solve it instead of guessing: place the baseline so the mean of the
+    words' own ink centres lands exactly on the cell centre. The row is then
+    balanced against the actual set of words in it, whatever letters they
+    happen to contain.
+    """
     s = LINK_CAP / LINKS_CAP
-    tops = [LINKS[n]["ink"][1] * s for n in LINK_ORDER]
-    bots = [LINKS[n]["ink"][3] * s for n in LINK_ORDER]
-    top, bot = min(tops), max(bots)
-    return (LINK_H - (bot - top)) / 2 - top
+    centres = [
+        (LINKS[n]["ink"][1] + LINKS[n]["ink"][3]) / 2 * s for n in LINK_ORDER
+    ]
+    return LINK_H / 2 - sum(centres) / len(centres)
 
 
 def build_label(name):
