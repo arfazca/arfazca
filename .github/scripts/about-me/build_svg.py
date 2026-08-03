@@ -57,6 +57,13 @@ LINK_BASELINE = 30.0
 # 3:1 large-text threshold, so the row needs no <picture> switching.
 LINK_COLOR = "#7f90a8"
 LINK_ORDER = ["site", "resume", "portfolio", "github", "linkedin", "email"]
+
+# The <summary> label for the tech stack disclosure. Same face as the link
+# row, so the one bit of chrome left on the page is not GitHub's default
+# type at <sub> size. Sized on its own rather than in the shared canvas,
+# because it is a heading, not a table cell that has to match its neighbours.
+LABEL_CAP = 18.0
+LABEL_PAD = 5.0
 LINK_HREF = {
     "site": "https://arfaz.ca",
     "resume": "https://arfaz.ca/resume",
@@ -359,6 +366,24 @@ def build(mode):
     return "\n".join(parts) + "\n"
 
 
+def build_label(name):
+    """A heading word, in a canvas shrink-wrapped to it."""
+    entry = LINKS[name]
+    scale = LABEL_CAP / LINKS_CAP
+    w = entry["width"] * scale
+    canvas_w = round(w + LABEL_PAD * 2)
+    baseline = LABEL_CAP + LABEL_PAD
+    canvas_h = round(baseline + LABEL_CAP * 0.4)
+    return (
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{canvas_w}" height="{canvas_h}" '
+        f'viewBox="0 0 {canvas_w} {canvas_h}" role="img" aria-label="{name}">'
+        f"<title>{name}</title>"
+        f'<g transform="translate({LABEL_PAD:.2f} {baseline:.2f}) scale({scale:.5f})">'
+        f'<path d="{entry["path"]}" fill="{LINK_COLOR}"/></g>'
+        "</svg>\n"
+    )
+
+
 def build_link(name):
     """One link word, centred in the shared canvas."""
     entry = LINKS[name]
@@ -388,3 +413,8 @@ if __name__ == "__main__":
         with open(out_path, "w", encoding="utf-8", newline="\n") as f:
             f.write(build_link(name))
         print("wrote", out_path)
+
+    out_path = os.path.join(link_dir, "tech-stack.svg")
+    with open(out_path, "w", encoding="utf-8", newline="\n") as f:
+        f.write(build_label("tech stack"))
+    print("wrote", out_path)

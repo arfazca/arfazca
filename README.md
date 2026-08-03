@@ -13,7 +13,7 @@
 <br>
 
 <details>
-<summary><sub>tech stack</sub></summary>
+<summary><picture><img src="https://raw.githubusercontent.com/arfazca/arfazca/generated/links/tech-stack.svg" alt="tech stack" height="30"></picture></summary>
 <br>
 <div align="center">
 <a href="https://github.com/arfazca" title="My Tech Stack Toolbox">
