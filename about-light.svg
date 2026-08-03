@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-label="Arfaz Hussain">
 <title>Arfaz Hussain</title>
-<style>.r0{animation:drift 180s linear infinite}.r1{animation:drift 130s linear infinite}.r2{animation:drift 95s linear infinite}.r3{animation:drift 65s linear infinite}@keyframes drift{from{transform:translateX(0)}to{transform:translateX(-1200px)}}@media(prefers-reduced-motion:reduce){.r0,.r1,.r2,.r3,.sky,.sa,.sb{animation:none}}</style>
+<style>.r0{animation:drift 180s linear infinite}.r1{animation:drift 130s linear infinite}.r2{animation:drift 95s linear infinite}.r3{animation:drift 65s linear infinite}@keyframes drift{from{transform:translateX(0)}to{transform:translateX(-1200px)}}@media(prefers-reduced-motion:reduce){.r0,.r1,.r2,.r3{animation:none}}</style>
 <defs>
 <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
 <stop offset="0" stop-color="#eceae5"/>
