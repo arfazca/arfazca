@@ -50,9 +50,14 @@ jobs:
           git worktree add /tmp/generated-branch origin/generated
           cp .github/scripts/about-me/about-dark.svg /tmp/generated-branch/about-dark.svg
           cp .github/scripts/about-me/about-light.svg /tmp/generated-branch/about-light.svg
+          # The link-row images carry no live data, so they are built and
+          # committed by hand; they ride along here only so the README can
+          # serve every asset from one branch.
+          mkdir -p /tmp/generated-branch/links
+          cp .github/scripts/about-me/links/*.svg /tmp/generated-branch/links/
           cd /tmp/generated-branch
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add about-dark.svg about-light.svg
+          git add about-dark.svg about-light.svg links
           git diff --staged --quiet || git commit -m "chore: refresh about-me card"
           git push origin HEAD:generated
