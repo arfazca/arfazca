@@ -366,35 +366,69 @@ def build(mode):
     return "\n".join(parts) + "\n"
 
 
+def _ink(entry, cap):
+    """Scaled ink box of a baked word: (width, height, xmin, ymin)."""
+    s = cap / LINKS_CAP
+    xn, yn, xx, yx = entry["ink"]
+    return (xx - xn) * s, (yx - yn) * s, xn * s, yn * s, s
+
+
+def _link_baseline():
+    """Shared baseline putting the whole row's combined ink box at cell centre."""
+    s = LINK_CAP / LINKS_CAP
+    tops = [LINKS[n]["ink"][1] * s for n in LINK_ORDER]
+    bots = [LINKS[n]["ink"][3] * s for n in LINK_ORDER]
+    top, bot = min(tops), max(bots)
+    return (LINK_H - (bot - top)) / 2 - top
+
+
 def build_label(name):
-    """A heading word, in a canvas shrink-wrapped to it."""
-    entry = LINKS[name]
-    scale = LABEL_CAP / LINKS_CAP
-    w = entry["width"] * scale
+    """A heading word in a canvas shrink-wrapped to its ink.
+
+    Trimming the box to the outlines is what puts the word on the same line as
+    the disclosure triangle: an inline image sits on the text baseline, so any
+    slack below the glyphs pushes the word up off the line.
+    """
+    w, h, xn, yn, s = _ink(LINKS[name], LABEL_CAP)
     canvas_w = round(w + LABEL_PAD * 2)
-    baseline = LABEL_CAP + LABEL_PAD
-    canvas_h = round(baseline + LABEL_CAP * 0.4)
+    # Padding on top only. An inline image sits its *bottom edge* on the text
+    # baseline, so any slack under the glyphs lifts the word off the line the
+    # disclosure triangle sits on. With none, the image bottom is the word's
+    # baseline and the two line up.
+    canvas_h = round(h + LABEL_PAD)
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{canvas_w}" height="{canvas_h}" '
         f'viewBox="0 0 {canvas_w} {canvas_h}" role="img" aria-label="{name}">'
         f"<title>{name}</title>"
-        f'<g transform="translate({LABEL_PAD:.2f} {baseline:.2f}) scale({scale:.5f})">'
-        f'<path d="{entry["path"]}" fill="{LINK_COLOR}"/></g>'
+        f'<g transform="translate({LABEL_PAD - xn:.2f} {LABEL_PAD - yn:.2f}) scale({s:.5f})">'
+        f'<path d="{LINKS[name]["path"]}" fill="{LINK_COLOR}"/></g>'
         "</svg>\n"
     )
 
 
 def build_link(name):
-    """One link word, centred in the shared canvas."""
-    entry = LINKS[name]
-    scale = LINK_CAP / LINKS_CAP
-    x = (LINK_W - entry["width"] * scale) / 2
+    """One link word, centred in the shared canvas.
+
+    Centred on the ink box rather than the advance box. A font's advance
+    includes side bearings, and they are not symmetric, so centring on advance
+    width leaves the word visibly off-centre in its cell; the same applies
+    vertically for words that carry descenders ('github', 'portfolio') against
+    ones that do not ('site').
+    """
+    w, _h, xn, _yn, s = _ink(LINKS[name], LINK_CAP)
+    x = (LINK_W - w) / 2 - xn
+    # Horizontally each word is centred on its own ink; vertically they all
+    # share one baseline instead. Centring each word's own ink box vertically
+    # would put 'resume' (no ascender, no descender) at a different height
+    # from 'portfolio' (both), and the row would visibly jitter. The shared
+    # baseline is placed so the row's combined ink box is centred.
+    y = _link_baseline()
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{LINK_W}" height="{LINK_H}" '
         f'viewBox="0 0 {LINK_W} {LINK_H}" role="img" aria-label="{name}">'
         f"<title>{name}</title>"
-        f'<g transform="translate({x:.2f} {LINK_BASELINE}) scale({scale:.5f})">'
-        f'<path d="{entry["path"]}" fill="{LINK_COLOR}"/></g>'
+        f'<g transform="translate({x:.2f} {y:.2f}) scale({s:.5f})">'
+        f'<path d="{LINKS[name]["path"]}" fill="{LINK_COLOR}"/></g>'
         "</svg>\n"
     )
 
