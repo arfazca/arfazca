@@ -1,353 +1,390 @@
 #!/usr/bin/env python3
 """
-Builds about-dark.svg / about-light.svg (neofetch-style About Me card) from
-ascii-art.txt + the FIELDS content below. Static personal fields are baked in
-here; the values with an `id=` (uptime + GitHub stats) are left as
-placeholders and overwritten in-place by generate.py at CI time, mirroring
-https://github.com/Andrew6rant/Andrew6rant's today.py svg_overwrite() approach.
+Builds about-dark.template.svg / about-light.template.svg: one sparse, grainy
+panel - a procedural ridgeline horizon under a blackletter wordmark.
+
+Almost nothing here is drawn by hand. The ridges come out of seeded 1D
+fractal value noise, the sky and stars out of gradients and feTurbulence. The
+only baked asset is the wordmark outline in wordmark_path.py, because GitHub
+renders README SVGs through camo as <img>, where no web font ever loads.
+
+The `id=` fields are placeholders overwritten in-place by generate.py at CI
+time. generate.py silently skips ids it cannot find, so this template can use
+a subset of them without any change on that side.
+
+Regenerate with:  python3 build_svg.py
 """
-import math
 import os
-from xml.sax.saxutils import escape
+import random
+
+from links_path import LINKS, LINKS_CAP
+from wordmark_path import WORDMARK_CAP, WORDMARK_PATH, WORDMARK_WIDTH
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
+WIDTH = 1200
+HEIGHT = 480
 
-def color_ramp(c_from, c_to, n):
-    """n-step linear RGB interpolation from c_from (edge/shadow) to c_to (interior/lit)."""
-    a = tuple(int(c_from[i:i + 2], 16) for i in (1, 3, 5))
-    b = tuple(int(c_to[i:i + 2], 16) for i in (1, 3, 5))
-    steps = []
-    for i in range(n):
-        t = i / (n - 1)
-        rgb = tuple(round(a[k] + (b[k] - a[k]) * t) for k in range(3))
-        steps.append("#{:02x}{:02x}{:02x}".format(*rgb))
-    return steps
+MONO = "ui-monospace,'SF Mono','SFMono-Regular','JetBrains Mono',Menlo,Consolas,monospace"
+
+# Cap height is the optical anchor rather than font size: the baked path is
+# normalised so its cap height is WORDMARK_CAP units, so this scales cleanly.
+MARK_CAP = 82.0
+MARK_BASELINE = 236.0
+
+STAT_Y = 452.0
+
+# Seconds for one ridge layer to travel a full period. Far layers move
+# slowest: that speed difference is the parallax, and it is the only thing
+# giving a flat stack of fills any sense of depth in motion.
+RIDGE_DRIFT_S = [180, 130, 95, 65]
+# Slower than the farthest ridge, because the sky is further away than the
+# furthest hill - it is the last term in the same parallax series.
+STAR_DRIFT_S = 300
+STAR_TWINKLE_S = 7
+
+# The link row under the banner: one small blackletter image per destination,
+# so the row is set in the same face as the name. Every word is drawn at the
+# same cap height into an identical canvas and centred, which is what keeps
+# the markdown table's cells equal - the widest word ("portfolio") sets the
+# canvas, the rest get more air around them.
+LINK_CAP = 22.0
+LINK_W = 132
+LINK_H = 46
+LINK_BASELINE = 30.0
+# One neutral tone rather than a dark/light pair: these sit directly on
+# GitHub's page background, and this reads on both #ffffff and #0d1117 at the
+# 3:1 large-text threshold, so the row needs no <picture> switching.
+LINK_COLOR = "#7f90a8"
+LINK_ORDER = ["site", "resume", "portfolio", "github", "linkedin", "email"]
+LINK_HREF = {
+    "site": "https://arfaz.ca",
+    "resume": "https://arfaz.ca/resume",
+    "portfolio": "https://arfaz.ca/portfolio",
+    "github": "https://github.com/arfazca",
+    "linkedin": "https://linkedin.com/in/arfazca",
+    "email": "mailto:root@arfaz.ca",
+}
 
 
-ASCII_TIERS = 7  # matches the '.',':','-','=','+','*','#' density levels in ascii-art.txt
+# ---------------------------------------------------------------------------
+# Seeded 1D fractal value noise. Deterministic on purpose: a rebuild with no
+# source change has to produce a byte-identical file, or the daily workflow
+# would churn the generated branch with a new horizon every morning.
+# ---------------------------------------------------------------------------
+class Ridge:
+    """Summed octaves of smoothstep-interpolated value noise over [0, 1]."""
 
-with open(os.path.join(HERE, "ascii-art.txt"), encoding="utf-8") as f:
-    ASCII_LINES = f.read().rstrip("\n").split("\n")
+    def __init__(self, seed, octaves=4, lattice=5, gain=0.5):
+        self.octaves = []
+        self.norm = 0.0
+        amp = 1.0
+        for o in range(octaves):
+            rng = random.Random(seed + o * 9781)
+            n = lattice * (2**o)
+            table = [rng.random() for _ in range(n + 1)]
+            # Close the lattice so noise(1) == noise(0). This is what makes
+            # the drift animation loop without a visible seam: the ridge is
+            # drawn two periods wide and slid by exactly one, so the frame it
+            # snaps back to is pixel-identical to the one it left. Smoothstep
+            # has zero slope at lattice points, so the wrap is C1 too - no
+            # crease where the ends meet.
+            table[-1] = table[0]
+            self.octaves.append((amp, table))
+            self.norm += amp
+            amp *= gain
 
-ASCII_FONT_SIZE = 15
-ASCII_LINE_HEIGHT = 18
-ASCII_X = 24
-ASCII_Y0 = 40
+    @staticmethod
+    def _sample(table, x):
+        n = len(table) - 1
+        p = x * n
+        i = min(int(p), n - 1)
+        f = p - i
+        t = f * f * (3 - 2 * f)  # smoothstep: C1-continuous, no lattice creases
+        return table[i] + (table[i + 1] - table[i]) * t
 
-PANEL_X = 24 + 66 * 9 + 40  # ascii width (66 cols * ~9px) + gutter
-FONT_SIZE = 13.5
-LINE_HEIGHT = 20
-PANEL_Y0 = 40
+    def at(self, x):
+        return sum(amp * self._sample(tbl, x) for amp, tbl in self.octaves) / self.norm
 
+
+def _fold(h, sharpness):
+    """Fold noise about its midpoint: rounded humps become peaked ridges.
+
+    Blended rather than absolute so it can be dialled per layer - near ridges
+    read sharp and rocky, distant ones stay soft and hazy.
+    """
+    if not sharpness:
+        return h
+    return (1 - sharpness) * h + sharpness * (1 - abs(2 * h - 1))
+
+
+def ridge_path(seed, base_y, amp, sharpness=0.0, lattice=5, step=7):
+    """Closed path spanning two periods, so it can be slid by one and loop.
+
+    Only the first period is ever on screen at once; the second exists purely
+    to fill the gap the drift opens up on the right.
+    """
+    noise = Ridge(seed, lattice=lattice)
+    span = WIDTH * 2
+    xs = [x * 1.0 for x in range(0, span, step)] + [float(span)]
+    pts = [(x, base_y - amp * _fold(noise.at((x / WIDTH) % 1.0), sharpness)) for x in xs]
+
+    d = ["M0 %d" % HEIGHT]
+    d += [f"L{px:.1f} {py:.1f}" for px, py in pts]
+    d.append(f"L{span} {HEIGHT}Z")
+    return "".join(d)
+
+
+# ---------------------------------------------------------------------------
+# Themes. In both modes the far ridges sit lighter than the near ones: that is
+# atmospheric perspective - more air between you and the ridge means more
+# light scattered back - and it is what sells depth on flat fills.
+# ---------------------------------------------------------------------------
 THEMES = {
-    "dark": {
-        "border": "#30363d",
-        "header": "#e6edf3",
-        "key": "#79c0ff",
-        "value": "#7ee787",
-        "dim": "#8b949e",
-        "add": "#3fb950",
-        "del": "#f85149",
-        "ascii": "#c9d1d9",
-        # per-face gradient, edge -> interior, keyed by the density character
-        # already chosen for edge-distance when the logo was built: the
-        # silhouette rim goes dark/shadowed and each face brightens to a
-        # vivid, fully-saturated tone toward its own center - that's the bulk
-        # of the shape, so it has to read as solid color, not a pale wash.
-        "ascii_shade": {
-            "left": color_ramp("#0c2d6b", "#79c0ff", ASCII_TIERS),
-            "right": color_ramp("#061a3d", "#388bfd", ASCII_TIERS),
-        },
-        # a Fresnel-style glint for the edge-on face - grazing angles on a
-        # real material reflect more light, so this is what's visible right
-        # when the front faces have foreshortened to nothing, instead of the
-        # logo just vanishing to a bare line.
-        "ascii_depth": "#a5d6ff",
+    "dark": {  # night
+        "sky": ["#070c14", "#0e1826", "#1b2a3f"],
+        "glow": "#4a6f9e",
+        "ridges": ["#334566", "#24334b", "#151e2c", "#080d15"],
+        "mark": "#eceae5",
+        "stat_key": "#61748c",
+        "stat_val": "#a8bdd6",
+        "grain": (255, 255, 255),
+        "grain_bias": -0.22,
+        "grain_opacity": 0.44,
+        "stars": True,
     },
-    "light": {
-        "border": "#d0d7de",
-        "header": "#24292f",
-        "key": "#0969da",
-        "value": "#1a7f37",
-        "dim": "#57606a",
-        "add": "#1a7f37",
-        "del": "#cf222e",
-        "ascii": "#57606a",
-        "ascii_shade": {
-            "left": color_ramp("#bfe0ff", "#0550ae", ASCII_TIERS),
-            "right": color_ramp("#d9edff", "#0969da", ASCII_TIERS),
-        },
-        "ascii_depth": "#0550ae",
+    "light": {  # dawn fog
+        "sky": ["#eceae5", "#dee1e5", "#c6cfd7"],
+        "glow": "#f4e6d1",
+        "ridges": ["#bcc6d0", "#9aa8b6", "#75869a", "#4e6076"],
+        "mark": "#141920",
+        "stat_key": "#c3d0dc",
+        "stat_val": "#f2f6fa",
+        "grain": (18, 24, 32),
+        "grain_bias": -0.24,
+        "grain_opacity": 0.40,
+        "stars": False,
     },
 }
 
-FONT_STACK = "ui-monospace,'SF Mono','SFMono-Regular','JetBrains Mono','Fira Code',Menlo,Consolas,'Liberation Mono',monospace"
-
-# ---------------------------------------------------------------------------
-# Right-panel content. Each row is one of:
-#   ("kv", key, value, dots_len, value_id)      -> ". key: ....... value"
-#   ("kv2", k1, v1, id1, k2, v2, id2)            -> ". k1: v1 | k2: v2" (stats rows)
-#   ("header", text)                              -> "- text -------------"
-#   ("blank",)
-# dots_len is the target column width used to right-pad the dot leader.
-# ---------------------------------------------------------------------------
-ROWS = [
-    ("header", "arfaz@github"),
-    ("kv", "OS", "macOS Tahoe 26.5.2 (M1, M2)", None),
-    ("kv", "Uptime", "", "age_data"),
-    ("kv", "Devices.Home Server", "Arch Linux, Hyprland v0.56.1, GNU/Linux", None),
-    ("kv", "Devices.Work", "Windows 11 — Megabyte Systems, Inc.", None),
-    ("kv", "IDE", "Neovim (LazyVim), WezTerm", None),
-    ("blank",),
-    ("kv", "Languages.Programming", "TypeScript, Rust, C#/.NET", None),
-    ("kv", "Languages.Real", "English (C1), Bangla (C2), French (A2)", None),
-    ("blank",),
-    ("kv", "Hobbies.Making", "Building Things, Graphic Design, Software", None),
-    ("kv", "Hobbies.Community", "Volunteering, Community Work", None),
-    ("blank",),
-    ("header", "Contact"),
-    ("kv", "Email", "root@arfaz.ca", None),
-    ("kv", "LinkedIn", "arfazca", None),
-    ("kv", "GitHub", "arfazca", None),
-    ("kv", "X", "@arfazca", None),
-    ("blank",),
-    ("header", "Links"),
-    ("kv", "Web", "https://arfaz.ca", None),
-    ("kv", "Blog", "https://arfaz.ca/blog", None),
-    ("kv", "Resume", "https://arfaz.ca/resume", None),
-    ("kv", "Portfolio", "https://arfaz.ca/portfolio", None),
-    ("blank",),
-    ("header", "GitHub Stats"),
-    ("kv2", "Repos", "repo_data", "Contributed", "contrib_data", "Stars", "star_data"),
-    ("kv", "Commits", "", "commit_data"),
-    ("loc",),
+# Ridge layers, far to near: (seed, base_y, amplitude, sharpness, lattice).
+# Raised and spread relative to a flat stack so each silhouette clears the one
+# behind it - overlapping layers of similar height just read as one grey mass.
+RIDGE_LAYERS = [
+    # The farthest layer carries a denser lattice than its distance suggests:
+    # at low amplitude a coarse one flattens into a straight band, which reads
+    # as a horizon line rather than as hills behind hills.
+    (1301, 298, 72, 0.15, 7),
+    (2609, 344, 62, 0.35, 5),
+    (3517, 392, 68, 0.55, 6),
+    (4703, 450, 76, 0.75, 7),
 ]
 
-# Every row's value column lines up at the same character offset from PANEL_X
-# (". " + key + ":" + dots), instead of hand-tuned per-row dot counts that
-# drift out of alignment whenever a key's text changes length.
-VALUE_COL = 40
-SEP_DOTS = 2  # small fixed leader for secondary inline fields (Contributed/Stars)
+
+def style(theme):
+    """Animation only. GitHub serves these as <img>, where script never runs
+    but declarative CSS animation does.
+    """
+    rules = []
+    for i, secs in enumerate(RIDGE_DRIFT_S):
+        rules.append(f".r{i}{{animation:drift {secs}s linear infinite}}")
+    # Sliding by exactly WIDTH lands on the next period of a path that is
+    # periodic by construction, so the restart is invisible.
+    rules.append(
+        f"@keyframes drift{{from{{transform:translateX(0)}}"
+        f"to{{transform:translateX(-{WIDTH}px)}}}}"
+    )
+    if theme["stars"]:
+        rules += [
+            f".sky{{animation:drift {STAR_DRIFT_S}s linear infinite}}",
+            f".sa{{animation:tw {STAR_TWINKLE_S}s ease-in-out infinite}}",
+            # Half a cycle out of phase, so one field rises as the other falls
+            # and the total amount of light in the sky stays roughly constant.
+            f".sb{{animation:tw {STAR_TWINKLE_S}s ease-in-out infinite;"
+            f"animation-delay:-{STAR_TWINKLE_S / 2:g}s}}",
+            "@keyframes tw{0%,100%{opacity:1}50%{opacity:.08}}",
+        ]
+    # Everything above is decorative drift, so it all collapses to a still
+    # frame. Base opacity is already 1, so nothing vanishes when it stops.
+    rules.append(
+        "@media(prefers-reduced-motion:reduce){"
+        ".r0,.r1,.r2,.r3,.sky,.sa,.sb{animation:none}}"
+    )
+    return "<style>" + "".join(rules) + "</style>"
 
 
-def dots(n):
-    if n <= 0:
-        return ""
-    if n == 1:
-        return " "
-    if n == 2:
-        return ". "
-    return " " + ("." * n) + " "
-
-
-def dots_for_key(key):
-    # chars before the value = ". " (2) + key + ":" (1) + dots string
-    return dots(VALUE_COL - 3 - len(key))
-
-
-def esc(s):
-    return escape(str(s))
-
-
-ASCII_COLS = 66
-ASCII_SPLIT = ASCII_COLS // 2  # left/right halves shaded differently for a 3D lit/shadow-face look
-ASCII_CHAR_W = 9  # approx monospace advance width at ASCII_FONT_SIZE, matches the PANEL_X gutter math
-ASCII_CENTER_X = ASCII_X + (ASCII_COLS * ASCII_CHAR_W) / 2
-ASCII_CENTER_Y = ASCII_Y0 + (len(ASCII_LINES) * ASCII_LINE_HEIGHT) / 2
-
-
-def spin_keyframes(steps=12):
-    # scaleX(cos(theta)) fakes a Y-axis turntable spin on flat 2D content:
-    # theta=0 -> full width (face on), theta=90 -> collapsed to a sliver
-    # (edge-on), theta=180 -> full width again but mirrored (the back face,
-    # which - since the left/right halves are colored differently - actually
-    # shows the opposite lit/shadow side, selling the turn), theta=270 ->
-    # sliver again, back to theta=360=0.
-    lines = []
-    for i in range(steps + 1):
-        pct = i * 100 / steps
-        theta = i * 360 / steps
-        scale = math.cos(math.radians(theta))
-        lines.append(f"{pct:g}%{{transform:scaleX({scale:.3f})}}")
-    return "".join(lines)
-
-
-DEPTH_MAX = 0.32  # peak width of the edge-on glint, as a fraction of the front face's full width
-
-
-def depth_keyframes(steps=12, d_max=DEPTH_MAX):
-    # abs(sin(theta)) is exactly complementary to spin_keyframes' cos(theta):
-    # zero whenever the front face is at full width, and peaking at d_max
-    # exactly when the front face has foreshortened to nothing - so the two
-    # groups crossfade into each other through pure geometry, no opacity
-    # animation needed, and always show *something* with plausible width.
-    lines = []
-    for i in range(steps + 1):
-        pct = i * 100 / steps
-        theta = i * 360 / steps
-        scale = d_max * abs(math.sin(math.radians(theta)))
-        lines.append(f"{pct:g}%{{transform:scaleX({scale:.3f})}}")
-    return "".join(lines)
-
-
-# '.' (nearest edge) through '#' (deepest interior) distance tiers baked into
-# ascii-art.txt by the logo generator, reused here as a shading index.
-ASCII_TIER = {ch: i for i, ch in enumerate(".:-=+*#")}
-
-
-def render_ascii(theme):
-    shade = theme["ascii_shade"]
-    out = []
-    y = ASCII_Y0
-    for i, line in enumerate(ASCII_LINES):
-        delay = round(i * 0.012, 3)
-        runs = []
-        for col, ch in enumerate(line):
-            side = "left" if col < ASCII_SPLIT else "right"
-            color = shade[side][ASCII_TIER.get(ch, ASCII_TIERS - 1)]
-            if runs and runs[-1][0] == color:
-                runs[-1][1] += ch
-            else:
-                runs.append([color, ch])
-        tspans = "".join(f'<tspan fill="{c}">{esc(chars)}</tspan>' for c, chars in runs)
-        out.append(
-            f'<text x="{ASCII_X}" y="{y}" xml:space="preserve" '
-            f'style="animation-delay:{delay}s" class="ln">{tspans}</text>'
-        )
-        y += ASCII_LINE_HEIGHT
+def defs(theme):
+    sky = theme["sky"]
+    gr, gg, gb = theme["grain"]
+    out = [
+        "<defs>",
+        '<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">',
+        f'<stop offset="0" stop-color="{sky[0]}"/>',
+        f'<stop offset="0.55" stop-color="{sky[1]}"/>',
+        f'<stop offset="1" stop-color="{sky[2]}"/>',
+        "</linearGradient>",
+        # Skyglow: a bloom just above the horizon, pushed off centre so the
+        # composition does not mirror itself around the wordmark.
+        '<radialGradient id="glow" cx="0.62" cy="0.74" r="0.55">',
+        f'<stop offset="0" stop-color="{theme["glow"]}" stop-opacity="0.55"/>',
+        f'<stop offset="1" stop-color="{theme["glow"]}" stop-opacity="0"/>',
+        "</radialGradient>",
+        # Grain, as coloured speckle rather than a flat grey wash: white over
+        # the night scene, ink over the pale one. Driving alpha instead of
+        # luminance keeps it from lifting the blacks into mud.
+        '<filter id="grain" x="0" y="0" width="100%" height="100%">',
+        '<feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="29" result="n"/>',
+        # Two independent controls, and they do different jobs. The bias sets
+        # coverage - how much of the noise field clears zero alpha and shows
+        # up as a speck at all - while grain_opacity sets how hard those
+        # specks hit. Pushing opacity alone just makes sparse grain glaring;
+        # raising coverage is what actually reads as heavier film stock.
+        '<feColorMatrix in="n" type="matrix" values="'
+        f"0 0 0 0 {gr / 255:.4f} "
+        f"0 0 0 0 {gg / 255:.4f} "
+        f"0 0 0 0 {gb / 255:.4f} "
+        f'0.62 0.26 0 0 {theme["grain_bias"]:.2f}"/>',
+        "</filter>",
+    ]
+    if theme["stars"]:
+        # Two independent star fields rather than one. Cross-fading them is
+        # what actually twinkles: individual points wink out and different
+        # ones arrive, instead of the whole sky pulsing brighter and dimmer
+        # together, which is what animating a single layer's opacity gives.
+        for sid, seed in (("stars", 17), ("stars2", 41)):
+            out += [
+                # Thresholded noise. The steep alpha slope on the last matrix
+                # row turns a smooth field into discrete points: only samples
+                # above ~0.72 survive, the rest clamp to fully transparent.
+                f'<filter id="{sid}" x="0" y="0" width="100%" height="100%">',
+                # Deliberately coarser than the grain's 0.9. At the heavier
+                # grain setting the two sat at the same scale and the stars
+                # read as more grain, which killed the twinkle; separating the
+                # frequencies is what keeps them legible as points of light.
+                f'<feTurbulence type="fractalNoise" baseFrequency="0.5" numOctaves="1" seed="{seed}" result="n"/>',
+                '<feColorMatrix in="n" type="matrix" values="'
+                "0 0 0 0 1 "
+                "0 0 0 0 1 "
+                "0 0 0 0 1 "
+                '5.2 0 0 0 -3.55"/>',
+                "</filter>",
+            ]
+        out += [
+            # Stars thin out toward the horizon the way real skyglow washes
+            # them, so the field never fights the ridgeline for attention.
+            '<linearGradient id="starfade" x1="0" y1="0" x2="0" y2="1">',
+            '<stop offset="0" stop-color="#fff" stop-opacity="0.95"/>',
+            '<stop offset="0.7" stop-color="#fff" stop-opacity="0.18"/>',
+            '<stop offset="1" stop-color="#fff" stop-opacity="0"/>',
+            "</linearGradient>",
+            # Spans both star tiles: the mask is fixed to the canvas while the
+            # sky drifts under it, so it has to cover the whole drift range or
+            # the incoming tile would be masked out and blink in.
+            '<mask id="starmask">',
+            f'<rect width="{WIDTH * 2}" height="{HEIGHT}" fill="url(#starfade)"/>',
+            "</mask>",
+        ]
+    out.append("</defs>")
     return "\n".join(out)
-
-
-def render_ascii_depth(theme):
-    # flat silhouette in a single glint color - no per-line reveal delay,
-    # since it should already be "there" the instant the front face thins out
-    color = theme["ascii_depth"]
-    out = []
-    y = ASCII_Y0
-    for line in ASCII_LINES:
-        stripped = line.rstrip()
-        if stripped:
-            out.append(f'<text x="{ASCII_X}" y="{y}" xml:space="preserve" fill="{color}">{esc(stripped)}</text>')
-        y += ASCII_LINE_HEIGHT
-    return "\n".join(out)
-
-
-def render_panel(theme):
-    out = []
-    y = PANEL_Y0
-    for row in ROWS:
-        kind = row[0]
-        if kind == "blank":
-            y += LINE_HEIGHT
-            continue
-        if kind == "header":
-            text = row[1]
-            rule_len = 46
-            rule = "—" * rule_len
-            out.append(
-                f'<text x="{PANEL_X}" y="{y}" xml:space="preserve">'
-                f'<tspan fill="{theme["header"]}" font-weight="600">{esc(text)}</tspan> '
-                f'<tspan fill="{theme["dim"]}">{rule}</tspan></text>'
-            )
-            y += LINE_HEIGHT
-            continue
-        if kind == "kv":
-            _, key, value, value_id = row
-            id_attr = f' id="{value_id}"' if value_id else ""
-            dots_id_attr = f' id="{value_id}_dots"' if value_id else ""
-            out.append(
-                f'<text x="{PANEL_X}" y="{y}" xml:space="preserve">'
-                f'<tspan fill="{theme["dim"]}">. </tspan>'
-                f'<tspan fill="{theme["key"]}">{esc(key)}</tspan>'
-                f'<tspan fill="{theme["dim"]}">:</tspan>'
-                f'<tspan fill="{theme["dim"]}"{dots_id_attr}>{esc(dots_for_key(key))}</tspan>'
-                f'<tspan fill="{theme["value"]}"{id_attr}>{esc(value)}</tspan></text>'
-            )
-            y += LINE_HEIGHT
-            continue
-        if kind == "kv2":
-            _, k1, id1, k2, id2, k3, id3 = row
-            out.append(
-                f'<text x="{PANEL_X}" y="{y}" xml:space="preserve">'
-                f'<tspan fill="{theme["dim"]}">. </tspan>'
-                f'<tspan fill="{theme["key"]}">{esc(k1)}</tspan>'
-                f'<tspan fill="{theme["dim"]}">:</tspan>'
-                f'<tspan fill="{theme["dim"]}" id="{id1}_dots">{dots_for_key(k1)}</tspan>'
-                f'<tspan fill="{theme["value"]}" id="{id1}">0</tspan>'
-                f'<tspan fill="{theme["dim"]}"> {{</tspan>'
-                f'<tspan fill="{theme["key"]}">{esc(k2)}</tspan>'
-                f'<tspan fill="{theme["dim"]}">: </tspan>'
-                f'<tspan fill="{theme["value"]}" id="{id2}">0</tspan>'
-                f'<tspan fill="{theme["dim"]}">}} | </tspan>'
-                f'<tspan fill="{theme["key"]}">{esc(k3)}</tspan>'
-                f'<tspan fill="{theme["dim"]}">:</tspan>'
-                f'<tspan fill="{theme["dim"]}" id="{id3}_dots">{dots(SEP_DOTS)}</tspan>'
-                f'<tspan fill="{theme["value"]}" id="{id3}">0</tspan></text>'
-            )
-            y += LINE_HEIGHT
-            continue
-        if kind == "loc":
-            key = "Lines of Code on GitHub"
-            out.append(
-                f'<text x="{PANEL_X}" y="{y}" xml:space="preserve">'
-                f'<tspan fill="{theme["dim"]}">. </tspan>'
-                f'<tspan fill="{theme["key"]}">{esc(key)}</tspan>'
-                f'<tspan fill="{theme["dim"]}">:</tspan>'
-                f'<tspan fill="{theme["dim"]}" id="loc_data_dots">{esc(dots_for_key(key))}</tspan>'
-                f'<tspan fill="{theme["value"]}" id="loc_data">0</tspan>'
-                f'<tspan fill="{theme["dim"]}"> ( </tspan>'
-                f'<tspan fill="{theme["add"]}" id="loc_add">0</tspan>'
-                f'<tspan fill="{theme["add"]}">++</tspan>'
-                f'<tspan fill="{theme["dim"]}">, </tspan>'
-                f'<tspan fill="{theme["dim"]}" id="loc_del_dots"> </tspan>'
-                f'<tspan fill="{theme["del"]}" id="loc_del">0</tspan>'
-                f'<tspan fill="{theme["del"]}">--</tspan>'
-                f'<tspan fill="{theme["dim"]}"> )</tspan></text>'
-            )
-            y += LINE_HEIGHT
-            continue
-    return "\n".join(out), y
 
 
 def build(mode):
     theme = THEMES[mode]
-    panel_svg, end_y = render_panel(theme)
-    ascii_svg = render_ascii(theme)
-    depth_svg = render_ascii_depth(theme)
-    ascii_end_y = ASCII_Y0 + len(ASCII_LINES) * ASCII_LINE_HEIGHT
-    height = max(end_y, ascii_end_y) + 24
-    width = PANEL_X + 660
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" font-family="{FONT_STACK}" font-size="{FONT_SIZE}px">
-<title>About Me — Arfaz Hussain</title>
-<style>
-.ln{{opacity:0;animation:rv .5s ease forwards}}
-@keyframes rv{{from{{opacity:0;transform:translateX(-6px)}}to{{opacity:1;transform:translateX(0)}}}}
-text,tspan{{white-space:pre}}
-.spin3d{{transform-origin:{ASCII_CENTER_X}px {ASCII_CENTER_Y}px;animation:spin3d 20s linear infinite}}
-@keyframes spin3d{{{spin_keyframes()}}}
-.depth3d{{transform-origin:{ASCII_CENTER_X}px {ASCII_CENTER_Y}px;animation:depth3d 20s linear infinite}}
-@keyframes depth3d{{{depth_keyframes()}}}
-</style>
-<rect x="0.75" y="0.75" width="{width - 1.5}" height="{height - 1.5}" rx="20" ry="20" fill="none" stroke="{theme['border']}" stroke-width="1.5"/>
-<g font-size="{ASCII_FONT_SIZE}px" class="depth3d">
-{depth_svg}
-</g>
-<g font-size="{ASCII_FONT_SIZE}px" class="spin3d">
-{ascii_svg}
-</g>
-<g font-size="{FONT_SIZE}px">
-{panel_svg}
-</g>
-</svg>
-'''
-    return svg
+    scale = MARK_CAP / WORDMARK_CAP
+    mark_x = (WIDTH - WORDMARK_WIDTH * scale) / 2
+
+    parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}" '
+        f'viewBox="0 0 {WIDTH} {HEIGHT}" role="img" aria-label="Arfaz Hussain">',
+        "<title>Arfaz Hussain</title>",
+        style(theme),
+        defs(theme),
+        f'<rect width="{WIDTH}" height="{HEIGHT}" fill="url(#sky)"/>',
+        f'<rect width="{WIDTH}" height="{HEIGHT}" fill="url(#glow)"/>',
+    ]
+
+    if theme["stars"]:
+        tile = (
+            f'<rect class="sa" width="{WIDTH}" height="{HEIGHT}" filter="url(#stars)"/>'
+            f'<rect class="sb" width="{WIDTH}" height="{HEIGHT}" filter="url(#stars2)"/>'
+        )
+        # Two tiles, and each sits in its own translated group rather than
+        # being one rect at x=WIDTH. feTurbulence samples the coordinate space
+        # local to the filtered element, so a rect drawn at x=0 inside a
+        # shifted group generates the *same* noise as the first tile - which is
+        # exactly what makes the wrap invisible. A single wide rect would
+        # sample different noise across its span and the seam would show.
+        parts.append(
+            f'<g mask="url(#starmask)"><g class="sky">'
+            f"<g>{tile}</g>"
+            f'<g transform="translate({WIDTH} 0)">{tile}</g>'
+            f"</g></g>"
+        )
+
+    for i, ((seed, base_y, amp, sharp, lattice), fill) in enumerate(
+        zip(RIDGE_LAYERS, theme["ridges"])
+    ):
+        parts.append(
+            f'<path class="r{i}" d="{ridge_path(seed, base_y, amp, sharp, lattice)}" fill="{fill}"/>'
+        )
+
+    parts.append(
+        f'<g transform="translate({mark_x:.2f} {MARK_BASELINE}) scale({scale:.5f})">'
+        f'<path d="{WORDMARK_PATH}" fill="{theme["mark"]}"/></g>'
+    )
+
+    # text-anchor=middle centres the whole run, so the row stays centred even
+    # after generate.py swaps in live numbers of a different width.
+    parts.append(
+        f'<text x="{WIDTH / 2:.0f}" y="{STAT_Y:.0f}" text-anchor="middle" xml:space="preserve" '
+        # README embeds this at 720px against a 1200px viewBox, so everything
+        # renders at 0.6x - type sized by eye at native scale ends up
+        # unreadable there. 15px here is ~9px as actually seen.
+        f'font-family="{MONO}" font-size="15" letter-spacing="1.9">'
+        f'<tspan fill="{theme["stat_val"]}">software development engineer</tspan>'
+        # age_data is generate.py's uptime_string(), counted from
+        # BIRTHDAY = 2002-06-15 down to the day. It is now the only live field
+        # left in the card; generate.py still computes commits and lines, but
+        # nothing here consumes them any more.
+        f'<tspan fill="{theme["stat_key"]}">     uptime </tspan>'
+        f'<tspan fill="{theme["stat_val"]}" id="age_data">0</tspan>'
+        "</text>"
+    )
+
+    parts.append(
+        f'<rect width="{WIDTH}" height="{HEIGHT}" filter="url(#grain)" '
+        f'opacity="{theme["grain_opacity"]}"/>'
+    )
+    parts.append("</svg>")
+    return "\n".join(parts) + "\n"
+
+
+def build_link(name):
+    """One link word, centred in the shared canvas."""
+    entry = LINKS[name]
+    scale = LINK_CAP / LINKS_CAP
+    x = (LINK_W - entry["width"] * scale) / 2
+    return (
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{LINK_W}" height="{LINK_H}" '
+        f'viewBox="0 0 {LINK_W} {LINK_H}" role="img" aria-label="{name}">'
+        f"<title>{name}</title>"
+        f'<g transform="translate({x:.2f} {LINK_BASELINE}) scale({scale:.5f})">'
+        f'<path d="{entry["path"]}" fill="{LINK_COLOR}"/></g>'
+        "</svg>\n"
+    )
 
 
 if __name__ == "__main__":
     for mode in ("dark", "light"):
-        out = build(mode)
         out_path = os.path.join(HERE, f"about-{mode}.template.svg")
         with open(out_path, "w", encoding="utf-8", newline="\n") as f:
-            f.write(out)
+            f.write(build(mode))
+        print("wrote", out_path)
+
+    link_dir = os.path.join(HERE, "links")
+    os.makedirs(link_dir, exist_ok=True)
+    for name in LINK_ORDER:
+        out_path = os.path.join(link_dir, f"{name}.svg")
+        with open(out_path, "w", encoding="utf-8", newline="\n") as f:
+            f.write(build_link(name))
         print("wrote", out_path)
