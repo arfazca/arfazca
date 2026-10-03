@@ -1,27 +1,33 @@
 #!/usr/bin/env python3
 """
-The link row under the banner: black MacBook keycaps.
+The link row under the banner: a MacBook keyboard deck.
 
-The banner is the display (hairline bezel, notch); this row is the keyboard
-under it. Each key is a lowercase legend bottom-left with a glyph top-right,
-like command and option; the email gets a wide return key. In dark mode the
-legends are faintly backlit, and now and then a key presses itself.
+The banner is the display (black glass, aluminium rim, notch); this row is
+the top case under it: one aluminium plate with the keys set into it, black
+keys in Space Grey for dark mode, white keys in silver for light mode. Each
+key is a lowercase legend bottom-left with a glyph top-right, like command
+and option; the email gets a wide return key. In dark mode the legends are
+faintly backlit, and now and then a key presses itself.
 
 The row is laid out on the card's own 1200-unit grid and cut into five
-images at the middle of each gap. In the README each image gets a percentage
-width, and the five add up to just under 100%, so at any screen width the
-row stays on one line and spans exactly the card, outer key edges flush with
-its frame. (A table would add GitHub's grey grid, and fixed pixel widths
-wrap on narrow screens.)
+images at the middle of each gap. Each image paints its own stretch of the
+plate, rounded only at the row's two ends, so side by side they read as one
+deck. In the README each image gets a percentage width, and the five add up
+to just under 100%, so at any screen width the row stays on one line and
+spans exactly the card. (A table would add GitHub's grey grid, and fixed
+pixel widths wrap on narrow screens.)
 
     links/<slug>-<mode>.svg
 """
 MONO = "ui-monospace,'SF Mono','SFMono-Regular','JetBrains Mono',Menlo,Consolas,monospace"
 
 ROW_W = 1200          # the card's width, so the two scale together
-U, GAP = 190, 12      # one key, and the gap between keys
-KEY_H, TOP, RADIUS = 84, 2, 12
-HEIGHT = TOP + KEY_H + 6   # room for the shadow under the caps
+GAP, PAD = 12, 10     # between keys, and between the end keys and the deck's ends
+KEY_H, RADIUS = 74, 9
+DECK_Y = 3            # a hairline of page between the display and the deck
+DECK_R = 16           # the display's corner radius (banner.BEZEL_R)
+KEY_Y = DECK_Y + 6.5  # the key's top, inside the plate
+HEIGHT = 97           # deck: 3 to 96.5, so 6.5 units of metal above the keys, 7 below
 
 KEYS = [  # (legend, href, glyph, width in keys)
     ("site", "https://arfaz.ca", "arrow", 1),
@@ -45,8 +51,25 @@ GLYPH = {
 # fall into a rhythm, and a ripple left to right just after load
 PRESS = {"site": (17, 1.2), "resume": (23, 1.35), "root@arfaz.ca": (29, 1.5), "linkedin": (19, 1.65),
          "desktop": (31, 1.8)}
-LEGEND = "#dbe2ea"
 LEGEND_FS, LEGEND_LS = 18, 0.5
+
+# plate: gradient top to bottom, its outline, the shine along its top edge, and
+# the shadowed hole round each key. cap: gradient, outline, shine, legend, glyph,
+# backlight (None for none), shadow under the cap.
+STYLE = {
+    "dark": {
+        "plate": ("#363a41", "#2c2f35"), "plate_edge": ("#000", 0.6), "plate_shine": 0.10,
+        "well": ("#08090b", 0.9),
+        "cap": ("#202329", "#121418", "#0b0c0f"), "cap_edge": ("#000", 1), "cap_shine": 0.10,
+        "legend": "#dbe2ea", "glyph": "#dbe2ea", "backlight": "#9fc3ff", "shadow": 0.6,
+    },
+    "light": {
+        "plate": ("#e4e7ea", "#d6d9dd"), "plate_edge": ("#000", 0.16), "plate_shine": 0.7,
+        "well": ("#8d939b", 0.55),
+        "cap": ("#ffffff", "#f8f9fa", "#eef0f2"), "cap_edge": ("#000", 0.2), "cap_shine": 0.9,
+        "legend": "#2b3038", "glyph": "#464c55", "backlight": None, "shadow": 0.25,
+    },
+}
 
 
 def slug(name):
@@ -56,14 +79,16 @@ def slug(name):
 def layout():
     """[(name, href, glyph, image x0, image width, key x0 within the image, key width)]
 
-    Images are cut at the middle of each gap, so the first and last keys sit
-    flush with the row's outer edges and every image carries half a gap on
-    each inner side."""
+    Images are cut at the middle of each gap. The end images also carry the
+    deck's metal past the end keys, so the plate spans the full row."""
+    units = sum(span for _, _, _, span in KEYS)
+    inner = sum(span - 1 for _, _, _, span in KEYS)
+    u = (ROW_W - 2 * PAD - GAP * (len(KEYS) - 1) - GAP * inner) / units
     out, x = [], 0.0
     for i, (name, href, glyph, span) in enumerate(KEYS):
-        kw = span * U + (span - 1) * GAP
-        left = 0 if i == 0 else GAP / 2
-        right = 0 if i == len(KEYS) - 1 else GAP / 2
+        kw = span * u + (span - 1) * GAP
+        left = PAD if i == 0 else GAP / 2
+        right = PAD if i == len(KEYS) - 1 else GAP / 2
         out.append((name, href, glyph, x, left + kw + right, left, kw))
         x += left + kw + right
     assert abs(x - ROW_W) < 1e-6, x
@@ -80,47 +105,85 @@ def _glyph(key, x, y, color, extra=""):
 def _legend(name, x, y, color, extra=""):
     # textLength pins the run to one width whichever monospace font the
     # viewer has (Menlo, SF Mono, Consolas, DejaVu all differ slightly)
-    return (f'<text x="{x}" y="{y}" font-family="{MONO}" font-size="{LEGEND_FS}" letter-spacing="{LEGEND_LS}" '
+    return (f'<text x="{x:.1f}" y="{y}" font-family="{MONO}" font-size="{LEGEND_FS}" letter-spacing="{LEGEND_LS}" '
             f'textLength="{len(name) * (LEGEND_FS * 0.6 + LEGEND_LS):.1f}" lengthAdjust="spacing" '
             f'fill="{color}"{extra}>{name}</text>')
 
 
-def build(name, glyph, W, kx, kw, mode):
-    cyc, first = PRESS[name]
+def _plate(W, first, last):
+    """This image's stretch of the deck: (fill path, outline path). Rounded
+    only at the row's ends; no outline on a cut side, which would show as a
+    seam between images."""
+    y0, y1 = DECK_Y + 0.5, HEIGHT - 0.5
+    lr, rr = (DECK_R if first else 0), (DECK_R if last else 0)
+    top = f"M{lr} {y0}H{W - rr:.3f}"
+    right = (f"A{rr} {rr} 0 0 1 {W:.3f} {y0 + rr}V{y1 - rr}A{rr} {rr} 0 0 1 {W - rr:.3f} {y1}" if rr
+             else f"V{y1}")
+    bottom = f"H{lr}"
+    left = f"A{lr} {lr} 0 0 1 0 {y1 - lr}V{y0 + lr}A{lr} {lr} 0 0 1 {lr} {y0}" if lr else f"V{y0}"
+    fill = top + right + bottom + left + "Z"
+    if first and last:
+        outline = fill
+    elif first:
+        outline = f"M{W:.3f} {y1}H{lr}{left}H{W:.3f}"
+    elif last:
+        outline = top + right + "H0"
+    else:
+        outline = f"M0 {y0}H{W:.3f}M0 {y1}H{W:.3f}"
+    return fill, outline
+
+
+def build(name, glyph, W, kx, kw, mode, first, last):
+    s = STYLE[mode]
+    cyc, start = PRESS[name]
     at = 6.0
     p0, p1, p2 = at / cyc * 100, (at + 0.09) / cyc * 100, (at + 0.24) / cyc * 100
-    style = (f".k{{animation:k {cyc}s ease-out infinite;animation-delay:{first - at:.2f}s}}"
-             f"@keyframes k{{0%,{p0:.3f}%,{p2:.3f}%,100%{{transform:none}}{p1:.3f}%{{transform:translateY(2.4px)}}}}"
+    style = (f".k{{animation:k {cyc}s ease-out infinite;animation-delay:{start - at:.2f}s}}"
+             f"@keyframes k{{0%,{p0:.3f}%,{p2:.3f}%,100%{{transform:none}}{p1:.3f}%{{transform:translateY(1.6px)}}}}"
              "@media(prefers-reduced-motion:reduce){*{animation:none!important}}")
-    x, r, top, kh = kx, RADIUS, TOP, KEY_H
-    shadow = (f'<rect x="{x}" y="{top + 4}" width="{kw}" height="{kh}" rx="{r}" fill="#000" '
-              f'opacity="{0.7 if mode == "dark" else 0.22}"/>')
-    if mode == "light":
-        shadow += f'<rect x="{x + 1}" y="{top + 5}" width="{kw - 2}" height="{kh + 1}" rx="{r}" fill="#000" opacity=".08"/>'
-    lx, ly, gx, gy = x + 20, top + kh - 20, x + kw - 28, top + 26
+    x, y, r, kh = kx, KEY_Y, RADIUS, KEY_H
+    fill, outline = _plate(W, first, last)
+    (p0c, p1c), (ec, eo), (wc, wo) = s["plate"], s["plate_edge"], s["well"]
+    lr, rr = (DECK_R if first else 0), (DECK_R if last else 0)
+    plate = (f'<path d="{fill}" fill="url(#pg)"/>'
+             f'<path d="{outline}" fill="none" stroke="{ec}" stroke-opacity="{eo:g}" stroke-width="1"/>'
+             f'<path d="M{lr + 2} {DECK_Y + 1.6}H{W - rr - 2:.3f}" stroke="#fff" stroke-opacity="{s["plate_shine"]:g}" stroke-width="1"/>'
+             # the hole the key sits in
+             f'<rect x="{x - 2.5:.3f}" y="{y - 2.5}" width="{kw + 5:.3f}" height="{kh + 5}" rx="{r + 2.5}" '
+             f'fill="{wc}" opacity="{wo:g}"/>'
+             f'<rect x="{x + 1:.3f}" y="{y + 1.5}" width="{kw - 2:.3f}" height="{kh}" rx="{r}" fill="#000" '
+             f'opacity="{s["shadow"]:g}" filter="url(#sh)"/>')
+    lx, ly, gx, gy = x + 20, y + kh - 17, x + kw - 28, y + 23
     glow = ""
-    if mode == "dark":  # backlight: a soft halo under the legend
-        glow = (_legend(name, lx, ly, "#9fc3ff", ' opacity=".55" filter="url(#bl)"')
-                + _glyph(glyph, gx, gy, "#9fc3ff", ' opacity=".5" filter="url(#bl)"'))
+    if s["backlight"]:  # a soft halo under the legend
+        glow = (_legend(name, lx, ly, s["backlight"], ' opacity=".55" filter="url(#bl)"')
+                + _glyph(glyph, gx, gy, s["backlight"], ' opacity=".5" filter="url(#bl)"'))
+    c0, c1, c2 = s["cap"]
+    cc, co = s["cap_edge"]
     return (
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:g}" height="{HEIGHT}" viewBox="0 0 {W:g} {HEIGHT}" '
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W:.3f}" height="{HEIGHT}" viewBox="0 0 {W:.3f} {HEIGHT}" '
         f'role="img" aria-label="{name}"><title>{name}</title><style>{style}</style>'
-        '<defs><linearGradient id="kg" x1="0" y1="0" x2="0" y2="1">'
-        '<stop offset="0" stop-color="#202329"/><stop offset=".55" stop-color="#121418"/>'
-        '<stop offset="1" stop-color="#0b0c0f"/></linearGradient>'
-        '<filter id="bl" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="2.4"/></filter></defs>'
-        + shadow +
-        f'<g class="k"><rect x="{x + 0.5}" y="{top + 0.5}" width="{kw - 1}" height="{kh - 1}" rx="{r}" '
-        f'fill="url(#kg)" stroke="#000" stroke-width="1"/>'
-        f'<path d="M{x + r} {top + 1.6}H{x + kw - r}" stroke="#fff" stroke-opacity=".1" stroke-width="1.4"/>'
-        + glow + _glyph(glyph, gx, gy, LEGEND) + _legend(name, lx, ly, LEGEND)
+        '<defs>'
+        f'<linearGradient id="pg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{p0c}"/>'
+        f'<stop offset="1" stop-color="{p1c}"/></linearGradient>'
+        f'<linearGradient id="kg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{c0}"/>'
+        f'<stop offset=".55" stop-color="{c1}"/><stop offset="1" stop-color="{c2}"/></linearGradient>'
+        '<filter id="bl" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="2.4"/></filter>'
+        '<filter id="sh" x="-5%" y="-10%" width="110%" height="130%"><feGaussianBlur stdDeviation=".8"/></filter>'
+        '</defs>'
+        + plate +
+        f'<g class="k"><rect x="{x + 0.5:.3f}" y="{y + 0.5}" width="{kw - 1:.3f}" height="{kh - 1}" rx="{r}" '
+        f'fill="url(#kg)" stroke="{cc}" stroke-opacity="{co:g}" stroke-width="1"/>'
+        f'<path d="M{x + r:.3f} {y + 1.6}H{x + kw - r:.3f}" stroke="#fff" stroke-opacity="{s["cap_shine"]:g}" stroke-width="1.4"/>'
+        + glow + _glyph(glyph, gx, gy, s["glyph"]) + _legend(name, lx, ly, s["legend"])
         + "</g></svg>\n")
 
 
 def all_keys():
     """{(slug, mode): svg}"""
-    return {(slug(n), mode): build(n, g, W, kx, kw, mode)
-            for n, _, g, _, W, kx, kw in layout() for mode in ("dark", "light")}
+    rows = layout()
+    return {(slug(n), mode): build(n, g, W, kx, kw, mode, i == 0, i == len(rows) - 1)
+            for i, (n, _, g, _, W, kx, kw) in enumerate(rows) for mode in ("dark", "light")}
 
 
 def readme_row(base):

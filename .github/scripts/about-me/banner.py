@@ -49,9 +49,13 @@ STAT_Y = 452.0
 # speed difference is the parallax that gives flat fills depth.
 RIDGE_DRIFT_S = [72, 52, 38, 26]
 
-# Hairline display bezel: 3 units is ~2 px in the README. The inner radius is
-# the outer one less the thickness, so the frame is even round the corners.
+# Hairline display bezel: black glass 3 units thick (~1.5 px in the README),
+# inside a thinner aluminium rim, the edge of the lid. The rim matches the
+# keyboard deck under the card (keys.py). Inner radii are the outer one less
+# the thickness, so the frame is even round the corners.
 BEZEL = 3
+RIM = 1.6
+FRAME = RIM + BEZEL
 BEZEL_R = 16
 
 # Cloud sprites are stored at this fraction of their drawn size; README
@@ -123,6 +127,7 @@ THEMES = {
         "grain": (255, 255, 255),
         "grain_bias": -0.22,
         "grain_opacity": 0.44,
+        "rim": "#5d636c",  # space grey
     },
     "light": {  # dawn fog
         "sky": ["#eceae5", "#dee1e5", "#c6cfd7"],
@@ -134,6 +139,7 @@ THEMES = {
         "grain": (18, 24, 32),
         "grain_bias": -0.24,
         "grain_opacity": 0.40,
+        "rim": "#c3c7cd",  # silver
     },
 }
 
@@ -241,8 +247,8 @@ class Scene:
             *self.over,
             f'<rect width="{WIDTH}" height="{HEIGHT}" filter="url(#grain)" opacity="{t["grain_opacity"]}"/>',
         ]
-        outer = _rrect(0, 0, WIDTH, HEIGHT, BEZEL_R)
-        inner = _rrect(BEZEL, BEZEL, WIDTH - 2 * BEZEL, HEIGHT - 2 * BEZEL, BEZEL_R - BEZEL)
+        def ring(a):  # the rounded rect inset by a
+            return _rrect(a, a, WIDTH - 2 * a, HEIGHT - 2 * a, BEZEL_R - a)
         out = [
             f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" '
             f'width="{WIDTH}" height="{HEIGHT}" viewBox="0 0 {WIDTH} {HEIGHT}" role="img" aria-label="Arfaz Hussain">',
@@ -250,9 +256,10 @@ class Scene:
             "<style>" + "".join(self.css) + rm + "</style>",
             "<defs>", *self._base_defs(), *self.defs, "</defs>",
             '<g clip-path="url(#slab)">', *scene, "</g>",
-            # the notch drops by the bezel so its fillets meet the frame's edge
-            f'<g transform="translate(0 {BEZEL})">', *self.top, "</g>",
-            f'<path d="{outer}{inner}" fill="#000" fill-rule="evenodd"/>',
+            # the notch drops by the frame so its fillets meet the glass's edge
+            f'<g transform="translate(0 {FRAME:g})">', *self.top, "</g>",
+            f'<path d="{ring(0)}{ring(RIM)}" fill="{t["rim"]}" fill-rule="evenodd"/>',
+            f'<path d="{ring(RIM)}{ring(FRAME)}" fill="#000" fill-rule="evenodd"/>',
             "</svg>",
         ]
         return "\n".join(out) + "\n"
