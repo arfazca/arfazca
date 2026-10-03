@@ -1,63 +1,92 @@
-name: Update About Me card
+name: Banner
 
+# Every ten minutes: swap in the weather frame for right now. During the 11 pm
+# hour (Vancouver time) the same run also renders all of tomorrow's frames,
+# with tomorrow's date and uptime already in them. Everything lands on the
+# `generated` branch, which the README reads from. Main holds the source,
+# plus docs/today.md, the day's plan written out, refreshed after midnight.
 on:
   schedule:
-    - cron: "17 4 * * *"
-  workflow_dispatch:
+    # minute 3 of every ten: GitHub delays runs queued on the hour
+    - cron: "3-59/10 * * * *"
   push:
     branches: [main]
     paths:
       - ".github/scripts/about-me/**"
       - ".github/workflows/about-me.yml"
+  workflow_dispatch:
 
 permissions:
   contents: write
+  actions: write   # to keep this schedule switched on (last step)
+
+concurrency:
+  group: banner
+  cancel-in-progress: false
 
 jobs:
-  build:
+  banner:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - name: Checkout main
+      - name: Check out main
+        uses: actions/checkout@v4
+
+      - name: Check out the generated branch
         uses: actions/checkout@v4
         with:
-          ref: main
+          ref: generated
+          path: gen
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
+      # stdlib only: no pip install, no token, nothing to rate-limit
+      - name: Build frames and swap in the current one
+        run: |
+          # a change to the design on main re-renders today's frames at once
+          FORCE=""
+          if [ "${{ github.event_name }}" != "schedule" ]; then FORCE="--force"; fi
+          python3 .github/scripts/about-me/build.py --gen gen --docs docs --message "$RUNNER_TEMP/msg" $FORCE
 
-      - name: Install dependencies
-        run: pip install -r .github/scripts/about-me/requirements.txt
+      - name: Publish to the generated branch
+        working-directory: gen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then echo "nothing changed"; exit 0; fi
+          git commit -q -F "$RUNNER_TEMP/msg"
+          # github-stats publishes to this branch too; if it got in first,
+          # rebase onto it - the two never touch the same files
+          for attempt in 1 2 3 4; do
+            git push -q origin HEAD:generated && exit 0
+            sleep $((attempt * 5))
+            git fetch -q --depth=50 origin generated
+            git rebase -q origin/generated
+          done
+          exit 1
 
-      - name: Generate About Me SVGs
+      # docs/today.md only changes once a day, just after midnight
+      - name: Publish today's page to main
+        run: |
+          git add docs/today.md
+          if git diff --staged --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -q -m "docs: $(head -1 docs/today.md | sed 's/^# //')"
+          for attempt in 1 2 3 4; do
+            git push -q origin HEAD:main && exit 0
+            sleep $((attempt * 5))
+            git fetch -q --depth=50 origin main
+            git rebase -q origin/main
+          done
+          exit 1
+
+      # GitHub switches off scheduled workflows in a public repo after 60 days
+      # without commits to it, and this one no longer commits to main.
+      - name: Keep the schedule switched on
+        if: github.event_name == 'schedule'
         env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          USER_NAME: arfazca
-        run: python .github/scripts/about-me/generate.py
-
-      - name: Commit updated LOC cache to main
+          GH_TOKEN: ${{ github.token }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .github/scripts/about-me/cache
-          git diff --staged --quiet || git commit -m "chore: refresh about-me LOC cache"
-          git push origin HEAD:main
-
-      - name: Push generated SVGs to the generated branch
-        run: |
-          git fetch origin generated
-          git worktree add /tmp/generated-branch origin/generated
-          cp .github/scripts/about-me/about-dark.svg /tmp/generated-branch/about-dark.svg
-          cp .github/scripts/about-me/about-light.svg /tmp/generated-branch/about-light.svg
-          # The link-row images carry no live data, so they are built and
-          # committed by hand; they ride along here only so the README can
-          # serve every asset from one branch.
-          mkdir -p /tmp/generated-branch/links
-          cp .github/scripts/about-me/links/*.svg /tmp/generated-branch/links/
-          cd /tmp/generated-branch
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add about-dark.svg about-light.svg links
-          git diff --staged --quiet || git commit -m "chore: refresh about-me card"
-          git push origin HEAD:generated
+          if [ "$(TZ=America/Vancouver date +%H)" = "23" ]; then
+            gh api -X PUT "repos/${{ github.repository }}/actions/workflows/about-me.yml/enable"
+          fi
