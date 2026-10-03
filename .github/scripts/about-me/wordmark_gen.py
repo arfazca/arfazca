@@ -5,12 +5,12 @@ Dev-time tool: bakes a fixed string into an SVG path.
 GitHub renders README SVGs through camo as <img>, where no web font ever
 loads and @font-face with a data: URI is unreliable - so the only way to show
 a typeface that is not already on the viewer's machine is to ship the
-outlines. Both strings baked here are fixed, so this runs once and its output
-is committed; build_svg.py then needs neither fontTools nor the .ttf.
+outlines. The wordmark is fixed, so this runs once and its output is
+committed; banner.py then needs neither fontTools nor the .ttf.
 
-This only works for fixed text. Anything generate.py substitutes at CI time
-(commit counts, uptime) has to stay live <text> in a system font stack,
-because there is no glyph to bake ahead of time.
+This only works for fixed text. Anything that changes from day to day (the
+date, uptime) has to stay live <text> in a system font stack, because there
+is no glyph to bake ahead of time.
 
 Usage:
     pip install fonttools
@@ -138,11 +138,7 @@ def build(font_path, text, tracking_em, wght):
 
 
 def emit_multi(args):
-    """Bake several words into one dict, for the link row.
-
-    All words share a cap height, so their widths differ; build_svg.py centres
-    each in an identical canvas to keep the table cells equal.
-    """
+    """Bake several words into one dict, all at one shared cap height."""
     rows = []
     for text in args.multi:
         d, width, bbox = build(args.font, text, args.tracking, args.wght)

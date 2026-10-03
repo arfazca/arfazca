@@ -1,11 +1,10 @@
 <div align="center">
   <a href="https://arfaz.ca" title="Arfaz Hussain">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/arfazca/generated/about-dark.svg?v=18" />
-      <img width="100%" alt="Arfaz Hussain" src="https://raw.githubusercontent.com/arfazca/arfazca/generated/about-light.svg?v=18" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/arfazca/generated/about-dark.svg?v=19" />
+      <img width="100%" alt="Arfaz Hussain" src="https://raw.githubusercontent.com/arfazca/arfazca/generated/about-light.svg?v=19" />
     </picture>
   </a>
 </div>
 
-| [![site](https://raw.githubusercontent.com/arfazca/arfazca/generated/links/site.svg)](https://arfaz.ca) | [![resume](https://raw.githubusercontent.com/arfazca/arfazca/generated/links/resume.svg)](https://arfaz.ca/resume) | [![root@arfaz.ca](https://raw.githubusercontent.com/arfazca/arfazca/generated/links/root-arfaz-ca.svg)](mailto:root@arfaz.ca) | [![linkedin](https://raw.githubusercontent.com/arfazca/arfazca/generated/links/linkedin.svg)](https://linkedin.com/in/arfazca) | [![desktop](https://raw.githubusercontent.com/arfazca/arfazca/generated/links/desktop.svg)](https://desktop.arfaz.ca) |
-|:-:|:-:|:-:|:-:|:-:|
+<p align="center"><a href="https://arfaz.ca"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/arfazca/generated/links/site-dark.svg" /><img src="https://raw.githubusercontent.com/arfazca/arfazca/generated/links/site-light.svg" width="16.333%" alt="site" /></picture></a><a href="https://arfaz.ca/resume"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/arfazca/generated/links/resume-dark.svg" /><img src="https://raw.githubusercontent.com/arfazca/arfazca/generated/links/resume-light.svg" width="16.833%" alt="resume" /></picture></a><a href="mailto:root@arfaz.ca"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/arfazca/generated/links/root-arfaz-ca-dark.svg" /><img src="https://raw.githubusercontent.com/arfazca/arfazca/generated/links/root-arfaz-ca-light.svg" width="33.666%" alt="root@arfaz.ca" /></picture></a><a href="https://linkedin.com/in/arfazca"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/arfazca/generated/links/linkedin-dark.svg" /><img src="https://raw.githubusercontent.com/arfazca/arfazca/generated/links/linkedin-light.svg" width="16.833%" alt="linkedin" /></picture></a><a href="https://desktop.arfaz.ca"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/arfazca/generated/links/desktop-dark.svg" /><img src="https://raw.githubusercontent.com/arfazca/arfazca/generated/links/desktop-light.svg" width="16.333%" alt="desktop" /></picture></a></p>
