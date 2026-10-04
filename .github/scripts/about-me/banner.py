@@ -486,9 +486,9 @@ def notch(sc, state, day, mode):
     n = sum(len(t) for t, _, _ in status)
     icon, (x0, top, x1, bottom) = _icon(state, mode)
     tw = n * (NOTCH_FS * 0.602 + 1.9)
-    left = 600 - (x1 - x0 + NOTCH_ICON_GAP + tw) / 2
-    gx = left - x0
-    tx = left + x1 - x0 + NOTCH_ICON_GAP + tw / 2
+    run = 600 - (x1 - x0 + NOTCH_ICON_GAP + tw) / 2
+    gx = run - x0
+    tx = run + x1 - x0 + NOTCH_ICON_GAP + tw / 2
     iy = by - NOTCH_FS * NOTCH_XH / 2 - (top + bottom) / 2
     sc.top.append(
         '<g class="boot">'
