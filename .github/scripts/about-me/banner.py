@@ -50,13 +50,19 @@ STAT_Y = 452.0
 RIDGE_DRIFT_S = [72, 52, 38, 26]
 
 # Hairline display bezel: black glass 3 units thick (~1.5 px in the README),
-# inside a thinner aluminium rim, the edge of the lid. The rim matches the
-# keyboard deck under the card (keys.py). Inner radii are the outer one less
-# the thickness, so the frame is even round the corners.
+# inside a thinner aluminium rim, the edge of the lid. Inner radii are the
+# outer one less the thickness, so the frame is even round the corners.
+#
+# The card is the top half of a laptop seen from the front: the key row
+# under it (keys.py) is the bottom half. So only the top corners are round;
+# the bottom is square, the side rims run straight off the bottom edge, and
+# under the glass sits a strip of the keyboard's aluminium, CHIN units tall,
+# which the key row's own metal carries on from. Two images, one object.
 BEZEL = 3
 RIM = 1.6
 FRAME = RIM + BEZEL
 BEZEL_R = 16
+CHIN = 5
 
 # Cloud sprites are stored at this fraction of their drawn size; README
 # shows the card at ~0.62x anyway, so nothing visible is lost.
@@ -127,7 +133,8 @@ THEMES = {
         "grain": (255, 255, 255),
         "grain_bias": -0.22,
         "grain_opacity": 0.44,
-        "rim": "#5d636c",  # space grey
+        "rim": "#5d636c",  # space grey: the edge, and the keyboard plate inside it
+        "plate": ("#363a41", "#2c2f35"),
     },
     "light": {  # dawn fog
         "sky": ["#eceae5", "#dee1e5", "#c6cfd7"],
@@ -140,6 +147,7 @@ THEMES = {
         "grain_bias": -0.24,
         "grain_opacity": 0.40,
         "rim": "#c3c7cd",  # silver
+        "plate": ("#e4e7ea", "#d6d9dd"),
     },
 }
 
@@ -221,7 +229,7 @@ class Scene:
             '<feColorMatrix in="n" type="matrix" values="'
             f"0 0 0 0 {gr / 255:.4f} 0 0 0 0 {gg / 255:.4f} 0 0 0 0 {gb / 255:.4f} "
             f'0.62 0.26 0 0 {t["grain_bias"]:.2f}"/></filter>',
-            f'<clipPath id="slab"><path d="{_rrect(0, 0, WIDTH, HEIGHT, BEZEL_R)}"/></clipPath>',
+            f'<clipPath id="slab"><path d="{_lid(0, HEIGHT)}"/></clipPath>',
         ]
 
     def render(self, age):
@@ -247,8 +255,9 @@ class Scene:
             *self.over,
             f'<rect width="{WIDTH}" height="{HEIGHT}" filter="url(#grain)" opacity="{t["grain_opacity"]}"/>',
         ]
-        def ring(a):  # the rounded rect inset by a
-            return _rrect(a, a, WIDTH - 2 * a, HEIGHT - 2 * a, BEZEL_R - a)
+        glass_b = HEIGHT - CHIN  # the glass's bottom edge; the chin is below it
+        screen = _rrect(FRAME, FRAME, WIDTH - 2 * FRAME, glass_b - BEZEL - FRAME, BEZEL_R - FRAME)
+        p0, _ = t["plate"]
         out = [
             f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" '
             f'width="{WIDTH}" height="{HEIGHT}" viewBox="0 0 {WIDTH} {HEIGHT}" role="img" aria-label="Arfaz Hussain">',
@@ -258,11 +267,22 @@ class Scene:
             '<g clip-path="url(#slab)">', *scene, "</g>",
             # the notch drops by the frame so its fillets meet the glass's edge
             f'<g transform="translate(0 {FRAME:g})">', *self.top, "</g>",
-            f'<path d="{ring(0)}{ring(RIM)}" fill="{t["rim"]}" fill-rule="evenodd"/>',
-            f'<path d="{ring(RIM)}{ring(FRAME)}" fill="#000" fill-rule="evenodd"/>',
+            # rim over the top and down both sides, open at the bottom
+            f'<path d="{_lid(0, HEIGHT)}{_lid(RIM, HEIGHT)}" fill="{t["rim"]}" fill-rule="evenodd"/>',
+            # the chin: the keyboard plate's top colour, carried on by the key row
+            f'<rect x="{RIM}" y="{glass_b}" width="{WIDTH - 2 * RIM}" height="{CHIN}" fill="{p0}"/>',
+            f'<path d="{_lid(RIM, glass_b)}{screen}" fill="#000" fill-rule="evenodd"/>',
             "</svg>",
         ]
         return "\n".join(out) + "\n"
+
+
+def _lid(a, bottom):
+    """The card's outline inset by a on the top and sides: round top corners,
+    square bottom ones at y=bottom."""
+    r = BEZEL_R - a
+    return (f"M{a} {bottom}V{a + r}A{r} {r} 0 0 1 {a + r} {a}H{WIDTH - a - r}"
+            f"A{r} {r} 0 0 1 {WIDTH - a} {a + r}V{bottom}Z")
 
 
 def _rrect(x, y, w, h, r):

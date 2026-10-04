@@ -1,33 +1,37 @@
 #!/usr/bin/env python3
 """
-The link row under the banner: a MacBook keyboard deck.
+The link row under the banner: the bottom half of a laptop.
 
-The banner is the display (black glass, aluminium rim, notch); this row is
-the top case under it: one aluminium plate with the keys set into it, black
-keys in Space Grey for dark mode, white keys in silver for light mode. Each
-key is a lowercase legend bottom-left with a glyph top-right, like command
-and option; the email gets a wide return key. In dark mode the legends are
+The banner is the lid (black glass, aluminium rim, notch, and a strip of
+aluminium under the glass); this row is the keyboard below it: one plate
+with the keys set into it, black keys in Space Grey for dark mode, white keys
+in silver for light mode. The plate's top edge is square and carries straight
+on from the banner's chin, its side rims carry on from the lid's, and only
+its bottom corners are round, so the two images read as one laptop. Each key
+is a lowercase legend bottom-left with a glyph top-right, like command and
+option; the email gets a wide return key. In dark mode the legends are
 faintly backlit, and now and then a key presses itself.
 
 The row is laid out on the card's own 1200-unit grid and cut into five
 images at the middle of each gap. Each image paints its own stretch of the
-plate, rounded only at the row's two ends, so side by side they read as one
-deck. In the README each image gets a percentage width, and the five add up
-to just under 100%, so at any screen width the row stays on one line and
-spans exactly the card. (A table would add GitHub's grey grid, and fixed
-pixel widths wrap on narrow screens.)
+plate, so side by side they read as one deck. In the README each image gets
+a percentage width, and the five add up to just under 100%, so at any screen
+width the row stays on one line and spans exactly the card. (A table would
+add GitHub's grey grid, and fixed pixel widths wrap on narrow screens.)
 
     links/<slug>-<mode>.svg
 """
+from banner import BEZEL_R, CHIN, RIM, THEMES
+
 MONO = "ui-monospace,'SF Mono','SFMono-Regular','JetBrains Mono',Menlo,Consolas,monospace"
 
 ROW_W = 1200          # the card's width, so the two scale together
-GAP, PAD = 12, 10     # between keys, and between the end keys and the deck's ends
+GAP = 12              # between keys
+METAL = 9.4           # bare plate between a key and the deck's edge, on all four sides
+PAD = round(RIM + METAL, 3)  # image edge to key at the row's two ends
 KEY_H, RADIUS = 74, 9
-DECK_Y = 3            # a hairline of page between the display and the deck
-DECK_R = 16           # the display's corner radius (banner.BEZEL_R)
-KEY_Y = DECK_Y + 6.5  # the key's top, inside the plate
-HEIGHT = 97           # deck: 3 to 96.5, so 6.5 units of metal above the keys, 7 below
+KEY_Y = round(METAL - CHIN, 3)  # the banner's chin is the rest of the metal above the keys
+HEIGHT = round(KEY_Y + KEY_H + METAL + RIM, 3)
 
 KEYS = [  # (legend, href, glyph, width in keys)
     ("site", "https://arfaz.ca", "arrow", 1),
@@ -53,18 +57,16 @@ PRESS = {"site": (17, 1.2), "resume": (23, 1.35), "root@arfaz.ca": (29, 1.5), "l
          "desktop": (31, 1.8)}
 LEGEND_FS, LEGEND_LS = 18, 0.5
 
-# plate: gradient top to bottom, its outline, the shine along its top edge, and
-# the shadowed hole round each key. cap: gradient, outline, shine, legend, glyph,
-# backlight (None for none), shadow under the cap.
+# The plate and rim colours are the banner's (THEMES), so the two halves match.
+# well: the shadowed hole round each key. cap: gradient, outline, shine,
+# legend, glyph, backlight (None for none), shadow under the cap.
 STYLE = {
     "dark": {
-        "plate": ("#363a41", "#2c2f35"), "plate_edge": ("#000", 0.6), "plate_shine": 0.10,
         "well": ("#08090b", 0.9),
         "cap": ("#202329", "#121418", "#0b0c0f"), "cap_edge": ("#000", 1), "cap_shine": 0.10,
         "legend": "#dbe2ea", "glyph": "#dbe2ea", "backlight": "#9fc3ff", "shadow": 0.6,
     },
     "light": {
-        "plate": ("#e4e7ea", "#d6d9dd"), "plate_edge": ("#000", 0.16), "plate_shine": 0.7,
         "well": ("#8d939b", 0.55),
         "cap": ("#ffffff", "#f8f9fa", "#eef0f2"), "cap_edge": ("#000", 0.2), "cap_shine": 0.9,
         "legend": "#2b3038", "glyph": "#464c55", "backlight": None, "shadow": 0.25,
@@ -110,27 +112,15 @@ def _legend(name, x, y, color, extra=""):
             f'fill="{color}"{extra}>{name}</text>')
 
 
-def _plate(W, first, last):
-    """This image's stretch of the deck: (fill path, outline path). Rounded
-    only at the row's ends; no outline on a cut side, which would show as a
-    seam between images."""
-    y0, y1 = DECK_Y + 0.5, HEIGHT - 0.5
-    lr, rr = (DECK_R if first else 0), (DECK_R if last else 0)
-    top = f"M{lr} {y0}H{W - rr:.3f}"
-    right = (f"A{rr} {rr} 0 0 1 {W:.3f} {y0 + rr}V{y1 - rr}A{rr} {rr} 0 0 1 {W - rr:.3f} {y1}" if rr
-             else f"V{y1}")
-    bottom = f"H{lr}"
-    left = f"A{lr} {lr} 0 0 1 0 {y1 - lr}V{y0 + lr}A{lr} {lr} 0 0 1 {lr} {y0}" if lr else f"V{y0}"
-    fill = top + right + bottom + left + "Z"
-    if first and last:
-        outline = fill
-    elif first:
-        outline = f"M{W:.3f} {y1}H{lr}{left}H{W:.3f}"
-    elif last:
-        outline = top + right + "H0"
-    else:
-        outline = f"M0 {y0}H{W:.3f}M0 {y1}H{W:.3f}"
-    return fill, outline
+def _deck(W, a, first, last):
+    """This image's stretch of the deck, inset by a on the bottom and on the
+    row's outer ends (not the top, which the banner continues, nor a cut side).
+    Square on top, round only at the row's two bottom corners."""
+    r, b = BEZEL_R - a, HEIGHT - a
+    x0, x1 = (a if first else 0), (W - a if last else W)
+    right = f"V{b - r:.3f}A{r} {r} 0 0 1 {x1 - r:.3f} {b:.3f}" if last else f"V{b:.3f}"
+    left = f"H{x0 + r:.3f}A{r} {r} 0 0 1 {x0:.3f} {b - r:.3f}" if first else f"H{x0:.3f}"
+    return f"M{x0:.3f} 0H{x1:.3f}{right}{left}Z"
 
 
 def build(name, glyph, W, kx, kw, mode, first, last):
@@ -142,12 +132,9 @@ def build(name, glyph, W, kx, kw, mode, first, last):
              f"@keyframes k{{0%,{p0:.3f}%,{p2:.3f}%,100%{{transform:none}}{p1:.3f}%{{transform:translateY(1.6px)}}}}"
              "@media(prefers-reduced-motion:reduce){*{animation:none!important}}")
     x, y, r, kh = kx, KEY_Y, RADIUS, KEY_H
-    fill, outline = _plate(W, first, last)
-    (p0c, p1c), (ec, eo), (wc, wo) = s["plate"], s["plate_edge"], s["well"]
-    lr, rr = (DECK_R if first else 0), (DECK_R if last else 0)
-    plate = (f'<path d="{fill}" fill="url(#pg)"/>'
-             f'<path d="{outline}" fill="none" stroke="{ec}" stroke-opacity="{eo:g}" stroke-width="1"/>'
-             f'<path d="M{lr + 2} {DECK_Y + 1.6}H{W - rr - 2:.3f}" stroke="#fff" stroke-opacity="{s["plate_shine"]:g}" stroke-width="1"/>'
+    (p0c, p1c), rim, (wc, wo) = THEMES[mode]["plate"], THEMES[mode]["rim"], s["well"]
+    plate = (f'<path d="{_deck(W, 0, first, last)}" fill="{rim}"/>'
+             f'<path d="{_deck(W, RIM, first, last)}" fill="url(#pg)"/>'
              # the hole the key sits in
              f'<rect x="{x - 2.5:.3f}" y="{y - 2.5}" width="{kw + 5:.3f}" height="{kh + 5}" rx="{r + 2.5}" '
              f'fill="{wc}" opacity="{wo:g}"/>'
@@ -190,12 +177,14 @@ def readme_row(base):
     """The README paragraph. One line on purpose: whitespace between the links
     would add gaps and could let the row wrap. Widths are percentages of the
     README column, rounded down so their sum never tips over 100%; no height,
-    so each key keeps its proportions as it scales."""
+    so each key keeps its proportions as it scales. align="top" (which GitHub
+    keeps) pins every key's top to the line's top, so all five meet the
+    banner's chin on the same pixel row."""
     cells = []
     for n, href, _, _, W, _, _ in layout():
         s = slug(n)
         pct = int(W / ROW_W * 100000) / 1000
         cells.append(f'<a href="{href}"><picture><source media="(prefers-color-scheme: dark)" '
                      f'srcset="{base}/links/{s}-dark.svg" /><img src="{base}/links/{s}-light.svg" '
-                     f'width="{pct:g}%" alt="{n}" /></picture></a>')
+                     f'width="{pct:g}%" align="top" alt="{n}" /></picture></a>')
     return '<p align="center">' + "".join(cells) + "</p>"
