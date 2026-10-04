@@ -23,7 +23,9 @@ GLYPH = {
     "arrow": "M-5 5L5 -5M-1 -5H5V1",
     "doc": "M-6 -9H3L7 -5V9H-6ZM3 -9V-5H7M-3 -1H4M-3 3H4M-3 -5H0",
     "return": "M7 -7V0Q7 2.5 4.5 2.5H-6M-2.5 -1L-6 2.5L-2.5 6",
-    "in": "M-8 -9H8Q9 -9 9 -8V8Q9 9 8 9H-8Q-9 9 -9 8V-8Q-9 -9 -8 -9ZM-4.5 -1V5.5M-4.5 -4.6V-4.4M0 5.5V-1M0 2Q0 -1 3 -1Q5 -1 5 2V5.5",
+    "in": ("M-6.5 -9H6.5A2.5 2.5 0 0 1 9 -6.5V6.5A2.5 2.5 0 0 1 6.5 9H-6.5A2.5 2.5 0 0 1 -9 6.5V-6.5A2.5 2.5 0 0 1 -6.5 -9Z"
+           "M-6 -4.4a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0ZM-5.8 -1.6H-3.2V6H-5.8Z"
+           "M-1.4 6V-1.6H1.1V-0.5Q2 -1.9 4 -1.9Q6.8 -1.9 6.8 1.4V6H4.2V2Q4.2 0.3 2.8 0.3Q1.2 0.3 1.2 2.1V6Z"),
     "cmd": ("M-2.5 -2.5V-5A2.5 2.5 0 1 0 -5 -2.5H5A2.5 2.5 0 1 0 2.5 -5V5"
             "A2.5 2.5 0 1 0 5 2.5H-5A2.5 2.5 0 1 0 -2.5 5Z"),
 }
@@ -64,8 +66,14 @@ def layout():
     return out
 
 
+SOLID = {"in"}
+
+
 def _glyph(key, x, y, color, extra=""):
     s, sw = 1.0, 2.3
+    if key in SOLID:
+        return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s})"{extra}>'
+                f'<path d="{GLYPH[key]}" fill="{color}" fill-rule="evenodd"/></g>')
     return (f'<g transform="translate({x:.1f} {y:.1f}) scale({s})" fill="none" stroke="{color}" '
             f'stroke-width="{sw / s:.2f}" stroke-linecap="round" stroke-linejoin="round"{extra}>'
             f'<path d="{GLYPH[key]}"/></g>')

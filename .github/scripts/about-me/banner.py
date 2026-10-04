@@ -394,6 +394,8 @@ NOTCH_VAL = "#a8bdd6"
 NOTCH_BOLD = "#eef3f8"
 NOTCH_W, NOTCH_H = 340, 36
 NOTCH_FS = 14
+NOTCH_XH = 0.547
+NOTCH_ICON_GAP = 8
 
 
 def notch_path(cx, w, h, rf=10, rb=14):
@@ -430,17 +432,20 @@ def _icon(state, mode):
     drops = {"drizzle": (-3, 2), "rain": (-4.5, 0.5, 5.5), "storm": (-4.5, 5.5)}
     if state == "clear":
         if mode == "dark":
-            return f'<path d="M2 -7a7 7 0 1 0 5 11a6 6 0 0 1 -5 -11Z" fill="{v}"/>'
+            return f'<path d="M2 -7a7 7 0 1 0 5 11a6 6 0 0 1 -5 -11Z" fill="{v}"/>', (-5.72, -7.04, 7, 6.96)
         rays = "".join(f"M{math.cos(a) * 6:.1f} {math.sin(a) * 6:.1f}L{math.cos(a) * 8.5:.1f} {math.sin(a) * 8.5:.1f}"
                        for a in [i * math.pi / 4 for i in range(8)])
-        return f'<circle r="3.6" fill="{v}"/><path d="{rays}" stroke="{v}" stroke-width="1.4" stroke-linecap="round"/>'
-    g = cloud
+        sun = f'<circle r="3.6" fill="{v}"/><path d="{rays}" stroke="{v}" stroke-width="1.4" stroke-linecap="round"/>'
+        return sun, (-8.5, -8.5, 8.5, 8.5)
+    g, bottom = cloud, 1
     if state in drops:
         d = "".join(f"M{x} 5l-1.4 3.6" for x in drops[state])
         g += f'<path d="{d}" stroke="{b}" stroke-width="1.6" stroke-linecap="round" fill="none"/>'
+        bottom = 8.6
     if state == "storm":
         g += f'<path d="M1 4l-2.5 4h2.5l-1.5 4" stroke="#ffd36a" stroke-width="1.4" fill="none" stroke-linejoin="round"/>'
-    return g
+        bottom = 12
+    return g, (-8.26, -10.16, 8.65, bottom)
 
 
 def notch(sc, state, day, mode):
@@ -479,8 +484,12 @@ def notch(sc, state, day, mode):
     by = h / 2 + NOTCH_FS * 0.36
     status = STATUS[state]
     n = sum(len(t) for t, _, _ in status)
-    tx = 600 + 12
-    gx = tx - n * (NOTCH_FS * 0.602 + 1.9) / 2 - 16
+    icon, (x0, top, x1, bottom) = _icon(state, mode)
+    tw = n * (NOTCH_FS * 0.602 + 1.9)
+    left = 600 - (x1 - x0 + NOTCH_ICON_GAP + tw) / 2
+    gx = left - x0
+    tx = left + x1 - x0 + NOTCH_ICON_GAP + tw / 2
+    iy = by - NOTCH_FS * NOTCH_XH / 2 - (top + bottom) / 2
     sc.top.append(
         '<g class="boot">'
         f'<path d="{notch_path(600, w, h)}" fill="#000" opacity=".45" transform="translate(0 3)" filter="url(#nsh)"/>'
@@ -490,7 +499,7 @@ def notch(sc, state, day, mode):
         '<g class="bootT">'
         '<g class="ndate">' + notch_text([(day["dow"], "bold", "date_dow"), (", " + day["md"], "val", "date_md"),
                                           (" " + day["year"], "key", "date_year")], 600, by) + "</g>"
-        f'<g class="nwx" opacity="0"><g transform="translate({gx:.1f} {h / 2 - 1})">{_icon(state, mode)}</g>'
+        f'<g class="nwx" opacity="0"><g transform="translate({gx:.1f} {iy:.2f})">{icon}</g>'
         + notch_text(status, tx, by) + "</g></g></g>")
 
 
