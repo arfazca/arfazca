@@ -1,47 +1,21 @@
 #!/usr/bin/env python3
-"""
-Offline cloud sprites.
-
-Realistic clouds need heavy SVG filters - turbulence, displacement, lighting -
-and running those on every animation frame in every visitor's browser is the
-wrong trade. So the filters run once here, in headless Chrome, and the result
-is baked to small RGBA PNGs that the banner embeds as data: URIs and simply
-slides around. Same look in every browser, near-zero runtime cost.
-
-Recipe per cloud: a cumulus silhouette (puffs over a flat base) -> blur ->
-displaced by fractal noise so the edges billow -> internal density from the
-same noise -> lit as a height field from the moon's side (upper left) ->
-mapped onto a palette -> darker toward the base, where real cumulus are
-shadowed by their own mass.
-
-Dev-time only, like wordmark_gen.py: run it after changing a cloud and
-commit the PNGs. It needs headless Chrome and ImageMagick; set CHROME if
-Chrome isn't at the macOS default path.
-
-    python3 clouds.py  ->  sprites/<name>-<mode>.png
-"""
 import os
 import random
 import subprocess
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SPR = os.path.join(HERE, "sprites")
-SCALE = 0.66  # stored resolution; banner.SPRITE_SCALE scales them back up
+SCALE = 0.66
 CHROME = os.environ.get("CHROME", "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome")
 
-# name: (w, h, seed, puffs, base frac, tower) - tower > 0 piles puffs in the
-# middle for a congestus head; rain clouds get a darker, heavier base.
 CLOUDS = {
     "mid":   (340, 160, 23, 18, 0.80, 0.30),
     "small": (220, 110, 37, 11, 0.78, 0.15),
     "flat":  (420, 120, 41, 20, 0.76, 0.00),
     "storm": (520, 220, 59, 34, 0.82, 0.48),
 }
-# rain clouds: same recipe, darker and with a heavier base
-DARKEN = {"storm": (0.66, 0.40)}  # (multiplier on the palette, base tone)
+DARKEN = {"storm": (0.66, 0.40)}
 
-# palette per mode: (shadow, lit) the lighting is mapped between, and how
-# dark the base gets relative to the top
 PALETTE = {
     "dark":  {"shadow": (0.06, 0.075, 0.105), "lit": (0.45, 0.50, 0.59), "base": 0.55},
     "light": {"shadow": (0.52, 0.56, 0.62), "lit": (1.0, 0.985, 0.965), "base": 0.80},
@@ -53,7 +27,6 @@ def silhouette(name):
     rng = random.Random(seed)
     base_y = h * bf
     out = []
-    # a long low body along the base so the cloud reads as one mass
     out.append(f'<ellipse cx="{w / 2:.1f}" cy="{base_y - h * 0.12:.1f}" rx="{w * 0.36:.1f}" ry="{h * 0.14:.1f}"/>')
     for _ in range(n):
         t = rng.uniform(-1, 1)
@@ -114,9 +87,6 @@ def render(name, mode):
                     "--default-background-color=00000000", f"--window-size={W},{H}",
                     f"--screenshot={png}", "file://" + src],
                    check=True, capture_output=True)
-    # Shade toward the base: multiply colour (not alpha) by a ramp that is
-    # white over the top half and falls to the palette's base tone at the
-    # cloud's flat bottom. Then trim to the ink and squeeze the file.
     bf = CLOUDS[name][4]
     k = int(255 * (DARKEN[name][1] if name in DARKEN else PALETTE[mode]["base"]))
     top = 30 + int(h * 0.42)

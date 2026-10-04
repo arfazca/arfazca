@@ -1,12 +1,4 @@
 #!/usr/bin/env python3
-"""
-docs/today.md and the day bar it shows.
-
-The page is the day's weather written out as a forecast: a bar across the
-24 hours, a line on how wet the day is, then every change with its time.
-It changes once a day, just after midnight. The bar (today-<mode>.svg on the
-generated branch) is redrawn every run so its "now" line keeps moving.
-"""
 import datetime
 
 W, H = 1200, 142
@@ -29,7 +21,6 @@ def hhmm(m):
 
 
 def merged(segments):
-    """Back-to-back segments of one state (variant changes) read as one."""
     out = []
     for s in segments:
         if out and out[-1]["state"] == s["state"]:
@@ -42,7 +33,7 @@ def merged(segments):
 def bar(segments, mode, now_minute=None):
     c = COLORS[mode]
     segments = merged(segments)
-    x = lambda m: m / DAY * W  # noqa: E731
+    x = lambda m: m / DAY * W
     rects = "".join(
         f'<rect x="{x(s["start"]):.2f}" y="{TRACK_Y}" width="{max(x(s["end"]) - x(s["start"]) - 1.5, 0.5):.2f}" '
         f'height="{TRACK_H}" fill="{c[s["state"]]}"/>' for s in segments)
@@ -72,7 +63,6 @@ def bar(segments, mode, now_minute=None):
             f'{now}</svg>\n')
 
 
-# What the sky does when one state gives way to the next.
 CHANGE = {
     ("clear", "cloudy"): "Clouds roll in and the stars go",
     ("cloudy", "clear"): "Clears up; stars and moon are back",

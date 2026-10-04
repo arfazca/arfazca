@@ -1,13 +1,7 @@
 name: Banner
 
-# Every ten minutes: swap in the weather frame for right now. During the 11 pm
-# hour (Vancouver time) the same run also renders all of tomorrow's frames,
-# with tomorrow's date and uptime already in them. Everything lands on the
-# `generated` branch, which the README reads from. Main holds the source,
-# plus docs/today.md, the day's plan written out, refreshed after midnight.
 on:
   schedule:
-    # minute 3 of every ten: GitHub delays runs queued on the hour
     - cron: "3-59/10 * * * *"
   push:
     branches: [main]
@@ -18,7 +12,7 @@ on:
 
 permissions:
   contents: write
-  actions: write   # to keep this schedule switched on (last step)
+  actions: write
 
 concurrency:
   group: banner
@@ -38,10 +32,8 @@ jobs:
           ref: generated
           path: gen
 
-      # stdlib only: no pip install, no token, nothing to rate-limit
       - name: Build frames and swap in the current one
         run: |
-          # a change to the design on main re-renders today's frames at once
           FORCE=""
           if [ "${{ github.event_name }}" != "schedule" ]; then FORCE="--force"; fi
           python3 .github/scripts/about-me/build.py --gen gen --docs docs --message "$RUNNER_TEMP/msg" $FORCE
@@ -54,8 +46,6 @@ jobs:
           git add -A
           if git diff --staged --quiet; then echo "nothing changed"; exit 0; fi
           git commit -q -F "$RUNNER_TEMP/msg"
-          # github-stats publishes to this branch too; if it got in first,
-          # rebase onto it - the two never touch the same files
           for attempt in 1 2 3 4; do
             git push -q origin HEAD:generated && exit 0
             sleep $((attempt * 5))
@@ -64,7 +54,6 @@ jobs:
           done
           exit 1
 
-      # docs/today.md only changes once a day, just after midnight
       - name: Publish today's page to main
         run: |
           git add docs/today.md
@@ -80,8 +69,6 @@ jobs:
           done
           exit 1
 
-      # GitHub switches off scheduled workflows in a public repo after 60 days
-      # without commits to it, and this one no longer commits to main.
       - name: Keep the schedule switched on
         if: github.event_name == 'schedule'
         env:

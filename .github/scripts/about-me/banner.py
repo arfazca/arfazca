@@ -1,28 +1,4 @@
 #!/usr/bin/env python3
-"""
-The banner scene: a night (or dawn) ridgeline under a blackletter wordmark,
-with a MacBook-style notch carrying the date and weather that changes through
-the day.
-
-GitHub shows README images through camo as <img>: no script, no web fonts, no
-external files, and the clock is unreadable. So every frame is a complete,
-self-contained SVG that loops forever on CSS keyframes, and "weather that
-lasts" is handled outside the image: weather.py plans the day, build.py bakes
-one frame per (state, variant) the plan uses, and a job every ten minutes
-swaps the current frame into about-<mode>.svg.
-
-Each frame is one steady state - clear, cloudy, drizzle, rain or storm - so
-whatever a visitor catches keeps going for as long as they look. Rain only
-fades in on load, layer by layer, so it never just switches on.
-
-Almost nothing is drawn by hand. Ridges are seeded fractal noise, the sky and
-grain are gradients and feTurbulence, clouds are sprites baked once by
-clouds.py (realistic clouds need heavy filters that should not run in every
-visitor's browser). The only hand-made asset is the wordmark outline in
-wordmark_path.py.
-
-Everything is seeded, so the same inputs always give byte-identical output.
-"""
 import base64
 import math
 import os
@@ -39,43 +15,23 @@ HEIGHT = 480
 
 MONO = "ui-monospace,'SF Mono','SFMono-Regular','JetBrains Mono',Menlo,Consolas,monospace"
 
-# Cap height is the optical anchor rather than font size: the baked path is
-# normalised so its cap height is WORDMARK_CAP units, so this scales cleanly.
 MARK_CAP = 82.0
 MARK_BASELINE = 236.0
 STAT_Y = 452.0
 
-# Seconds for one ridge layer to travel a full period, far to near. The
-# speed difference is the parallax that gives flat fills depth.
 RIDGE_DRIFT_S = [72, 52, 38, 26]
 
-# The card is the top half of an aluminium laptop seen from the front; the
-# key row under it (keys.py) is the bottom half. The screen is set into the
-# metal the way the keys are: an edge (RIM), METAL units of bare aluminium,
-# a hairline of black glass, then the picture, round at all four corners so
-# the metal curves round them. Only the card's top corners are round; its
-# bottom is square, the side rims run straight off the bottom edge, and the
-# aluminium under the screen is cut CHIN units down, where the key row's own
-# metal carries on. Two images, one object. Inner radii are the outer one
-# less the inset, so every band is even round the corners.
 RIM = 1.6
-METAL = 6.5     # bare aluminium between every edge, screen and key
+METAL = 6.5
 GLASS = 1.2
-FRAME = round(RIM + METAL + GLASS, 3)   # the picture starts here
+FRAME = round(RIM + METAL + GLASS, 3)
 BEZEL_R = 16
-CHIN = 4        # METAL under the screen: CHIN here, the rest in the key row
+CHIN = 4
 
-# Cloud sprites are stored at this fraction of their drawn size; README
-# shows the card at ~0.62x anyway, so nothing visible is lost.
 SPRITE_SCALE = 0.66
 
 
-# ---------------------------------------------------------------------------
-# Seeded 1D fractal value noise for the ridgelines.
-# ---------------------------------------------------------------------------
 class Ridge:
-    """Summed octaves of smoothstep-interpolated value noise over [0, 1]."""
-
     def __init__(self, seed, octaves=4, lattice=5, gain=0.5):
         self.octaves = []
         self.norm = 0.0
@@ -84,8 +40,6 @@ class Ridge:
             rng = random.Random(seed + o * 9781)
             n = lattice * (2**o)
             table = [rng.random() for _ in range(n + 1)]
-            # Close the lattice so noise(1) == noise(0): the ridge is drawn two
-            # periods wide and slid by exactly one, so the loop has no seam.
             table[-1] = table[0]
             self.octaves.append((amp, table))
             self.norm += amp
@@ -105,7 +59,6 @@ class Ridge:
 
 
 def _fold(h, sharpness):
-    """Fold noise about its midpoint: rounded humps become peaked ridges."""
     if not sharpness:
         return h
     return (1 - sharpness) * h + sharpness * (1 - abs(2 * h - 1))
@@ -122,9 +75,8 @@ def ridge_path(seed, base_y, amp, sharpness=0.0, lattice=5, step=7):
     return "".join(d)
 
 
-# Far ridges sit lighter than near ones in both modes: atmospheric perspective.
 THEMES = {
-    "dark": {  # night
+    "dark": {
         "sky": ["#070c14", "#0e1826", "#1b2a3f"],
         "glow": "#4a6f9e",
         "ridges": ["#334566", "#24334b", "#151e2c", "#080d15"],
@@ -134,10 +86,10 @@ THEMES = {
         "grain": (255, 255, 255),
         "grain_bias": -0.22,
         "grain_opacity": 0.44,
-        "rim": "#5d636c",  # space grey: the edge, and the keyboard plate inside it
+        "rim": "#5d636c",
         "plate": ("#363a41", "#2c2f35"),
     },
-    "light": {  # dawn fog
+    "light": {
         "sky": ["#eceae5", "#dee1e5", "#c6cfd7"],
         "glow": "#f4e6d1",
         "ridges": ["#bcc6d0", "#9aa8b6", "#75869a", "#4e6076"],
@@ -147,12 +99,11 @@ THEMES = {
         "grain": (18, 24, 32),
         "grain_bias": -0.24,
         "grain_opacity": 0.40,
-        "rim": "#c3c7cd",  # silver
+        "rim": "#c3c7cd",
         "plate": ("#e4e7ea", "#d6d9dd"),
     },
 }
 
-# (seed, base_y, amplitude, sharpness, lattice), far to near
 RIDGE_LAYERS = [
     (1301, 298, 72, 0.15, 7),
     (2609, 344, 62, 0.35, 5),
@@ -162,11 +113,7 @@ RIDGE_LAYERS = [
 _RIDGES = [ridge_path(*layer) for layer in RIDGE_LAYERS]
 
 
-# ---------------------------------------------------------------------------
-# keyframe helpers
-# ---------------------------------------------------------------------------
 def kf(name, cycle, pts, prop="opacity"):
-    """@keyframes from (seconds, value) points. prop=None: value is raw CSS."""
     pts = sorted(pts, key=lambda p: p[0])
     if pts[0][0] > 0:
         pts.insert(0, (0, pts[0][1]))
@@ -185,19 +132,14 @@ def anim(sel, name, cycle, delay=0.0, timing="linear"):
 
 
 def once(sel, name, secs, delay, timing="ease-out"):
-    """A one-shot that holds its last frame: used for things that settle in on load."""
     return f"{sel}{{animation:{name} {secs}s {timing} {delay:.2f}s both}}"
 
 
 def flicker(at, peak=1.0):
-    """Two flashes inside 0.2 s, then a tail - under WCAG 2.3.1's three per second."""
     return [(at - 0.01, 0), (at + 0.03, peak), (at + 0.09, peak * 0.12),
             (at + 0.15, peak * 0.95), (at + 0.32, peak * 0.3), (at + 0.7, 0)]
 
 
-# ---------------------------------------------------------------------------
-# the frame: layer slots in paint order
-# ---------------------------------------------------------------------------
 class Scene:
     def __init__(self, mode):
         self.mode = mode
@@ -206,10 +148,10 @@ class Scene:
         rules.append(f"@keyframes drift{{from{{transform:translateX(0)}}to{{transform:translateX(-{WIDTH}px)}}}}")
         self.css = rules
         self.defs = []
-        self.sky = []       # behind every ridge: stars, clouds, bolts
-        self.front = []     # in front of the ridges, behind the name
-        self.over = []      # over the name, under the grain
-        self.top = []       # hardware, above the grain: the notch
+        self.sky = []
+        self.front = []
+        self.over = []
+        self.top = []
 
     def _base_defs(self):
         t = self.t
@@ -219,12 +161,9 @@ class Scene:
             '<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">'
             f'<stop offset="0" stop-color="{sky[0]}"/><stop offset="0.55" stop-color="{sky[1]}"/>'
             f'<stop offset="1" stop-color="{sky[2]}"/></linearGradient>',
-            # skyglow just above the horizon, off centre
             '<radialGradient id="glow" cx="0.62" cy="0.74" r="0.55">'
             f'<stop offset="0" stop-color="{t["glow"]}" stop-opacity="0.55"/>'
             f'<stop offset="1" stop-color="{t["glow"]}" stop-opacity="0"/></radialGradient>',
-            # film grain as coloured speckle; alpha, not luminance, so the
-            # blacks stay black
             '<filter id="grain" x="0" y="0" width="100%" height="100%">'
             '<feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="29" result="n"/>'
             '<feColorMatrix in="n" type="matrix" values="'
@@ -245,8 +184,6 @@ class Scene:
             *self.sky, *ridges, *self.front,
             f'<g transform="translate({mark_x:.2f} {MARK_BASELINE}) scale({scale:.5f})">'
             f'<path d="{WORDMARK_PATH}" fill="{t["mark"]}"/></g>',
-            # The stat line. Unchanged from the original card: same type, same
-            # tracking, same id for the live uptime value.
             f'<text x="{WIDTH / 2:.0f}" y="{STAT_Y:.0f}" text-anchor="middle" xml:space="preserve" '
             f'font-family="{MONO}" font-size="15" letter-spacing="1.9">'
             f'<tspan fill="{t["stat_val"]}">software development engineer</tspan>'
@@ -256,7 +193,7 @@ class Scene:
             *self.over,
             f'<rect width="{WIDTH}" height="{HEIGHT}" filter="url(#grain)" opacity="{t["grain_opacity"]}"/>',
         ]
-        g = round(RIM + METAL, 3)  # the glass's outer edge, inset on all four sides
+        g = round(RIM + METAL, 3)
         glass = _rrect(g, g, WIDTH - 2 * g, HEIGHT - CHIN - g, BEZEL_R - g)
         screen = _rrect(FRAME, FRAME, WIDTH - 2 * FRAME, HEIGHT - CHIN - g - 2 * GLASS, BEZEL_R - FRAME)
         p0, _ = t["plate"]
@@ -267,12 +204,8 @@ class Scene:
             "<style>" + "".join(self.css) + rm + "</style>",
             "<defs>", *self._base_defs(), *self.defs, "</defs>",
             '<g clip-path="url(#slab)">', *scene, "</g>",
-            # the notch drops by the frame so its fillets meet the glass's edge
             f'<g transform="translate(0 {FRAME:g})">', *self.top, "</g>",
-            # rim over the top and down both sides, open at the bottom
             f'<path d="{_lid(0, HEIGHT)}{_lid(RIM, HEIGHT)}" fill="{t["rim"]}" fill-rule="evenodd"/>',
-            # the aluminium, in the keyboard plate's top colour, which the key
-            # row carries on from the bottom edge
             f'<path d="{_lid(RIM, HEIGHT)}{glass}" fill="{p0}" fill-rule="evenodd"/>',
             f'<path d="{glass}{screen}" fill="#000" fill-rule="evenodd"/>',
             "</svg>",
@@ -281,8 +214,6 @@ class Scene:
 
 
 def _lid(a, bottom):
-    """The card's outline inset by a on the top and sides: round top corners,
-    square bottom ones at y=bottom."""
     r = BEZEL_R - a
     return (f"M{a} {bottom}V{a + r}A{r} {r} 0 0 1 {a + r} {a}H{WIDTH - a - r}"
             f"A{r} {r} 0 0 1 {WIDTH - a} {a + r}V{bottom}Z")
@@ -294,9 +225,6 @@ def _rrect(x, y, w, h, r):
             f"V{y + r}A{r} {r} 0 0 1 {x + r} {y}Z")
 
 
-# ---------------------------------------------------------------------------
-# sky: stars, moon, meteors
-# ---------------------------------------------------------------------------
 STAR_COLORS = ["#ffffff", "#e4ecff", "#cfdcff", "#fff3e0", "#ffe6c7"]
 NOTCH_BOX = (400, 0, 800, 60)
 WORDMARK_INK = (280.1, 149.1, 919.9, 257.9)
@@ -308,9 +236,6 @@ def _in_box(x, y, box, pad=0):
 
 
 def stars(sc, seed=41, n=165, ymax=300, bright=9, glints=3):
-    """Discrete points in three brightness tiers - not thresholded noise, which
-    reads as more grain. Bright ones carry a halo, the brightest breathe with
-    diffraction spikes, and every twinkle has its own phase."""
     rng = random.Random(seed)
     sc.defs.append(
         '<radialGradient id="halo"><stop offset="0" stop-color="#dfe9ff" stop-opacity=".6"/>'
@@ -354,7 +279,6 @@ def stars(sc, seed=41, n=165, ymax=300, bright=9, glints=3):
 
 
 def moon(sc):
-    """A crescent, upper left - the side the clouds are lit from."""
     sc.defs.append('<radialGradient id="moonhalo"><stop offset="0" stop-color="#d9e3f2" stop-opacity=".35"/>'
                    '<stop offset=".25" stop-color="#d9e3f2" stop-opacity=".1"/>'
                    '<stop offset="1" stop-color="#d9e3f2" stop-opacity="0"/></radialGradient>'
@@ -366,7 +290,6 @@ def moon(sc):
 
 
 def venus(sc):
-    """Dawn has one morning star instead of a field."""
     sc.defs.append('<radialGradient id="venus"><stop offset="0" stop-color="#fff" stop-opacity=".95"/>'
                    '<stop offset=".25" stop-color="#fff6e6" stop-opacity=".35"/>'
                    '<stop offset="1" stop-color="#fff6e6" stop-opacity="0"/></radialGradient>')
@@ -376,8 +299,6 @@ def venus(sc):
 
 
 def meteor(sc, cls, x, y, ang, length, travel, cycle, first_at, dur=0.85):
-    """A streak that crosses `travel` px along `ang` degrees, first `first_at`
-    seconds after load, then every `cycle` seconds."""
     local = cycle * 0.5
     sc.css.append(kf(cls, cycle, [
         (local - 0.01, "transform:translateX(0);opacity:0"),
@@ -390,9 +311,6 @@ def meteor(sc, cls, x, y, ang, length, travel, cycle, first_at, dur=0.85):
             f'<circle r="1.5" fill="#fff"/><circle r="5" fill="#fff" fill-opacity=".18"/></g></g>')
 
 
-# ---------------------------------------------------------------------------
-# clouds: baked sprites, slid around by transform only
-# ---------------------------------------------------------------------------
 def _sprite(name, mode):
     raw = open(os.path.join(SPRITES, f"{name}-{mode}.png"), "rb").read()
     w, h = struct.unpack(">II", raw[16:24])
@@ -407,14 +325,11 @@ def _use(name, size, x, y, s, mirror=False, extra=""):
 
 
 def drift_css(cls, secs, phase=0.0):
-    """Seamless leftward drift by one period; phase in [0,1) staggers frames."""
     return (f".{cls}{{animation:{cls} {secs}s linear infinite;animation-delay:{-phase * secs:.1f}s}}"
             f"@keyframes {cls}{{to{{transform:translateX(-{WIDTH}px)}}}}")
 
 
 def tiled(items, sizes):
-    """Every copy of a period-wide arrangement that can show while it slides
-    one period: x, x+-WIDTH, x+2*WIDTH, as needed."""
     out = []
     for name, x, y, s, op, mir in items:
         w, _ = sizes[name]
@@ -425,9 +340,6 @@ def tiled(items, sizes):
     return "".join(out)
 
 
-# ---------------------------------------------------------------------------
-# rain and lightning
-# ---------------------------------------------------------------------------
 def rain_pattern(sc, pid, seed, tw, th, n, lmin, lmax, sw, color, op):
     rng = random.Random(seed)
     lines = []
@@ -441,7 +353,6 @@ def rain_pattern(sc, pid, seed, tw, th, n, lmin, lmax, sw, color, op):
 
 
 def fall_css(cls, th, secs):
-    """Slide a patterned sheet down by exactly one tile, so it loops."""
     return f".{cls}{{animation:{cls} {secs}s linear infinite}}@keyframes {cls}{{to{{transform:translateY({th}px)}}}}"
 
 
@@ -462,7 +373,6 @@ def _d(pts):
 
 
 def bolt(seed, x0, y0, x1, y1, core, glow, branches=3):
-    """Midpoint-displacement lightning with a few forks."""
     rng = random.Random(seed)
     main = _bolt_pts(rng, x0, y0, x1, y1, 7, 0.2)
     br = []
@@ -479,19 +389,14 @@ def bolt(seed, x0, y0, x1, y1, core, glow, branches=3):
             f'<path d="{md}" stroke="{core}" stroke-width="2"/></g>')
 
 
-# ---------------------------------------------------------------------------
-# the notch
-# ---------------------------------------------------------------------------
-NOTCH_KEY = "#61748c"   # the stat line's key colour ("uptime")
-NOTCH_VAL = "#a8bdd6"   # its value colour
+NOTCH_KEY = "#61748c"
+NOTCH_VAL = "#a8bdd6"
 NOTCH_BOLD = "#eef3f8"
 NOTCH_W, NOTCH_H = 340, 36
 NOTCH_FS = 14
 
 
 def notch_path(cx, w, h, rf=10, rb=14):
-    """MacBook notch: concave fillets where it meets the top edge, continuous
-    rounded bottom corners. Starts at y=-2 so no sky shows above it."""
     l, r, k = cx - w / 2, cx + w / 2, 0.5523
     return (f"M{l - rf:.1f} -2L{l - rf:.1f} 0C{l - rf + rf * k:.1f} 0 {l:.1f} {rf - rf * k:.1f} {l:.1f} {rf}"
             f"L{l:.1f} {h - rb}C{l:.1f} {h - rb + rb * k:.1f} {l + rb - rb * k:.1f} {h} {l + rb:.1f} {h}"
@@ -500,7 +405,6 @@ def notch_path(cx, w, h, rf=10, rb=14):
 
 
 def notch_text(parts, x, y):
-    """parts: [(text, 'key'|'val'|'bold', id or None)] - dim, bright, bold."""
     spans = []
     for text, kind, pid in parts:
         fill = {"key": NOTCH_KEY, "val": NOTCH_VAL, "bold": NOTCH_BOLD}[kind]
@@ -511,7 +415,6 @@ def notch_text(parts, x, y):
             f'font-size="{NOTCH_FS}" letter-spacing="1.9">{"".join(spans)}</text>')
 
 
-# status line per weather state, set like the date: bold, then value, then dim
 STATUS = {
     "clear": [("clear", "bold", None), (" skies", "val", None), (" now", "key", None)],
     "cloudy": [("overcast", "bold", None), (", dry", "val", None), (" now", "key", None)],
@@ -522,7 +425,6 @@ STATUS = {
 
 
 def _icon(state, mode):
-    """Tiny weather glyph for the status line."""
     v, b = NOTCH_VAL, NOTCH_BOLD
     cloud = f'<path d="M-7 1a5 5 0 0 1 2-8a6 6 0 0 1 11 1a4 4 0 0 1 1 7Z" fill="{v}"/>'
     drops = {"drizzle": (-3, 2), "rain": (-4.5, 0.5, 5.5), "storm": (-4.5, 5.5)}
@@ -542,9 +444,6 @@ def _icon(state, mode):
 
 
 def notch(sc, state, day, mode):
-    """C's dynamic notch in D's type. Grows out of a sliver on load, then
-    every 17 s gives the weather a few seconds with a small spring - the way
-    the Dynamic Island takes a new alert - and goes back to the date."""
     sc.defs.append('<filter id="nsh" x="-20%" y="-50%" width="140%" height="220%">'
                    '<feGaussianBlur stdDeviation="5"/></filter>')
     w, h, rf, rb, bump = NOTCH_W, NOTCH_H, 10, 14, 14
@@ -580,7 +479,7 @@ def notch(sc, state, day, mode):
     by = h / 2 + NOTCH_FS * 0.36
     status = STATUS[state]
     n = sum(len(t) for t, _, _ in status)
-    tx = 600 + 12  # text nudged right to make room for the glyph
+    tx = 600 + 12
     gx = tx - n * (NOTCH_FS * 0.602 + 1.9) / 2 - 16
     sc.top.append(
         '<g class="boot">'
@@ -595,10 +494,6 @@ def notch(sc, state, day, mode):
         + notch_text(status, tx, by) + "</g></g></g>")
 
 
-# ---------------------------------------------------------------------------
-# weather states
-# ---------------------------------------------------------------------------
-# cover: how much of the sky the cloud field takes; rain: 0 none .. 3 heavy
 STATES = {
     "clear":   {"cover": 0.18, "rain": 0, "deck": 0.00},
     "cloudy":  {"cover": 0.85, "rain": 0, "deck": 0.55},
@@ -609,7 +504,6 @@ STATES = {
 
 
 def render(mode, state, variant, day):
-    """One frame. day: {'dow', 'md', 'year', 'uptime'}; variant: 0..2."""
     dark = mode == "dark"
     P = STATES[state]
     rng = random.Random(f"{state}/{variant}/{mode}")
@@ -624,7 +518,6 @@ def render(mode, state, variant, day):
     rain_col = "#b4c6de" if dark else "#56667a"
     flash_c = "#cfe0ff" if dark else "#ffffff"
 
-    # -- sky ---------------------------------------------------------------
     if dark:
         sc.defs.append(
             '<filter id="mw" x="0" y="0" width="100%" height="100%">'
@@ -653,30 +546,24 @@ def render(mode, state, variant, day):
     elif state in ("clear", "cloudy"):
         sc.sky.append(f'<g opacity="{1 - 0.6 * P["cover"]:.2f}">{venus(sc)}</g>')
     if not dark and P["deck"]:
-        # daytime storms darken from the top, which is also what lets a white
-        # bolt read against a pale sky
         sc.defs.append('<linearGradient id="tint" x1="0" y1="0" x2="0" y2="1">'
                        '<stop offset="0" stop-color="#4c5869" stop-opacity=".8"/>'
                        '<stop offset=".62" stop-color="#6b7787" stop-opacity=".35"/>'
                        '<stop offset="1" stop-color="#6b7787" stop-opacity="0"/></linearGradient>')
         sc.sky.append(f'<rect width="{WIDTH}" height="{HEIGHT}" fill="url(#tint)" opacity="{P["deck"]:.2f}"/>')
 
-    # -- storm light, behind the clouds so they silhouette against it -------
     bolts, bolts_svg = [], []
     if state == "storm":
         for gid, cx in (("fA", 0.18), ("fB", 0.82), ("fC", 0.5), ("hz", 0.5)):
             sc.defs.append(f'<radialGradient id="{gid}" cx="{cx}" cy="{".75" if gid == "hz" else ".25"}" r=".75">'
                            f'<stop offset="0" stop-color="{flash_c}"/>'
                            f'<stop offset="1" stop-color="{flash_c}" stop-opacity="0"/></radialGradient>')
-        # three strike points on unrelated cycles: never in step, never a beat
         bolts = [("bA", rng.uniform(140, 260), 19, 9.0, "fA"), ("bB", rng.uniform(940, 1080), 29, 15.5, "fB"),
                  ("bC", rng.uniform(560, 680), 43, 24.0, "fC")]
         for cls, x, cyc, first, gid in bolts:
             sc.css.append(kf(cls, cyc, flicker(cyc / 2) + ([] if cyc < 25 else flicker(cyc / 2 + 0.9, 0.7)))
                           + anim(f".{cls}", cls, cyc, first - cyc / 2))
             sc.sky.append(f'<rect class="{cls}" width="{WIDTH}" height="{HEIGHT}" fill="url(#{gid})" opacity="0"/>')
-            # the bolt itself is drawn later, in front of the clouds, so it
-            # comes out of a cloud base instead of hiding behind the field
             bolts_svg.append(f'<g class="{cls}" opacity="0">'
                              + bolt(int(x * 7), x, rng.uniform(105, 135), x + rng.uniform(-30, 30), 318, "#f6f9ff",
                                     "#a8c8ff" if dark else "#2f3b4c") + "</g>")
@@ -685,7 +572,6 @@ def render(mode, state, variant, day):
         sc.sky.append('<ellipse class="hz" cx="760" cy="300" rx="380" ry="95" fill="url(#hz)" opacity="0"/>'
                       '<ellipse class="hz2" cx="330" cy="305" rx="320" ry="85" fill="url(#hz)" opacity="0"/>')
 
-    # -- the cloud field: far and near, drifting, density by state ----------
     def field(n, ys, ss, ops, period_seed):
         frng = random.Random(f"field/{state}/{variant}/{period_seed}")
         items, slot = [], WIDTH / max(n, 1)
@@ -701,7 +587,6 @@ def render(mode, state, variant, day):
     near = tiled(field(n_near, (18, 120), (.8, 1.15), (.72, .95), "near"), sizes)
     sc.sky.append(f'<g class="dfar">{far}</g>')
     if P["deck"]:
-        # the ceiling: big storm sprites cut off by the top of the frame
         drng = random.Random(f"deck/{state}/{variant}")
         deck = [("storm", i * 300 + drng.uniform(-40, 40), drng.uniform(-95, -60), drng.uniform(1.25, 1.5),
                  P["deck"], drng.random() < 0.5) for i in range(4)]
@@ -710,12 +595,11 @@ def render(mode, state, variant, day):
     sc.sky.append(f'<g class="dnear">{near}</g>')
     sc.sky += bolts_svg
 
-    # -- the rain clouds: "the cloud", with rain that builds under it -------
     if P["rain"]:
         sw, sh = sizes["storm"]
-        rain_pattern(sc, "rz1", 501, 120, 170, 14, 8, 14, 1.0, rain_col, 0.75)   # drizzle: sparse, short
-        rain_pattern(sc, "rz2", 502, 110, 190, 18, 10, 18, 0.9, rain_col, 0.6)   # steady
-        rain_pattern(sc, "rz3", 503, 100, 230, 30, 16, 30, 1.1, rain_col, 0.7)   # the full sheet
+        rain_pattern(sc, "rz1", 501, 120, 170, 14, 8, 14, 1.0, rain_col, 0.75)
+        rain_pattern(sc, "rz2", 502, 110, 190, 18, 10, 18, 0.9, rain_col, 0.6)
+        rain_pattern(sc, "rz3", 503, 100, 230, 30, 16, 30, 1.1, rain_col, 0.7)
         sc.css.append(fall_css("rf1", 170, .9) + fall_css("rf2", 190, .62) + fall_css("rf3", 230, .45))
         veil = "#2a3446" if dark else "#6f7c8e"
         sc.defs.append('<radialGradient id="rfade" cx=".5" cy=".06" r=".62">'
@@ -728,8 +612,6 @@ def render(mode, state, variant, day):
                        f'<radialGradient id="cglow"><stop offset="0" stop-color="{flash_c}" stop-opacity=".95"/>'
                        f'<stop offset=".5" stop-color="{flash_c}" stop-opacity=".35"/>'
                        f'<stop offset="1" stop-color="{flash_c}" stop-opacity="0"/></radialGradient>')
-        # Rain fades in on load one layer at a time: drizzle first, then the
-        # steadier layer, then the full sheet - it never just switches on.
         ramps = {1: (0.4, 2.6), 2: (3.0, 3.5), 3: (6.5, 4.0)}
         for lvl, (start, secs) in ramps.items():
             if lvl <= P["rain"]:
@@ -766,19 +648,14 @@ def render(mode, state, variant, day):
                     f'<g class="inv" opacity="0"><rect x="{rx0:.0f}" width="{rw:.0f}" height="{rh:.0f}" fill="url(#veil)"/></g>'
                     f'<g transform="rotate(7 {cw / 2:.0f} 0)">{layers}</g></g></g>'
                     f'{_use("storm", sizes["storm"], 0, 0, s, mir)}{front}')
-            # tile it like the field so the pair can drift forever
             copies = "".join(f'<g transform="translate({hx + k * WIDTH:.1f} {hy:.1f})">{hero}</g>'
                              for k in (-1, 0, 1, 2) if hx + k * WIDTH + cw > 0 and hx + k * WIDTH < 2 * WIDTH)
             sc.sky.append(f'<g class="dhero">{copies}</g>')
         sc.css.append(drift_css("dhero", 480, rng.random()))
 
     if state == "storm":
-        # a faint wash over the whole sky on the nearest strike
         sc.sky.append(f'<rect class="bA" width="{WIDTH}" height="{HEIGHT}" fill="{flash_c}" fill-opacity=".12" opacity="0"/>')
 
-    # -- full-frame rain in front of the ridges ------------------------------
-    # drizzle: a fine sheet; rain: fine + a steadier sheet at half strength;
-    # storm: D's downpour, both heavy sheets in full, driven by the wind
     if P["rain"]:
         def sheet(cls, pid, th, secs, slant):
             sc.css.append(fall_css(cls, th, secs))

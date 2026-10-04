@@ -1,26 +1,4 @@
 #!/usr/bin/env python3
-"""
-Everything the `generated` branch serves, built in place.
-
-    python3 build.py --gen <generated-branch checkout> [--force] [--now ISO]
-
-Every run (the workflow fires every ten minutes):
-  * makes sure today's frames exist - normally rendered the night before
-  * during the 11 pm hour, Vancouver time, renders tomorrow's: one frame per
-    (weather state, variant) in tomorrow's plan, with tomorrow's date and
-    uptime already in them, plus the plan itself as schedule/<date>.json
-  * rewrites the key images under links/
-  * drops frames and plans older than today
-  * swaps the frame for this ten minutes into about-dark.svg and
-    about-light.svg, the two files the README shows
-  * redraws today-<mode>.svg, the day bar with its "now" line, and with
-    --docs writes docs/today.md on main (which changes once a day)
-
-Only paths this script owns are touched; github-stats publishes its own
-cards to the same branch and they are left alone. --force re-renders today
-(and tomorrow, if already rendered) - the workflow passes it when the design
-itself changes on main.
-"""
 import argparse
 import datetime
 import json
@@ -32,10 +10,10 @@ from zoneinfo import ZoneInfo
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
-import banner  # noqa: E402
-import keys  # noqa: E402
-import today as today_page  # noqa: E402
-import weather  # noqa: E402
+import banner
+import keys
+import today as today_page
+import weather
 
 TZ = ZoneInfo("America/Vancouver")
 BIRTHDAY = datetime.date(2002, 6, 15)
@@ -45,11 +23,10 @@ MODES = ("dark", "light")
 
 def _add_months(d, months):
     y, m = divmod(d.month - 1 + months, 12)
-    return d.replace(year=d.year + y, month=m + 1)  # BIRTHDAY's day exists in every month
+    return d.replace(year=d.year + y, month=m + 1)
 
 
 def uptime(d, born=BIRTHDAY):
-    """'24 years, 3 months, 18 days' - years and months whole, the rest in days."""
     months = (d.year - born.year) * 12 + d.month - born.month
     if _add_months(born, months) > d:
         months -= 1
@@ -67,7 +44,6 @@ def day_info(d):
 
 
 def _write(path, text):
-    """Write only if the bytes changed, so an idle run leaves no diff."""
     os.makedirs(os.path.dirname(path), exist_ok=True)
     data = text.encode()
     if os.path.exists(path) and open(path, "rb").read() == data:
@@ -82,7 +58,6 @@ def frame_name(seg, mode):
 
 
 def render_day(gen, d, force=False):
-    """Frames + plan for date d. Returns True if anything was rendered."""
     plan_path = os.path.join(gen, "schedule", f"{d.isoformat()}.json")
     fdir = os.path.join(gen, "frames", d.isoformat())
     segs = weather.plan(d)
@@ -94,7 +69,7 @@ def render_day(gen, d, force=False):
     for st, v in sorted(needed):
         for m in MODES:
             _write(os.path.join(fdir, f"{st}-{v}-{m}.svg"), banner.render(m, st, v, info))
-    for name in os.listdir(fdir):  # frames the plan no longer uses
+    for name in os.listdir(fdir):
         if name.endswith(".svg") and tuple(name.rsplit("-", 2)[:1] + [int(name.rsplit("-", 2)[1])]) not in needed:
             os.remove(os.path.join(fdir, name))
     _write(plan_path, json.dumps({"date": d.isoformat(), "tz": "America/Vancouver", "day": info,
@@ -117,7 +92,7 @@ def write_keys(gen):
     want = {f"{s}-{m}.svg": svg for (s, m), svg in keys.all_keys().items()}
     root = os.path.join(gen, "links")
     os.makedirs(root, exist_ok=True)
-    for name in os.listdir(root):  # the old blackletter words go
+    for name in os.listdir(root):
         if name not in want:
             os.remove(os.path.join(root, name))
     for name, svg in want.items():
@@ -125,7 +100,6 @@ def write_keys(gen):
 
 
 def swap(gen, now):
-    """Point about-<mode>.svg at the frame for this moment."""
     seg = weather.at(now.date(), now.hour * 60 + now.minute)
     for m in MODES:
         src = os.path.join(gen, "frames", now.date().isoformat(), frame_name(seg, m))

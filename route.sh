@@ -1,11 +1,8 @@
 #!/bin/bash
-# git workflow v9.0
-# 2026 @arfazca
 
 breakStrSize=50
 breakStrIter=$(printf '_%.0s' $(seq 1 "$breakStrSize"))
 
-# always act on the repo this script lives in, wherever it's called from
 cd "$(dirname "$0")" || exit 1
 
 function versionCheck() {
@@ -21,9 +18,6 @@ function versionCheck() {
 
 function syncBranch() {
   echo -e "YES'ED\n${breakStrIter}"
-  # Local edits are set aside as a labelled stash rather than destroyed, and
-  # other stashes are left alone. `git stash list` shows them; drop the backup
-  # with `git stash drop` once you're sure.
   if ! git diff --quiet || ! git diff --cached --quiet; then
     git stash push -q -m "route.sh backup $(date +'%Y-%m-%d %H:%M')"
     echo "Local changes saved as: $(git stash list -1 --format=%gs)"
@@ -53,7 +47,6 @@ function pushChanges() {
   git status -s
   git commit -q -m "$CommitMessage"$'\n\nCommit by @arfazca on '"$(date +'%a %d %b %Y')"
 
-  # pick up anything pushed from elsewhere first, so the push isn't rejected
   if git rev-parse --abbrev-ref --symbolic-full-name '@{u}' >/dev/null 2>&1; then
     git pull --rebase --quiet || { echo "Rebase stopped on a conflict: fix it, then run git rebase --continue"; return 1; }
   fi

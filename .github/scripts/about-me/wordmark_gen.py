@@ -1,35 +1,4 @@
 #!/usr/bin/env python3
-"""
-Dev-time tool: bakes a fixed string into an SVG path.
-
-GitHub renders README SVGs through camo as <img>, where no web font ever
-loads and @font-face with a data: URI is unreliable - so the only way to show
-a typeface that is not already on the viewer's machine is to ship the
-outlines. The wordmark is fixed, so this runs once and its output is
-committed; banner.py then needs neither fontTools nor the .ttf.
-
-This only works for fixed text. Anything that changes from day to day (the
-date, uptime) has to stay live <text> in a system font stack, because there
-is no glyph to bake ahead of time.
-
-Usage:
-    pip install fonttools
-
-    # the blackletter wordmark
-    curl -sSL -o UnifrakturMaguntia-Book.ttf \
-      https://raw.githubusercontent.com/google/fonts/main/ofl/unifrakturmaguntia/UnifrakturMaguntia-Book.ttf
-    python3 wordmark_gen.py UnifrakturMaguntia-Book.ttf "arfaz hussain" \
-      --prefix WORDMARK > wordmark_path.py
-
-    # the email, in Fira Code
-    curl -sSL -o 'FiraCode[wght].ttf' \
-      'https://raw.githubusercontent.com/google/fonts/main/ofl/firacode/FiraCode%5Bwght%5D.ttf'
-    python3 wordmark_gen.py 'FiraCode[wght].ttf' "root@arfaz.ca" \
-      --prefix EMAIL --wght 500 --tracking 0.035 > email_path.py
-
-Fonts: UnifrakturMaguntia by j. 'mach' wust; Fira Code by Nikita Prokopov and
-contributors. Both SIL Open Font License 1.1.
-"""
 import argparse
 
 from fontTools.misc.transform import Transform
@@ -38,20 +7,17 @@ from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.pens.transformPen import TransformPen
 from fontTools.ttLib import TTFont
 
-# Cap height the output is normalised to, in SVG user units. Callers scale
-# from here, so a round number keeps the baked path readable.
 TARGET_CAP = 100.0
 
 
 def kerning_pairs(font):
-    """Flat (left, right) -> value map from GPOS pair positioning, if present."""
     pairs = {}
     if "GPOS" not in font:
         return pairs
     try:
         gpos = font["GPOS"].table
         for lookup in gpos.LookupList.Lookup:
-            if lookup.LookupType != 2:  # pair adjustment
+            if lookup.LookupType != 2:
                 continue
             for sub in lookup.SubTable:
                 if sub.Format != 1:
@@ -67,11 +33,6 @@ def kerning_pairs(font):
 
 
 def load(font_path, wght):
-    """Open the font, pinning a variable-font instance when asked.
-
-    Fira Code ships variable with a wght default of 300, which is too light to
-    hold up at small size over grain, so the email is pinned heavier.
-    """
     font = TTFont(font_path)
     if wght is not None and "fvar" in font:
         from fontTools.varLib import instancer
@@ -106,10 +67,6 @@ def build(font_path, text, tracking_em, wght):
     parts = []
     pen_x = 0.0
     prev = None
-    # Tight outline bounds, accumulated across every glyph. The advance box a
-    # font reports includes side bearings, and those are not symmetric - so
-    # centring on advance width leaves the word visibly off-centre. Callers
-    # need the ink box to centre what the eye actually sees.
     bounds = BoundsPen(glyphset)
     for name in names:
         if name is None:
@@ -118,11 +75,7 @@ def build(font_path, text, tracking_em, wght):
             continue
         if prev is not None:
             pen_x += kern.get((prev, name), 0)
-        # Font units are Y-up, SVG is Y-down, so the transform flips Y as well
-        # as scaling - the baked path then drops in with no wrapper transform.
         t = Transform(scale, 0, 0, -scale, pen_x * scale, 0)
-        # 2dp is well below a pixel at display size and cuts the committed
-        # path to about a third of its raw length.
         spen = SVGPathPen(glyphset, ntos=lambda v: f"{v:.2f}".rstrip("0").rstrip("."))
         glyphset[name].draw(TransformPen(spen, t))
         glyphset[name].draw(TransformPen(bounds, t))
@@ -132,27 +85,16 @@ def build(font_path, text, tracking_em, wght):
         pen_x += hmtx[name][0] + tracking
         prev = name
 
-    # Trailing tracking is not part of the mark's width.
     width = (pen_x - tracking) * scale
     return " ".join(parts), width, bounds.bounds
 
 
 def emit_multi(args):
-    """Bake several words into one dict, all at one shared cap height."""
     rows = []
     for text in args.multi:
         d, width, bbox = build(args.font, text, args.tracking, args.wght)
         rows.append((text, d, width, bbox))
 
-    # x-height, on the same normalised scale as the cap. It is the visual mass
-    # every lowercase word shares regardless of which ascenders or descenders
-    # it happens to contain, so it is the right band to centre a row on.
-    #
-    # Measured off real outlines rather than read from OS/2.sxHeight: this
-    # face declares an x-height noticeably shorter than it actually draws,
-    # which is common in display and blackletter fonts, and trusting it puts
-    # the row visibly high. Flat-topped letters are preferred over round ones
-    # so overshoot does not inflate the result.
     f = load(args.font, args.wght)
     upem = f["head"].unitsPerEm
     cmap = f.getBestCmap()
@@ -172,13 +114,6 @@ def emit_multi(args):
         xheight = TARGET_CAP * 0.72
 
     out = [
-        '"""Generated by wordmark_gen.py --multi - do not edit by hand.',
-        "",
-        f"Font : {args.font}" + (f" (wght {args.wght:g})" if args.wght else ""),
-        "",
-        "Baseline at y=0, cap height normalised to"
-        f" {TARGET_CAP:g}, Y pointing down.",
-        '"""',
         f"{args.prefix}_CAP = {TARGET_CAP:.2f}",
         f"{args.prefix}_XHEIGHT = {xheight:.2f}",
         f"{args.prefix} = {{",
@@ -187,7 +122,6 @@ def emit_multi(args):
         xn, yn, xx, yx = bbox
         out.append(f"    {text!r}: {{")
         out.append(f'        "width": {width:.2f},')
-        # (xmin, ymin, xmax, ymax) of the actual outlines, Y down.
         out.append(
             f'        "ink": ({xn:.2f}, {yn:.2f}, {xx:.2f}, {yx:.2f}),'
         )
@@ -220,20 +154,12 @@ def main():
     p = args.prefix
 
     out = [
-        '"""Generated by wordmark_gen.py - do not edit by hand.',
-        "",
-        f"Text : {args.text!r}",
-        f"Font : {args.font}" + (f" (wght {args.wght:g})" if args.wght else ""),
-        "",
-        "Coordinates are in SVG user units with the baseline at y=0 and the cap",
-        f"height normalised to {TARGET_CAP:g}. Y already points down.",
-        '"""',
         f"{p}_TEXT = {args.text!r}",
         f"{p}_WIDTH = {width:.2f}",
         f"{p}_CAP = {TARGET_CAP:.2f}",
         f"{p}_PATH = (",
     ]
-    for i in range(0, len(d), 100):  # wrapped to keep the committed file diff-friendly
+    for i in range(0, len(d), 100):
         out.append(f"    {d[i:i + 100]!r}")
     out.append(")")
     print("\n".join(out))
