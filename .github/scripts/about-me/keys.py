@@ -21,17 +21,20 @@ add GitHub's grey grid, and fixed pixel widths wrap on narrow screens.)
 
     links/<slug>-<mode>.svg
 """
-from banner import BEZEL_R, CHIN, RIM, THEMES
+from banner import BEZEL_R, CHIN, METAL, RIM, THEMES
 
 MONO = "ui-monospace,'SF Mono','SFMono-Regular','JetBrains Mono',Menlo,Consolas,monospace"
 
+# Every band of bare aluminium is the banner's METAL wide: between the screen
+# and the keys, between keys, and between a key and the deck's edge. Each key
+# sits in a hole WELL wider than itself, the way the screen sits in its glass.
 ROW_W = 1200          # the card's width, so the two scale together
-GAP = 12              # between keys
-METAL = 9.4           # bare plate between a key and the deck's edge, on all four sides
-PAD = round(RIM + METAL, 3)  # image edge to key at the row's two ends
+WELL = 2.5
+GAP = METAL + 2 * WELL               # key to key
+PAD = round(RIM + METAL + WELL, 3)   # image edge to key at the row's two ends
 KEY_H, RADIUS = 74, 9
-KEY_Y = round(METAL - CHIN, 3)  # the banner's chin is the rest of the metal above the keys
-HEIGHT = round(KEY_Y + KEY_H + METAL + RIM, 3)
+KEY_Y = round(METAL - CHIN + WELL, 3)  # the banner's CHIN is the rest of the metal above
+HEIGHT = round(KEY_Y + KEY_H + WELL + METAL + RIM, 3)
 
 KEYS = [  # (legend, href, glyph, width in keys)
     ("site", "https://arfaz.ca", "arrow", 1),
@@ -136,7 +139,7 @@ def build(name, glyph, W, kx, kw, mode, first, last):
     plate = (f'<path d="{_deck(W, 0, first, last)}" fill="{rim}"/>'
              f'<path d="{_deck(W, RIM, first, last)}" fill="url(#pg)"/>'
              # the hole the key sits in
-             f'<rect x="{x - 2.5:.3f}" y="{y - 2.5}" width="{kw + 5:.3f}" height="{kh + 5}" rx="{r + 2.5}" '
+             f'<rect x="{x - WELL:.3f}" y="{y - WELL:g}" width="{kw + 2 * WELL:.3f}" height="{kh + 2 * WELL:g}" rx="{r + WELL:g}" '
              f'fill="{wc}" opacity="{wo:g}"/>'
              f'<rect x="{x + 1:.3f}" y="{y + 1.5}" width="{kw - 2:.3f}" height="{kh}" rx="{r}" fill="#000" '
              f'opacity="{s["shadow"]:g}" filter="url(#sh)"/>')

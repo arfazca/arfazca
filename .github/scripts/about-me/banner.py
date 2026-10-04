@@ -49,20 +49,21 @@ STAT_Y = 452.0
 # speed difference is the parallax that gives flat fills depth.
 RIDGE_DRIFT_S = [72, 52, 38, 26]
 
-# Hairline display bezel: black glass 3 units thick (~1.5 px in the README),
-# inside a thinner aluminium rim, the edge of the lid. Inner radii are the
-# outer one less the thickness, so the frame is even round the corners.
-#
-# The card is the top half of a laptop seen from the front: the key row
-# under it (keys.py) is the bottom half. So only the top corners are round;
-# the bottom is square, the side rims run straight off the bottom edge, and
-# under the glass sits a strip of the keyboard's aluminium, CHIN units tall,
-# which the key row's own metal carries on from. Two images, one object.
-BEZEL = 3
+# The card is the top half of an aluminium laptop seen from the front; the
+# key row under it (keys.py) is the bottom half. The screen is set into the
+# metal the way the keys are: an edge (RIM), METAL units of bare aluminium,
+# a hairline of black glass, then the picture, round at all four corners so
+# the metal curves round them. Only the card's top corners are round; its
+# bottom is square, the side rims run straight off the bottom edge, and the
+# aluminium under the screen is cut CHIN units down, where the key row's own
+# metal carries on. Two images, one object. Inner radii are the outer one
+# less the inset, so every band is even round the corners.
 RIM = 1.6
-FRAME = RIM + BEZEL
+METAL = 6.5     # bare aluminium between every edge, screen and key
+GLASS = 1.2
+FRAME = round(RIM + METAL + GLASS, 3)   # the picture starts here
 BEZEL_R = 16
-CHIN = 5
+CHIN = 4        # METAL under the screen: CHIN here, the rest in the key row
 
 # Cloud sprites are stored at this fraction of their drawn size; README
 # shows the card at ~0.62x anyway, so nothing visible is lost.
@@ -255,8 +256,9 @@ class Scene:
             *self.over,
             f'<rect width="{WIDTH}" height="{HEIGHT}" filter="url(#grain)" opacity="{t["grain_opacity"]}"/>',
         ]
-        glass_b = HEIGHT - CHIN  # the glass's bottom edge; the chin is below it
-        screen = _rrect(FRAME, FRAME, WIDTH - 2 * FRAME, glass_b - BEZEL - FRAME, BEZEL_R - FRAME)
+        g = round(RIM + METAL, 3)  # the glass's outer edge, inset on all four sides
+        glass = _rrect(g, g, WIDTH - 2 * g, HEIGHT - CHIN - g, BEZEL_R - g)
+        screen = _rrect(FRAME, FRAME, WIDTH - 2 * FRAME, HEIGHT - CHIN - g - 2 * GLASS, BEZEL_R - FRAME)
         p0, _ = t["plate"]
         out = [
             f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" '
@@ -269,9 +271,10 @@ class Scene:
             f'<g transform="translate(0 {FRAME:g})">', *self.top, "</g>",
             # rim over the top and down both sides, open at the bottom
             f'<path d="{_lid(0, HEIGHT)}{_lid(RIM, HEIGHT)}" fill="{t["rim"]}" fill-rule="evenodd"/>',
-            # the chin: the keyboard plate's top colour, carried on by the key row
-            f'<rect x="{RIM}" y="{glass_b}" width="{WIDTH - 2 * RIM}" height="{CHIN}" fill="{p0}"/>',
-            f'<path d="{_lid(RIM, glass_b)}{screen}" fill="#000" fill-rule="evenodd"/>',
+            # the aluminium, in the keyboard plate's top colour, which the key
+            # row carries on from the bottom edge
+            f'<path d="{_lid(RIM, HEIGHT)}{glass}" fill="{p0}" fill-rule="evenodd"/>',
+            f'<path d="{glass}{screen}" fill="#000" fill-rule="evenodd"/>',
             "</svg>",
         ]
         return "\n".join(out) + "\n"
