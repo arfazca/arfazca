@@ -3,8 +3,8 @@
 The sky over the banner today, hour by hour. Times are Pacific (PDT).
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/arfazca/generated/today-dark.svg" />
-  <img width="100%" alt="Today's weather, hour by hour" src="https://raw.githubusercontent.com/arfazca/arfazca/generated/today-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://arfazca-banner.arfazhussain.workers.dev/today-dark.svg" />
+  <img width="100%" alt="Today's weather, hour by hour" src="https://arfazca-banner.arfazhussain.workers.dev/today-light.svg" />
 </picture>
 
 Dry for 10 h 11 min, wet for 13 h 49 min. Rain comes through 9 times, the longest spell from 20:19 to midnight, and it turns stormy 5 times.

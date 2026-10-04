@@ -17,8 +17,9 @@ import weather
 
 TZ = ZoneInfo("America/Vancouver")
 BIRTHDAY = datetime.date(2002, 6, 15)
-NIGHTLY_HOUR = 23
+AHEAD = 2
 MODES = ("dark", "light")
+LIVE = "https://arfazca-banner.arfazhussain.workers.dev"
 
 
 def _add_months(d, months):
@@ -63,14 +64,17 @@ def render_day(gen, d, force=False):
     segs = weather.plan(d)
     needed = {(s["state"], s["variant"]) for s in segs}
     have = all(os.path.exists(os.path.join(fdir, f"{st}-{v}-{m}.svg")) for st, v in needed for m in MODES)
+    have = have and all(os.path.exists(os.path.join(fdir, f"bar-{m}.svg")) for m in MODES)
     if have and os.path.exists(plan_path) and not force:
         return False
     info = day_info(d)
     for st, v in sorted(needed):
         for m in MODES:
             _write(os.path.join(fdir, f"{st}-{v}-{m}.svg"), banner.render(m, st, v, info))
+    for m in MODES:
+        _write(os.path.join(fdir, f"bar-{m}.svg"), today_page.bar(segs, m, 0))
     for name in os.listdir(fdir):
-        if name.endswith(".svg") and tuple(name.rsplit("-", 2)[:1] + [int(name.rsplit("-", 2)[1])]) not in needed:
+        if name.endswith(".svg") and not name.startswith("bar-") and tuple(name.rsplit("-", 2)[:1] + [int(name.rsplit("-", 2)[1])]) not in needed:
             os.remove(os.path.join(fdir, name))
     _write(plan_path, json.dumps({"date": d.isoformat(), "tz": "America/Vancouver", "day": info,
                                   "segments": segs}, indent=1) + "\n")
@@ -110,23 +114,20 @@ def swap(gen, now):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--gen", required=True, help="checkout of the generated branch")
-    ap.add_argument("--force", action="store_true", help="re-render today (and tomorrow if present)")
+    ap.add_argument("--force", action="store_true", help="re-render every day kept")
     ap.add_argument("--now", help="ISO time to act as, for testing (Vancouver time)")
     ap.add_argument("--message", help="write a commit message here")
     ap.add_argument("--docs", help="main's docs/ folder, for today.md")
     a = ap.parse_args()
 
     now = datetime.datetime.fromisoformat(a.now).replace(tzinfo=TZ) if a.now else datetime.datetime.now(TZ)
-    today, tomorrow = now.date(), now.date() + datetime.timedelta(days=1)
+    today = now.date()
+    days = [today + datetime.timedelta(days=i) for i in range(AHEAD + 1)]
     notes = []
-    if render_day(a.gen, today, a.force):
-        notes.append(f"frames for {today}")
-    nightly = now.hour == NIGHTLY_HOUR
-    has_tomorrow = os.path.isdir(os.path.join(a.gen, "frames", tomorrow.isoformat()))
-    if nightly or (a.force and has_tomorrow):
-        if render_day(a.gen, tomorrow, a.force):
-            notes.append(f"frames for {tomorrow}")
-    prune(a.gen, {today.isoformat(), tomorrow.isoformat()})
+    for d in days:
+        if render_day(a.gen, d, a.force):
+            notes.append(f"frames for {d}")
+    prune(a.gen, {d.isoformat() for d in days})
     write_keys(a.gen)
     seg = swap(a.gen, now)
     segs = weather.plan(today)
@@ -134,8 +135,7 @@ def main():
         _write(os.path.join(a.gen, f"today-{m}.svg"), today_page.bar(segs, m, now.hour * 60 + now.minute))
     if a.docs:
         tz = f"Pacific ({now.tzname()})"
-        base = "https://raw.githubusercontent.com/arfazca/arfazca/generated"
-        if _write(os.path.join(a.docs, "today.md"), today_page.markdown(today, segs, tz, base)):
+        if _write(os.path.join(a.docs, "today.md"), today_page.markdown(today, segs, tz, LIVE)):
             notes.append("docs/today.md")
     msg = f'banner: {seg["state"]} (variant {seg["variant"]}) at {now:%H:%M}'
     if notes:

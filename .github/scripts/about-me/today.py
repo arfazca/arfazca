@@ -52,9 +52,9 @@ def bar(segments, mode, now_minute=None):
     now = ""
     if now_minute is not None:
         nx = x(now_minute)
-        now = (f'<rect x="{nx - 1.5:.1f}" y="{TRACK_Y - 10}" width="3" height="{TRACK_H + 20}" rx="1.5" fill="{c["now"]}"/>'
+        now = (f'<g id="now"><rect x="{nx - 1.5:.1f}" y="{TRACK_Y - 10}" width="3" height="{TRACK_H + 20}" rx="1.5" fill="{c["now"]}"/>'
                f'<text x="{min(max(nx, 20), W - 20):.0f}" y="{TRACK_Y - 15}" text-anchor="middle" fill="{c["strong"]}" '
-               f'font-family="{MONO}" font-size="15">now</text>')
+               f'font-family="{MONO}" font-size="15">now</text></g>')
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" '
             f'aria-label="The day\'s weather, hour by hour">'
             f'<defs><clipPath id="t"><rect y="{TRACK_Y}" width="{W}" height="{TRACK_H}" rx="9"/></clipPath></defs>'

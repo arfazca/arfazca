@@ -2,7 +2,7 @@ name: Banner
 
 on:
   schedule:
-    - cron: "3-59/10 * * * *"
+    - cron: "17 * * * *"
   push:
     branches: [main]
     paths:
@@ -73,7 +73,4 @@ jobs:
         if: github.event_name == 'schedule'
         env:
           GH_TOKEN: ${{ github.token }}
-        run: |
-          if [ "$(TZ=America/Vancouver date +%H)" = "23" ]; then
-            gh api -X PUT "repos/${{ github.repository }}/actions/workflows/about-me.yml/enable"
-          fi
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/about-me.yml/enable"

@@ -1,8 +1,8 @@
 <div align="center">
   <a href="https://arfaz.ca" title="Arfaz Hussain">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arfazca/arfazca/generated/about-dark.svg?v=22" />
-      <img width="100%" align="top" alt="Arfaz Hussain" src="https://raw.githubusercontent.com/arfazca/arfazca/generated/about-light.svg?v=22" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://arfazca-banner.arfazhussain.workers.dev/about-dark.svg" />
+      <img width="100%" align="top" alt="Arfaz Hussain" src="https://arfazca-banner.arfazhussain.workers.dev/about-light.svg" />
     </picture>
   </a>
 </div>
