@@ -2,7 +2,7 @@
 
 The sky over the banner today, hour by hour. Times are Pacific (PDT).
 
-**Now · 14:50–15:00** · Raining steadily until 15:25, then it turns into a storm.
+**Now · 15:00–15:10** · Raining steadily until 15:25, then it turns into a storm.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://arfazca-banner.arfazhussain.workers.dev/today-dark.svg" />
