@@ -9,6 +9,10 @@ on:
       - ".github/scripts/about-me/**"
       - ".github/workflows/about-me.yml"
   workflow_dispatch:
+    inputs:
+      force:
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -35,8 +39,8 @@ jobs:
       - name: Build frames and swap in the current one
         run: |
           FORCE=""
-          if [ "${{ github.event_name }}" != "schedule" ]; then FORCE="--force"; fi
-          python3 .github/scripts/about-me/build.py --gen gen --docs docs --message "$RUNNER_TEMP/msg" $FORCE
+          if [ "${{ github.event_name }}" = "push" ] || [ "${{ inputs.force }}" = "true" ]; then FORCE="--force"; fi
+          python3 .github/scripts/about-me/build.py --gen gen --docs gen/docs --message "$RUNNER_TEMP/msg" $FORCE
 
       - name: Publish to the generated branch
         working-directory: gen
@@ -51,21 +55,6 @@ jobs:
             sleep $((attempt * 5))
             git fetch -q --depth=50 origin generated
             git rebase -q origin/generated
-          done
-          exit 1
-
-      - name: Publish today's page to main
-        run: |
-          git add docs/today.md
-          if git diff --staged --quiet; then exit 0; fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -q -m "docs: $(head -1 docs/today.md | sed 's/^# //')"
-          for attempt in 1 2 3 4; do
-            git push -q origin HEAD:main && exit 0
-            sleep $((attempt * 5))
-            git fetch -q --depth=50 origin main
-            git rebase -q origin/main
           done
           exit 1
 

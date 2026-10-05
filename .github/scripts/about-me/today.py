@@ -81,6 +81,18 @@ OPENING = {
     "storm": "Starts in the middle of a storm",
 }
 NAME = {"clear": "clear", "cloudy": "overcast", "drizzle": "drizzle", "rain": "rain", "storm": "storm"}
+NOW = {"clear": "Clear", "cloudy": "Overcast", "drizzle": "Drizzling", "rain": "Raining steadily",
+       "storm": "Storming, with a downpour and lightning"}
+NEXT = {
+    ("clear", "cloudy"): "clouds roll in and the stars go",
+    ("cloudy", "clear"): "it clears up and the stars and moon come back",
+    ("cloudy", "drizzle"): "rain clouds drift over and it starts to drizzle",
+    ("drizzle", "cloudy"): "the drizzle stops but it stays overcast",
+    ("drizzle", "rain"): "it picks up into steady rain",
+    ("rain", "drizzle"): "it eases back to a drizzle",
+    ("rain", "storm"): "it turns into a storm",
+    ("storm", "rain"): "the storm moves on, still raining",
+}
 PARTS = [("Night", 0, 360), ("Morning", 360, 720), ("Afternoon", 720, 1080), ("Evening", 1080, DAY)]
 
 
@@ -111,19 +123,30 @@ def summary(segs):
     return line
 
 
-def markdown(d, segments, tzname, base):
+def now_line(segs, a, b):
+    i = next(k for k, s in enumerate(segs) if s["start"] <= a < s["end"])
+    s = segs[i]
+    line = f"**Now · {hhmm(a)}–{hhmm(b)}** · {NOW[s['state']]}"
+    if s["end"] >= DAY:
+        return line + " through to midnight."
+    return line + f" until {hhmm(s['end'])}, then {NEXT[(s['state'], segs[i + 1]['state'])]}."
+
+
+def markdown(d, segments, tzname, base, window=None):
     segs = merged(segments)
     title = f'{d.strftime("%A")}, {d.strftime("%B")} {d.day} {d.year}'
     rows = {name: [] for name, _, _ in PARTS}
     for i, s in enumerate(segs):
         what = OPENING[s["state"]] if i == 0 else CHANGE.get((segs[i - 1]["state"], s["state"]), NAME[s["state"]].capitalize())
         part = next(name for name, a, b in PARTS if a <= s["start"] < b)
-        rows[part].append(f'| **{hhmm(s["start"])}** | {NAME[s["state"]]} | {what} | {_dur(s["end"] - s["start"])} |')
+        here = " ← now" if window and s["start"] < window[1] and s["end"] > window[0] else ""
+        rows[part].append(f'| **{hhmm(s["start"])}**{here} | {NAME[s["state"]]} | {what} | {_dur(s["end"] - s["start"])} |')
     out = [
         f"# {title}",
         "",
         f"The sky over the banner today, hour by hour. Times are {tzname}.",
         "",
+        *([now_line(segs, *window), ""] if window else []),
         "<picture>",
         f'  <source media="(prefers-color-scheme: dark)" srcset="{base}/today-dark.svg" />',
         f'  <img width="100%" alt="Today\'s weather, hour by hour" src="{base}/today-light.svg" />',

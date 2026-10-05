@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://arfaz.ca" title="Arfaz Hussain">
+  <a href="https://github.com/arfazca/arfazca/blob/generated/docs/today.md" title="Today's sky, hour by hour">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://arfazca-banner.arfazhussain.workers.dev/about-dark.svg" />
       <img width="100%" align="top" alt="Arfaz Hussain" src="https://arfazca-banner.arfazhussain.workers.dev/about-light.svg" />

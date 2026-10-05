@@ -1,4 +1,5 @@
 const BASE = "https://raw.githubusercontent.com/arfazca/arfazca/generated";
+const REPO = "arfazca/arfazca";
 const TZ = "America/Vancouver";
 const WIDTH = 1200;
 const DAY = 1440;
@@ -51,7 +52,25 @@ async function bar(mode, t) {
   }));
 }
 
+async function dispatch(env) {
+  const r = await fetch(`https://api.github.com/repos/${REPO}/actions/workflows/about-me.yml/dispatches`, {
+    method: "POST",
+    headers: {
+      authorization: `Bearer ${env.GH_TOKEN}`,
+      accept: "application/vnd.github+json",
+      "x-github-api-version": "2022-11-28",
+      "user-agent": "arfazca-banner",
+    },
+    body: JSON.stringify({ ref: "main" }),
+  });
+  if (!r.ok) throw new Error(`dispatch failed: ${r.status} ${await r.text()}`);
+}
+
 export default {
+  async scheduled(event, env) {
+    if (env.GH_TOKEN) await dispatch(env);
+  },
+
   async fetch(request) {
     const m = new URL(request.url).pathname.match(/^\/(about|today)-(dark|light)\.svg$/);
     if (!m) return Response.redirect("https://github.com/arfazca", 302);

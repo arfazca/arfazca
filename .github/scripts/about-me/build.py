@@ -18,6 +18,8 @@ import weather
 TZ = ZoneInfo("America/Vancouver")
 BIRTHDAY = datetime.date(2002, 6, 15)
 AHEAD = 2
+SLOT = 10
+LEAD = 2
 MODES = ("dark", "light")
 LIVE = "https://arfazca-banner.arfazhussain.workers.dev"
 
@@ -134,8 +136,11 @@ def main():
     for m in MODES:
         _write(os.path.join(a.gen, f"today-{m}.svg"), today_page.bar(segs, m, now.hour * 60 + now.minute))
     if a.docs:
-        tz = f"Pacific ({now.tzname()})"
-        if _write(os.path.join(a.docs, "today.md"), today_page.markdown(today, segs, tz, LIVE)):
+        at = now + datetime.timedelta(minutes=LEAD)
+        start = at.hour * 60 + at.minute - at.minute % SLOT
+        tz = f"Pacific ({at.tzname()})"
+        page = today_page.markdown(at.date(), weather.plan(at.date()), tz, LIVE, (start, start + SLOT))
+        if _write(os.path.join(a.docs, "today.md"), page):
             notes.append("docs/today.md")
     msg = f'banner: {seg["state"]} (variant {seg["variant"]}) at {now:%H:%M}'
     if notes:
