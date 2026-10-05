@@ -2,7 +2,7 @@
 
 The sky over the banner today, hour by hour. Times are Pacific (PDT).
 
-**Now · 12:40–12:50** · Raining steadily until 12:42, then it turns into a storm.
+**Now · 13:20–13:30** · Drizzling until 13:28, then it picks up into steady rain.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://arfazca-banner.arfazhussain.workers.dev/today-dark.svg" />
@@ -57,11 +57,11 @@ Dry for 8 h 51 min, wet for 15 h 9 min. Rain comes through 9 times, the longest 
 | time | sky | what happens | for |
 |:--|:--|:--|--:|
 | **12:00** | drizzle | Eases back to a drizzle | 19 min |
-| **12:19** ← now | rain | Picks up into steady rain | 23 min |
-| **12:42** ← now | storm | Turns into a storm: downpour and lightning | 15 min |
+| **12:19** | rain | Picks up into steady rain | 23 min |
+| **12:42** | storm | Turns into a storm: downpour and lightning | 15 min |
 | **12:57** | rain | The storm moves on, still raining | 17 min |
-| **13:14** | drizzle | Eases back to a drizzle | 14 min |
-| **13:28** | rain | Picks up into steady rain | 19 min |
+| **13:14** ← now | drizzle | Eases back to a drizzle | 14 min |
+| **13:28** ← now | rain | Picks up into steady rain | 19 min |
 | **13:47** | drizzle | Eases back to a drizzle | 13 min |
 | **14:00** | rain | Picks up into steady rain | 15 min |
 | **14:15** | drizzle | Eases back to a drizzle | 30 min |
