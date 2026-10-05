@@ -13,6 +13,9 @@ on:
       force:
         type: boolean
         default: false
+      squash:
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -57,6 +60,18 @@ jobs:
             git rebase -q origin/generated
           done
           exit 1
+
+      - name: Squash the generated branch's history past a month of commits
+        working-directory: gen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          count=$(gh api -i "repos/${{ github.repository }}/commits?sha=generated&per_page=1" | grep -i '^link:' | grep -oE 'page=[0-9]+>; rel="last"' | grep -oE '[0-9]+' || true)
+          if [ "${{ inputs.squash }}" != "true" ] && [ "${count:-1}" -le 4500 ]; then exit 0; fi
+          git fetch -q --depth=1 origin generated
+          tip=$(git rev-parse FETCH_HEAD)
+          root=$(git commit-tree "$tip^{tree}" -m "generated: history squashed (${count:-1} commits)")
+          git push -q --force-with-lease="refs/heads/generated:$tip" origin "${root}:refs/heads/generated" || echo "generated moved on; trying again next run"
 
       - name: Keep the schedule switched on
         if: github.event_name == 'schedule'
