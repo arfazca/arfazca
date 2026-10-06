@@ -2,7 +2,7 @@
 
 The sky over the banner today, hour by hour. Times are Pacific (PDT).
 
-**Now · 13:30–13:40** · Overcast until 13:50, then rain clouds drift over and it starts to drizzle.
+**Now · 13:40–13:50** · Overcast until 13:50, then rain clouds drift over and it starts to drizzle.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://arfazca-banner.arfazhussain.workers.dev/today-dark.svg" />
