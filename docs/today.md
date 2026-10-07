@@ -2,7 +2,7 @@
 
 The sky over the banner today, hour by hour. Times are Pacific (PDT).
 
-**Now · 08:40–08:50** · Overcast until 08:46, then rain clouds drift over and it starts to drizzle.
+**Now · 08:50–09:00** · Drizzling until 09:05, then it picks up into steady rain.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://arfazca-banner.arfazhussain.workers.dev/today-dark.svg" />
@@ -41,7 +41,7 @@ Dry for 16 h 12 min, wet for 7 h 48 min. Rain comes through 5 times, the longest
 |:--|:--|:--|--:|
 | **06:42** | overcast | Clouds roll in and the stars go | 31 min |
 | **07:13** | clear | Clears up; stars and moon are back | 55 min |
-| **08:08** ← now | overcast | Clouds roll in and the stars go | 38 min |
+| **08:08** | overcast | Clouds roll in and the stars go | 38 min |
 | **08:46** ← now | drizzle | Rain clouds drift over and it starts to drizzle | 19 min |
 | **09:05** | rain | Picks up into steady rain | 35 min |
 | **09:40** | drizzle | Eases back to a drizzle | 11 min |
