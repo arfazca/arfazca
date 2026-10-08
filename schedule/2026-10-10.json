@@ -1,0 +1,510 @@
+{
+ "date": "2026-10-10",
+ "tz": "America/Vancouver",
+ "day": {
+  "dow": "saturday",
+  "md": "october 10",
+  "year": "2026",
+  "uptime": "24 years, 3 months, 25 days"
+ },
+ "segments": [
+  {
+   "start": 0,
+   "end": 24,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 24,
+   "end": 49,
+   "state": "clear",
+   "variant": 2
+  },
+  {
+   "start": 49,
+   "end": 72,
+   "state": "clear",
+   "variant": 1
+  },
+  {
+   "start": 72,
+   "end": 87,
+   "state": "cloudy",
+   "variant": 1
+  },
+  {
+   "start": 87,
+   "end": 107,
+   "state": "clear",
+   "variant": 2
+  },
+  {
+   "start": 107,
+   "end": 121,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 121,
+   "end": 138,
+   "state": "clear",
+   "variant": 0
+  },
+  {
+   "start": 138,
+   "end": 157,
+   "state": "clear",
+   "variant": 2
+  },
+  {
+   "start": 157,
+   "end": 175,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 175,
+   "end": 203,
+   "state": "clear",
+   "variant": 0
+  },
+  {
+   "start": 203,
+   "end": 218,
+   "state": "clear",
+   "variant": 0
+  },
+  {
+   "start": 218,
+   "end": 245,
+   "state": "clear",
+   "variant": 1
+  },
+  {
+   "start": 245,
+   "end": 274,
+   "state": "clear",
+   "variant": 0
+  },
+  {
+   "start": 274,
+   "end": 288,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 288,
+   "end": 298,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 298,
+   "end": 313,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 313,
+   "end": 332,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 332,
+   "end": 349,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 349,
+   "end": 361,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 361,
+   "end": 382,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 382,
+   "end": 399,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 399,
+   "end": 412,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 412,
+   "end": 433,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 433,
+   "end": 443,
+   "state": "drizzle",
+   "variant": 2
+  },
+  {
+   "start": 443,
+   "end": 461,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 461,
+   "end": 478,
+   "state": "rain",
+   "variant": 2
+  },
+  {
+   "start": 478,
+   "end": 498,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 498,
+   "end": 519,
+   "state": "cloudy",
+   "variant": 1
+  },
+  {
+   "start": 519,
+   "end": 531,
+   "state": "drizzle",
+   "variant": 2
+  },
+  {
+   "start": 531,
+   "end": 554,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 554,
+   "end": 564,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 564,
+   "end": 575,
+   "state": "cloudy",
+   "variant": 1
+  },
+  {
+   "start": 575,
+   "end": 590,
+   "state": "clear",
+   "variant": 0
+  },
+  {
+   "start": 590,
+   "end": 610,
+   "state": "cloudy",
+   "variant": 2
+  },
+  {
+   "start": 610,
+   "end": 625,
+   "state": "clear",
+   "variant": 0
+  },
+  {
+   "start": 625,
+   "end": 648,
+   "state": "clear",
+   "variant": 2
+  },
+  {
+   "start": 648,
+   "end": 668,
+   "state": "clear",
+   "variant": 2
+  },
+  {
+   "start": 668,
+   "end": 682,
+   "state": "cloudy",
+   "variant": 1
+  },
+  {
+   "start": 682,
+   "end": 692,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 692,
+   "end": 702,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 702,
+   "end": 725,
+   "state": "cloudy",
+   "variant": 2
+  },
+  {
+   "start": 725,
+   "end": 750,
+   "state": "clear",
+   "variant": 1
+  },
+  {
+   "start": 750,
+   "end": 779,
+   "state": "clear",
+   "variant": 1
+  },
+  {
+   "start": 779,
+   "end": 799,
+   "state": "clear",
+   "variant": 1
+  },
+  {
+   "start": 799,
+   "end": 810,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 810,
+   "end": 833,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 833,
+   "end": 857,
+   "state": "clear",
+   "variant": 1
+  },
+  {
+   "start": 857,
+   "end": 874,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 874,
+   "end": 885,
+   "state": "drizzle",
+   "variant": 2
+  },
+  {
+   "start": 885,
+   "end": 904,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 904,
+   "end": 917,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 917,
+   "end": 930,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 930,
+   "end": 948,
+   "state": "storm",
+   "variant": 2
+  },
+  {
+   "start": 948,
+   "end": 965,
+   "state": "rain",
+   "variant": 2
+  },
+  {
+   "start": 965,
+   "end": 976,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 976,
+   "end": 998,
+   "state": "cloudy",
+   "variant": 1
+  },
+  {
+   "start": 998,
+   "end": 1008,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 1008,
+   "end": 1031,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 1031,
+   "end": 1046,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 1046,
+   "end": 1061,
+   "state": "cloudy",
+   "variant": 2
+  },
+  {
+   "start": 1061,
+   "end": 1077,
+   "state": "drizzle",
+   "variant": 2
+  },
+  {
+   "start": 1077,
+   "end": 1088,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 1088,
+   "end": 1106,
+   "state": "storm",
+   "variant": 2
+  },
+  {
+   "start": 1106,
+   "end": 1124,
+   "state": "rain",
+   "variant": 2
+  },
+  {
+   "start": 1124,
+   "end": 1140,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 1140,
+   "end": 1160,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 1160,
+   "end": 1170,
+   "state": "storm",
+   "variant": 2
+  },
+  {
+   "start": 1170,
+   "end": 1191,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 1191,
+   "end": 1204,
+   "state": "drizzle",
+   "variant": 2
+  },
+  {
+   "start": 1204,
+   "end": 1220,
+   "state": "drizzle",
+   "variant": 2
+  },
+  {
+   "start": 1220,
+   "end": 1234,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 1234,
+   "end": 1248,
+   "state": "storm",
+   "variant": 1
+  },
+  {
+   "start": 1248,
+   "end": 1264,
+   "state": "rain",
+   "variant": 2
+  },
+  {
+   "start": 1264,
+   "end": 1275,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 1275,
+   "end": 1290,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 1290,
+   "end": 1314,
+   "state": "clear",
+   "variant": 2
+  },
+  {
+   "start": 1314,
+   "end": 1333,
+   "state": "clear",
+   "variant": 2
+  },
+  {
+   "start": 1333,
+   "end": 1350,
+   "state": "clear",
+   "variant": 0
+  },
+  {
+   "start": 1350,
+   "end": 1373,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 1373,
+   "end": 1391,
+   "state": "drizzle",
+   "variant": 2
+  },
+  {
+   "start": 1391,
+   "end": 1408,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 1408,
+   "end": 1427,
+   "state": "drizzle",
+   "variant": 2
+  },
+  {
+   "start": 1427,
+   "end": 1440,
+   "state": "rain",
+   "variant": 0
+  }
+ ]
+}
