@@ -2,7 +2,7 @@
 
 The sky over the banner today, hour by hour. Times are Pacific (PDT).
 
-**Now · 11:40–11:50** · Drizzling until 12:00, then the drizzle stops but it stays overcast.
+**Now · 11:50–12:00** · Drizzling until 12:00, then the drizzle stops but it stays overcast.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://arfazca-banner.arfazhussain.workers.dev/today-dark.svg" />
