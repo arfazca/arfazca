@@ -2,7 +2,7 @@
 
 The sky over the banner today, hour by hour. Times are Pacific (PDT).
 
-**Now · 22:50–23:00** · Storming, with a downpour and lightning until 23:11, then the storm moves on, still raining.
+**Now · 23:00–23:10** · Storming, with a downpour and lightning until 23:11, then the storm moves on, still raining.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://arfazca-banner.arfazhussain.workers.dev/today-dark.svg" />
