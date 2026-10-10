@@ -2,7 +2,7 @@
 
 The sky over the banner today, hour by hour. Times are Pacific (PDT).
 
-**Now · 17:50–18:00** · Raining steadily until 18:04, then it eases back to a drizzle.
+**Now · 18:00–18:10** · Raining steadily until 18:04, then it eases back to a drizzle.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://arfazca-banner.arfazhussain.workers.dev/today-dark.svg" />
@@ -72,7 +72,7 @@ Dry for 11 h, wet for 13 h. Rain comes through 8 times, the longest spell from 0
 
 | time | sky | what happens | for |
 |:--|:--|:--|--:|
-| **18:04** | drizzle | Eases back to a drizzle | 16 min |
+| **18:04** ← now | drizzle | Eases back to a drizzle | 16 min |
 | **18:20** | rain | Picks up into steady rain | 16 min |
 | **18:36** | storm | Turns into a storm: downpour and lightning | 10 min |
 | **18:46** | rain | The storm moves on, still raining | 16 min |
