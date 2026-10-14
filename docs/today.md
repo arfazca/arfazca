@@ -2,7 +2,7 @@
 
 The sky over the banner today, hour by hour. Times are Pacific (PDT).
 
-**Now · 15:20–15:30** · Raining steadily until 15:35, then it eases back to a drizzle.
+**Now · 15:30–15:40** · Raining steadily until 15:35, then it eases back to a drizzle.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://arfazca-banner.arfazhussain.workers.dev/today-dark.svg" />
@@ -63,7 +63,7 @@ Dry for 15 h 25 min, wet for 8 h 35 min. Rain comes through 13 times, the longes
 | **14:43** | overcast | The drizzle stops but it stays overcast | 17 min |
 | **15:00** | drizzle | Rain clouds drift over and it starts to drizzle | 17 min |
 | **15:17** ← now | rain | Picks up into steady rain | 18 min |
-| **15:35** | drizzle | Eases back to a drizzle | 19 min |
+| **15:35** ← now | drizzle | Eases back to a drizzle | 19 min |
 | **15:54** | overcast | The drizzle stops but it stays overcast | 11 min |
 | **16:05** | drizzle | Rain clouds drift over and it starts to drizzle | 12 min |
 | **16:17** | overcast | The drizzle stops but it stays overcast | 27 min |
