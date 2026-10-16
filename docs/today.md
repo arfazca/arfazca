@@ -1,85 +1,91 @@
-# Thursday, October 15 2026
+# Friday, October 16 2026
 
 The sky over the banner today, hour by hour. Times are Pacific (PDT).
 
-**Now · 23:50–24:00** · Overcast until 23:55, then rain clouds drift over and it starts to drizzle.
+**Now · 00:00–00:10** · Overcast until 00:17, then rain clouds drift over and it starts to drizzle.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://arfazca-banner.arfazhussain.workers.dev/today-dark.svg" />
   <img width="100%" alt="Today's weather, hour by hour" src="https://arfazca-banner.arfazhussain.workers.dev/today-light.svg" />
 </picture>
 
-Dry for 16 h 56 min, wet for 7 h 4 min. Rain comes through 11 times, the longest spell from 14:30 to 16:52, and it turns stormy 1 time.
+Dry for 12 h 19 min, wet for 11 h 41 min. Rain comes through 6 times, the longest spell from 12:04 to 17:32, and it turns stormy 3 times.
 
 ## Night · 00:00–06:00
 
 | time | sky | what happens | for |
 |:--|:--|:--|--:|
-| **00:00** | drizzle | Starts with a drizzle | 27 min |
-| **00:27** | overcast | The drizzle stops but it stays overcast | 22 min |
-| **00:49** | drizzle | Rain clouds drift over and it starts to drizzle | 10 min |
-| **00:59** | overcast | The drizzle stops but it stays overcast | 16 min |
-| **01:15** | clear | Clears up; stars and moon are back | 1 h 36 min |
-| **02:51** | overcast | Clouds roll in and the stars go | 21 min |
-| **03:12** | clear | Clears up; stars and moon are back | 44 min |
-| **03:56** | overcast | Clouds roll in and the stars go | 37 min |
-| **04:33** | drizzle | Rain clouds drift over and it starts to drizzle | 19 min |
-| **04:52** | overcast | The drizzle stops but it stays overcast | 1 h 21 min |
+| **00:00** ← now | overcast | Starts overcast | 17 min |
+| **00:17** | drizzle | Rain clouds drift over and it starts to drizzle | 18 min |
+| **00:35** | rain | Picks up into steady rain | 23 min |
+| **00:58** | storm | Turns into a storm: downpour and lightning | 16 min |
+| **01:14** | rain | The storm moves on, still raining | 28 min |
+| **01:42** | drizzle | Eases back to a drizzle | 10 min |
+| **01:52** | rain | Picks up into steady rain | 25 min |
+| **02:17** | drizzle | Eases back to a drizzle | 1 h 5 min |
+| **03:22** | rain | Picks up into steady rain | 15 min |
+| **03:37** | drizzle | Eases back to a drizzle | 18 min |
+| **03:55** | rain | Picks up into steady rain | 10 min |
+| **04:05** | drizzle | Eases back to a drizzle | 11 min |
+| **04:16** | overcast | The drizzle stops but it stays overcast | 46 min |
+| **05:02** | clear | Clears up; stars and moon are back | 25 min |
+| **05:27** | overcast | Clouds roll in and the stars go | 13 min |
+| **05:40** | clear | Clears up; stars and moon are back | 1 h 33 min |
 
 ## Morning · 06:00–12:00
 
 | time | sky | what happens | for |
 |:--|:--|:--|--:|
-| **06:13** | clear | Clears up; stars and moon are back | 1 h 17 min |
-| **07:30** | overcast | Clouds roll in and the stars go | 20 min |
-| **07:50** | clear | Clears up; stars and moon are back | 1 h 13 min |
-| **09:03** | overcast | Clouds roll in and the stars go | 25 min |
-| **09:28** | clear | Clears up; stars and moon are back | 19 min |
-| **09:47** | overcast | Clouds roll in and the stars go | 19 min |
-| **10:06** | clear | Clears up; stars and moon are back | 29 min |
-| **10:35** | overcast | Clouds roll in and the stars go | 22 min |
-| **10:57** | clear | Clears up; stars and moon are back | 27 min |
-| **11:24** | overcast | Clouds roll in and the stars go | 24 min |
-| **11:48** | drizzle | Rain clouds drift over and it starts to drizzle | 11 min |
-| **11:59** | overcast | The drizzle stops but it stays overcast | 24 min |
+| **07:13** | overcast | Clouds roll in and the stars go | 14 min |
+| **07:27** | clear | Clears up; stars and moon are back | 1 h 12 min |
+| **08:39** | overcast | Clouds roll in and the stars go | 13 min |
+| **08:52** | clear | Clears up; stars and moon are back | 49 min |
+| **09:41** | overcast | Clouds roll in and the stars go | 17 min |
+| **09:58** | drizzle | Rain clouds drift over and it starts to drizzle | 11 min |
+| **10:09** | rain | Picks up into steady rain | 19 min |
+| **10:28** | drizzle | Eases back to a drizzle | 17 min |
+| **10:45** | overcast | The drizzle stops but it stays overcast | 10 min |
+| **10:55** | drizzle | Rain clouds drift over and it starts to drizzle | 18 min |
+| **11:13** | overcast | The drizzle stops but it stays overcast | 15 min |
+| **11:28** | drizzle | Rain clouds drift over and it starts to drizzle | 19 min |
+| **11:47** | overcast | The drizzle stops but it stays overcast | 17 min |
 
 ## Afternoon · 12:00–18:00
 
 | time | sky | what happens | for |
 |:--|:--|:--|--:|
-| **12:23** | clear | Clears up; stars and moon are back | 1 h 42 min |
-| **14:05** | overcast | Clouds roll in and the stars go | 25 min |
-| **14:30** | drizzle | Rain clouds drift over and it starts to drizzle | 15 min |
-| **14:45** | rain | Picks up into steady rain | 11 min |
-| **14:56** | drizzle | Eases back to a drizzle | 19 min |
-| **15:15** | rain | Picks up into steady rain | 25 min |
-| **15:40** | drizzle | Eases back to a drizzle | 20 min |
-| **16:00** | rain | Picks up into steady rain | 12 min |
-| **16:12** | storm | Turns into a storm: downpour and lightning | 10 min |
-| **16:22** | rain | The storm moves on, still raining | 12 min |
-| **16:34** | drizzle | Eases back to a drizzle | 18 min |
-| **16:52** | overcast | The drizzle stops but it stays overcast | 21 min |
-| **17:13** | drizzle | Rain clouds drift over and it starts to drizzle | 20 min |
-| **17:33** | overcast | The drizzle stops but it stays overcast | 14 min |
-| **17:47** | drizzle | Rain clouds drift over and it starts to drizzle | 30 min |
+| **12:04** | drizzle | Rain clouds drift over and it starts to drizzle | 16 min |
+| **12:20** | rain | Picks up into steady rain | 31 min |
+| **12:51** | drizzle | Eases back to a drizzle | 28 min |
+| **13:19** | rain | Picks up into steady rain | 15 min |
+| **13:34** | storm | Turns into a storm: downpour and lightning | 15 min |
+| **13:49** | rain | The storm moves on, still raining | 20 min |
+| **14:09** | storm | Turns into a storm: downpour and lightning | 16 min |
+| **14:25** | rain | The storm moves on, still raining | 25 min |
+| **14:50** | drizzle | Eases back to a drizzle | 13 min |
+| **15:03** | rain | Picks up into steady rain | 24 min |
+| **15:27** | drizzle | Eases back to a drizzle | 15 min |
+| **15:42** | rain | Picks up into steady rain | 13 min |
+| **15:55** | drizzle | Eases back to a drizzle | 10 min |
+| **16:05** | rain | Picks up into steady rain | 13 min |
+| **16:18** | drizzle | Eases back to a drizzle | 12 min |
+| **16:30** | rain | Picks up into steady rain | 18 min |
+| **16:48** | drizzle | Eases back to a drizzle | 16 min |
+| **17:04** | rain | Picks up into steady rain | 14 min |
+| **17:18** | drizzle | Eases back to a drizzle | 14 min |
+| **17:32** | overcast | The drizzle stops but it stays overcast | 24 min |
+| **17:56** | drizzle | Rain clouds drift over and it starts to drizzle | 16 min |
 
 ## Evening · 18:00–24:00
 
 | time | sky | what happens | for |
 |:--|:--|:--|--:|
-| **18:17** | rain | Picks up into steady rain | 19 min |
-| **18:36** | drizzle | Eases back to a drizzle | 13 min |
-| **18:49** | overcast | The drizzle stops but it stays overcast | 34 min |
-| **19:23** | drizzle | Rain clouds drift over and it starts to drizzle | 19 min |
-| **19:42** | overcast | The drizzle stops but it stays overcast | 12 min |
-| **19:54** | drizzle | Rain clouds drift over and it starts to drizzle | 11 min |
-| **20:05** | overcast | The drizzle stops but it stays overcast | 20 min |
-| **20:25** | clear | Clears up; stars and moon are back | 1 h 13 min |
-| **21:38** | overcast | Clouds roll in and the stars go | 20 min |
-| **21:58** | drizzle | Rain clouds drift over and it starts to drizzle | 17 min |
-| **22:15** | rain | Picks up into steady rain | 16 min |
-| **22:31** | drizzle | Eases back to a drizzle | 12 min |
-| **22:43** | rain | Picks up into steady rain | 17 min |
-| **23:00** | drizzle | Eases back to a drizzle | 36 min |
-| **23:36** ← now | overcast | The drizzle stops but it stays overcast | 19 min |
-| **23:55** ← now | drizzle | Rain clouds drift over and it starts to drizzle | 5 min |
+| **18:12** | rain | Picks up into steady rain | 22 min |
+| **18:34** | drizzle | Eases back to a drizzle | 12 min |
+| **18:46** | overcast | The drizzle stops but it stays overcast | 25 min |
+| **19:11** | clear | Clears up; stars and moon are back | 48 min |
+| **19:59** | overcast | Clouds roll in and the stars go | 16 min |
+| **20:15** | clear | Clears up; stars and moon are back | 16 min |
+| **20:31** | overcast | Clouds roll in and the stars go | 14 min |
+| **20:45** | clear | Clears up; stars and moon are back | 2 h 25 min |
+| **23:10** | overcast | Clouds roll in and the stars go | 50 min |
