@@ -7,14 +7,16 @@ EPOCH = datetime.date(2026, 1, 1)
 FIRST = "clear"
 VARIANTS = 3
 
+# Every hold ends in a different state, so the sky changes every 10-20 minutes.
+# Weighted toward rain and storms: roughly 15-20 storms a day.
 NEXT = {
-    "clear":   [("cloudy", 0.5), ("clear", 0.5)],
-    "cloudy":  [("drizzle", 0.4), ("clear", 0.4), ("cloudy", 0.2)],
-    "drizzle": [("rain", 0.45), ("cloudy", 0.45), ("drizzle", 0.1)],
-    "rain":    [("storm", 0.3), ("drizzle", 0.6), ("rain", 0.1)],
-    "storm":   [("rain", 0.9), ("storm", 0.1)],
+    "clear":   [("cloudy", 1.0)],
+    "cloudy":  [("drizzle", 0.6), ("clear", 0.4)],
+    "drizzle": [("rain", 0.6), ("cloudy", 0.4)],
+    "rain":    [("storm", 0.55), ("drizzle", 0.45)],
+    "storm":   [("rain", 1.0)],
 }
-HOLD = {"clear": (15, 30), "cloudy": (10, 25), "drizzle": (10, 20), "rain": (10, 25), "storm": (10, 18)}
+HOLD = {"clear": (10, 20), "cloudy": (10, 20), "drizzle": (10, 20), "rain": (10, 20), "storm": (10, 20)}
 
 DAY = 24 * 60
 
@@ -33,7 +35,9 @@ def _day(state, d):
     segs, t = [], 0
     while t < DAY:
         lo, hi = HOLD[state]
-        dur = rng.randint(lo, hi)
+        dur, left = rng.randint(lo, hi), DAY - t
+        if 0 < left - dur < lo:  # never leave a sliver before midnight
+            dur = left if left <= hi else left - lo
         segs.append({"start": t, "end": min(t + dur, DAY), "state": state, "variant": rng.randrange(VARIANTS)})
         t += dur
         state = _pick(rng, NEXT[state])

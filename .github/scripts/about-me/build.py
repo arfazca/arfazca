@@ -140,6 +140,7 @@ def main():
         start = at.hour * 60 + at.minute - at.minute % SLOT
         tz = f"Pacific ({at.tzname()})"
         page = today_page.markdown(at.date(), weather.plan(at.date()), tz, LIVE, (start, start + SLOT))
+        _write(os.path.join(a.docs, today_page.SPACER_NAME), today_page.SPACER)
         if _write(os.path.join(a.docs, "today.md"), page):
             notes.append("docs/today.md")
     msg = f'banner: {seg["state"]} (variant {seg["variant"]}) at {now:%H:%M}'

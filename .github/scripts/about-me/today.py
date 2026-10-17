@@ -7,9 +7,9 @@ DAY = 24 * 60
 
 COLORS = {
     "dark": {"clear": "#8fb4e3", "cloudy": "#6c7889", "drizzle": "#6d9bd6", "rain": "#4b74b3",
-             "storm": "#e2b44f", "text": "#8798ae", "strong": "#e5eaf0", "now": "#f0f6fc"},
+             "storm": "#e2b44f", "text": "#8798ae", "strong": "#e5eaf0", "now": "#f0f6fc", "halo": "#0d1117"},
     "light": {"clear": "#7fa3cf", "cloudy": "#98a3b3", "drizzle": "#5e8cc4", "rain": "#34588c",
-              "storm": "#c08a1e", "text": "#56667a", "strong": "#1f2328", "now": "#1f2328"},
+              "storm": "#c08a1e", "text": "#56667a", "strong": "#1f2328", "now": "#1f2328", "halo": "#ffffff"},
 }
 ORDER = ["clear", "cloudy", "drizzle", "rain", "storm"]
 WET = {"drizzle", "rain", "storm"}
@@ -52,9 +52,13 @@ def bar(segments, mode, now_minute=None):
     now = ""
     if now_minute is not None:
         nx = x(now_minute)
-        now = (f'<g id="now"><rect x="{nx - 1.5:.1f}" y="{TRACK_Y - 10}" width="3" height="{TRACK_H + 20}" rx="1.5" fill="{c["now"]}"/>'
+        # The marker carries a halo in the opposite tone, so it stays visible on light and
+        # dark pages alike, even if GitHub shows the other theme's image.
+        now = (f'<g id="now"><rect x="{nx - 1.5:.1f}" y="{TRACK_Y - 10}" width="3" height="{TRACK_H + 20}" rx="1.5" '
+               f'fill="{c["now"]}" stroke="{c["halo"]}" stroke-width="2" paint-order="stroke"/>'
                f'<text x="{min(max(nx, 20), W - 20):.0f}" y="{TRACK_Y - 15}" text-anchor="middle" fill="{c["strong"]}" '
-               f'font-family="{MONO}" font-size="15">now</text></g>')
+               f'stroke="{c["halo"]}" stroke-width="3" stroke-linejoin="round" paint-order="stroke" '
+               f'font-family="{MONO}" font-size="15" font-weight="600">now</text></g>')
     return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" '
             f'aria-label="The day\'s weather, hour by hour">'
             f'<defs><clipPath id="t"><rect y="{TRACK_Y}" width="{W}" height="{TRACK_H}" rx="9"/></clipPath></defs>'
@@ -93,6 +97,12 @@ NEXT = {
     ("rain", "storm"): "it turns into a storm",
     ("storm", "rain"): "the storm moves on, still raining",
 }
+# GitHub sizes markdown tables to their content (width: max-content). A transparent,
+# very wide image at width="100%" adds nothing to a table's narrowest size but makes its
+# widest size larger than any page, so every table fills the column. Floated, it adds 1px.
+SPACER_NAME = "spacer.svg"
+SPACER = '<svg xmlns="http://www.w3.org/2000/svg" width="10000" height="1" viewBox="0 0 10000 1"/>\n'
+STRETCH = f'<img src="{SPACER_NAME}" width="100%" height="1" align="right" alt="">'
 PARTS = [("Night", 0, 360), ("Morning", 360, 720), ("Afternoon", 720, 1080), ("Evening", 1080, DAY)]
 
 
@@ -140,7 +150,7 @@ def markdown(d, segments, tzname, base, window=None):
         what = OPENING[s["state"]] if i == 0 else CHANGE.get((segs[i - 1]["state"], s["state"]), NAME[s["state"]].capitalize())
         part = next(name for name, a, b in PARTS if a <= s["start"] < b)
         here = " ← now" if window and s["start"] < window[1] and s["end"] > window[0] else ""
-        rows[part].append(f'| **{hhmm(s["start"])}**{here} | {NAME[s["state"]]} | {what} | {_dur(s["end"] - s["start"])} |')
+        rows[part].append(f'| **{hhmm(s["start"])}**{here} | {NAME[s["state"]]} | {what} | {_dur(s["end"] - s["start"]).replace(" ", "\u00a0")} |')
     out = [
         f"# {title}",
         "",
@@ -159,7 +169,7 @@ def markdown(d, segments, tzname, base, window=None):
         if not rows[name]:
             continue
         out += [f"## {name} · {hhmm(a)}–{hhmm(b) if b < DAY else '24:00'}", "",
-                "| time | sky | what happens | for |", "|:--|:--|:--|--:|", *rows[name], ""]
+                f"| time | sky | what happens{STRETCH} | for |", "|:--|:--|:--|--:|", *rows[name], ""]
     return "\n".join(out)
 
 
