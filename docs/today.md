@@ -2,7 +2,7 @@
 
 The sky over the banner today, hour by hour. Times are Pacific (PDT).
 
-**Now · 01:40–01:50** · Raining steadily until 01:55, then it turns into a storm.
+**Now · 01:50–02:00** · Raining steadily until 01:55, then it turns into a storm.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://arfazca-banner.arfazhussain.workers.dev/today-dark.svg" />
@@ -22,7 +22,7 @@ Dry for 5 h 17 min, wet for 18 h 43 min. Rain comes through 11 times, the longes
 | **01:07** | rain | The storm moves on, still raining | 10 min |
 | **01:17** | storm | Turns into a storm: downpour and lightning | 18 min |
 | **01:35** ← now | rain | The storm moves on, still raining | 20 min |
-| **01:55** | storm | Turns into a storm: downpour and lightning | 19 min |
+| **01:55** ← now | storm | Turns into a storm: downpour and lightning | 19 min |
 | **02:14** | rain | The storm moves on, still raining | 13 min |
 | **02:27** | storm | Turns into a storm: downpour and lightning | 14 min |
 | **02:41** | rain | The storm moves on, still raining | 12 min |
