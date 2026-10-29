@@ -2,7 +2,7 @@
 
 The sky over the banner today, hour by hour. Times are Pacific (PDT).
 
-**Now · 19:20–19:30** · Drizzling until 19:40, then it picks up into steady rain.
+**Now · 19:30–19:40** · Drizzling until 19:40, then it picks up into steady rain.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://arfazca-banner.arfazhussain.workers.dev/today-dark.svg" />
