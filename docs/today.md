@@ -2,7 +2,7 @@
 
 The sky over the banner today, hour by hour. Times are Pacific (PDT).
 
-**Now · 05:40–05:50** · Drizzling until 05:55, then the drizzle stops but it stays overcast.
+**Now · 05:50–06:00** · Drizzling until 05:55, then the drizzle stops but it stays overcast.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://arfazca-banner.arfazhussain.workers.dev/today-dark.svg" />
@@ -39,7 +39,7 @@ Dry for 6 h 23 min, wet for 17 h 37 min. Rain comes through 11 times, the longes
 | **05:03** | storm | Turns into a storm: downpour and lightning | 17 min |
 | **05:20** | rain | The storm moves on, still raining | 20 min |
 | **05:40** ← now | drizzle | Eases back to a drizzle | 15 min |
-| **05:55** | overcast | The drizzle stops but it stays overcast | 12 min |
+| **05:55** ← now | overcast | The drizzle stops but it stays overcast | 12 min |
 
 ## Morning · 06:00–12:00
 
