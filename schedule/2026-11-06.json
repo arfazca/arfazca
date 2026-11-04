@@ -1,0 +1,582 @@
+{
+ "date": "2026-11-06",
+ "tz": "America/Vancouver",
+ "day": {
+  "dow": "friday",
+  "md": "november 6",
+  "year": "2026",
+  "uptime": "24 years, 4 months, 22 days"
+ },
+ "segments": [
+  {
+   "start": 0,
+   "end": 13,
+   "state": "cloudy",
+   "variant": 2
+  },
+  {
+   "start": 13,
+   "end": 28,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 28,
+   "end": 43,
+   "state": "cloudy",
+   "variant": 2
+  },
+  {
+   "start": 43,
+   "end": 61,
+   "state": "drizzle",
+   "variant": 2
+  },
+  {
+   "start": 61,
+   "end": 71,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 71,
+   "end": 90,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 90,
+   "end": 107,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 107,
+   "end": 127,
+   "state": "storm",
+   "variant": 0
+  },
+  {
+   "start": 127,
+   "end": 144,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 144,
+   "end": 164,
+   "state": "storm",
+   "variant": 1
+  },
+  {
+   "start": 164,
+   "end": 184,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 184,
+   "end": 203,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 203,
+   "end": 221,
+   "state": "rain",
+   "variant": 2
+  },
+  {
+   "start": 221,
+   "end": 235,
+   "state": "storm",
+   "variant": 1
+  },
+  {
+   "start": 235,
+   "end": 245,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 245,
+   "end": 257,
+   "state": "storm",
+   "variant": 1
+  },
+  {
+   "start": 257,
+   "end": 268,
+   "state": "rain",
+   "variant": 2
+  },
+  {
+   "start": 268,
+   "end": 286,
+   "state": "storm",
+   "variant": 0
+  },
+  {
+   "start": 286,
+   "end": 297,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 297,
+   "end": 317,
+   "state": "drizzle",
+   "variant": 2
+  },
+  {
+   "start": 317,
+   "end": 335,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 335,
+   "end": 354,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 354,
+   "end": 365,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 365,
+   "end": 381,
+   "state": "clear",
+   "variant": 1
+  },
+  {
+   "start": 381,
+   "end": 392,
+   "state": "cloudy",
+   "variant": 1
+  },
+  {
+   "start": 392,
+   "end": 405,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 405,
+   "end": 425,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 425,
+   "end": 438,
+   "state": "drizzle",
+   "variant": 2
+  },
+  {
+   "start": 438,
+   "end": 452,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 452,
+   "end": 469,
+   "state": "storm",
+   "variant": 2
+  },
+  {
+   "start": 469,
+   "end": 479,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 479,
+   "end": 490,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 490,
+   "end": 503,
+   "state": "cloudy",
+   "variant": 2
+  },
+  {
+   "start": 503,
+   "end": 519,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 519,
+   "end": 530,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 530,
+   "end": 544,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 544,
+   "end": 556,
+   "state": "rain",
+   "variant": 2
+  },
+  {
+   "start": 556,
+   "end": 571,
+   "state": "storm",
+   "variant": 2
+  },
+  {
+   "start": 571,
+   "end": 582,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 582,
+   "end": 597,
+   "state": "storm",
+   "variant": 1
+  },
+  {
+   "start": 597,
+   "end": 608,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 608,
+   "end": 626,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 626,
+   "end": 639,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 639,
+   "end": 653,
+   "state": "storm",
+   "variant": 0
+  },
+  {
+   "start": 653,
+   "end": 664,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 664,
+   "end": 684,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 684,
+   "end": 699,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 699,
+   "end": 714,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 714,
+   "end": 732,
+   "state": "rain",
+   "variant": 2
+  },
+  {
+   "start": 732,
+   "end": 744,
+   "state": "storm",
+   "variant": 2
+  },
+  {
+   "start": 744,
+   "end": 764,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 764,
+   "end": 777,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 777,
+   "end": 791,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 791,
+   "end": 807,
+   "state": "storm",
+   "variant": 2
+  },
+  {
+   "start": 807,
+   "end": 822,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 822,
+   "end": 836,
+   "state": "storm",
+   "variant": 2
+  },
+  {
+   "start": 836,
+   "end": 854,
+   "state": "rain",
+   "variant": 2
+  },
+  {
+   "start": 854,
+   "end": 867,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 867,
+   "end": 881,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 881,
+   "end": 898,
+   "state": "clear",
+   "variant": 2
+  },
+  {
+   "start": 898,
+   "end": 917,
+   "state": "cloudy",
+   "variant": 2
+  },
+  {
+   "start": 917,
+   "end": 927,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 927,
+   "end": 946,
+   "state": "rain",
+   "variant": 2
+  },
+  {
+   "start": 946,
+   "end": 956,
+   "state": "storm",
+   "variant": 2
+  },
+  {
+   "start": 956,
+   "end": 969,
+   "state": "rain",
+   "variant": 2
+  },
+  {
+   "start": 969,
+   "end": 986,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 986,
+   "end": 1005,
+   "state": "rain",
+   "variant": 2
+  },
+  {
+   "start": 1005,
+   "end": 1016,
+   "state": "storm",
+   "variant": 0
+  },
+  {
+   "start": 1016,
+   "end": 1027,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 1027,
+   "end": 1041,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 1041,
+   "end": 1061,
+   "state": "cloudy",
+   "variant": 1
+  },
+  {
+   "start": 1061,
+   "end": 1075,
+   "state": "drizzle",
+   "variant": 2
+  },
+  {
+   "start": 1075,
+   "end": 1095,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 1095,
+   "end": 1111,
+   "state": "storm",
+   "variant": 1
+  },
+  {
+   "start": 1111,
+   "end": 1121,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 1121,
+   "end": 1135,
+   "state": "storm",
+   "variant": 0
+  },
+  {
+   "start": 1135,
+   "end": 1155,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 1155,
+   "end": 1167,
+   "state": "storm",
+   "variant": 2
+  },
+  {
+   "start": 1167,
+   "end": 1180,
+   "state": "rain",
+   "variant": 2
+  },
+  {
+   "start": 1180,
+   "end": 1198,
+   "state": "storm",
+   "variant": 0
+  },
+  {
+   "start": 1198,
+   "end": 1209,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 1209,
+   "end": 1228,
+   "state": "storm",
+   "variant": 1
+  },
+  {
+   "start": 1228,
+   "end": 1244,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 1244,
+   "end": 1262,
+   "state": "storm",
+   "variant": 2
+  },
+  {
+   "start": 1262,
+   "end": 1279,
+   "state": "rain",
+   "variant": 2
+  },
+  {
+   "start": 1279,
+   "end": 1292,
+   "state": "storm",
+   "variant": 1
+  },
+  {
+   "start": 1292,
+   "end": 1311,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 1311,
+   "end": 1325,
+   "state": "storm",
+   "variant": 2
+  },
+  {
+   "start": 1325,
+   "end": 1343,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 1343,
+   "end": 1362,
+   "state": "storm",
+   "variant": 2
+  },
+  {
+   "start": 1362,
+   "end": 1372,
+   "state": "rain",
+   "variant": 2
+  },
+  {
+   "start": 1372,
+   "end": 1390,
+   "state": "storm",
+   "variant": 2
+  },
+  {
+   "start": 1390,
+   "end": 1407,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 1407,
+   "end": 1423,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 1423,
+   "end": 1440,
+   "state": "cloudy",
+   "variant": 1
+  }
+ ]
+}
