@@ -2,7 +2,7 @@
 
 The sky over the banner today, hour by hour. Times are Pacific (MST).
 
-**Now · 23:00–23:10** · Overcast until 23:10, then rain clouds drift over and it starts to drizzle.
+**Now · 23:10–23:20** · Drizzling until 23:20, then it picks up into steady rain.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://arfazca-banner.arfazhussain.workers.dev/today-dark.svg" />
@@ -123,8 +123,8 @@ Dry for 5 h 2 min, wet for 18 h 58 min. Rain comes through 10 times, the longest
 | **22:10** | storm | Turns into a storm: downpour and lightning | 14 min |
 | **22:24** | rain | The storm moves on, still raining | 12 min |
 | **22:36** | drizzle | Eases back to a drizzle | 15 min |
-| **22:51** ← now | overcast | The drizzle stops but it stays overcast | 19 min |
-| **23:10** | drizzle | Rain clouds drift over and it starts to drizzle | 10 min |
+| **22:51** | overcast | The drizzle stops but it stays overcast | 19 min |
+| **23:10** ← now | drizzle | Rain clouds drift over and it starts to drizzle | 10 min |
 | **23:20** | rain | Picks up into steady rain | 12 min |
 | **23:32** | storm | Turns into a storm: downpour and lightning | 12 min |
 | **23:44** | rain | The storm moves on, still raining | 16 min |
