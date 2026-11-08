@@ -2,7 +2,7 @@
 
 The sky over the banner today, hour by hour. Times are Pacific (MST).
 
-**Now · 06:10–06:20** · Raining steadily until 06:26, then it eases back to a drizzle.
+**Now · 06:20–06:30** · Raining steadily until 06:26, then it eases back to a drizzle.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://arfazca-banner.arfazhussain.workers.dev/today-dark.svg" />
@@ -45,7 +45,7 @@ Dry for 4 h 37 min, wet for 19 h 23 min. Rain comes through 12 times, the longes
 | time | sky | what happens<img src="spacer.svg" width="100%" height="1" align="right" alt=""> | for |
 |:--|:--|:--|--:|
 | **06:10** ← now | rain | The storm moves on, still raining | 16 min |
-| **06:26** | drizzle | Eases back to a drizzle | 13 min |
+| **06:26** ← now | drizzle | Eases back to a drizzle | 13 min |
 | **06:39** | rain | Picks up into steady rain | 20 min |
 | **06:59** | storm | Turns into a storm: downpour and lightning | 20 min |
 | **07:19** | rain | The storm moves on, still raining | 20 min |
