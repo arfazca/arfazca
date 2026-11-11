@@ -2,7 +2,7 @@
 
 The sky over the banner today, hour by hour. Times are Pacific (MST).
 
-**Now · 17:40–17:50** · Drizzling until 18:00, then the drizzle stops but it stays overcast.
+**Now · 17:50–18:00** · Drizzling until 18:00, then the drizzle stops but it stays overcast.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://arfazca-banner.arfazhussain.workers.dev/today-dark.svg" />
