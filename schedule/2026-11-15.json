@@ -1,0 +1,600 @@
+{
+ "date": "2026-11-15",
+ "tz": "America/Vancouver",
+ "day": {
+  "dow": "sunday",
+  "md": "november 15",
+  "year": "2026",
+  "uptime": "24 years, 5 months, 0 days"
+ },
+ "segments": [
+  {
+   "start": 0,
+   "end": 17,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 17,
+   "end": 30,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 30,
+   "end": 44,
+   "state": "drizzle",
+   "variant": 2
+  },
+  {
+   "start": 44,
+   "end": 56,
+   "state": "rain",
+   "variant": 2
+  },
+  {
+   "start": 56,
+   "end": 67,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 67,
+   "end": 78,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 78,
+   "end": 97,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 97,
+   "end": 116,
+   "state": "rain",
+   "variant": 2
+  },
+  {
+   "start": 116,
+   "end": 129,
+   "state": "drizzle",
+   "variant": 2
+  },
+  {
+   "start": 129,
+   "end": 145,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 145,
+   "end": 160,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 160,
+   "end": 180,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 180,
+   "end": 193,
+   "state": "storm",
+   "variant": 0
+  },
+  {
+   "start": 193,
+   "end": 208,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 208,
+   "end": 221,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 221,
+   "end": 236,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 236,
+   "end": 253,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 253,
+   "end": 273,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 273,
+   "end": 284,
+   "state": "clear",
+   "variant": 2
+  },
+  {
+   "start": 284,
+   "end": 299,
+   "state": "cloudy",
+   "variant": 2
+  },
+  {
+   "start": 299,
+   "end": 314,
+   "state": "clear",
+   "variant": 2
+  },
+  {
+   "start": 314,
+   "end": 327,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 327,
+   "end": 340,
+   "state": "drizzle",
+   "variant": 2
+  },
+  {
+   "start": 340,
+   "end": 353,
+   "state": "rain",
+   "variant": 2
+  },
+  {
+   "start": 353,
+   "end": 373,
+   "state": "drizzle",
+   "variant": 2
+  },
+  {
+   "start": 373,
+   "end": 387,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 387,
+   "end": 405,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 405,
+   "end": 422,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 422,
+   "end": 436,
+   "state": "storm",
+   "variant": 1
+  },
+  {
+   "start": 436,
+   "end": 452,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 452,
+   "end": 465,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 465,
+   "end": 484,
+   "state": "cloudy",
+   "variant": 1
+  },
+  {
+   "start": 484,
+   "end": 495,
+   "state": "clear",
+   "variant": 2
+  },
+  {
+   "start": 495,
+   "end": 512,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 512,
+   "end": 523,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 523,
+   "end": 534,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 534,
+   "end": 553,
+   "state": "clear",
+   "variant": 2
+  },
+  {
+   "start": 553,
+   "end": 568,
+   "state": "cloudy",
+   "variant": 1
+  },
+  {
+   "start": 568,
+   "end": 586,
+   "state": "drizzle",
+   "variant": 2
+  },
+  {
+   "start": 586,
+   "end": 602,
+   "state": "cloudy",
+   "variant": 1
+  },
+  {
+   "start": 602,
+   "end": 616,
+   "state": "clear",
+   "variant": 1
+  },
+  {
+   "start": 616,
+   "end": 627,
+   "state": "cloudy",
+   "variant": 1
+  },
+  {
+   "start": 627,
+   "end": 639,
+   "state": "drizzle",
+   "variant": 2
+  },
+  {
+   "start": 639,
+   "end": 659,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 659,
+   "end": 673,
+   "state": "drizzle",
+   "variant": 2
+  },
+  {
+   "start": 673,
+   "end": 683,
+   "state": "cloudy",
+   "variant": 1
+  },
+  {
+   "start": 683,
+   "end": 697,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 697,
+   "end": 715,
+   "state": "rain",
+   "variant": 2
+  },
+  {
+   "start": 715,
+   "end": 726,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 726,
+   "end": 744,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 744,
+   "end": 763,
+   "state": "storm",
+   "variant": 1
+  },
+  {
+   "start": 763,
+   "end": 778,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 778,
+   "end": 793,
+   "state": "drizzle",
+   "variant": 2
+  },
+  {
+   "start": 793,
+   "end": 810,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 810,
+   "end": 821,
+   "state": "storm",
+   "variant": 1
+  },
+  {
+   "start": 821,
+   "end": 841,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 841,
+   "end": 859,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 859,
+   "end": 871,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 871,
+   "end": 891,
+   "state": "storm",
+   "variant": 1
+  },
+  {
+   "start": 891,
+   "end": 910,
+   "state": "rain",
+   "variant": 2
+  },
+  {
+   "start": 910,
+   "end": 924,
+   "state": "storm",
+   "variant": 2
+  },
+  {
+   "start": 924,
+   "end": 940,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 940,
+   "end": 954,
+   "state": "drizzle",
+   "variant": 2
+  },
+  {
+   "start": 954,
+   "end": 964,
+   "state": "cloudy",
+   "variant": 1
+  },
+  {
+   "start": 964,
+   "end": 974,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 974,
+   "end": 985,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 985,
+   "end": 1002,
+   "state": "storm",
+   "variant": 1
+  },
+  {
+   "start": 1002,
+   "end": 1012,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 1012,
+   "end": 1025,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 1025,
+   "end": 1037,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 1037,
+   "end": 1052,
+   "state": "drizzle",
+   "variant": 2
+  },
+  {
+   "start": 1052,
+   "end": 1066,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 1066,
+   "end": 1080,
+   "state": "storm",
+   "variant": 2
+  },
+  {
+   "start": 1080,
+   "end": 1090,
+   "state": "rain",
+   "variant": 2
+  },
+  {
+   "start": 1090,
+   "end": 1108,
+   "state": "storm",
+   "variant": 1
+  },
+  {
+   "start": 1108,
+   "end": 1120,
+   "state": "rain",
+   "variant": 2
+  },
+  {
+   "start": 1120,
+   "end": 1135,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 1135,
+   "end": 1146,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 1146,
+   "end": 1166,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 1166,
+   "end": 1177,
+   "state": "rain",
+   "variant": 2
+  },
+  {
+   "start": 1177,
+   "end": 1194,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 1194,
+   "end": 1210,
+   "state": "cloudy",
+   "variant": 2
+  },
+  {
+   "start": 1210,
+   "end": 1221,
+   "state": "clear",
+   "variant": 2
+  },
+  {
+   "start": 1221,
+   "end": 1233,
+   "state": "cloudy",
+   "variant": 0
+  },
+  {
+   "start": 1233,
+   "end": 1253,
+   "state": "drizzle",
+   "variant": 2
+  },
+  {
+   "start": 1253,
+   "end": 1270,
+   "state": "cloudy",
+   "variant": 2
+  },
+  {
+   "start": 1270,
+   "end": 1283,
+   "state": "clear",
+   "variant": 0
+  },
+  {
+   "start": 1283,
+   "end": 1301,
+   "state": "cloudy",
+   "variant": 2
+  },
+  {
+   "start": 1301,
+   "end": 1314,
+   "state": "drizzle",
+   "variant": 1
+  },
+  {
+   "start": 1314,
+   "end": 1326,
+   "state": "rain",
+   "variant": 1
+  },
+  {
+   "start": 1326,
+   "end": 1341,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 1341,
+   "end": 1358,
+   "state": "cloudy",
+   "variant": 2
+  },
+  {
+   "start": 1358,
+   "end": 1370,
+   "state": "clear",
+   "variant": 0
+  },
+  {
+   "start": 1370,
+   "end": 1388,
+   "state": "cloudy",
+   "variant": 2
+  },
+  {
+   "start": 1388,
+   "end": 1399,
+   "state": "drizzle",
+   "variant": 0
+  },
+  {
+   "start": 1399,
+   "end": 1416,
+   "state": "rain",
+   "variant": 0
+  },
+  {
+   "start": 1416,
+   "end": 1429,
+   "state": "storm",
+   "variant": 0
+  },
+  {
+   "start": 1429,
+   "end": 1440,
+   "state": "rain",
+   "variant": 2
+  }
+ ]
+}
