@@ -2,7 +2,7 @@
 
 The sky over the banner today, hour by hour. Times are Pacific (MST).
 
-**Now · 17:10–17:20** · Clear until 17:27, then clouds roll in and the stars go.
+**Now · 17:20–17:30** · Clear until 17:27, then clouds roll in and the stars go.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://arfazca-banner.arfazhussain.workers.dev/today-dark.svg" />
@@ -91,7 +91,7 @@ Dry for 9 h 30 min, wet for 14 h 30 min. Rain comes through 10 times, the longes
 | **16:36** | clear | Clears up; stars and moon are back | 17 min |
 | **16:53** | overcast | Clouds roll in and the stars go | 17 min |
 | **17:10** ← now | clear | Clears up; stars and moon are back | 17 min |
-| **17:27** | overcast | Clouds roll in and the stars go | 13 min |
+| **17:27** ← now | overcast | Clouds roll in and the stars go | 13 min |
 | **17:40** | clear | Clears up; stars and moon are back | 18 min |
 | **17:58** | overcast | Clouds roll in and the stars go | 17 min |
 
