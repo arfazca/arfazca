@@ -2,7 +2,7 @@
 
 The sky over the banner today, hour by hour. Times are Pacific (MST).
 
-**Now · 20:10–20:20** · Storming, with a downpour and lightning until 20:30, then the storm moves on, still raining.
+**Now · 20:20–20:30** · Storming, with a downpour and lightning until 20:30, then the storm moves on, still raining.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://arfazca-banner.arfazhussain.workers.dev/today-dark.svg" />
