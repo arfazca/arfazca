@@ -2,7 +2,7 @@
 
 The sky over the banner today, hour by hour. Times are Pacific (MST).
 
-**Now · 06:10–06:20** · Storming, with a downpour and lightning until 06:13, then the storm moves on, still raining.
+**Now · 06:20–06:30** · Raining steadily until 06:29, then it eases back to a drizzle.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://arfazca-banner.arfazhussain.workers.dev/today-dark.svg" />
@@ -40,14 +40,14 @@ Dry for 9 h 42 min, wet for 14 h 18 min. Rain comes through 12 times, the longes
 | **05:16** | overcast | Clouds roll in and the stars go | 19 min |
 | **05:35** | drizzle | Rain clouds drift over and it starts to drizzle | 10 min |
 | **05:45** | rain | Picks up into steady rain | 13 min |
-| **05:58** ← now | storm | Turns into a storm: downpour and lightning | 15 min |
+| **05:58** | storm | Turns into a storm: downpour and lightning | 15 min |
 
 ## Morning · 06:00–12:00
 
 | time | sky | what happens<img src="spacer.svg" width="100%" height="1" align="right" alt=""> | for |
 |:--|:--|:--|--:|
 | **06:13** ← now | rain | The storm moves on, still raining | 16 min |
-| **06:29** | drizzle | Eases back to a drizzle | 13 min |
+| **06:29** ← now | drizzle | Eases back to a drizzle | 13 min |
 | **06:42** | rain | Picks up into steady rain | 11 min |
 | **06:53** | drizzle | Eases back to a drizzle | 18 min |
 | **07:11** | overcast | The drizzle stops but it stays overcast | 20 min |
